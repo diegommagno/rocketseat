@@ -6,10 +6,14 @@
 body {
   background-image: url('assets/images/aditya-vyas-5qUJfO4NU4o-unsplash.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   color: white;
   font-family: sans-serif;
   text-align: center;
+}
+
+html {
+  height: 100%;
 }
 
 img {
