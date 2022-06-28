@@ -10,7 +10,6 @@ const GET_LESSONS_QUERY = gql`
 			title
 			slug
 		}
-		
 	}
 `
 
