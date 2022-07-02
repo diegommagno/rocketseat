@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('assets/images/aditya-vyas-5qUJfO4NU4o-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  width: 95%;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+input,
+button {
+  display: inline-block;
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+
+  margin-bottom: 30px;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+.background {
+  filter: blur(4px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 550px;
+
+  margin-inline: auto;
+
+  background-color: rgba(0,0,0,.7);
+  padding: 40px;
+  border-radius: 15px;
+    
+  /* box-shadow: 0 0 1em black;
+
+  background-image: radial-gradient(black, yellow, grey); */
+}
