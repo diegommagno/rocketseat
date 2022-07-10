@@ -21,9 +21,3 @@ Easier way to share links. Share only one page containing multiple links.
 ## 📘 License
 
 This project is under the [MIT license](LICENSE.md).
-
----
-
-<div align="center">
-  <small>Diego Martinelli Magno - 2022</small>
-</div>
