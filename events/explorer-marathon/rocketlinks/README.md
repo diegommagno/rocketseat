@@ -1,36 +1,28 @@
-# RocketLinks
-> Project created to be developed on the Explorer Marathon 2.0 event by Rocketseat 🚀.
+# Rocket Links
+> Project created to be developed on the **Explorer Marathon 2.0** event by **Rocketseat** 🚀.
 
 <p align="center">
-  <img alt="" src="[.github/rocketlinks-01.png]" width="100%">
+  <img alt="Project photo showing a list of buttons with links." src=".github/rocketlinks.png" width="35%" />
 </p>
 
-<p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-license">Licença</a>
-</p> 
-
-## 🚀 Technologies
+## 🧑🏻‍💻 Technologies
 
 - HTML
 - CSS
 
-## 📝 Project
-O projeto é uma ferramenta que permite reunir diversos links em uma só página, facilitando o compartilhamento dos mesmos pelo usuário.
+## :rocket: Features
 
-Live Preview at [**RocketLinks**](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+Easier way to share links. Share only one page containing multiple links.
 
-## 🎨 Layout
+- [Live Preview](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
-Project link on [**Figma**](https://www.figma.com/community/file/1125601602315782027).
+- [Layout](https://www.figma.com/community/file/1125601602315782027) 
 
-## :closed_book: License
+## 📘 License
 
-This project is under the [MIT license](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/license).
+This project is under the [MIT license](LICENSE.md).
 
 ---
-# :rocket: Features
 
 <div align="center">
   <small>Diego Martinelli Magno - 2022</small>
