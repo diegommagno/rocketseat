@@ -24,7 +24,7 @@ p {
 input,
 button {
   display: block; /* Porque eram display inline e ficava em linha. */
-  width: 100%; /* Para ficar 100% do container que é a div onde está dentro, bantendo nas paredes da box div. */
+  width: 100%; /* Para ficar 100% do container que é a div onde está dentro, batendo nas paredes da box div. */
   padding: 20px;
   font-size: 17px;
   border-radius: 5px;
@@ -39,7 +39,7 @@ button {
   color: white;
   background-color: blueviolet;
   cursor: pointer;
-  transition: filder 0.2s;
+  transition: filter 0.2s;
   border: none;
 }
 

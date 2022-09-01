@@ -12,7 +12,9 @@
 
 Get your answers about the future! Just ask the crystal ball.
 
-- Live Preview: [crystal ball](https://crystall-ball.vercel.app/)
+- Live Preview (Brazilian Portuguese): [link](https://crystall-ball.vercel.app/)
+- Live Preview (English): [link](https://crystall-ball-en.vercel.app/)
+- Live Preview (Wizarding World theme): [link](https://ww-crystall-ball.vercel.app/))
 
 ## 🧑🏻‍💻 Technologies
 
@@ -22,7 +24,7 @@ Techs used in this project.
 - CSS
 - JavaScript
 
-## 🧑🏻‍💻 Learned
+## 🎓 Learned
 
 - CSS Cascade
 - CSS Specificity
