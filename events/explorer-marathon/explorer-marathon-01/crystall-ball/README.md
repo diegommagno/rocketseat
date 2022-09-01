@@ -4,7 +4,7 @@
 
 <br>
 
-![Project photo](https://drive.google.com/uc?id=18kpFY3KiFXms4zG76fyGWIVc4FWSzdCO)
+![Project photo](https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t)
 
 <br>
 
@@ -12,9 +12,9 @@
 
 Get your answers about the future! Just ask the crystal ball.
 
-- Live Preview (Brazilian Portuguese): [link](https://crystall-ball.vercel.app/)
-- Live Preview (English): [link](https://crystall-ball-en.vercel.app/)
-- Live Preview (Wizarding World theme): [link](https://ww-crystall-ball.vercel.app/))
+- [Live Preview](https://crystal-ball.vercel.app/) (Brazilian Portuguese)
+- [Live Preview](https://crystal-ball-en.vercel.app/) (English)
+- [Live Preview](https://ww-crystal-ball.vercel.app/) (Wizarding World theme)
 
 ## 🧑🏻‍💻 Technologies
 
