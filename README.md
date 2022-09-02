@@ -50,17 +50,20 @@ Techs used in this repository, inside each project are those used for the specif
 </a>
 </p>
 
+
 ## :rocket: Projects
 
 &nbsp; Project Name
-|&nbsp; Link to default project designed by Rocketseat
-|&nbsp; Link to upgraded project made by me
+|&nbsp; Default project
+|&nbsp; Upgrades
 
 * **Rocket Links** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
 * **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
 * **Event Platform** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+
+* **Crystal Ball** | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) | [upgraded](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) | [upgraded](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
 
 ## 📘 License

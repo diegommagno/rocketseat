@@ -12,17 +12,21 @@
 
 Get your answers about the future! Just ask the crystal ball.
 
-- [Live Preview](https://crystal-ball.vercel.app/) (Brazilian Portuguese)
-- [Live Preview](https://crystal-ball-en.vercel.app/) (English)
-- [Live Preview](https://ww-crystal-ball.vercel.app/) (Wizarding World theme)
+- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) (Brazilian Portuguese)
+- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) (English)
+- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) (Wizarding World theme)
 
 ## 🧑🏻‍💻 Technologies
 
-Techs used in this project.
-
-- HTML
-- CSS
-- JavaScript
+<a href='https://html.com/'>
+<img src="https://skillicons.dev/icons?i=html"/>
+</a>
+<a href='https://www.w3.org/Style/CSS/Overview.en.html'>
+<img src="https://skillicons.dev/icons?i=css"/>
+</a>
+<a href='https://www.javascript.com/'>
+<img src="https://skillicons.dev/icons?i=js"/>
+</a>
 
 ## 🎓 Learned
 
