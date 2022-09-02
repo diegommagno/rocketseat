@@ -1,32 +1,26 @@
-<h1 align="center">
-  Explorer Marathon 01 - Crystal Ball 🔮
-</h1>
+# Explorer Marathon 01 - Crystal Ball 🔮
+
+> Get your answers about the future! Just ask the crystal ball.
 
 <br>
 
-![Project photo](https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t)
+<p align="center">
+  <img alt="Project photo showing a list of buttons with links." src="https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t" width="75%" />
+</p>
 
 <br>
 
-## 📝 Description 
+## 📝 Live Preview 
 
-Get your answers about the future! Just ask the crystal ball.
-
-- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) (Brazilian Portuguese)
-- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) (English)
-- [Live Preview](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) (Wizarding World theme)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/)
+- Update: [English](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
+- Update: [Wizarding World theme](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
 ## 🧑🏻‍💻 Technologies
 
-<a href='https://html.com/'>
-<img src="https://skillicons.dev/icons?i=html"/>
-</a>
-<a href='https://www.w3.org/Style/CSS/Overview.en.html'>
-<img src="https://skillicons.dev/icons?i=css"/>
-</a>
-<a href='https://www.javascript.com/'>
-<img src="https://skillicons.dev/icons?i=js"/>
-</a>
+- HTML
+- CSS
+- JavaScript
 
 ## 🎓 Learned
 
