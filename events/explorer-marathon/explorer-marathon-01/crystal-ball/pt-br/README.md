@@ -5,14 +5,14 @@
 <br>
 
 <p align="center">
-  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t" width="75%" />
+  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="https://drive.google.com/uc?id=18kpFY3KiFXms4zG76fyGWIVc4FWSzdCO" width="75%" />
 </p>
 
 <br>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - viewing now
 - Update: [English](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
 - Update: [Wizarding World theme](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
