@@ -25,8 +25,7 @@
       </p>
     </header>
 
-    <form action="">
-
+    <form id="my-form">
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Informações do evento</legend>
@@ -35,7 +34,8 @@
             <label for="event-title">
               Título do evento<span>(mínimo 8 caracteres)</span>
             </label>
-            <input type="text" id="event-title" />
+            <input type="text" 
+            id="event-title" />
           </div>
     
           <div class="input-wrapper">
@@ -87,7 +87,16 @@
             <label for="event-password">
               Senha de acesso para participantes<span>(mínimo 8 caracteres)</span>
             </label>
-            <input type="password" id="event-password" />
+            <input type="password" 
+            id="event-password"
+            minlength="8" />
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="event-private" />
+            <label for="event-private">
+              Evento privado
+            </label>
           </div>
 
         </div>
@@ -122,10 +131,13 @@
           </div>
         </div>
       </fieldset>
-
     </form>
+
+    <footer>
+        <button class="button" type="submit" form="my-form"> 
+          Salvar evento
+        </button>
+    </footer>
   </div>
-  
-  
 </body>
-</html>
+</html> 
