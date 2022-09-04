@@ -1,11 +1,11 @@
-# Explorer Marathon 01 - Crystal Ball 🔮
+# Crystal Ball 🔮
 
 > Get your answers about the future! Just ask the crystal ball.
 
 <br>
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src="https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t" width="75%" />
+  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="https://drive.google.com/uc?id=1LPrJsBJeVb0249CRRwUgejOtIyGVpw4t" width="75%" />
 </p>
 
 <br>

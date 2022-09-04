@@ -1,6 +1,4 @@
-<h1 align="left">
-  RocketLinks 🔗
-</h1>
+# RocketLinks 🔗
 
 > Easier way to share links. Share only one page containing multiple links.
 

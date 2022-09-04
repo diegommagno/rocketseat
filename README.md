@@ -55,15 +55,15 @@ Techs used in this repository, inside each project are those used for the specif
 
 &nbsp; Project Name
 |&nbsp; Default project
-|&nbsp; Upgrades
+|&nbsp; Updates
 
-* **Rocket Links** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+* **Rocket Links** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
-* **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+* **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
-* **Event Platform** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [upgraded](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+* **Event Platform** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
-* **Crystal Ball** | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) | [upgraded](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) | [upgraded](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
+* **Crystal Ball** | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) | [update](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) | [update](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
 
 ## 📘 License
