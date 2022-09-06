@@ -20,7 +20,8 @@ body::before {
   top: 0;
   left: 0;
   z-index: -1;
-  background: #121214;
+  background: hsla(228, 15%, 38%, 1);
+  ;
 }
 
 .page {
@@ -38,6 +39,7 @@ header h1 {
   font-family: 'Archivo', sans-serif;
   font-weight: bold;
   font-size: 36px;
+  text-transform: uppercase;
   line-height: 42px;
   color: white;
 
@@ -48,13 +50,13 @@ header p {
   font-size: 16px;
   line-height: 26px;
 
-  color: #42D3FF;
+  color: hsla(0, 0%, 100%, 1);
 }
 
 form {
   margin-top: 38px;
   background: #FAFAFC;
-  border-radius: 8px 8px 0 0;
+  border-radius: 20px 20px 0 0;
   min-height: 300px;
 
   padding: 64px;
@@ -78,12 +80,17 @@ fieldset legend {
   font-family: 'Archivo', sans-serif;
   font-weight: semi-bold;
   font-size: 24px;
+  text-transform: uppercase;
   line-height: 34px;
 
   width: 100%;
 
   border-bottom: 1px solid #E6E6F0;
   padding-bottom: 16px;
+}
+
+fieldset p {
+  text-transform: uppercase;
 }
 
 .input-wrapper {
@@ -145,6 +152,15 @@ fieldset legend {
   background-position: right 24px top 50%;
 }
 
+.col-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-2 div {
+  width: 100%; /* Div fica 100% do espaço disponível, se tirar o gap ficam coladas */
+}
+
 .col-3 {
   display: flex;
   gap: 20px;
@@ -199,7 +215,7 @@ fieldset legend {
 }
 
 footer {
-  background: #F0F0F4;
+  background: #535971;
 
   height: 136px;
 
@@ -209,16 +225,17 @@ footer {
   padding: 40px 64px;
   margin-bottom: 100px;
 
-  border-top: 1px solid #D6D6D6;
-  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #000000;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 footer .button {
   height: 56px;
-  background: #04D361;
+  background: #FF5374;
 
   border: 0;
-  border-radius: 8px;
+  border-radius: 20px;
 
   font-family: 'Archivo';
   font-weight: 600;
