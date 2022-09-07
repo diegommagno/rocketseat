@@ -62,7 +62,8 @@ List order: newest to oldest.
 
 * **Event Platform** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform) | [default](https://ignite-lab-umber-five.vercel.app/)
 
-* **RocketCoffee** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/)
+* **RocketCoffee** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/) | [update](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
+
 
 * **RocketLinks** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-02/rocketlinks/)
 
