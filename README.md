@@ -62,8 +62,9 @@ List order: newest to oldest.
 
 * **Event Platform** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform) | [default](https://ignite-lab-umber-five.vercel.app/)
 
-* **RocketCoffee** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/) | [update](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
+* **Forms** | [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/create-your-event-form) | [default](https://diegommagno.com/github/rocketseat/explorer/stage-03/create-your-event-form/pt-br/) | [update](https://diegommagno.com/github/rocketseat/explorer/stage-03/create-your-event-form/en/) | [update](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/en)
 
+* **RocketCoffee** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
 
 * **RocketLinks** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks) | [default](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-02/rocketlinks/)
 
