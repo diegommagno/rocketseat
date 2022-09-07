@@ -13,7 +13,7 @@
 ## 📝 Live Preview 
 
 - [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-03/create-your-event-form/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/create-your-event-form/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/create-your-event-form/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/create-your-event-form/en)
+- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/create-your-event-form/en/) - viewing now
 
 
 ## 🧑🏻‍💻 Technologies
