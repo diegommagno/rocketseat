@@ -55,8 +55,7 @@ Techs used in this repository, inside each project are those used for the specif
 
 &nbsp; Project Name
 |&nbsp; Default project
-|&nbsp; Updates
-List order: newest to oldest.
+|&nbsp; Updates |&nbsp; Newest to oldest
 
 * **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 
