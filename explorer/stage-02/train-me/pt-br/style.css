@@ -10,7 +10,7 @@ body {
 
 .page {
   width: 1008px;
-  margin: 0 auto;
+  margin: 0 auto; /* centralizar conteúdo */
   padding-top: 65px; 
 }
 

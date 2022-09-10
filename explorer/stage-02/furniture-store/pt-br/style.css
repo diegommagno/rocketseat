@@ -1,0 +1,54 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center; /* tinha faltado esse, eu tinha aplicado no texto <p>, não o melhor modo visto que tudo é no center */
+  margin: 0;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px; /* tinha faltado auto aqui nos lados */
+    /* tinha colocado position: absolute aqui e o footer não funcionava mais, ficava jogado no canto esquerdo da tela */
+}
+
+#hero img {
+  margin-bottom: 72px; /* eu tinha aplicado em img somente, não dando target na #hero img */
+}
+
+h1 {
+  font-family: "Inter", sans-serif; 
+  font-size: 49px; 
+  line-height: 56px; 
+  font-weight: normal;
+  margin-bottom: 32px; /* não havia adicionado esse */
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px; /* tinha faltado esse auto no meio, equivalente às bordas */
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+}
