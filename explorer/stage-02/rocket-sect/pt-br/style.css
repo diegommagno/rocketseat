@@ -21,15 +21,14 @@ body {
   color: var(--white);
 
   min-height: 100vh;
-}
 
-.page {
-  width: 128.0rem;
-  padding-top: 7.1rem;
+  max-width: 109.2rem;
+  width: 80%;
   margin: 0 auto; /* centralizar conteúdo */
+  padding-top: 7.1rem;
 }
 
-nav {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,13 +46,22 @@ ul {
   margin: 0;
   padding: 0;
   gap: 6.4rem;
+  
+}
+
+a {
+  font-family: 'JetBrains Mono';
+  font-size: 1.4rem;
+  font-weight: medium;
+  text-decoration: none;
+  color: var(--white);
+
 }
 
 main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 82px;
+  gap: 77px;
 
   padding-top: 10.1rem;
 }
@@ -97,9 +105,8 @@ footer p {
   margin-top: 2.7rem;
 }
 
-div .locker {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 2rem;
+#locker {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
