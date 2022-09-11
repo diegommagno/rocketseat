@@ -22,7 +22,7 @@
 - CSS
 - JavaScript
 
-## 🎓 Learned
+## 🎓 Worked On
 
 - CSS Cascade
 - CSS Specificity

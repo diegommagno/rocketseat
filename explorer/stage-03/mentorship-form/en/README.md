@@ -21,7 +21,7 @@
 - HTML
 - CSS
 
-## 🎓 Learned
+## 🎓 Worked On
 
 - Follow design on Figma
 - Apply fonts from fonts.google.com

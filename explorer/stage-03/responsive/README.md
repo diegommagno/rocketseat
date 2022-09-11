@@ -21,7 +21,7 @@
 - HTML
 - CSS
 
-## 🎓 Learned
+## 🎓 Worked On
 
 - How to create a personalised input without losing accessibility features
 - Differences between GET, POST

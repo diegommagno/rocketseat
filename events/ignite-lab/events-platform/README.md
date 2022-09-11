@@ -27,7 +27,7 @@
 - TypeScript
 - Tailwind CSS
 
-## 🎓 Learned
+## 🎓 Worked On
 
 - React.js 
 - Node.js
