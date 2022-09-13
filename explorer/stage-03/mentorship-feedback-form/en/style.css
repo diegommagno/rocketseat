@@ -3,20 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-:root {
-  --background: #BFD7E4;
-  --background-before: #293241;
-  --form-top: #F67669;
-  --footer-button: #222;
-}
-
 body, input, select, textarea {
   font-family: 'Poppins', sans-serif;
 }
 
 body {
-  background: var(--background);
+  background: #E5E5E5;
 }
 
 body::before {
@@ -28,7 +20,8 @@ body::before {
   top: 0;
   left: 0;
   z-index: -1;
-  background: var(--background-before);
+  background: hsla(228, 15%, 38%, 1);
+  ;
 }
 
 .page {
@@ -38,6 +31,7 @@ body::before {
 
 header {
   width: 319px;
+
   margin-top: 74px;
 }
 

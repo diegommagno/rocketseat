@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentorship feedback form</title>
+  <title>Mentorship form</title>
 
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
   <div class="page">
     <header>
       <h1>
-        Mentorship feedback
+        Mentorship
       </h1>
       <p>
-        It&#39;s time to give feedback on your mentor. Let&#39;s go!
+        Fill this form to book your mentorship.
       </p>
     </header>
 
@@ -50,7 +50,7 @@
 
           <div class="input-wrapper">
             <label for="student-email">
-              Email<span>(type a valid email address)</span>
+              Email<span>(type a valid email)</span>
             </label>
             <input type="email" id="student-email">
           </div>
@@ -71,7 +71,7 @@
 
           <div class="input-wrapper">
             <label for="mentor-name">
-              Mentor&#39;s name<span></span>
+              Name<span>(first name only)</span>
             </label>
             <input type="text" id="mentor-name" />
           </div>
@@ -80,9 +80,33 @@
 
       <fieldset>
         <div class="fieldset-wrapper">
-          <legend>Booking your next session</legend>
+          <legend>Your Avalability</legend>
 
-          <p></p>
+          <p>First session</p>
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="event-date">
+                Date <span>(DD/MM/YYYY)</span>
+              </label>
+              <input type="date" id="event-date" />
+            </div>
+    
+            <div class="input-wrapper">
+              <label for="event-begin">
+                From
+              </label>
+              <input type="time" id="event-begin" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-end">
+                To
+              </label>
+              <input type="time" id="event-end" />
+            </div>
+          </div>
+
+          <p>Second session</p>
           <div class="col-3">
             <div class="input-wrapper">
               <label for="event-date">
