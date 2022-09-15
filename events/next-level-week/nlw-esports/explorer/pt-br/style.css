@@ -21,15 +21,39 @@ body * {
   line-height: 160%;
 }
 
+header {
+  margin-top: 32px;
+}
+
+header div {
+  width: 120px;
+  margin: auto;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+  border-radius: 50%;
+
+  display: flex;
+  padding: 4px;
+
+  transition: transform .3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header img { 
+  width: 100%;
+  border-radius: 50%;
+}
+
 main {
   max-width: 580px; /* Define o width máximo e coloca 90% do tamanho máximo. Precisa do max-width, width e margin auto */
   width: 90%;
-  margin: auto; 
+  margin: 32px auto; 
 
   display: grid; /* Pode utilizar o display grid e tirar o flex-directon: column */
   gap: 24px;
-
-  margin-top: 32px;
 }
 
 section { /* Section com a borda e o section div é em cima do section com outro background cobrindo */
@@ -63,6 +87,14 @@ section ul {
   margin-top: 24px;
 }
 
+section ul li {
+  transition: transform .3s;
+}
+
+section ul li:hover {
+  transform: scale(1.1);
+}
+
 .games-list img {
   width: 90px;
   border-radius: 8px;
@@ -71,4 +103,5 @@ section ul {
 .channel-list img {
   border-radius: 50%;
   width: 70px;
+  border: 1px solid #443E54;
 }
