@@ -8,7 +8,7 @@
   <img alt="Landing page showing favorite games, channels, streamers and social networks." src=".github/nlw-esports-explorer.png" width="80%" />
 </p>
 
-<br>git
+<br>
 
 ## 📝 Live Preview 
 
