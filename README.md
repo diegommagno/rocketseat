@@ -57,7 +57,7 @@ Techs used in this repository, inside each project are those used for the specif
 |&nbsp; Default project
 |&nbsp; Updates |&nbsp; Newest to oldest
 
-* **NLW eSports Movies** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en)
+* **NLW eSports** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en)
 
 * **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
 

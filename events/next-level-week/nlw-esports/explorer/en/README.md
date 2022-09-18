@@ -1,7 +1,7 @@
 # NLW eSports Explorer
 
 
-> Personal landing page for showing your favorite games, channels, streamers and social networks.
+> Personal landing page showing your favorite games, channels, streamers and social networks.
 <br>
 
 <p align="center">
