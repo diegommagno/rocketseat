@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-  background-image: url(./assets/bg.jpg);
+  background-image: url(./assets/bg-star.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -28,7 +28,8 @@ header {
 header div {
   width: 120px;
   margin: auto;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%),
+  linear-gradient(0deg, #262629, #262629);
 
   border-radius: 50%;
 
@@ -58,9 +59,11 @@ main {
 
 section { /* Section com a borda e o section div é em cima do section com outro background cobrindo */
   color: white;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%),
+  linear-gradient(0deg, #262629, #262629);
   padding-top: 4px;
   border-radius: 10px;
+  
 }
 
 section div {
@@ -96,8 +99,11 @@ section ul li:hover {
 }
 
 .games-list img, .channel-list img {
-  width: 90px;
+  width: 100px;
+  height: 150px;
   border-radius: 8px;
+
+  border: 1px solid #555555;
 }
 
 /* Animations */
