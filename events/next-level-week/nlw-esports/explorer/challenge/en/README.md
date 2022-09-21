@@ -12,7 +12,9 @@
 
 ## 📝 Live Preview 
 
-- [NLW eSports Explorer (Cinema)](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en) 
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/pt-br)
+- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/en)
+- Update: [Cinema version](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en) - viewing now
 
 ## 🧑🏻‍💻 Technologies
 
