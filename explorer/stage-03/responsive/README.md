@@ -5,7 +5,10 @@
 <br>
 
 <p align="center">
-  <img alt="Form photo showing the start of what is asked to create an event." src="https://drive.google.com/uc?id=1uYed9EGmd01vsWBT4Uo2IYQbFv4pNhlH" width="90%" />
+  <img alt="Website home page photo." src=".github/responsive-mobile.png" width="90%" />
+</p>
+<p align="center">
+  <img alt="Website home page photo." src=".github/responsive-desktop.png" width="90%" />
 </p>
 
 <br>
