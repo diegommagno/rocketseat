@@ -23,7 +23,5 @@
 
 ## 🎓 Worked On
 
-- How to create a personalised input without losing accessibility features
-- Differences between GET, POST
-- Using input, label, form, fieldset, select
-- How to make fields required for submitting the form
+- Mobile first
+- Media queries
