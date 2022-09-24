@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Space cream home page photo." src=".github/space-cream.png" width="50%" />
+  <img alt="Space cream home page photo." src=".github/space-cream-01.png" width="50%" />
 </p>
 
 <br>
