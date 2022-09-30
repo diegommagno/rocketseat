@@ -57,7 +57,7 @@
   |&nbsp; Default project
   |&nbsp; Updates |&nbsp; Newest to oldest
 
-* **Find my duo** | [repo](https://github.com/diegommagno/nlw-esports-ignite-find-your-duo) | [default](https://diegommagno.com/github/nlw-esports-ignite-find-your-duo)
+  * **Find my duo** | [repo](https://github.com/diegommagno/nlw-esports-ignite-find-your-duo) | [default](https://diegommagno.com/github/nlw-esports-ignite-find-your-duo)
 
   * **NLW eSports Explorer** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en)
 
