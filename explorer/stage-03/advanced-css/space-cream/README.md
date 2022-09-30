@@ -24,8 +24,9 @@
 ## 🎓 Worked On
 
 - Mobile first concept
+- Grid
 - Media queries
+- Keyframes
 - CSS variables
-- HSL colors
 - Transitions and animations
 - Flexible measurements
