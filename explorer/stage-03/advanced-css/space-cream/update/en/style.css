@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-heading: 'Staatliches', sans-serif;
+  --ff-texting: 'Palanquin', sans-serif;
+
+  --bg-header: #8E9AAF;
+  --bg-body: #EFF1FF;
+  --bg-title: #CBC0D3;
+  --bg-h2: #FEEAFA;
+
+  --fc-primary: #FFFFFF;
+  --fc-secondary: #23053A;
+  --fc-h2: #4A4E69;
+
+  font-size: 62.5%;
+  --fs-body: 1.6rem;
+  --fs-heading: clamp(4rem, 3rem + 2vw ,4.8rem);
+  --fs-texting-sm: clamp(1.7rem, 0.5rem + 2vw, 2rem);
+}
+
+body {
+  font-size: var(--fs-body);
+  background: var(--bg-body);
+
+  font-family: var(--ff-texting);
+}
+
+header {
+  background: var(--bg-header);
+  height: 27.9rem;
+}
+
+header .logo {
+  background-size: cover;
+
+  height: 14.3rem; /* criar tamanho da div */
+  width: 18.4rem;
+
+  padding: 3.2rem 0;
+  margin: 0 auto 5.3rem; /* top, sides, bottom */
+}
+
+header h1 {
+  background: var(--bg-title);
+  padding: .8rem;
+  
+  font-family: var(--ff-heading);
+  font-size: var(--fs-heading);
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: 0.08em;
+
+  text-align: center;
+  color: var(--fc-primary);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+section p {
+  font-size: var(--fs-texting-sm);
+  line-height: 1.8rem;
+  font-weight: 400;
+
+  color: var(--fc-secondary);
+  text-align: center;
+
+  max-width: clamp(25rem, 11rem + 51vw, 50rem);
+  margin: 1.4rem auto; /* top and bottom, sides */
+}
+
+main {
+  max-width: 38.4rem;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: clamp(32rem, 32rem + 40vw, 90rem);
+}
+
+.wrapper {
+  margin: 6rem 0 5rem;
+
+  display: grid;
+  gap: 3rem;
+
+  padding: 0 4rem; /* sides padding */
+}
+
+.card {
+  position: relative;
+  transition: transform 300ms;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:nth-child(1) img, .card:nth-child(5) img{ /* só vai ser usado no media queries. */
+  height: 25rem; 
+}
+
+.card:nth-child(7), .card:nth-child(4) { /* só vai ser usado no media queries. */
+  display: none;
+}
+
+.card img {
+  width: 100%;
+  height: 45rem;
+
+  object-fit: cover;
+
+  border-radius: 2rem;
+
+  animation: downtop 1000ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.card h2 {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  border-radius: 2rem;
+
+  width: 11.2rem;
+  height: 3.5rem;
+
+  background: var(--bg-h2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  font-family: var(--ff-heading);
+  font-weight: 400;
+
+  animation: topdown 1200ms cubic-bezier(0.22, 0.61, 0.36, 1) 400ms backwards;
+}
+
+footer {
+  font-family: var(--ff-texting);
+  display: none; /* display:none e no media query certo display: block para aparecer. */
+}
+
+footer a {
+  text-decoration: none;
+  color:#23053A;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media (min-width: 600px) {
+  section p::after { /* Adicionar mais texto depois do p nesse tamanho. */
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a rhoncus leo. Donec at scelerisque magna. Nullam vitae neque sit amet erat dignissim cursus ac ac lectus. Aliquam erat volutpat. Praesent at quam aliquet,';
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "A B"
+    "A F"
+    "E F";
+  }
+
+  .card:nth-child(1) {
+    grid-area: B;
+  }
+  .card:nth-child(2) {
+    grid-area: A;
+  }
+  .card:nth-child(5) {
+    grid-area: E;
+  }
+  .card:nth-child(6) {
+    grid-area: F;
+  }
+
+  footer {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .page { /* Aplica o grid agora na page inteira. */
+    display: grid;
+    grid-template-rows: 275px  1fr;
+    grid-template-columns: 390px 1fr;
+    grid-template-areas:
+      "H M"
+      "S M"
+    ;
+  }
+
+  header {
+    grid-area: H;
+  }
+
+  header h1 {
+    padding: 2rem;
+  }
+
+  section {
+    grid-area: S;
+    background: var(--bg-header);
+
+    padding: 5rem 4rem 0;
+  }
+
+  section p {
+    color: var(--fc-primary)
+  }
+
+  main {
+    grid-area: M;
+    min-height: 100vh;
+  }
+
+
+  .wrapper {
+    grid-template-areas: "A B C"
+    "D B F"
+    "D E F" ;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card:nth-child(7), .card:nth-child(4) {
+    display: block;
+  }
+
+  .card:nth-child(3) {
+    display: none;
+  }
+
+  .card:nth-child(1) {
+    grid-area: A;
+  }
+  .card:nth-child(2) {
+    grid-area: B;
+  }
+
+  .card:nth-child(7) {
+    grid-area: C;
+  }
+
+  .card:nth-child(4) {
+    grid-area: D;
+  }
+
+  .card:nth-child(5) {
+    grid-area: E;
+  }
+
+  .card:nth-child(6) {
+    grid-area: F;
+  }
+
+  .card:nth-child(1) img{
+    height: 15rem;
+  }
+
+  .card:nth-child(2) img{
+    height: 35rem;
+  }
+
+  .card:nth-child(3) img{
+    height: 15rem;
+  }
+
+  .card:nth-child(4) img{
+    height: 35rem;
+  }
+
+  .card:nth-child(5) img {
+    height: 15rem;
+  }
+
+  .card:nth-child(6) img {
+    height: 35rem;
+  }
+
+  .card:nth-child(7) img {
+    height: 15rem;
+  }
+
+}
