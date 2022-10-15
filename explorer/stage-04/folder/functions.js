@@ -67,3 +67,32 @@ function Person(name, birthYear) {
 	this.birthYear = birthYear;
 }
 
+// Separe um texto que contém espaços em um novo array onde cada texto é uma posição
+// do array. Depois, transforme o array em texto e substituir espaços por _
+
+let phrase = "Explorer da Rocketseat!"
+let myArray = phrase.split(" "); // quero que ele separe por espaços em branco.
+console.log(myArray)
+
+let phraseWithUnderscore = myArray.join("_") // Junta o Array ("tipoDeSeparadorQueQuero")
+console.log(phraseWithUnderscore)
+console.log((myArray.join("_")).toLowerCase())
+
+// Verificar se o texto contém a palavra Explorer
+
+let phrase = "Explorer da Rocketseat!"
+console.log(phrase.includes("Explorer")) // true
+console.log(phrase.includes("explorer")) // false (lower case)
+console.log(phrase.includes("Mayk")) // false
+
+// Manipulando Arrays
+
+// Criar array com construtor
+// let myArray = new Array(10) // Cria array com 10 espaços vazios.
+
+let myArray = new Array('a', 'b', 'c')
+
+// Transformar uma cadeia de caracteres em elementos de um array
+
+let word = "explorer"
+console.log(Array.from()) // O próprio array é um objeto disponível de maneira global, então posso atrelar a ele um método from(), from() espera como argumento uma string.
