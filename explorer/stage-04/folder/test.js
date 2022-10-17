@@ -1,4 +1,26 @@
-// Transformar uma cadeia de caracteres em elementos de um array
+function calculate(n1, operator, n2) {
+  let result
 
-let word = "explorer"
-console.log(Array.from()) // O próprio array é um objeto disponível de maneira global, então posso atrelar a ele um método from(), from() espera como argumento uma string.
+  switch (operator) {
+    case '+':
+      result = n1 + n2
+      break;
+    case '-':
+      result = n1 - n2
+      break;
+    case '*':
+      result = n1 * n2
+      break;
+    case '/':
+      result  = n1 / n2
+      break;
+  
+    default:
+      console.log('Not implemented.')
+      break;
+  }
+
+  return result
+}
+
+console.log(calculate(2, '+', 2))

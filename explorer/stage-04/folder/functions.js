@@ -96,3 +96,87 @@ let myArray = new Array('a', 'b', 'c')
 
 let word = "explorer"
 console.log(Array.from()) // O próprio array é um objeto disponível de maneira global, então posso atrelar a ele um método from(), from() espera como argumento uma string.
+
+// Array original
+let techs = ['html', 'css', 'js']
+
+// Adicionar um item ao final
+console.log(techs.push('node.js')) // Método push sabe qual é o último elemento e como ele adiciona um no final.
+// Resultado: let techs = ['html', 'css', 'js', 'node.js]
+
+console.log(techs.slice(1,3)) // techs = ['css', 'js']
+
+// Condicionais
+
+// If, else
+let ukWeather = 22
+let normalTemperature = ukWeather >=18 && ukWeather <= 24
+let highTemperature = ukWeather >= 25 && ukWeather <= 29.9
+let extremelyHighTemperature = ukWeather >= 30
+
+if(ukWeather <=18) {
+	console.log('Low temperature.')
+} else if (normalTemperature){
+  console.log('Normal temperature.')
+} else if (highTemperature) {
+  console.log('High temperature.')
+} else if (extremelyHighTemperature) {
+  console.log('Extremely high temperature.')
+}
+
+// switch (key) {
+  switch (expression) {
+    case 'a':
+      //code to execute.
+      break;
+    case 'b':
+      //code to execute
+      break;
+    default: 
+      //code to execute
+      break;
+  }
+  
+  let expression = a
+  
+  switch (expression) {
+    case 'a':
+      // Executes this code.
+      break;
+    case 'b':
+      //code to execute
+      break;
+    default: 
+      //code to execute
+      break;
+  }
+
+
+  // calculator example
+
+  function calculate(n1, operator, n2) {
+    let result
+  
+    switch (operator) {
+      case '+':
+        result = n1 + n2
+        break;
+      case '-':
+        result = n1 - n2
+        break;
+      case '*':
+        result = n1 * n2
+        break;
+      case '/':
+        result  = n1 / n2
+        break;
+    
+      default:
+        console.log('Not implemented.')
+        break;
+    }
+  
+    return result
+  }
+  
+  console.log(calculate(2, '+', 2))
