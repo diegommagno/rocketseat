@@ -180,3 +180,20 @@
 //   }
   
 //   console.log(calculate(2, '+', 2))
+
+// throw
+
+// function sayMyName(name = '') {
+//   if (name === '') {
+//     throw new Error('You must provide a name')
+//   }
+// }
+
+// // try...catch
+// try {
+//   // Aqui vou tentar executar a função.
+//   sayMyName()
+// } catch(e) { // geralmente usa e de parâmetro.
+//   console.log(e) // 
+// }
+

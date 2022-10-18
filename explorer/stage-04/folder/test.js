@@ -1,26 +1,8 @@
-function calculate(n1, operator, n2) {
-  let result
-
-  switch (operator) {
-    case '+':
-      result = n1 + n2
-      break;
-    case '-':
-      result = n1 - n2
-      break;
-    case '*':
-      result = n1 * n2
-      break;
-    case '/':
-      result  = n1 / n2
-      break;
-  
-    default:
-      console.log('Not implemented.')
-      break;
+for(let i = 0; i <= 10; i++) {
+  if (i === 5) {
+    continue; // pula a execução do momento, pula mostrar o 5 no console e continua a aplicação.
+  } else if (i === 10) {
+    break; // para a execução do loop. Com isso, não mostra no console o 10.
   }
-
-  return result
+  console.log(i)
 }
-
-console.log(calculate(2, '+', 2))
