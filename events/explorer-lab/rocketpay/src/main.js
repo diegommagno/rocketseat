@@ -74,9 +74,50 @@ const cardNumberPattern = {
     const foundMask = dynamicMasked.compiledMasks.find(function (item) {
       return number.match(item.regex)
     })
-
+    console.log(foundMask)
     return foundMask
   }, 
 }
 
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
+
+// Pegar evento de clicar no button do form.
+const addButton = document.querySelector("#add-card")
+addButton.addEventListener("click", () => {
+  alert("Cartão adicionado")
+})
+
+// Cancelar evento padrão de atualizar a página ao clicar no button do form. 
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault()
+})
+
+// Alterar nome escrito no cartão conforme é digitado
+const cardHolder = document.querySelector("#card-holder")
+cardHolder.addEventListener("input", () => {
+  const ccHolder = document.querySelector(".cc-holder .value")
+
+  ccHolder.innerText = cardHolder.value.length === 0 ? "DIEGO MARTINELLI MAGNO" : cardHolder.value // Exibir algo caso nada esteja digitado. Meu cardHolder.value.length é 0 (vazio), deixa escrito Diego Martinelli Magno : (caso contrário), coloca o que foi digitado 
+})
+
+// Quero capturar esse conteúdo se as regras dele tiverem sido cumpridas de acordo com o que foi definido na máscara.
+// .on para utilizar o conteúdo desse input.  
+securityCodeMasked.on("accept", () => {
+  updateSecurityCode(securityCodeMasked.value); // valor do código de segurança
+})
+
+function updateSecurityCode(code){
+  const ccSecurity = document.querySelector(".cc-security .value");
+  ccSecurity.innerText = code.length === 0 ? "123" : code
+}
+
+// .on para ficar observando se o input onde o número do cartão digitado é aceito ("accept").
+cardNumberMasked.on("accept", () => {
+  updateCardNumber(cardNumberMasked.value); // valor do cartão
+})
+
+function updateCardNumber(number){
+  const ccNumber = document.querySelector(".cc-number");
+  // ccNumber.innerText = number === "" ? "1234 5678 9012 3456" : number
+  ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
+}
