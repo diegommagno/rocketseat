@@ -84,7 +84,7 @@ const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
 // Pegar evento de clicar no button do form.
 const addButton = document.querySelector("#add-card")
 addButton.addEventListener("click", () => {
-  alert("Cartão adicionado")
+  alert("Card added")
 })
 
 // Cancelar evento padrão de atualizar a página ao clicar no button do form. 
