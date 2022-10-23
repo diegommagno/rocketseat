@@ -6,7 +6,7 @@
 
 <p align="center">
   <img alt="Credit card component photo." src=".github/rocketpay.png" width="60%" />
-  <img alt="Credit card component photo." src=".github/rocketpay-ptbr.png" width="71%" />
+  <img alt="Credit card component photo." src=".github/rocketpay-en.png" width="71%" />
 </p>
 
 <br>
