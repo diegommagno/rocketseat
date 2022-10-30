@@ -1,4 +1,4 @@
-# NLW Copa Card project 📝
+# NLW Copa Card ⚽️
 
 > Participation card for the 2022 NLW Copa event.
 
