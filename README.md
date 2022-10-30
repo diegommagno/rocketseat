@@ -61,9 +61,9 @@
 
   * **Find my duo** | [repo](https://github.com/diegommagno/nlw-esports-ignite-find-your-duo) | [default](https://diegommagno.com/github/nlw-esports-ignite-find-your-duo)
 
-  * **NLW eSports Explorer** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en)
+  * **NLW eSports Explorer** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-esports/explorer/pt-br) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-esports/explorer/en) | [update](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-esports/explorer/challenge/en)
 
-  * **DoctorCare** | [default](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html) | [update](https://diegommagno.github.io/rocketseat/events/explorer-marathon/rocketlinks/index.html)
+  * **DoctorCare** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-return/origin) | [default](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-return/origin)
 
   * **Event Platform** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform) | [default](https://ignite-lab-umber-five.vercel.app/)
 
