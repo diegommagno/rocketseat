@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #121214;
+  background-image: url('./assets/bg/blue.svg');
+  background-position-x: center;
+  background-position-x: 55.6%;
+
+  color: #E1E1E6;
+}
+
+body * { 
+  font-family: 'Roboto', sans-serif; /* Body e todos elementos dentro dele. */
+}
+
+#app {
+  width: fit-content;
+  margin: 52px auto; /* Added margin top e laterais auto. */
+}
+
+header {
+  margin-bottom: 63px;
+}
+
+.card {
+  padding: 32px 23px;
+  text-align: center;
+
+  background: #1D1C19;
+  border-bottom: 2px solid #F7DD43;
+  border-radius: 6px;
+}
+
+.card h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #746615;
+  padding: 8px 16px;
+  border-radius: 6px;
+
+  width: fit-content; /* O flex tenta preencher todo o espaço, assim ele somente preenche o que tem conteúdo. */
+  margin-inline: auto; /* Para centralizar, margin-inline para ter certeza que está centralizando somente de acordo com os lados. */
+  margin-bottom: 53px;
+
+  color: #F7DD43;  
+}
+
+.card h2 span {
+  color: #E1E1E6;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 270px;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li + li {
+  padding-top: 24px; /* Cria linha de separação em todo li que tem li antes. */
+  border-top: 1px solid #323238;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #E1E1E6;
+}

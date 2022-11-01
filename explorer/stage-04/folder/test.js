@@ -1,8 +1,27 @@
-for(let i = 0; i <= 10; i++) {
-  if (i === 5) {
-    continue; // pula a execução do momento, pula mostrar o 5 no console e continua a aplicação.
-  } else if (i === 10) {
-    break; // para a execução do loop. Com isso, não mostra no console o 10.
-  }
-  console.log(i)
-}
+let patientList = [
+  {
+    name: 'Jessica',
+    age: '57',
+    weight: '77',
+    height: '1.90',
+  },
+  {
+    name: 'Rachel',
+    age: '27',
+    weight: '77',
+    height: '1.70',
+  },
+  {
+    name: 'Pearson',
+    age: '57',
+    weight: '77',
+    height: '1.90',
+  },
+]
+
+let patientNames = []
+
+for(let patientNames of patientList) {
+	console.log(name)
+	// Creates new scope, então o name daqui não é o mesmo de fora. 
+} 
