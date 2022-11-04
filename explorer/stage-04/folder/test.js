@@ -41,15 +41,6 @@ for(i = 0; i < patientsNames.length; i++) {
   Age: ${patientsAges[i]}
   Weight: ${patientsWeights[i]}
   Height: ${patientsHeights[i]}
+  IMC: ${patientsIMC[i]}
   `)
 }
-
-/*
-Esse for puxa o nome de cada paciente do array patients e coloca dentro do array patientsNames.
-
-for(let i = 0; i < patients.length; i++){
-  patientsNames[i] = patients[i].name
-}
-
-*/
-
