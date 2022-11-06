@@ -12,8 +12,8 @@
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/explorer/pt-br) - viewing now
-- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/explorer/en)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/pt-br) - viewing now
+- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer/en)
 
 ## 🧑🏻‍💻 Technologies
 
