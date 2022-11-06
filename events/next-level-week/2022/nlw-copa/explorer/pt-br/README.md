@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Datas dos jogos na Copa do Mundo 2022." src="../../.github/nlw-copa-pt-br.png" width="70%" />
+  <img alt="Datas dos jogos na Copa do Mundo 2022." src="../../.github/nlw-copa-pt-br.png" width="90%" />
 </p>
 
 <br>

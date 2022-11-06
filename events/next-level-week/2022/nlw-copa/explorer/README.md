@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="2022 World Cup game dates and countries playing." src="../.github/cover.png" width="70%" />
+  <img alt="2022 World Cup game dates and countries playing." src="../.github/cover.png" width="80%" />
 </p>
 
 <br>
