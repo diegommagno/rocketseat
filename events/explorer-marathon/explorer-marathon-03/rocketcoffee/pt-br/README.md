@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Project photo showing a list of foods and drinks." src="../.github/rocketcoffee.png" width="50%" />
+  <img alt="Project photo showing a list of foods and drinks." src="../.github/rocketcoffee.png" width="30%" />
 </p>
 
 <br>

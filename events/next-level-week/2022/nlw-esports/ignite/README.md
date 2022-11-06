@@ -1,6 +1,6 @@
 # Find your duo 🤝🏻
 
-> Application to find a duo for playing games.
+> Application to find a duo for playing games. Yet to be created.
 
 <br>
 

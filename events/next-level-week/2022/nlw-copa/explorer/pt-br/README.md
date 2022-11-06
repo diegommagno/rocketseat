@@ -1,7 +1,7 @@
 # NLW Copa Explorer
 
 
-> Calendário de jogos da Copa do Mundo de 2022..
+> Calendário de jogos da Copa do Mundo de 2022.
 <br>
 
 <div align="center">

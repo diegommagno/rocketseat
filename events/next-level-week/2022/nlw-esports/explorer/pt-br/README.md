@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Landing page showing favorite games, channels, streamers and social networks." src=".github/nlw-esports-explorer.png" width="80%" />
+  <img alt="Landing page showing favorite games, channels, streamers and social networks." src=".github/nlw-esports-explorer-pt-br.png" width="80%" />
 </p>
 
 <br>
