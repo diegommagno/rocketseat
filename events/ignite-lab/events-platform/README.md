@@ -5,8 +5,8 @@
 <br>
 
 <p align="center">
-  <img alt="Login screen asking for email and email confirmation" src="https://drive.google.com/uc?id=1uWi44iaY8wfHvrqgR4Tm5oo_UA22U5AA" width="75%" />
-  <img alt="Online events platform scree. Video to the played on the left, video release dates on the right." src="https://drive.google.com/uc?id=11Nr4YDNtnQyf_lcGcU90nVgUjP60XowA" width="75%" />
+  <img alt="Login screen asking for email and email confirmation" src="./.github/events-platform-login.png" width="75%" />
+  <img alt="Online events platform scree. Video to the played on the left, video release dates on the right." src="./.github/events-platform-content.png" width="75%" />
 </p>
 
 <br>

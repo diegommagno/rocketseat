@@ -5,7 +5,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src=".github/rocketlinks.png" width="35%" />
+  <img alt="Project photo showing a list of buttons with links." src="./.github/rocketlinks.png" width="35%" />
 </p>
 
 <br>

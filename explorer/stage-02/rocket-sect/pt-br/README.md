@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Cybersecurity information website home page." src="https://drive.google.com/uc?id=1_CO5Vk4HFN2yxKNeZXS-X3UlwVZDPUe5" width="80%" />
+  <img alt="Cybersecurity information website home page." src="./.github/rocket-sect.png" width="80%" />
 </p>
 
 <br>

@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Workouts home page." src="https://drive.google.com/uc?id=12MgjffCxbX-j6WRcRgrc113fO_5glncO" width="80%" />
+  <img alt="Workouts home page." src="./.github/train-me-en.png" width="80%" />
 </p>
 
 <br>

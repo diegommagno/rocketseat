@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Portfolio home page." src=".github/portfolio-cards.png" width="50%" />
+  <img alt="Portfolio home page." src=".github/portfolio-cards.png" width="70%" />
 </p>
 
 <br>

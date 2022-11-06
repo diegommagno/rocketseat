@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="https://drive.google.com/uc?id=18kpFY3KiFXms4zG76fyGWIVc4FWSzdCO" width="75%" />
+  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="../.github/crystall-ball-pt-br.png" width="75%" />
 </p>
 
 <br>
