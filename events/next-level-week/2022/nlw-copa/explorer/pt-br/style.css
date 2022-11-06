@@ -56,6 +56,7 @@ header {
   display: flex; /* Adicionar gap entre card, não utilizado margin-bottom porque seria no último card também.*/ 
   flex-direction: column;
   gap: 32px;
+  margin-bottom: 52px;
 }
 
 .card {
@@ -144,8 +145,9 @@ header {
 
 @media (min-width: 768px) {
     #cards {
-      max-width: 670px;
+      display: flex;
       flex-direction: row;
+      justify-content: center;
       flex-wrap: wrap;
     }
 }

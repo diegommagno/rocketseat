@@ -1,4 +1,3 @@
-/* Criar os jogos para o card. */
 function createGame(player1, hour, player2) {
   return `
   <li>
@@ -9,7 +8,7 @@ function createGame(player1, hour, player2) {
   `
 }
 
-let delay = -0.3; /* Para começar com 0 */
+let delay = -0.3;
 function createCard(date, day, games) {
   delay = delay + 0.3;
   return `
@@ -21,10 +20,6 @@ function createCard(date, day, games) {
     </div>
   `
 }
-
-/* Controla a div inteira de #app
-   innerHTML para pegar, mudar, apagar conteúdo HTML.
-*/
 
 document.querySelector('#cards').innerHTML =
     createCard("22/11", "Tuesday", createGame("argentina", "10:00", "saudi-arabia") + createGame("denmark", "13:00", "tunisia") + createGame("mexico", "16:00", "poland") + createGame("france", "19:00", "australia")) +

@@ -5,16 +5,15 @@
 <br>
 
 <p align="center">
-  <img alt="Landing page with calendars showing the 2022 World Cup game dates." src="./en/.github/nlw-esports-explorer.png" width="80%" />
+  <img alt="2022 World Cup game dates and countries playing." src="../../.github/nlw-copa-en.png" width="70%" />
 </p>
 
 <br>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/en)
-- Update: [English (Movies version)](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/challenge/en)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/explorer/pt-br)
+- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/explorer/en) - viewing now
 
 ## 🧑🏻‍💻 Technologies
 
@@ -27,4 +26,4 @@
 - Mobile first design
 - Animations/Keyframes
 - Clean code basics
-- Adding HTML with JavaScript
+- Adding HTML through JavaScript
