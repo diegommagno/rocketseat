@@ -4,9 +4,9 @@
 > Calendar showing the 2022 World Cup game dates.
 <br>
 
-<p align="center">
+<div align="center">
   <img alt="2022 World Cup game dates and countries playing." src="../../.github/nlw-copa-en.png" width="90%" />
-</p>
+</div>
 
 <br>
 

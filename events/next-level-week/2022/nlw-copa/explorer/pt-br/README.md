@@ -4,9 +4,9 @@
 > Calendário de jogos da Copa do Mundo de 2022..
 <br>
 
-<p align="center">
+<div align="center">
   <img alt="Datas dos jogos na Copa do Mundo 2022." src="../../.github/nlw-copa-pt-br.png" width="90%" />
-</p>
+</div>
 
 <br>
 
