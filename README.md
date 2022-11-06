@@ -57,6 +57,12 @@
   |&nbsp; Default project
   |&nbsp; Updates |&nbsp; Newest to oldest
 
+  Next level Week Projects
+
+  Discover and Explorer Projects (Starter courses: HTML, CSS, JavaScript)
+
+  Ignite Projects (Advanced course: React.js, React Native, Node.js, TailwindCSS)
+
   * **RocketPay** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay) | [default](https://explorer-lab-rocketpay-indol.vercel.app/) | [update](https://rocketpay-en.vercel.app/)
 
   * **Find my duo** | [repo](https://github.com/diegommagno/nlw-esports-ignite-find-your-duo) | [default](https://diegommagno.com/github/nlw-esports-ignite-find-your-duo)

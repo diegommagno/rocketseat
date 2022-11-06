@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-primary-color: #F7DD43;
+  --card-title-border-color: #746615;
+  --card-bg-color: #1D1C19;
+  --bg: url('./assets/bg/yellow.svg')
+}
+
+body.blue {
+  --card-primary-color: #338AF3;
+  --card-title-border-color: #338AF3;
+  --card-bg-color: #202024;
+  --bg: url('./assets/bg/blue.svg')
+}
+
+body.green {
+  --card-primary-color: #047C3F;
+  --card-title-border-color: #047C3F;
+  --card-bg-color: #1A1F1B;
+  --bg: url('./assets/bg/green.svg')
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #121214;
+  background-image: var(--bg);
+  background-position: top center; /* position y top, x center*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body * { 
+  font-family: 'Roboto', sans-serif; /* Body e todos elementos dentro dele. */
+}
+
+#app {
+  width: fit-content;
+  margin: auto; 
+  padding-top: 52px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 63px;
+}
+
+#cards {
+  display: flex; /* Adicionar gap entre card, não utilizado margin-bottom porque seria no último card também.*/ 
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 52px;
+}
+
+.card {
+  padding: 32px 23px;
+  text-align: center;
+
+  background: var(--card-bg-color);
+  border-bottom: 2px solid var(--card-primary-color);
+  border-radius: 6px;
+}
+
+.card h2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--card-title-border-color);
+  padding: 8px 16px;
+  border-radius: 6px;
+
+  width: fit-content; /* O flex tenta preencher todo o espaço, assim ele somente preenche o que tem conteúdo. */
+  margin-inline: auto; /* Para centralizar, margin-inline para ter certeza que está centralizando somente de acordo com os lados. */
+  margin-bottom: 53px;
+
+  color: #F7DD43;  
+}
+
+.card h2 span {
+  color: #E1E1E6;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 270px;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li + li {
+  padding-top: 24px; /* Cria linha de separação em todo li que tem li antes. */
+  border-top: 1px solid #323238;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+
+  color: #E1E1E6;
+}
+
+.card ul li img:hover {
+  transform: scale(1.1);
+}
+
+.card ul li img {
+  transition: transform 0.3s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear .2s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+    #cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+}

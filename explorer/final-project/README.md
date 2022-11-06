@@ -1,0 +1,1 @@
+adicionar .lowercase no e-mail
