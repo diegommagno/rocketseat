@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Mentorship form." src="https://drive.google.com/uc?id=1MMwZXe82E_aw9L05xafSSprcOFJRxpUw" width="60%" />
+  <img alt="Mentorship form." src="./.github/mentorship-form-en.png" width="60%" />
 </p>
 
 <br>
