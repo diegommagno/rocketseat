@@ -62,6 +62,7 @@
   Discover and Explorer Projects (Starter courses: HTML, CSS, JavaScript)
 
   Ignite Projects (Advanced course: React.js, React Native, Node.js, TailwindCSS)
+  
 
   * **RocketPay** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay) | [default](https://explorer-lab-rocketpay-indol.vercel.app/) | [update](https://rocketpay-en.vercel.app/)
 
