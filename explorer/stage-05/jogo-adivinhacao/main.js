@@ -1,36 +1,56 @@
-// Gerar random number, pedir um input. Contar número de tentativas.
-// Comparar input com random number.
-// Se igual, vai para a próxima tela informando que acertou, mostra quantas vezes tentou para acertar e botão de jogar novamente.
-// Para isso, tirar a class .hide.
-// Se diferente, console.log que errou e tenta novamente.
+// Variáveis 
+const screen1 = document.querySelector(".screen1")
+const screen2 = document.querySelector(".screen2")
 
+const buttonTry = document.querySelector("#buttonTry")
+const buttonReset = document.querySelector("#buttonReset")
 
-// let randomNumber = Math.round(Math.random() * 10)
 let randomNumber = 5
 let attemptAmount = 1
 
-function handleClick(event) {
+// Eventos
+buttonTry.addEventListener('click', handleButtonTryClick)
+buttonReset.addEventListener('click', handleButtonResetClick)
+document.addEventListener('keydown', handleEnterKeyPress)
+
+
+
+// callback functions
+function handleButtonTryClick(event) {
   event.preventDefault();
 
   const inputNumber = document.querySelector("#inputNumber")
-
-  if(Number(inputNumber.value) == randomNumber) {
-    if(attemptAmount == 1) {
-      document.querySelector(".screen-1").classList.add("hide")
-      document.querySelector(".screen-2 h2").innerHTML = `Parabéns, você acertou em ${attemptAmount} vez.`
-      document.querySelector(".screen-2").classList.remove("hide")
+ 
+  if(inputNumber.value != '' && inputNumber.value >= 0 && inputNumber.value <= 10 ){
+    if(Number(inputNumber.value) == randomNumber) {
+      if(attemptAmount == 1) {
+        toggleScreen()
+        screen2.querySelector("h2").innerHTML = `Parabéns, você acertou em ${attemptAmount} vez.`
+      } else {
+        toggleScreen()
+        screen2.querySelector("h2").innerHTML = `Parabéns, você acertou em ${attemptAmount} vezes.`
+      }
     } else {
-      document.querySelector(".screen-1").classList.add("hide")
-      document.querySelector("#screen-2 h2").innerHTML = `Parabéns, você acertou em ${attemptAmount} vezes.`
-      document.querySelector(".screen-2").classList.remove("hide")
+      alert("Número incorreto. Tente novamente.")
     }
+    attemptAmount++
   } else {
-    alert("Tente novamente")
+    alert("Escolha um número entre 0 a 10 para tentar.")
   }
-  console.log(attemptAmount)
-  attemptAmount++
 }
 
-function updatePage() {
-  window.location.reload();
+function handleButtonResetClick() {
+  toggleScreen()
+  attemptAmount = 1
+}
+
+function toggleScreen() {
+  screen1.classList.toggle("hide")
+  screen2.classList.toggle("hide")
+}
+
+function handleEnterKeyPress(e) {
+  if(e.key == 'Enter' && screen1.classList.contains('hide')) {
+    handleButtonResetClick()
+  }
 }

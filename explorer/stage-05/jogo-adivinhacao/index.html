@@ -15,19 +15,19 @@
 </head>
 <body>
   <main>
-    <div class="screen-1">
+    <div class="screen1">
       <h1>Jogo da Adivinhação</h1>
       <p>Adivinhe o número entre 0 e 10</p>
     
       <form action="">
-        <input id="inputNumber" type="number" />
-        <button onClick="handleClick(event)">Tentar</button>
+        <input id="inputNumber" type="number" min="0" max="10"/>
+        <button id="buttonTry">Tentar</button>
       </form>
     </div>
 
-    <div id="screen-2" class="screen-2 hide">
+    <div class="screen2 hide">
       <h2></h2>
-      <button onClick="updatePage()">Jogar novamente</button>
+      <button id="buttonReset">Jogar novamente</button>
     </div>
   </main>
 
