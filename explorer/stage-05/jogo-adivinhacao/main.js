@@ -13,8 +13,6 @@ buttonTry.addEventListener('click', handleButtonTryClick)
 buttonReset.addEventListener('click', handleButtonResetClick)
 document.addEventListener('keydown', handleEnterKeyPress)
 
-
-
 // callback functions
 function handleButtonTryClick(event) {
   event.preventDefault();
