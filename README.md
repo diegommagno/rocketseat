@@ -1,9 +1,9 @@
   # Rocketseat
-  > Repository created to host all projects designed by **Rocketseat** coded and upgraded by me. You can [Live Preview](https://diegommagno.github.io/rocketseat/index.html) the repo.
-
-  <p align="center">
-    <img alt="Gif showing how to navigate the repository." src=".github/rocketlinks.png" width="35%" />
-  </p>
+  > Repository showing all projects I proudly created, understood and can reproduce.
+  
+  > All projects designed by [Rocketseat](https://www.rocketseat.com.br/) coded and upgraded by me. 
+  
+  > You can [Live Preview](https://diegommagno.github.io/rocketseat/index.html) the repo.
 
   ## 🧑🏻‍💻 Technologies
   Techs used in this repository, inside each project are those used for the specific project.
