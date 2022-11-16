@@ -1,12 +1,12 @@
 
 <div align="center">
-  <img alt="Explorer logo" src="./.github/explorer.png" width="60%"/>
+  <img alt="Explorer logo" src="./.github/explorer.png" width="50%"/>
 </div>
 <h2 align="center">
   Explorer
 </h2>
 <p align="center">
-Lista de projetos e desafios com seus repositórios, desafios e projetos feitos no Explorer.
+Lista de projetos e desafios realizados durante o Explorer.
 </p>
 
 ### Stage 02
