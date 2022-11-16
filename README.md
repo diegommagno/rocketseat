@@ -59,7 +59,9 @@
 
   Next level Week Projects
 
-  Discover and Explorer Projects (Starter courses: HTML, CSS, JavaScript)
+  Discover Projects (Starter course: HTML, CSS, JavaScript)
+  
+  Explorer Projects: Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
 
   Ignite Projects (Advanced course: React.js, React Native, Node.js, TailwindCSS)
   
