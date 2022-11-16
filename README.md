@@ -1,5 +1,5 @@
   # Rocketseat
-  > Repository showing all projects I proudly created, understood and can reproduce.
+  > Repository showing all projects I created, understood and can reproduce.
   
   > All projects designed by [Rocketseat](https://www.rocketseat.com.br/) coded and upgraded by me. 
   
@@ -18,7 +18,7 @@
   <a href='https://www.javascript.com/'>
   <img src="https://skillicons.dev/icons?i=js"/>
   </a>
-  <a href='https://www.typescriptlang.org/'>
+  <a href='https://www.typescriptlang.org/'>m
   <img src="https://skillicons.dev/icons?i=ts"/>
   </a>
   <a href='https://nodejs.org/en/'>
