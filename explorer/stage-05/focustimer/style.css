@@ -6,7 +6,10 @@
 
 :root {
   --bg-color: #121214;
-  --primary-color: #42D3FF;
+
+  --base-color: 194;
+  --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
+  --primary-color: hsl(var(--base-color), 100%, 63%);
   --text-color: #FFFFFF;
 
   font-size: 62.5%;
@@ -22,10 +25,30 @@ body {
 button {
   background-color: transparent;
   border: none;
-  
+
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.play svg path,
+.pause svg path,
+.sound-on svg path {
+  fill: var(--primary-color);
 }
 
 #timer {
   font-size: 8.8rem;
   display: flex;
+}
+
+#controls {
+  background-color: var(--bg-primary-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 9999px;
 }

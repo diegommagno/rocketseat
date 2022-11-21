@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.light{
+  --bg-color: white;
+  --text-color: #121214;
+}
+
+.dark { 
+  --bg-color: #121214;
+  --text-color: white;
+}
+
+.blue { 
+  --bg-color: #d6d6ff;
+  --text-color: rgb(1, 79, 121);
+}
+
+.green { 
+  --bg-color: #e8fff5;
+  --text-color: rgb(0, 85, 41);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+article {
+  width: 30rem;
+  margin: 2rem auto;
+}
+
+article p {
+  opacity: 0.7;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+
+  background-color: white;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 0.2);
+
+  padding: 1rem;
+  border-radius: 8px;
+
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type="radio"] {
+  appearance: none;
+  border: 2px solid var(--input-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--input-color);
+}
+
+#light {
+  --input-color: grey;
+}
+
+#dark {
+  --input-color: black;
+}
+
+#blue {
+  --input-color: blue;
+}
+
+#green {
+  --input-color: green;
+}
