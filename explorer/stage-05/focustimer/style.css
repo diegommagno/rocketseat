@@ -16,9 +16,12 @@
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  display: grid;
+  height: 100vh;
 
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -27,6 +30,15 @@ button {
   border: none;
 
   cursor: pointer;
+}
+
+button svg {
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+}
+
+main {
+  justify-self: center;
+  align-self: end;
 }
 
 .hide {
@@ -40,15 +52,29 @@ button {
 }
 
 #timer {
-  font-size: 8.8rem;
+  font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
   display: flex;
+
+  margin-bottom: 1.6rem;
 }
 
 #controls {
+  max-width: 22.4rem;
+  max-height: 10.8rem;
   background-color: var(--bg-primary-light);
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3.2rem;
 
   border-radius: 9999px;
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 9rem);
+}
+
+footer {
+  justify-self: end;
+  align-self: end;
+
+  padding: 0 4rem 3.2rem;
 }

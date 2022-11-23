@@ -26,3 +26,4 @@
 - Using appearance
 - Using position fixed, centralising it using left and translateX
 - CSS attribute selector with input[type="radio"] and input[type="radio"]:checked
+- Use of cSS property :has to understand which input has "checked" and update the background color.

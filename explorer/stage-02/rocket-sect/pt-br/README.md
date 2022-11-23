@@ -23,6 +23,6 @@
 
 ## 🎓 Worked on
 
-- Building the website following only the figma design
+- Building the website following only the Figma design
 - Clean HTML and CSS structure 
 - Text and element alignment
