@@ -1,3 +1,5 @@
+// Feito pelo Myke
+
 // get filter element
 const filterElement = document.querySelector('header input');
 
