@@ -1,40 +1,92 @@
-// const playBtn = document.querySelector('.play')
-// const pauseBtn = document.querySelector('.pause')
-// const soundOnBtn = document.querySelector('.sound-on')
-// const soundOffBtn = document.querySelector('.sound-off')
 
-// playBtn.addEventListener('click', handleClick)
-// pauseBtn.addEventListener('click', handleClick)
-// soundOnBtn.addEventListener('click', handleClickSound)
-// soundOffBtn.addEventListener('click', handleClickSound)
+// Display controls
+let Display = {
+  userMinutes: '00',
+  minutes: document.querySelector('#timer .minutes'),
+  seconds: document.querySelector('#timer .seconds'),
 
-// function handleClick() {
-// 	document.querySelector('.play').classList.toggle('hide')
-//   document.querySelector('.pause').classList.toggle('hide')
-// }
+  setTimer(){
+    Display.userMinutes = prompt('Please enter the number of minutes')
+    Display.updateDisplayTimer(Display['userMinutes'], 0)
+  },
 
-// function handleClickSound() {
-// 	document.querySelector('.sound-on').classList.toggle('hide')
-//   document.querySelector('.sound-off').classList.toggle('hide')
-// }
+  resetTimer(){
+    Display.minutes.textContent = String(25).padStart(2, "0")
+    Display.seconds.textContent = String(0).padStart(2, "0")
+  },
 
+  updateDisplayTimer(minutes, seconds){
+    Display.minutes.textContent = String(minutes).padStart(2, "0")
+    Display.seconds.textContent = String(seconds).padStart(2, "0")
+  },
+
+  countDown(){
+    setTimeout(() => {
+      let minutes = Number(Display.minutes.textContent)
+      let seconds = Number(Display.seconds.textContent)
+      
+
+      if (minutes <= 0) {
+        Controls.classToggleStop()
+        Display.updateDisplayTimer(minutes, String(seconds - 1))
+        return
+      }
+
+      if(seconds <= 0){
+        seconds = 3
+        --minutes
+      } 
+
+      Display.updateDisplayTimer(minutes, String(seconds - 1))
+      Display.countDown()
+    }, 1000)
+  }
+}
+
+// Button controls
 const Controls = {
   playBtn: document.querySelector('.play'),
   pauseBtn: document.querySelector('.pause'),
-  toggleClass() {
-    document.querySelector('.play').classList.toggle('hide')
-    document.querySelector('.pause').classList.toggle('hide')
+  soundOnBtn: document.querySelector('.sound-on'),
+  soundOffBtn: document.querySelector('.sound-off'),
+  stopBtn: document.querySelector('.stop'),
+  setTimerBtn: document.querySelector('.set'),
+  classTogglePlayPause() {
+    Controls.playBtn.classList.toggle('hide')
+    Controls.pauseBtn.classList.toggle('hide')
+    Controls.stopBtn.classList.remove('hide')
+    Controls.setTimerBtn.classList.add('hide')
+    Display.countDown()
+  },
+  classToggleSoundOn() {
+    Controls.soundOnBtn.classList.toggle('hide')
+    Controls.soundOffBtn.classList.toggle('hide')
+  },
+  classToggleStop() {
+    Controls.stopBtn.classList.toggle('hide')
+    Controls.setTimerBtn.classList.toggle('hide')
+    Controls.playBtn.classList.remove('hide')
+    Controls.pauseBtn.classList.add('hide')
   },
   spaceKeydown(event) {
     console.log(event.code) // Pode usar event.wich, event.key, event.code (https://www.freecodecamp.org/news/javascript-keycode-list-keypress-event-key-codes/)
     if(event.code === 'Space') {
-      Controls.toggleClass()
+      Controls.classTogglePlayPause()
     }
   }
 }
 
-Controls.playBtn.onclick = () => Controls.toggleClass()
-Controls.pauseBtn.onclick = () => Controls.toggleClass()
+// Button controls
+Controls.playBtn.onclick = () => Controls.classTogglePlayPause()
+Controls.pauseBtn.onclick = () => Controls.classTogglePlayPause()
+Controls.soundOnBtn.onclick = () => Controls.classToggleSoundOn()
+Controls.soundOffBtn.onclick = () => Controls.classToggleSoundOn()
+Controls.stopBtn.onclick = () => (Controls.classToggleStop(), Display.resetTimer())
 
+// setTimer controls
+Controls.setTimerBtn.onclick = () => Display.setTimer()
+
+// Keydown
 window.addEventListener('keydown', Controls.spaceKeydown)
+
 
