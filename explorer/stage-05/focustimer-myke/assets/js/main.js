@@ -33,7 +33,7 @@ function countdown(){
     }
 
     if( seconds <= 0 ) {
-      seconds = 2
+      seconds = 5
       --minutes
     }
 
