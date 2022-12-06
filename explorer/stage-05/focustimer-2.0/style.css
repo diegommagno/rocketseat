@@ -1,0 +1,104 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #121214;
+
+  --base-color: 194;
+  --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
+  --primary-color: hsl(var(--base-color), 100%, 63%);
+  --text-color: #FFFFFF;
+  --controls-color: #FFFFFF;
+  --bgBtn-selected: rgb(2, 121, 157);
+
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button svg {
+  /* width: clamp(3.2rem, 2rem + 12vw, 6.4rem); */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19.2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.play svg path,
+.pause svg path {
+  fill: var(--controls-color);
+}
+
+.forestOn svg path:nth-child(1),
+.rainOn svg path:nth-child(1),
+.coffeeShopOn svg path:nth-child(1),
+.fireplaceOn svg path:nth-child(1) {
+  fill: var(--bgBtn-selected);
+}
+
+.forestOn svg path:nth-child(2),
+.rainOn svg path:nth-child(2),
+.coffeeShopOn svg path:nth-child(2),
+.fireplaceOn svg path:nth-child(2) {
+  fill: var(--controls-color);
+}
+
+#timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer {
+  /* font-size: clamp(4rem, 4rem + 10vw, 8.8rem); */
+  font-size: 12.6rem;
+  line-height: 148px;
+  font-weight: 500;
+
+  display: flex;
+
+  margin-bottom: 1.6rem;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+#bgButtons-wrapper {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.bgButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
