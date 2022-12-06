@@ -15,6 +15,12 @@ export const Controls = {
   coffeeShopBtnOn: document.querySelector('.coffeeShopOn'),
   fireplaceBtnOff: document.querySelector('.fireplaceOff'),
   fireplaceBtnOn: document.querySelector('.fireplaceOn'),
+  darkThemeBtn: document.querySelector('.darkTheme'),
+  lightThemeBtn: document.querySelector('.lightTheme'),
+  htmlBody: document.querySelector('body'),
+  htmlSpan: document.querySelectorAll('span'),
+  cssRoot: document.querySelector(':root'),
+  playBtn2: document.querySelector('#play'),
 
   classTogglePlay() {
     Controls.playBtn.classList.toggle('hide')
@@ -37,24 +43,54 @@ export const Controls = {
     Sound.pressButton()
   },
 
-  classToggleForest(){
+  classToggleForest() {
     Controls.forestBtnOff.classList.toggle('hide')
     Controls.forestBtnOn.classList.toggle('hide')
   },
 
-  classToggleRain(){
+  classToggleRain() {
     Controls.rainBtnOff.classList.toggle('hide')
     Controls.rainBtnOn.classList.toggle('hide')
   },
 
-  classToggleCoffeeShop(){
+  classToggleCoffeeShop() {
     Controls.coffeeShopBtnOff.classList.toggle('hide')
     Controls.coffeeShopBtnOn.classList.toggle('hide')
   },
 
-  classToggleFireplace(){
+  classToggleFireplace() {
     Controls.fireplaceBtnOff.classList.toggle('hide')
     Controls.fireplaceBtnOn.classList.toggle('hide')
+  },
+  classToggleDarkTheme() {
+    Controls.darkThemeBtn.classList.toggle('hide')
+    Controls.lightThemeBtn.classList.toggle('hide')
+    Controls.darkThemeTimer()
+  },
+
+  darkThemeTimer() {
+    Controls.htmlBody.style.backgroundColor = '#121214'
+    Controls.cssRoot.style.setProperty('--controls-color', '#FFFFFF');
+    for (let i = 0; i < Controls.htmlSpan.length; i++) {
+      Controls.htmlSpan[i].style.color = '#FFFFFF'
+    }
+
+    // let updateColor = getComputedStyle(Controls.cssRoot);
+    // console.log("The value of --controls-color is: " + updateColor.getPropertyValue('--controls-color'));
+  },
+
+  classToggleLightTheme() {
+    Controls.lightThemeBtn.classList.toggle('hide')
+    Controls.darkThemeBtn.classList.toggle('hide')
+    Controls.lightThemeTimer()
+  },
+
+  lightThemeTimer() {
+    Controls.htmlBody.style.backgroundColor = '#FFFFFF'
+    Controls.cssRoot.style.setProperty('--controls-color', '#323238');
+    for (let i = 0; i < Controls.htmlSpan.length; i++) {
+      Controls.htmlSpan[i].style.color = '#323238'
+    }
   },
 
   spaceKeydown(event) {

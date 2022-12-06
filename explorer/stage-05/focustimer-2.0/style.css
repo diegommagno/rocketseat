@@ -18,8 +18,8 @@
 }
 
 body {
-  display: grid;
-  height: 100vh;
+    display: grid;
+    height: 100vh;
 
   background-color: var(--bg-color);
 
@@ -38,6 +38,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 19.2rem;
 }
 
@@ -46,7 +53,10 @@ main {
 }
 
 .play svg path,
-.pause svg path {
+.pause svg path,
+.stop svg path,
+.setTimerUp svg path,
+.setTimerDown svg path {
   fill: var(--controls-color);
 }
 
@@ -102,6 +112,20 @@ main {
 
 @media (min-width: 1024px) {
   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .lightSwitch {
+    position: absolute;
+    right: 6rem;
+    top: 6rem;
+  }
+
+  .wrapper {
     flex-direction: row;
   }
 }

@@ -15,6 +15,8 @@ Controls.fireplaceBtnOff.onclick = () => (Sound.fireplaceBgPlay(), Controls.clas
 Controls.fireplaceBtnOn.onclick = () => (Sound.fireplaceBgPause(), Controls.classToggleFireplace())
 Controls.setTimerUpBtn.onclick = () => Display.setTimerUp()
 Controls.setTimerDownBtn.onclick = () => Display.setTimerDown()
+Controls.darkThemeBtn.onclick = () => Controls.classToggleLightTheme()
+Controls.lightThemeBtn.onclick = () => Controls.classToggleDarkTheme()
 
 window.addEventListener('keydown', Controls.spaceKeydown)
 
