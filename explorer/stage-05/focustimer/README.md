@@ -30,3 +30,9 @@
 
 ## 🎓 Updated
 - Added keydown support for controls
+- Clamp
+- CSS Grid
+- Modules
+- Function factory
+- Object Destructuring
+- Play sound on button click
