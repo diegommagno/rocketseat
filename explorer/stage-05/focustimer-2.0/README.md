@@ -36,3 +36,5 @@
 - Function factory
 - Object Destructuring
 - Play sound on button click
+- Added mobile first
+- Added dark theme support

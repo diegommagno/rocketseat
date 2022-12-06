@@ -3,21 +3,19 @@ import { Sound } from './sound.js'
 
 const minutesDisplay = document.querySelector('#timer .minutes')
 
-// Display controls
 export let Display = {
-  userMinutes: Number(minutesDisplay.textContent), // Não conseguir usar Display.variable.textContent aqui dentro. Aula Refatorando os controles do Explorer Stage 05 explica como criar função.
+  userMinutes: Number(minutesDisplay.textContent), 
   minutes: document.querySelector('#timer .minutes'),
   seconds: document.querySelector('#timer .seconds'),
   idTimeOut: '',
 
-  setTimer(){
-    let newMinutes = prompt('Please enter the number of minutes') 
-    if(!newMinutes || newMinutes === 'colocar regex de letras') {
-      Display.resetTimer()
-      return
-    }
+  setTimerUp(){
+    Display.userMinutes = Number(Display.userMinutes) + 5
+    Display.updateDisplayTimer(Display['userMinutes'], 0)
+  },
 
-    Display['userMinutes'] = newMinutes
+  setTimerDown(){
+    Display.userMinutes = Number(Display.userMinutes) - 5
     Display.updateDisplayTimer(Display['userMinutes'], 0)
   },
 

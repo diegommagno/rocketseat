@@ -33,12 +33,9 @@ button {
   cursor: pointer;
 }
 
-button svg {
-  /* width: clamp(3.2rem, 2rem + 12vw, 6.4rem); */
-}
-
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 19.2rem;
@@ -74,7 +71,6 @@ main {
 }
 
 #timer {
-  /* font-size: clamp(4rem, 4rem + 10vw, 8.8rem); */
   font-size: 12.6rem;
   line-height: 148px;
   font-weight: 500;
@@ -101,4 +97,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+}
+
+
+@media (min-width: 1024px) {
+  main {
+    flex-direction: row;
+  }
 }

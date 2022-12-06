@@ -1,11 +1,12 @@
 import { Display } from './display.js'
 import { Sound } from './sound.js'
 
-// Button controls
 export const Controls = {
   playBtn: document.querySelector('.play'),
   pauseBtn: document.querySelector('.pause'),
   stopBtn: document.querySelector('.stop'),
+  setTimerUpBtn: document.querySelector('.setTimerUp'),
+  setTimerDownBtn: document.querySelector('.setTimerDown'),
   forestBtnOff: document.querySelector('.forestOff'),
   forestBtnOn: document.querySelector('.forestOn'),
   rainBtnOff: document.querySelector('.rainOff'),
@@ -56,14 +57,6 @@ export const Controls = {
     Controls.fireplaceBtnOn.classList.toggle('hide')
   },
 
-  classSetTimerUp() {
-    // Aumenta um minuto
-  },
-
-  classSetTimerUp() {
-    // Diminui um minuto
-  },
-  
   spaceKeydown(event) {
     console.log(event.code) // Pode usar event.which, event.key, event.code (https://www.freecodecamp.org/news/javascript-keycode-list-keypress-event-key-codes/)
     if(event.code === 'Space') {

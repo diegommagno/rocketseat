@@ -2,7 +2,6 @@ import { Controls } from './controls.js'
 import { Display } from './display.js'
 import { Sound } from './sound.js'
 
-// Button controls
 Controls.playBtn.onclick = () => Controls.classTogglePlay()
 Controls.pauseBtn.onclick = () => Controls.classTogglePause()
 Controls.stopBtn.onclick = () => Controls.classToggleStop()
@@ -14,11 +13,9 @@ Controls.coffeeShopBtnOff.onclick = () => (Sound.coffeeShopBgPlay(), Controls.cl
 Controls.coffeeShopBtnOn.onclick = () => (Sound.coffeeShopBgPause(), Controls.classToggleCoffeeShop())
 Controls.fireplaceBtnOff.onclick = () => (Sound.fireplaceBgPlay(), Controls.classToggleFireplace())
 Controls.fireplaceBtnOn.onclick = () => (Sound.fireplaceBgPause(), Controls.classToggleFireplace())
+Controls.setTimerUpBtn.onclick = () => Display.setTimerUp()
+Controls.setTimerDownBtn.onclick = () => Display.setTimerDown()
 
-// setTimer controls
-// Controls.setTimerBtn.onclick = () => Display.setTimer()
-
-// Keydown
 window.addEventListener('keydown', Controls.spaceKeydown)
 
 
