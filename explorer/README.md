@@ -37,6 +37,21 @@ Lista de projetos e desafios realizados durante o Explorer.
 - [Project 03 - ES Modules](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/es-modules)
 - [Project 04 - Calculate BMI (applying Modules)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calcular-imc/calcular-imc-modules)
 - [Project 05 - FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
+- [Project 06 - FocusTimer 2.0](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2.0)
+
+### Stage 06
+
+- [Project 01 - SPA Universe](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+- [Project 02 - GitFav](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+
+### Stage 08
+
+- [Project 01 - SPA Universe](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+- [Project 02 - GitFav](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+
+### Stage 10
+
+- [Project 01 - RocketMovies](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
 
 
 ### Bônus 
