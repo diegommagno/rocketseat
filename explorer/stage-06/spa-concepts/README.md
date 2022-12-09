@@ -4,22 +4,27 @@
 > Single page application concept.
 <br>
 
-<br>
-
 ## 📝 Live Preview 
 
-npm init -y
-npm install lite-server
-npm start
+- Download the repo
+- Navigate to explorer/stage-06/spa-concepts on terminal
+- Use npm install to install node_modules
+- Use npm start
 
-Foi atualizado em package.json:
- "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
-  para
-  "scripts": {
-    "start": "lite-server"
-  }
+<br>
+To first create the project I used the following: <br>
+npm init -y <br>
+npm install lite-server <br>
+npm start <br>
+
+Updated in package.json:
+<br> "scripts": {
+<br>    "test": "echo \"Error: no test specified\" && exit 1"
+<br>  }
+<br>  to
+<br>  "scripts": {
+<br>    "start": "lite-server"
+<br> }
 
 ## 🧑🏻‍💻 Technologies
 
@@ -34,9 +39,3 @@ Foi atualizado em package.json:
 - Asynchronous and promises
 - Objected-oriented programming
 - Classes 
-
- - Conceitos de SPA;
-- Mapeamento de rotas;
-- Assíncrono e promises;
-- Orientação a objetos;
-- Classes e muito mais.
