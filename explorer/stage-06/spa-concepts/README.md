@@ -1,6 +1,5 @@
 # SPA - Single Page Application
 
-
 > Single page application concept.
 <br>
 
