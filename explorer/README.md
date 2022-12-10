@@ -6,7 +6,7 @@
   Explorer
 </h2>
 <p align="center">
-Lista de projetos e desafios realizados durante o Explorer.
+List showing the projects and challenges developed during the Explorer course.
 </p>
 
 ### Stage 02
@@ -54,11 +54,10 @@ Lista de projetos e desafios realizados durante o Explorer.
 - [Project 01 - RocketMovies](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
 
 
-### Bônus 
+### Bonus 
 
-- [Bônus 01 - XX](link)
+- [Bonus 01 - XX](link)
 
 
-
-### Anotações
-Anotações realizadas no [Notion](link)
+### Notes
+Notes made on [Notion](link)
