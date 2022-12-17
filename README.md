@@ -1,10 +1,17 @@
-  # Rocketseat
+  <a href="https://www.rocketseat.com.br/">
+    <img alt="Ignite logo" src="./.github/rocketseat.png" style="width: 35%; height: 35%;">
+   </a>
+
+  <br/>
+  
   > Repository showing all projects I created, understood and can reproduce.
   
-  > All projects designed by [Rocketseat](https://www.rocketseat.com.br/) coded and upgraded by me. 
+  > All projects designed by Rocketseat, coded and upgraded by me. 
   
   > You can [Live Preview](https://diegommagno.github.io/rocketseat/index.html) the repo.
-
+  
+  <br/>
+  
   ## 🧑🏻‍💻 Technologies
   Techs used in this repository, inside each project are those used for the specific project.
 
@@ -18,7 +25,7 @@
   <a href='https://www.javascript.com/'>
   <img src="https://skillicons.dev/icons?i=js"/>
   </a>
-  <a href='https://www.typescriptlang.org/'>m
+  <a href='https://www.typescriptlang.org/'>
   <img src="https://skillicons.dev/icons?i=ts"/>
   </a>
   <a href='https://nodejs.org/en/'>
@@ -50,21 +57,47 @@
   </a>
   </p>
 
+  <br/>
+  
+  ## :rocket: Project Folders
 
-  ## :rocket: Projects
+  <a href="./discover">
+    <img alt="Ignite logo" src="./discover/.github/discover.png" style="width: 23%; height: 23%;">
+  </a>
+  <br/>
+  Starter course: HTML, CSS, JavaScript.
+  
+  <br/>
+
+  <a href="./explorer">
+    <img alt="Ignite logo" src="./explorer/.github/explorer.png" style="width: 22%; height: 22%;">
+   </a>
+   <br/>
+   Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
+
+   <br/>
+
+   <a href="https://www.rocketseat.com.br/">
+    <img alt="Ignite logo" src="./ignite/.github/ignite.png" style="width: 20%; height: 20%;">
+   </a> 
+   <br/>
+    Advanced course: React.js, React Native, Node.js, TailwindCSS.
+   
+   <br/>
+   
+   <a href="https://www.rocketseat.com.br/">
+    <img alt="Ignite logo" src="./events/next-level-week/.github/nlw.png" style="width: 15%; height: 15%;">
+   </a> 
+   <br/>
+   Next level Week Projects
+
+  <br/>
+  
+  ## :star: Featured Projects
 
   &nbsp; Project Name
   |&nbsp; Default project
-  |&nbsp; Updates |&nbsp; Newest to oldest
-
-  Next level Week Projects
-
-  Discover Projects (Starter course: HTML, CSS, JavaScript)
-  
-  Explorer Projects: Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
-
-  Ignite Projects (Advanced course: React.js, React Native, Node.js, TailwindCSS)
-  
+  |&nbsp; Updates |&nbsp; Newest to oldest order
 
   * **RocketPay** | [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay) | [default](https://explorer-lab-rocketpay-indol.vercel.app/) | [update](https://rocketpay-en.vercel.app/)
 
