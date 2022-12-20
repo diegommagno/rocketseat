@@ -45,9 +45,16 @@ export const Sound = {
   fireplaceBgPause() {
     Sound.fireplaceBg.pause()
   },
+
 }
 
 Sound.forestBg.loop = true
 Sound.rainBg.loop = true
 Sound.coffeeShopBg.loop = true
 Sound.fireplaceBg.loop = true
+
+let volumeControlForest = document.querySelector("#volume-control-forest");
+volumeControlForest.addEventListener("change", function(e) {
+Sound.forestBg.volume = e.currentTarget.value / 100;
+})
+

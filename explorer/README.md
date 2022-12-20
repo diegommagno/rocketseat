@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img alt="Explorer logo" src="./.github/explorer.png" width="60%"/>
+  <img alt="Explorer logo" src="./.github/explorer-cover.png" width="60%"/>
 </div>
 <h2 align="center">
   Explorer

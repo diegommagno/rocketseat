@@ -89,3 +89,8 @@ main button {
   color: #FFFFFF;
 }
 
+main button:hover {
+  background: #FFFFFF;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}

@@ -11,7 +11,9 @@
   > You can [Live Preview](https://diegommagno.github.io/rocketseat/index.html) the repo.
   
   <br/>
-  
+
+  <br/>
+
   ## 🧑🏻‍💻 Technologies
   Techs used in this repository, inside each project are those used for the specific project.
 
