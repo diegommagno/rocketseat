@@ -1,56 +1,91 @@
+  <a href="https://www.rocketseat.com.br/">
+    <img alt="Ignite logo" src="./.github/rocketseat.png" style="width: 35%; height: 35%;">
+   </a>
 
-  <div align="center">
-    <img alt="Rocketseat" src="./.github/rocketseat-cover.png" width="80%"/>
-  </div>
+  <br/>
   
-  <h2 align="center">
-  Rocketseat
-  </h2>
-  <p align="center">
-  Repository for projects I understood and can reproduce, created while studying at the programming school Rocketseat.
+  > Repository for projects I understood and can reproduce, created while studying at the programming school Rocketseat.
+
+  <br/>
+
+  ## 🧑🏻‍💻 Technologies
+  Techs used in this repository, inside each project are those used for the specific project.
+
+  <p>
+  <a href='https://html.com/'>
+  <img src="https://skillicons.dev/icons?i=html"/>
+  </a>
+  <a href='https://www.w3.org/Style/CSS/Overview.en.html'>
+  <img src="https://skillicons.dev/icons?i=css"/>
+  </a>
+  <a href='https://www.javascript.com/'>
+  <img src="https://skillicons.dev/icons?i=js"/>
+  </a>
+  <a href='https://www.typescriptlang.org/'>
+  <img src="https://skillicons.dev/icons?i=ts"/>
+  </a>
+  <a href='https://nodejs.org/en/'>
+  <img src="https://skillicons.dev/icons?i=nodejs"/>
+  </a>
+  <a href='https://reactjs.org/'>
+  <img src="https://skillicons.dev/icons?i=react"/>
+  </a>
+  <a href='https://tailwindui.com/'>
+  <img src="https://skillicons.dev/icons?i=tailwind"/>
+  </a>
+  <a href='https://vitejs.dev/'>
+  <img src="https://skillicons.dev/icons?i=vite"/>
+  </a>
+  <a href='https://www.prisma.io/'>
+  <img src="https://skillicons.dev/icons?i=prisma"/>
+  </a>
+  <a href='https://nextjs.org/'>
+  <img src="https://skillicons.dev/icons?i=nextjs"/>
+  </a>
+  <a href='https://www.apollographql.com/'>
+  <img src="https://skillicons.dev/icons?i=apollo"/>
+  </a>
+  <a href='https://graphql.org/'>
+  <img src="https://skillicons.dev/icons?i=graphql"/>
+  </a>
+  <a href='https://www.figma.com/'>
+  <img src="https://skillicons.dev/icons?i=figma"/>
+  </a>
   </p>
 
   <br/>
-  <br/>
-
-  ## :rocket: Courses repos
-  Courses taken at Rocketseat. Inside each repo are the projects for that course.
-
- <br/>
+  
+  ## :rocket: Project Folders
 
   <a href="./discover">
-    <img alt="Ignite logo" src="./.github/discover-logo-4.png" style="width: 23%;">
+    <img alt="Ignite logo" src="./discover/.github/discover.png" style="width: 23%; height: 23%;">
   </a>
   <br/>
   Starter course: HTML, CSS, JavaScript.
   
-  <br/> <br/>
+  <br/>
 
   <a href="./explorer">
-    <img alt="Ignite logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
+    <img alt="Ignite logo" src="./explorer/.github/explorer.png" style="width: 22%; height: 22%;">
    </a>
    <br/>
    Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
 
-   <br/> <br/>
+   <br/>
 
-   <a href="./ignite">
-    <img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
+   <a href="https://www.rocketseat.com.br/">
+    <img alt="Ignite logo" src="./ignite/.github/ignite.png" style="width: 20%; height: 20%;">
    </a> 
    <br/>
     Advanced course: React.js, React Native, Node.js, TailwindCSS.
    
-   <br/> <br/>
+   <br/>
    
-   <a href="./events">
+   <a href="https://www.rocketseat.com.br/">
     <img alt="Ignite logo" src="./events/next-level-week/.github/nlw.png" style="width: 15%; height: 15%;">
    </a> 
    <br/>
-   Events projects
-  
-
-   
-
+   Next level Week Projects
 
   <br/>
   
