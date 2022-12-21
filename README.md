@@ -35,7 +35,7 @@
    <br/> <br/>
 
    <a href="./ignite">
-    <img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
+    <img alt="Ignite logo" src="./.github/ignite-logo-2.png" style="width: 20%; height: 20%;">
    </a> 
    <br/>
     Advanced course: React.js, React Native, Node.js, TailwindCSS.
