@@ -21,6 +21,9 @@
 - [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
 - [RocketCoffee](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee)
 
+##### DevLinks
+- [DevLinks](https://github.com/diegommagno/rocketseat/tree/main/events/devlinks)
+
 ##### Next Level Week
 - [NLW World Cup - Games Calendar](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer)
 - [NLW World Cup - Card](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/card/pt-br)
