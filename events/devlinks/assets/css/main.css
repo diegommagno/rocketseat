@@ -4,20 +4,40 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #FFFFFF;
+  --bg-url: url(../img/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(../img/moon.svg);
+}
+
+.light {
+  --text-color: #000000;
+  --bg-url: url(../img/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(../img/sun.svg);
+}
+
 body {
-  background-image: url(../img/bg-mobile.jpg);
+  background-image: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center; /* Top center para começar a contar a partir do topo, caso contrário começa a partir do centro */
   background-size: cover; /* Para que a imagem ocupe todo o espaço disponível */
 
   /* Shorthand:
-  background: url(../img/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
    */
 }
 
 body * {
   font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
+  color: var(--text-color);
 }
 
 #container {
@@ -42,6 +62,42 @@ body * {
   margin-top: 8px;
 }
 
+#switch {
+  width: 64px;
+  position: relative;
+
+  margin: 4px auto;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.light #switch button {
+  right: 0;
+  left: initial; /* Um left que volta para sua maneira inicial. */
+}
+
+#switch span {
+  display: block; /* Para que o span aceite width */
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  border-radius: 9999px;
+}
+
 ul {
   list-style: none;
 
@@ -56,8 +112,8 @@ ul li a {
   justify-content: center;
   align-items: center;
 
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
   border-radius: 8px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -71,9 +127,9 @@ ul li a {
 }
 
 ul li a:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface-color-hover);
   /* border: 1.5px solid hsla(0, 0%, 100%, 1); */
-  border: 1.2px solid hsla(0, 0%, 100%, 1);
+  border: 1.2px solid var(--text-color);
 }
 
 #social-links {
@@ -97,7 +153,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
- background: rgba(255, 255, 255, 0.2);
+ background: var(--highlight-color);
 }
 
 footer {
