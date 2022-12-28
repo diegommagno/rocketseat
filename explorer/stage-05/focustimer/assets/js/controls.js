@@ -47,7 +47,7 @@ export const Controls = {
   },
   
   spaceKeydown(event) {
-    console.log(event.code) // Pode usar event.which, event.key, event.code (https://www.freecodecamp.org/news/javascript-keycode-list-keypress-event-key-codes/)
+    // console.log(event.code) // Pode usar event.which, event.key, event.code (https://www.freecodecamp.org/news/javascript-keycode-list-keypress-event-key-codes/)
     if(event.code === 'Space') {
       Controls.classTogglePlayPause()
     }
