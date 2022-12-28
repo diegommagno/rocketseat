@@ -7,7 +7,6 @@ Cronometer made with HTML, CSS and JavaScript. <br/>
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-worked-on">Worked On</a>
 </p>
 
@@ -37,13 +36,13 @@ Cronometer made with HTML, CSS and JavaScript. <br/>
 
 - Grid, flex-box
 - Clamp
-- Toggle classes (hide)
+- Toggle classes
+- Play sound on button click
 
 ## 🎓 Updated
-- Added keydown support for controls
-- Clamp
 - CSS Grid
 - Modules
 - Function factory
 - Object Destructuring
 - Play sound on button click
+- Adjusting sound volume

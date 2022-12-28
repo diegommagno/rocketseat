@@ -1,20 +1,30 @@
-# FocusTimer
-
-
-> Cronometro.
-<br>
+<h1 align="center"> FocusTimer 2.0 </h1>
 
 <p align="center">
-  <img alt="Landing page showing favorite games, channels, streamers and social networks." src="./en/.github/nlw-esports-explorer.png" width="80%" />
+Cronometer made with HTML, CSS and JavaScript. <br/>
 </p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+
+<p align="center">
+  <img alt="Landing page showing a cronometer and different ambient sound options and volume controls." src="./.github/focustimer.gif" width="70%" />
+</p>
+
+<br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/en)
-- Update: [English (Movies version)](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/challenge/en)
+- [FocusTimer](hhttps://diegommagno.com/github/rocketseat/explorer/stage-05/focustimer/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
+- Update: [FocusTimer 2.0](https://diegommagno.com/github/rocketseat/explorer/stage-05/focustimer-2/) - viewing now
 
 ## 🧑🏻‍💻 Technologies
 
@@ -26,15 +36,11 @@
 
 - Grid, flex-box
 - Clamp
-- Toggle classes (hide)
-
-## 🎓 Updated
-- Added keydown support for controls
-- Clamp
+- Toggle classes
+- Play sound on button click
 - CSS Grid
 - Modules
 - Function factory
 - Object Destructuring
 - Play sound on button click
-- Added mobile first
-- Added dark theme support
+- Adjusting sound volume
