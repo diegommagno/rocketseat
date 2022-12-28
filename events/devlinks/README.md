@@ -24,7 +24,7 @@ Easier way to share links. Share one page containing multiple links. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/pt-br)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/devlinks/)
 
 ## 🧑🏻‍💻 Technologies
 
