@@ -12,6 +12,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(../img/moon.svg);
+  font-size: 62.5%;
 }
 
 .light {
@@ -29,11 +30,13 @@ body {
   background-repeat: no-repeat;
   background-position: top center; /* Top center para começar a contar a partir do topo, caso contrário começa a partir do centro */
   background-size: cover; /* Para que a imagem ocupe todo o espaço disponível */
-  height: 100vh; /* Para que o body ocupe toda a tela */
 
   /* Shorthand:
   background: var(--bg-url) no-repeat top center/cover;
    */
+
+  height: 100vh; /* Para que o body ocupe toda a tela */
+  font-size: 1.6rem;
 }
 
 body * {
@@ -45,34 +48,34 @@ body * {
   width: 100%;
   max-width: 588px;
   margin: 56px auto;
-  padding: 0 24px;
+  padding: 0 2.4rem;
 }
 
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 2.4rem;
 }
 
 #profile img {
-  width: 112px;
+  width: 11.2rem;
 }
 
 #profile p {
   font-weight: 500;
-  line-height: 24px;
+  line-height: 2.4rem;
   margin-top: 8px;
 }
 
 #switch {
-  width: 64px;
+  width: 6.4rem;
   position: relative;
 
   margin: 4px auto;
 }
 
 #switch button {
-  width: 32px;
-  height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
   background: #FFFFFF var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
@@ -81,6 +84,7 @@ body * {
   top: 50%;
   transform: translateY(-50%);
   animation: slide-back .2s;
+  cursor: pointer;
 }
 
 .light #switch button {
@@ -93,8 +97,8 @@ body * {
 
 #switch span {
   display: block; /* Para que o span aceite width */
-  width: 64px;
-  height: 24px;
+  width: 6.4rem;
+  height: 2.4rem;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
@@ -108,8 +112,8 @@ ul {
 
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 24px 0;
+  gap: 1.6rem;
+  padding: 2.4rem 0;
 }
 
 ul li a {
@@ -123,7 +127,7 @@ ul li a {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
-  padding: 16px 24px;
+  padding: 1.6rem 2.4rem;
 
   text-decoration: none;
   font-weight: 500;
@@ -142,16 +146,16 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
 
-  padding: 24px;
+  padding: 2.4rem;
 
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 #social-links a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 1.6rem;
 
   transition: background 0.2s;
   border-radius: 50%;
@@ -163,8 +167,8 @@ ul li a:hover {
 
 footer {
   text-align: center;
-  padding: 24px 0;
-  font-size: 14px;
+  padding: 2.4rem 0;
+  font-size: 1.4rem;
 }
 
 
@@ -175,15 +179,6 @@ footer {
 
   .light {
     --bg-url: url(../img/bg-desktop-light.jpg);
-  }
-}
-
-@keyframes slide-in {
-  from {
-    left: 0;
-  }
-  to {
-    left: 50%;
   }
 }
 
