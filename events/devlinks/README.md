@@ -17,7 +17,7 @@ Easier way to share links. Share one page containing multiple links. <br/>
 
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src="./.github/devlinks-cover.gif" width="85%" />
+  <img alt="Project photo showing a list of buttons with links." src="./.github/devlinks-cover.gif" width="90%" />
 </p>
 
 <br/>
