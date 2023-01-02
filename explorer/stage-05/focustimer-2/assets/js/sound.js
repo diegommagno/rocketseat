@@ -1,10 +1,10 @@
 export const Sound = {
   buttonPressAudio: new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true"),
   kitchenTimer: new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"),
-  forestBg: new Audio("../focustimer-2.0/assets/audio/forest.wav"),
-  rainBg: new Audio("../focustimer-2.0/assets/audio/rain.wav"),
-  coffeeShopBg: new Audio("../focustimer-2.0/assets/audio/coffee-shop.wav"),
-  fireplaceBg: new Audio("../focustimer-2.0/assets/audio/fireplace.wav"),
+  forestBg: new Audio("../focustimer-2/assets/audio/forest.wav"),
+  rainBg: new Audio("../focustimer-2/assets/audio/rain.wav"),
+  coffeeShopBg: new Audio("../focustimer-2/assets/audio/coffee-shop.wav"),
+  fireplaceBg: new Audio("../focustimer-2/assets/audio/fireplace.wav"),
   
   pressButton() {
     Sound.buttonPressAudio.play()
@@ -45,16 +45,9 @@ export const Sound = {
   fireplaceBgPause() {
     Sound.fireplaceBg.pause()
   },
-
 }
 
 Sound.forestBg.loop = true
 Sound.rainBg.loop = true
 Sound.coffeeShopBg.loop = true
 Sound.fireplaceBg.loop = true
-
-let volumeControlForest = document.querySelector("#volume-control-forest");
-volumeControlForest.addEventListener("change", function(e) {
-Sound.forestBg.volume = e.currentTarget.value / 100;
-})
-

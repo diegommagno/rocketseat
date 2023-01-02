@@ -18,8 +18,8 @@
 }
 
 body {
-    display: grid;
-    height: 100vh;
+  display: grid;
+  height: 100vh;
 
   background-color: var(--bg-color);
 
@@ -38,6 +38,16 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 0px;
+  border: 1px solid red;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
 }
 
 .wrapper {
@@ -46,6 +56,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 19.2rem;
+  border: 1px solid green;
 }
 
 .hide {
@@ -98,29 +109,16 @@ main {
 
 }
 
-#bgButtons-wrapper {
+#cards-wrapper {
   display: flex;
   gap: 3.2rem;
 }
 
-.bgButton-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem; 
-}
-
-.volume-control-bar {
-  transform: translateY(-30px);
-}
-
-.bgButtons {
+.cards {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
-
 
 @media (min-width: 1024px) {
   main {

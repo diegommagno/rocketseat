@@ -34,10 +34,16 @@ export let Display = {
   },
 
   countDown(){
+    console.log(Display.userMinutes)
+    console.log(Display.minutes.textContent)
+    console.log(Display.seconds.textContent)
+    
     Display.idTimeOut = setTimeout(() => {
       let minutes = Number(Display.minutes.textContent)
       let seconds = Number(Display.seconds.textContent)
       let timeIsOver = minutes <= 0 && seconds <= 0
+      
+      console.log('display minutes no countdown' + Display.minutes.textContent)
       
       Display.updateDisplayTimer(minutes, 0)
 
