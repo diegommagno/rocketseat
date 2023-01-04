@@ -7,7 +7,7 @@
   Rocketseat
   </h2>
   <p align="center">
-  Repository for projects I understood and can reproduce, created while studying at the programming school Rocketseat.
+  Repository for projects I understood and can reproduce, created while studying at the coding school Rocketseat.
   </p>
 
   <br/>
