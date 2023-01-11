@@ -24,7 +24,10 @@ A single page application about the universe. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/devlinks/)
+- Download the repo
+- Navigate to explorer/stage-06/spa-universe on terminal
+- Use npm install to install node_modules
+- Use npm start
 
 ## 🧑🏻‍💻 Technologies
 
