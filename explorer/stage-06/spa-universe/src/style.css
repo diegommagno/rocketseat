@@ -7,7 +7,6 @@
 :root {
   font-size: 62.5%;
 
-  --nav-height: 7.2rem;
 }
 
 body {
@@ -21,12 +20,12 @@ body {
 }
 
 /* Navigation - Index.html */
-nav .wrapper {
+nav {
+  height: 12.2rem;
   display: flex;
   align-items: center;
   gap: 3.2rem;
   margin-left: 7.2rem;
-  padding-top: 4rem;
 }
 
 ul {
@@ -53,14 +52,14 @@ ul li a {
   text-decoration: none;
 }
 
-/* Main - Home.html */
-main {
+/* Home.html */
+.main-home {
   display: grid;
   place-items: center;
   height: 90vh;
 }
 
-main .wrapper {
+.wrapper-home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,4 +92,26 @@ main button:hover {
   background: #FFFFFF;
   color: #000000;
   transition: all 0.3s ease-in-out;
+}
+
+/* the-universe.html */
+
+#main-universe {
+  margin-top: 6.3rem;
+  margin-left: 10rem;
+}
+
+#h1-universe {
+  margin-bottom: 1.6rem;
+}
+
+#div-p-universe {
+  height: 203px;
+  width: 648px;
+}
+
+#p-universe {
+  color: #E1E1E6;
+  font-size: 1.8rem;
+  line-height: 160%;
 }
