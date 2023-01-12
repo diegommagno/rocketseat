@@ -12,15 +12,19 @@
 
   <link rel="stylesheet" href="./src/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <script src="./src/js/main.js" defer></script>
 
 </head>
 <body>
   <main>
     <div class="product">
-      <div class="view-3d-model">
+      <div class="viewModel">
         <img src="./src/img/360.svg" alt="360 Image View">
       </div>
-      <img src="./src/img/sofa.png" alt="">
+      <div class="closeModel hidden">
+        <img src="./src/img/close-button.svg" alt="Close 360 Image View">
+      </div>
+      <img id="productImage" src="./src/img/sofa.png" alt="">
     </div>
 
     <div class="product-information">

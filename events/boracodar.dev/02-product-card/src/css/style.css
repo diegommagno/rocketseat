@@ -19,6 +19,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -38,11 +43,15 @@ main {
   height: 100%;
 }
 
-.view-3d-model {
+.viewModel,
+.closeModel {
   position: absolute;
   top: 8px;
   right: 5rem;
+  cursor: pointer;
 }
+
+
 
 .product-information div:nth-child(1) {
   display: flex;
@@ -81,13 +90,21 @@ button {
   padding: 8px 16px;
   gap: 8px;
 
-  border: 0.5px solid var(--font-color);
-  border-radius: 999px;
-  background-color: transparent;
+  
 }
 
-button .add-to-bag {
+.add-to-bag {
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
+  border: 0.5px solid var(--font-color);
+  border-radius: 999px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-to-bag:hover {
+  background-color: var(--font-color);
+  color: var(--bg-primary);
 }
