@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GitHub Favorites</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐️</text></svg>">
+
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="./src/js/main.js" type="module" defer></script>
+
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>GitHub Favorites</h1>
+      <div class="search">
+        <label class="sr-only" for="input-search">Usuário do GitHub</label>
+        <input id="input-search" type ="text" placeholder="Usuário do GitHub" />
+        <button>&plus;</button>
+      </div>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th>Repositórios</th>
+          <th>Seguidores</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/diegommagno.png" alt="Foto de perfil do usuário" />
+            <a href="https://github.com/diegommagno">
+              <p>Diego M. Magno</p>
+              <span>diegommagno</span>
+            </a>
+          </td>
+          <td class="repositories"></td>
+          <td class="followers"></td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="user">
+            <img src="https://github.com/diegommagno.png" alt="Foto de perfil do usuário" />
+            <a href="https://github.com/diegommagno">
+              <p>Diego M. Magno</p>
+              <span>diegommagno</span>
+            </a>
+          </td>
+          <td class="repositories"></td>
+          <td class="followers"></td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="user">
+            <img src="https://github.com/diegommagno.png" alt="Foto de perfil do usuário" />
+            <a href="https://github.com/diegommagno">
+              <p>Diego M. Magno</p>
+              <span>diegommagno</span>
+            </a>
+          </td>
+          <td class="repositories"></td>
+          <td class="followers"></td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>      
+    </table>
+  </div>
+</body>
+</html>
