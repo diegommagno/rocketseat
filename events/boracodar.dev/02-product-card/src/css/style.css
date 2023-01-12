@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-primary: #D9CDF7;
+  --font-color: hsla(258, 45%, 19%, 1);
+;
+}
+
+body {
+  background-color: var(--bg-primary);
+  font-size: 1.6rem;
+  color: var(--font-color);
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  height: 100vh;
+}
+
+.product {
+  width: 44.9rem;
+  height: 22.2rem;
+  position: relative;
+}
+
+.product img {
+  width: 100%;
+  height: 100%;
+}
+
+.view-3d-model {
+  position: absolute;
+  top: 8px;
+  right: 5rem;
+}
+
+.product-information div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 1.2rem;
+}
+
+.product-code {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+  }
+
+.product-name {
+  font-family: 'Crimson Pro', sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 100%;
+}
+
+.product-price {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+button {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  border: 0.5px solid var(--font-color);
+  border-radius: 999px;
+  background-color: transparent;
+}
+
+button .add-to-bag {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
