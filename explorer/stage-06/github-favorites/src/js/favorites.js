@@ -1,3 +1,20 @@
+export class GitHubUser {
+  static search(username) {
+
+    const endPoint = `https://api.github.com/users/${username}`
+
+    // o returno dessa função será as informações desse usuário, chamado de user (eu que escolho o nome na hora do then, depois que recebi os dados da função em GitHubUser.search).
+    return fetch(endPoint).then(data => data.json()).then(({ login, name, public_repos, followers }) => ({
+
+        login,
+        name,
+        public_repos,
+        followers
+    }))
+  }
+}
+
+
 // Vamos primeiro distribuir a aplicação em duas classes. 
 // Uma responsável por construir a tabela e outra responsável por fazer a lógica dos dados ou guardar os dados. 
 // Vamos unir as duas utilizando a ideia de herança.
@@ -9,24 +26,45 @@ export class Favorites {
     this.root = document.querySelector(root) // passar onde esta o root
     
     this.load() // carregar os dados
+    GitHubUser.search('diegommagno').then(user => console.log(user))
   }
 
   // Função que vai carregar os dados
   load() {
-    this.entries = [
-      {
-      login: 'diegommagno',
-      name: 'Diego M. Magno',
-      public_repos: '22',
-      followers: '80'
-      },
-      {
-        login: 'diego3g',
-        name: 'Diego S. Fernandes',
-        public_repos: '23000',
-        followers: '80'
+    this.entries = JSON.parse(localStorage.getItem('@github-favorites:')) || [] // se não tiver nada no localStorage, vai retornar um array vazio.
+  }
+
+  save() {
+    localStorage.setItem('@github-favorites:', JSON.stringify(this.entries)) // salvar os dados no localStorage
+  }
+
+  async add(username) {
+    try { 
+
+      const userExists = this.entries.find(entry => entry.login === username)
+
+      if(userExists) {
+        throw new Error('Usuário já existe') // se o usuário já existir, gera esse erro
       }
-    ]
+
+      const user = await GitHubUser.search(username)
+
+      if(user.login === undefined) {
+        throw new Error('Usuário não encontrado') // se o usuário não existir, gera esse erro
+      } 
+
+      this.entries = [user, ...this.entries] // adicionar o usuário na lista de usuários. Spread operator, pega todos os itens do array e coloca dentro do novo array. Esse array então é esse novo dato + todo o array antigo.
+      this.update() // atualizar a tabela
+      this.save() // salvar os dados no localStorage
+
+    } catch(error) { // se der erro, vai cair aqui
+      alert(error.message) // e mostra a mensagem de erro
+    }
+
+    // GitHubUser.search(username).then(user => {
+    //   this.entries.push(user) // adicionar o usuário na lista de usuários
+    //   this.update() // atualizar a tabela
+    // })
   }
 
   delete(user) {
@@ -36,6 +74,7 @@ export class Favorites {
     this.entries = filteredEntries // atualizar a lista de usuários
     // this.entries, vai receber o array filtrado, ou seja, sem o usuário que eu quero remover.
     this.update() // atualizar a tabela
+    this.save() // salvar os dados no localStorage
   }
 }
 
@@ -49,6 +88,16 @@ export class FavoritesView extends Favorites {
 
     // console.log(this.root); // #app
     this.update()
+    this.onAdd()
+  }
+
+  onAdd() {
+    const addButton = this.root.querySelector('.search button')
+
+    addButton.onclick = () => {
+      const { value } = this.root.querySelector('.search input')
+      this.add(value)
+    }
   }
 
   // Toda vez que um dado for alterado será chamada.
