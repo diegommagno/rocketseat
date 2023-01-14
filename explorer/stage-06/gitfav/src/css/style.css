@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --btn: #065E7C;
+  --btn-hover: #FFFFFF;
+
+  --table-light: #4A808C;
+  --table-dark: #06181C;
+
+  --fc-placeholder: ##7C7C8A;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background: #000000;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 11.5rem;
+  margin-bottom: 8.7rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-bar input {
+  width: 46.2rem;
+  height: 4.8rem;
+  padding: 1.6rem;
+
+  background-color: var(--table-dark);
+  color: #7C7C8A;
+
+  border: none;
+  border-radius: 5px;
+}
