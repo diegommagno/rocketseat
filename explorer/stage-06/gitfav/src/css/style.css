@@ -13,7 +13,7 @@
   --table-light: #4A808C;
   --table-dark: #06181C;
 
-  --fc-placeholder: ##7C7C8A;
+  --font-color: #E1E1E6;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
   max-width: 1120px;
   height: 100vh;
   margin: 0 auto;
+  color: var(--font-color);
 }
 
 header {
@@ -45,10 +46,14 @@ header {
   padding: 1.6rem;
 
   background-color: var(--table-dark);
-  color: #7C7C8A;
+  color: white;
 
   border: none;
   border-radius: 5px;
+}
+
+.search-bar input:focus {
+  outline: 2px solid var(--btn);
 }
 
 button {
@@ -56,6 +61,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  height: 4.8rem;
 
   background: var(--btn);
   color: #FFFFFF;
