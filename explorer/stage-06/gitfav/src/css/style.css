@@ -50,3 +50,31 @@ header {
   border: none;
   border-radius: 5px;
 }
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background: var(--btn);
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+  padding: 1.2rem 3.2rem;  
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--btn-hover);
+  color: var(--btn);
+}
+
+button:hover svg path {
+  fill: var(--btn);
+}
+
