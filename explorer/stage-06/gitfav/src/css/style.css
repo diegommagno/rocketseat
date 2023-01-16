@@ -9,11 +9,15 @@
 
   --btn: #065E7C;
   --btn-hover: #FFFFFF;
+  --btn-remove: #F75A68;
 
-  --table-light: #4A808C;
-  --table-dark: #06181C;
 
-  --font-color: #E1E1E6;
+  --table-border: #4A808C;
+  --table-head: #092D38;
+  --table-dark: hsla(195, 61%, 6%, 0.5);
+  --table-light: #06181C;
+
+  --text-color: #E1E1E6;
 }
 
 body {
@@ -22,7 +26,7 @@ body {
   background: #000000;
   
   height: 100vh;
-  color: var(--font-color);
+  color: var(--text-color);
 }
 
 .sr-only {
@@ -101,3 +105,82 @@ header {
   fill: var(--btn);
 }
 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1.2rem;
+  border: 1px solid var(--table-border);
+}
+
+table * {
+  font-size: 2.0rem;
+  color: var(--text-color);
+}
+
+table th {
+  background: var(--table-head);
+  text-align: left;
+  font-weight: 700;
+  padding: 1.5rem;
+  height: 6.4rem;
+}
+
+table th:first-child {
+  border-top-left-radius: 1.2rem;
+}
+
+table th:last-child {
+  border-top-right-radius: 1.2rem;
+}
+
+table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 1.2rem;
+}
+
+table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 1.2rem;
+}
+
+table tr:nth-child(odd){
+  background: var(--table-dark);
+}
+
+table tr:nth-child(even) {
+  background: var(--table-light);
+}
+
+table td {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+td.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+td.user img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+td.user a {
+  text-decoration: none;
+}
+td.user p {
+  font-weight: bold;
+}
+
+td .remove {
+  background: none;
+  border: none;
+
+  font-weight: 700;
+  color: var(--btn-remove);
+  
+  cursor: pointer;
+}
