@@ -1,7 +1,7 @@
 <h1 align="center"> GitFav </h1>
 
 <p align="center">
-A single page application using the GitHub API to display favorite selected users. <br/>
+A single page application using the GitHub API to create a list of favorite users. <br/>
 </p>
 
 <p align="center">
@@ -17,13 +17,15 @@ A single page application using the GitHub API to display favorite selected user
 
 
 <p align="center">
-  <img alt="Project photo." src="./.github/cover.gif" width="90%" />
+  <img alt="Project photo." src="./.github/cover-en.gif" width="90%" />
 </p>
 
 <br/>
 
 ## 📝 Live Preview 
-- [GitHub Favorites](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/)
+- [English](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/) - [repo](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/pt-br/) - [repo](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/pt-br/)
+
 
 
 ## 🧑🏻‍💻 Technologies
