@@ -92,27 +92,39 @@ export class FavoritesView extends Favorites {
     this.removeAllTr()
     
     // Criar uma linha para cada usuário, user é um objeto, então console.log(user) mostra os dados do usuário.
-    this.entries.forEach( user => {
-      const row = this.createRow()
-
-      row.querySelector('.user img').src = `https://github.com/${user.login}.png`
-      row.querySelector('.user img').alt = `Foto de perfil do usuário ${user.login}`
-      row.querySelector('.user a').href = `https://github.com/${user.login}`
-      row.querySelector('.user p').textContent = user.name
-      row.querySelector('.user span').textContent = user.login
-      row.querySelector('.repositories').textContent = user.public_repos
-      row.querySelector('.followers').textContent = user.followers
-
-      row.querySelector('.remove').onclick = () => {
-        const isOk = confirm('Deseja realmente remover essa linha?')
-
-        if(isOk) {
-          this.delete(user)
+    if(this.entries.length > 0) {
+      this.entries.forEach( user => {
+        const row = this.createRow()
+  
+        row.querySelector('.user img').src = `https://github.com/${user.login}.png`
+        row.querySelector('.user img').alt = `Foto de perfil do usuário ${user.login}`
+        row.querySelector('.user a').href = `https://github.com/${user.login}`
+        row.querySelector('.user p').textContent = user.name
+        row.querySelector('.user span').textContent = user.login
+        row.querySelector('.repositories').textContent = user.public_repos
+        row.querySelector('.followers').textContent = user.followers
+  
+        row.querySelector('.remove').onclick = () => {
+          const isOk = confirm('Deseja realmente remover essa linha?')
+  
+          if(isOk) {
+            this.delete(user)
+          }
         }
-      }
-
-      this.tbody.append(row) // adicionar a linha na tabela, recebe um elemento HTML já criado.
-    })
+  
+        this.tbody.append(row) // adicionar a linha na tabela, recebe um elemento HTML já criado.
+      })
+    } else {
+      const tr = document.createElement('tr')
+      tr.innerHTML = `
+      <td class="empty-state">
+        <img src="./src/img/star.svg" alt="" />
+        <p>Nenhum usuário favorito adicionado</p>
+      </td>
+      `
+      
+      this.tbody.append(tr)
+    }
     
   }
 
