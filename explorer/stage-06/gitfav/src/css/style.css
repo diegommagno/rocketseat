@@ -11,7 +11,6 @@
   --btn-hover: #FFFFFF;
   --btn-remove: #F75A68;
 
-
   --table-border: #4A808C;
   --table-head: #092D38;
   --table-dark: hsla(195, 61%, 6%, 0.5);
@@ -110,7 +109,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   border-radius: 1.2rem;
-  border: 1px solid var(--table-border);
+  /* border: 1px solid var(--table-border); */
 }
 
 table * {
@@ -153,6 +152,16 @@ table tr:nth-child(even) {
 table td {
   padding: 1.5rem;
   text-align: left;
+  border-bottom: 1px solid var(--table-border);
+}
+
+tbody tr td:first-child {
+  border-bottom: 1px solid var(--table-border);
+  transform: translateY(0.5px);
+}
+
+tbody tr:last-child td {
+  border-bottom: 0px solid var(--table-border);
 }
 
 td.user {
