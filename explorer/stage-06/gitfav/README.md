@@ -17,7 +17,7 @@ A single page application using the GitHub API to display favorite selected user
 
 
 <p align="center">
-  <img alt="Project photo." src="./.github/cover.png" width="70%" />
+  <img alt="Project photo." src="./.github/cover.gif" width="90%" />
 </p>
 
 <br/>
