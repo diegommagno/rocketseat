@@ -122,7 +122,7 @@ export class FavoritesView extends Favorites {
         <p>Nenhum usuário favorito adicionado</p>
       </td>
       `
-      
+
       this.tbody.append(tr)
     }
     
@@ -142,7 +142,7 @@ export class FavoritesView extends Favorites {
       <td class="repositories"></td>
       <td class="followers"></td>
       <td>
-        <button class="remove">&times;</button>
+        <button class="remove">Remover</button>
       </td>
     `
 
