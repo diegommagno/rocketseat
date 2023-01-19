@@ -13,4 +13,47 @@
 
 body {
   background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fortune-box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+}
+.fortune-box-1 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--font-color);
+  padding-left: 11.1rem;
+  padding-right: 11.1rem;
+}
+.fortune-box-1 span:nth-child(1) {
+  padding-top: 4.8rem;
+}
+.fortune-box-1 span:nth-child(2) {
+  padding-bottom: 1.4rem;
+}
+.fortune-box-1 p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--font-color);
+  padding-bottom: 2rem;
+}
+.fortune-box-1 img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 6.4rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
