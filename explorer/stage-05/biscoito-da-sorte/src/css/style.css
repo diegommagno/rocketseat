@@ -1,0 +1,18 @@
+* {
+  pading: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --font-color: #34355B;
+  --btn-color: #FF9500;
+
+  --fortune-cookie-answer-box-color: #E4EDF1;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+}
