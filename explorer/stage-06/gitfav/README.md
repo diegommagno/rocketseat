@@ -24,7 +24,7 @@ A single page application using the GitHub API to create a list of favorite user
 
 ## 📝 Live Preview 
 - [English](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/)
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/pt-br/) - [repo]((https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/gitfav/pt-br))
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-06/gitfav/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/gitfav/pt-br)
 
 
 
