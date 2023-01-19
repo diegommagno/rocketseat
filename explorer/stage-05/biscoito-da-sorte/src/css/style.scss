@@ -15,13 +15,20 @@
 
 body {
   background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+}
 
+main {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
 }
 
 .fortune-box-1 {
