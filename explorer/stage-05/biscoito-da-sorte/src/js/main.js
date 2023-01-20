@@ -18,17 +18,14 @@ fortuneCookie.addEventListener('click', () => {
 })
 
 const fortune = [
-  "O aprendizado é como o horizonte: não há limites.",
-  "Não há que ser forte, há que ser flexível.",
-  "Limitações são fronteiras criadas apenas pela nossa mente.",
-  "O cão não ladra por valentia e sim por medo.",
-  "Procure acender uma vela em vez de amaldiçoar a escuridão.",
-  "A palavra é prata, o silêncio é ouro.",
-  "Lembre-se de que grandes realizações e grandes amores envolvem grandes riscos.",
-  "Um pouco de perfume sempre fica nas mãos de quem oferece flores.",
-  "O homem só envelhece quando os lamentos substituem seus sonhos.",
-  "A persistência realiza o impossível.",
-  "Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.",
+  "Look how far you've come.",
+  "Little by little, one travels far.",
+  "What good are wings, without the courage to fly.",
+  "Don't let yesterday take up too much of today.",
+  "Loving yourself isn't vanity. It's sanity.",
+  "The road to success is always under construction.",
+  "Not all those who wander are lost.",
+  "The most effective way to do it, is to do it."
 ]
 
 function randomFortune() {
