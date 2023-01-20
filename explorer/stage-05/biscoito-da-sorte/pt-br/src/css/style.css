@@ -1,0 +1,112 @@
+* {
+  pading: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-color: #34355B;
+  --btn-color: #FF9500;
+  --fortune-cookie-answer-box-color: #E4EDF1;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: min(42.8rem, 90%);
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  padding: 4.8rem 6.4rem;
+}
+
+.hide {
+  display: none !important;
+}
+
+.fortune-box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fortune-box-1 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+.fortune-box-1 span:nth-child(2) {
+  padding-bottom: 1.4rem;
+}
+.fortune-box-1 p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--font-color);
+  padding-bottom: 2rem;
+}
+.fortune-box-1 img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  cursor: pointer;
+}
+
+.fortune-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fortune-box-2 span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+.fortune-box-2 span:nth-child(2) {
+  padding-bottom: 1.4rem;
+}
+.fortune-box-2__message {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  background: var(--fortune-cookie-answer-box-color);
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+  font-size: 2.4rem;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 1.7rem;
+}
+.fortune-box-2__img {
+  width: 300px;
+  height: 200px;
+  padding-top: 4.3rem;
+  padding-bottom: 4.3rem;
+}
+.fortune-box-2__img img {
+  width: 100%;
+}
+.fortune-box-2 button {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  background: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+  padding: 1.6rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
