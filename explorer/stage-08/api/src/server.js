@@ -3,11 +3,11 @@ const express = require('express'); /* import express */
 const app = express(); /* inicializar o express, iniciar a API. O app é a nossa API, então app.get é buscar informações na API. */
 
 app.get("/message/:id/:users", (request, response) => {
-  const { id, users} = request.params;
+  const { id, user} = request.params;
 
   response.send(`
     Message: ${id}.
-    User: ${users}.
+    User: ${user}.
   `);
 
 });
