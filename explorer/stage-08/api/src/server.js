@@ -1,24 +1,12 @@
 const express = require('express'); /* import express */
 
 const app = express(); /* inicializar o express, iniciar a API. O app é a nossa API, então app.get é buscar informações na API. */
+app.use(express.json()); /* utilizar o express.json() para receber dados JSON */
 
-app.get("/message/:id/:users", (request, response) => {
-  const { id, user} = request.params;
+app.post("/users", (request, response) => {
+  const { name, email, password } = request.body;
 
-  response.send(`
-    Message: ${id}.
-    User: ${user}.
-  `);
-
-});
-
-app.get("/user", (request, response) => {
-  const { page, limit } = request.query;
-
-  response.send(`
-    Page: ${page}.
-    Mostrar: ${limit}.
-    `)
+  response.json({ name, email, password });
 
 });
 
