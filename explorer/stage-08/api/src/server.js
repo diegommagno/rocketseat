@@ -7,5 +7,5 @@ const routes = require("./routes"); /* importa o arquivo index.js, então quando
 
 app.use(routes); /* utilizar o routes, então quando chamar routes vai para esse arquivo de grupo de rotas, que tem todas os arquivos dos grupos de rotas (que dentro tem as rotas)  */
 
-const PORT = 3333; /* porta padrão onde ele vai trabalhar. Diz para o express em qual endereço ele vai trabalhar (qual restaurante o garçom vai trabalhar e ouvir pedidos) */
+const PORT = 3333; /* porta padrão onde ele vai trabalhar. Diz para o express em qual endereço ele vai trabalhar (qual restaurante o garçom vai trabalhar e ouvir pedidos, fica aguardando mudanças) */
 app.listen(PORT, () => {console.log(`Server is running on Port ${PORT}`)}); /* chamando o servidor na porta 3333, garçom, fique ouvindo por mudanças aqui. */
