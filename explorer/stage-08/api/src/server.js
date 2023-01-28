@@ -1,17 +1,17 @@
 require("express-async-errors");
 
-const database = require("./database/sqlite");
+const migrationsRun = require("./database/sqlite/migrations");
 const AppError = require("./utils/AppError");
+
 const express = require('express'); /* import express */
+const routes = require("./routes"); /* importa o arquivo index.js, então quando chamar routes vai para esse arquivo de grupo de rotas, que tem os arquivos de grupo de rotas */
+
+migrationsRun();
 
 const app = express(); /* inicializar o express, iniciar a API. O app é a nossa API, então app.get é buscar informações na API. */
 app.use(express.json()); /* utilizar o express.json() para receber dados JSON */
 
-const routes = require("./routes"); /* importa o arquivo index.js, então quando chamar routes vai para esse arquivo de grupo de rotas, que tem os arquivos de grupo de rotas */
-
 app.use(routes); /* utilizar o routes, então quando chamar routes vai para esse arquivo de grupo de rotas, que tem todas os arquivos dos grupos de rotas (que dentro tem as rotas)  */
-
-database();
 
 app.use(( error, request, response,next ) => {
   if(error instanceof AppError){
