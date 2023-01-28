@@ -34,10 +34,6 @@ class UsersController {
       throw new AppError("User not found."); 
     }
 
-    if (!name || !email) {
-      throw new AppError("All fields are required.");
-    }
-
     const userWithUpdatedEmail = await database.get("SELECT * FROM users WHERE email = (?)", [email]);
 
     /* Se o email existe && o id de quem tem esse email for diferente do id do usuário, falar que ele já está em uso */
@@ -45,8 +41,8 @@ class UsersController {
       throw new AppError("Email already in use."); /* Se o email já existe, executar uma exceção com o AppError */
     }
 
-    user.name = name;
-    user.email = email;
+    user.name = name ?? user.name; /* Se não foi fornecido o name, atribuir o o nome do usuário atual a ele mesmo, para não ficar vazio no database */
+    user.email = email ?? user.email; /* Se não foi fornecido o email, atribuir o o email do usuário atual a ele mesmo, para não ficar vazio no database */
 
     if (password && !old_password) {
       throw new AppError("Old password is required."); /* Se não passou a senha antiga, precisa fornecer para continuar. */
