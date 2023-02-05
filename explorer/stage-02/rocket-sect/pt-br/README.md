@@ -12,8 +12,7 @@
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/) - viewing now
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/rocket-sect/en/)
+- [Rocket.sect](https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/)
 
 
 ## 🧑🏻‍💻 Technologies
