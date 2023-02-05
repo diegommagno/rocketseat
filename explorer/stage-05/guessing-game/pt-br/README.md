@@ -1,16 +1,26 @@
-# Jogo da Adivinhação
+<h1 align="center"> Number Guessing Game </h1>
 
-<br>
+<p align="center">
+A Guessing Game using JavaScript. <br/>
+</p>
 
-<div align="center">
-  <img alt="2022 World Cup game dates and countries playing." src="./.github/jogo-adivinhacao.png" width="80%" />
-</div>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>
+</p>
 
-<br>
+<br/>
+
+<p align="center">
+  <img alt="Landing page photo." src="./.github/guessing-game.gif" width="80%" />
+</p>
+
+<br/>
 
 ## 📝 Live Preview 
 
-- [Jogo da Adivinhação](https://diegommagno.com/github/rocketseat/explorer/stage-05/jogo-adivinhacao/)
+- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-05/guessing-game/pt-br) - viewing now
+- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-05/guessing-game/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/guessing-game/en)
 
 ## 🧑🏻‍💻 Technologies
 
