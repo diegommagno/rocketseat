@@ -14,7 +14,7 @@ Aplicação para calcular o IMC. <br/>
 
 ## 📝 Live Preview 
 
-- [Calculadora de IMC](https://diegommagno.com/github/rocketseat/explorer/stage-05/calcular-imc/)
+- [Calculadora de IMC](https://diegommagno.com/github/rocketseat/explorer/stage-05/calculadora-imc-modules/)
 
 ## 🧑🏻‍💻 Technologies
 
