@@ -5,8 +5,12 @@ const screen2 = document.querySelector(".screen2")
 const buttonTry = document.querySelector("#buttonTry")
 const buttonReset = document.querySelector("#buttonReset")
 
-let randomNumber = 5
 let attemptAmount = 1
+
+let randomNumber
+(function generateRandomNumber() {
+  randomNumber = Math.floor(Math.random() * 10) + 1
+})(); 
 
 // Eventos
 buttonTry.addEventListener('click', handleButtonTryClick)
@@ -37,9 +41,14 @@ function handleButtonTryClick(event) {
   }
 }
 
+function generateRandomNumber() {
+  randomNumber = Math.floor(Math.random() * 10) + 1
+}
+
 function handleButtonResetClick() {
   toggleScreen()
   attemptAmount = 1
+  generateRandomNumber()
 }
 
 function toggleScreen() {
