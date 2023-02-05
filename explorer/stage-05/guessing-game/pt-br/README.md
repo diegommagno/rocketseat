@@ -4,15 +4,10 @@
 A Guessing Game using JavaScript. <br/>
 </p>
 
-<p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>
-</p>
-
 <br/>
 
 <p align="center">
-  <img alt="Landing page photo." src="./.github/guessing-game.gif" width="80%" />
+  <img alt="Landing page photo." src="../.github/guessing-game.gif" width="80%" />
 </p>
 
 <br/>
