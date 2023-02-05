@@ -33,9 +33,8 @@ List showing the projects and challenges developed during the Explorer course.
 ### Stage 05
 
 - [Project 01 - Guessing Game](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
-- [Project 02 - Calculate BMI](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calcular-imc)
+- [Project 02 - Calculate BMI](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calculadora-de-imc)
 - [Project 03 - ES Modules](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/es-modules)
-- [Project 04 - Calculate BMI (applying Modules)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calcular-imc/calcular-imc-modules)
 - [Project 05 - FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
 - [Project 06 - FocusTimer 2.0](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2)
 
