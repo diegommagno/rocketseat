@@ -7,7 +7,7 @@ Aplicação para calcular o IMC. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Landing page photo." src="./.github/guessing-game.gif" width="80%" />
+  <img alt="Landing page photo." src="./.github/calc-img.png" width="80%" />
 </p>
 
 <br/>
