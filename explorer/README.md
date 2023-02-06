@@ -35,18 +35,16 @@ List showing the projects and challenges developed during the Explorer course.
 - [Project 01 - Guessing Game](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
 - [Project 02 - Calculate BMI](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calculadora-de-imc)
 - [Project 03 - ES Modules](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/es-modules)
-- [Project 05 - FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
-- [Project 06 - FocusTimer 2.0](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2)
+- [Project 04 - FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
+- [Project 05 - FocusTimer 2.0](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2)
+- [Project 06 - Fortune Cookie](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/biscoito-da-sorte)
 
 ### Stage 06
 
-- [Project 01 - SPA Universe](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
-- [Project 02 - GitFav](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
-
-### Stage 08
-
-- [Project 01 - SPA Universe](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
-- [Project 02 - GitFav](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+- [Project 01 - SPA Concepts](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/spa-concepts)
+- [Project 02 - SPA Universe](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/spa-universe)
+- [Project 03 - GitHub Favorites](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/github-favorites)
+- [Project 04 - GitFav](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-06/gitfav)
 
 ### Stage 10
 
