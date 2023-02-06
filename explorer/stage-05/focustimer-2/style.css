@@ -39,7 +39,6 @@ main {
   align-items: center;
   justify-content: center;
   margin-top: 0px;
-  border: 1px solid red;
 }
 
 section {
@@ -56,7 +55,6 @@ section {
   align-items: center;
   justify-content: center;
   gap: 19.2rem;
-  border: 1px solid green;
 }
 
 .hide {
