@@ -1,28 +1,22 @@
-# Mentorship form 📝
-
-> Form template for booking a mentorship.
-
-<br>
+<h1 align="center"> Mentorship Feedback Form 📝 </h1>
 
 <p align="center">
-  <img alt="Mentorship form." src="./.github/mentorship-form-en.png" width="60%" />
+Form template giving feedback on your mentorship. <br/>
 </p>
 
-<br>
+<br/>
+
+<p align="center">
+  <img alt="Mentorship feedback form." src="./.github/cover.png" width="50%" />
+</p>
+
+<br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/en)
-
+- [Mentorship Feedback Form](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-feedback-form/pt-br/) - [repo](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-feedback-form)
 
 ## 🧑🏻‍💻 Technologies
 
 - HTML
 - CSS
-
-## 🎓 Worked On
-
-- Follow design on Figma
-- Apply fonts from fonts.google.com
-- Update styles
