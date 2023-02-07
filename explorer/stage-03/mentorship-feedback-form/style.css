@@ -39,17 +39,7 @@ header {
   background: var(--background-header);
 
   width: 100%;
-}
-
-header .header-banner {
-  padding: 5rem 27.5rem;
-
-  background: var(--background-header-second);
-
-  color: var(--white);
-  
-  border-top-right-radius: 2rem; 
-  border-top-left-radius: 2rem; 
+  padding-top: 10.7rem;
 }
 
 header h1 {
@@ -68,13 +58,24 @@ header p {
   font-size: 20px;
   line-height: 30px;
 
-  margin-bottom: 5rem; 
+  margin-bottom: 3rem; 
 
   color: hsla(0, 0%, 100%, 1);
 }
 
 header img { 
   margin-bottom: 3.2rem;
+}
+
+header .header-banner {
+  padding: 5rem 27.5rem;
+
+  background: var(--background-header-second);
+
+  color: var(--white);
+  
+  border-top-right-radius: 2rem; 
+  border-top-left-radius: 2rem; 
 }
 
 form {
