@@ -41,14 +41,7 @@ header {
   width: 100%;
 }
 
-header .container-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-header .container-2 {
+header .header-banner {
   padding: 5rem 27.5rem;
 
   background: var(--background-header-second);
