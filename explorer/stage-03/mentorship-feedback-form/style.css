@@ -257,17 +257,16 @@ fieldset p {
 }
 
 footer {
-  background: #535971;
+  background: #FAFAFC;
 
   height: 136px;
 
   display: flex;
   flex-direction: column;
 
-  padding: 40px 64px;
-  margin-bottom: 100px;
+  padding: 3.1rem 6.4rem;
+  margin-bottom: 6.4rem;
 
-  border-top: 1px solid #000000;
   border-radius: 0 0 20px 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
