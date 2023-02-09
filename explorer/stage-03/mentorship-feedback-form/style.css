@@ -115,6 +115,10 @@ fieldset legend {
   padding-bottom: 16px;
 }
 
+.col-1 legend {
+  width: 60.8rem;
+}
+
 fieldset p {
   text-transform: uppercase;
 }
