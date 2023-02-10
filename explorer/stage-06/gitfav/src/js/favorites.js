@@ -30,13 +30,13 @@ export class Favorites {
       const userExists = this.entries.find(entry => entry.login === username)
 
       if(userExists) {
-        throw new Error('Usuário já existe') // se o usuário já existir, gera esse erro
+        throw new Error('User already added.') // se o usuário já existir, gera esse erro
       }
 
       const user = await GitHubUser.search(username)
 
       if(user.login === undefined) {
-        throw new Error('Usuário não encontrado') // se o usuário não existir, gera esse erro
+        throw new Error('User not found.') // se o usuário não existir, gera esse erro
       } 
 
       this.entries = [user, ...this.entries] // adicionar o usuário na lista de usuários. Spread operator, pega todos os itens do array e coloca dentro do novo array. Esse array então é esse novo dato + todo o array antigo.
@@ -105,7 +105,7 @@ export class FavoritesView extends Favorites {
         row.querySelector('.followers').textContent = user.followers
   
         row.querySelector('.remove').onclick = () => {
-          const isOk = confirm('Deseja realmente remover essa linha?')
+          const isOk = confirm('Do you wish to remove this line?')
   
           if(isOk) {
             this.delete(user)
@@ -119,7 +119,7 @@ export class FavoritesView extends Favorites {
       tr.innerHTML = `
       <td class="empty-state">
         <img src="./src/img/star.svg" alt="" />
-        <p>Nenhum usuário favorito adicionado</p>
+        <p>No favorite user added</p>
       </td>
       `
 
@@ -133,7 +133,7 @@ export class FavoritesView extends Favorites {
 
     tr.innerHTML = `
       <td class="user">
-        <img src="https://github.com/diegommagno.png" alt="Foto de perfil do usuário" />
+        <img src="https://github.com/diegommagno.png" alt="User profile photo" />
         <a href="https://github.com/diegommagno">
           <p>Diego M. Magno</p>
           <span>diegommagno</span>
@@ -142,7 +142,7 @@ export class FavoritesView extends Favorites {
       <td class="repositories"></td>
       <td class="followers"></td>
       <td>
-        <button class="remove">Remover</button>
+        <button class="remove">Remove</button>
       </td>
     `
 
