@@ -6,8 +6,8 @@ Form template giving feedback on your mentorship. <br/>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>
 </p>
 
 <br/>
@@ -23,12 +23,11 @@ Form template giving feedback on your mentorship. <br/>
 - [Mentorship Feedback Form](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-feedback-form/)
 
 
+## 🎨 Layout
+
+- [Figma Link](https://www.figma.com/file/fnZyJHs7eqNFAA7tUrKcsD/Stage-03---Formul%C3%A1rio-avan%C3%A7ado)
+
 ## 🧑🏻‍💻 Technologies
 
 - HTML
 - CSS
-
-
-## 🎨 Layout
-
-- [Figma Link](https://www.figma.com/file/fnZyJHs7eqNFAA7tUrKcsD/Stage-03---Formul%C3%A1rio-avan%C3%A7ado)
