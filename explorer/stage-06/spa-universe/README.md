@@ -21,16 +21,16 @@ A single page application about the universe. <br/>
 
 ## 📝 Live Preview 
 
-- Download the repo
-- Navigate to explorer/stage-06/spa-universe on terminal
-- Use npm install to install node_modules
-- Use npm start
+- [SPA Universe](https://explorer-spa-universe-gamma.vercel.app/)
 
+1.  Download the repo
+2. Navigate to explorer/stage-06/spa-universe on terminal
+3. Use npm install to install node_modules
+4. Use npm start
 
 ## 🎨 Layout
 
 - [Link](https://www.figma.com/file/m8zp3mtxvwyTGQs69nIFM8/%5BDesafios-Explorer%5D-SPA-Universe)
-
 
 ## 🧑🏻‍💻 Technologies
 
