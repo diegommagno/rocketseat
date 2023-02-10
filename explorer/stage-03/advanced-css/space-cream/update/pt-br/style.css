@@ -182,7 +182,7 @@ footer a:hover {
 
 @media (min-width: 600px) {
   section p::after { /* Adicionar mais texto depois do p nesse tamanho. */
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a rhoncus leo. Donec at scelerisque magna. Nullam vitae neque sit amet erat dignissim cursus ac ac lectus. Aliquam erat volutpat. Praesent at quam aliquet,';
+    content: 'Não importa com o que você esteja lidando, temos algo para torná-lo melhor: sorvete!';
   }
 
   .wrapper {
