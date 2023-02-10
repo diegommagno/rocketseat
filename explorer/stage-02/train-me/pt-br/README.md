@@ -1,8 +1,16 @@
-# Train me 🏃🏼‍♀️
+<h1 align="center"> Train me 🏃🏼‍♀️ </h1>
 
-> Landing page for a workouts website.
+<p align="center">
+Landing page for a workouts website. <br/>
+</p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 <p align="center">
   <img alt="Workouts home page." src="../.github/train-me-pt-br.png" width="80%" />

@@ -1,8 +1,16 @@
-# Rocket.sect 🔒
+<h1 align="center"> Rocket.sect 🔒 </h1>
 
-> Landing page for a cybersecurity information website.
+<p align="center">
+Landing page for a cybersecurity information website. <br/>
+</p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 <p align="center">
   <img alt="Cybersecurity information website home page." src="./.github/rocket-sect.png" width="80%" />

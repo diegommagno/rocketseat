@@ -1,8 +1,16 @@
-# Mentorship form 📝
+<h1 align="center"> Mentorship form </h1>
 
-> Form template for booking a mentorship.
+<p align="center">
+Form template for booking a mentorship. <br/>
+</p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 <p align="center">
   <img alt="Form photo showing the start of what is asked to create an event." src="../.github/mentorship-form-pt-br.png" width="90%" />

@@ -1,4 +1,4 @@
-<h1 align="center"> Fortune Cookie </h1>
+<h1 align="center"> Fortune Cookie 🥠 </h1>
 
 <p align="center">
 A single page application for a Fortune Cookie. <br/>
@@ -11,10 +11,7 @@ A single page application for a Fortune Cookie. <br/>
   <a href="#-worked-on">Worked On</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
+<br/>
 
 <p align="center">
   <img alt="Project gif." src="./.github/cover.gif" width="90%" />
@@ -31,6 +28,10 @@ A single page application for a Fortune Cookie. <br/>
 - HTML
 - SCSS
 - JavaScript
+
+## 🎨 Layout
+
+- [Link](https://www.figma.com/community/file/1182751789348533739)
 
 ## 🎓 Worked on
 

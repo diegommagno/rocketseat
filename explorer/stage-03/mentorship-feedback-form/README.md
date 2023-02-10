@@ -1,7 +1,13 @@
-<h1 align="center"> Mentorship Feedback Form 📝 </h1>
+<h1 align="center"> Mentorship Feedback Form</h1>
 
 <p align="center">
 Form template giving feedback on your mentorship. <br/>
+</p>
+
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
 </p>
 
 <br/>

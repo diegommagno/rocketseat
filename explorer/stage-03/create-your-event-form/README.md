@@ -1,8 +1,16 @@
-# Create your event 📝
+<h1 align="center"> Create your event </h1>
 
-> Form template for creating events.
+<p align="center">
+Form template for creating events. <br/>
+</p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 <p align="center">
   <img alt="Form photo showing the start of what is asked to create an event." src="./.github/create-your-event-form-en.png" width="90%" />

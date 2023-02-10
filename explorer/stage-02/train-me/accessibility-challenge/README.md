@@ -1,8 +1,10 @@
-# Train me (accessibility challenge) 🏃🏼‍♀️
+<h1 align="center"> Train me (accessibility challenge) 🏃🏼‍♀️ </h1>
 
-> Landing page for a workouts website.
+<p align="center">
+Landing page for a workouts website. <br/>
+</p>
 
-<br>
+<br/>
 
 <p align="center">
   <img alt="Workouts home page." src="../.github/train-me-en.png" width="80%" />

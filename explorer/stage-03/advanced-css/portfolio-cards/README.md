@@ -1,8 +1,16 @@
-# Portfolio Cards 📝
+<h1 align="center"> Portfolio Cards 📝 </h1>
 
-> Making a mobile first website.
+<p align="center">
+Making a mobile first website. <br/>
+</p>
 
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 <p align="center">
   <img alt="Portfolio home page." src=".github/portfolio-cards.png" width="70%" />

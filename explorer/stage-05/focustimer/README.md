@@ -10,10 +10,7 @@ Cronometer made with HTML, CSS and JavaScript. <br/>
   <a href="#-worked-on">Worked On</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
-
+<br/>
 
 <p align="center">
   <img alt="Landing page showing a cronometer and a sound on/off button on the bottom right side." src="./.github/focustimer.gif" width="70%" />
