@@ -1,7 +1,16 @@
-# SPA - Single Page Application
+<h1 align="center"> SPA - Single Page Application </h1>
 
-> Single page application concept.
-<br>
+<p align="center">
+Single page application concept. Repo just for my first contact with a SPA. <br/>
+</p>
+
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
+
+<br/>
 
 ## 📝 Live Preview 
 
