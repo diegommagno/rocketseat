@@ -21,8 +21,9 @@ List showing the projects and challenges developed during the Explorer course.
 - [Project 02 - Mentorship Form](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form)
 - [Project 03 - Mentorship Feedback Form](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-feedback-form)
 - [Project 04 - Mobile first project](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/responsive)
-- [Project 05 - Space Cream](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
-- [Project 06 - Portfolio Cards](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/portfolio-cards)
+- [Project 05 - Space Cream Mobile](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
+- [Project 06 - Space Cream Desktop - Mobile first](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update)
+- [Project 07 - Portfolio Cards](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/portfolio-cards)
 
 
 ### Stage 04
@@ -32,7 +33,7 @@ List showing the projects and challenges developed during the Explorer course.
 
 ### Stage 05
 
-- [Project 01 - Guessing Game](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/jogo-adivinhacao)
+- [Project 01 - Guessing Game](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/guessing-game)
 - [Project 02 - Calculate BMI](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/calculadora-de-imc)
 - [Project 03 - ES Modules](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/es-modules)
 - [Project 04 - FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
