@@ -29,4 +29,42 @@ h1 {
   line-height: 2.4rem;
   color: #FFFFFF;
   margin-bottom: 2rem;
+}
+
+.card-2 {
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.card-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  background: #FFFFFF;
+  padding: 2.4rem 3.2rem;
+  border-radius: 24px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.32);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+.card-3 .passenger, .card-3 .seat-info {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.64);
+}
+.card-3 .passenger-name, .card-3 .seat-number {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.card-4 {
+  background: #FFFFFF;
+  border-radius: 24px;
 }/*# sourceMappingURL=style.css.map */
