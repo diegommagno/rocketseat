@@ -23,17 +23,7 @@ body {
 
   padding: 7.8rem 2.4rem;
 
-  p {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
   
-    color: #FFFFFF;
-  
-    margin-top: 2rem;
-  }
 }
 
 h1 {
@@ -45,6 +35,23 @@ h1 {
   color: #FFFFFF;
 
   margin-bottom: 2rem;
+}
+
+p {
+  text-align: center;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+  max-width: 27rem;
+
+  padding-top: 2rem;
+
+  margin: 0 auto;
 }
 
 .card-data {
