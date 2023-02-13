@@ -79,27 +79,33 @@ h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid red;
 }
 .card-4--1__wrapper-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1.6rem;
-  border: 1px solid red;
 }
 .card-4--1__wrapper-1__wrapper {
   display: flex;
   flex-direction: column;
 }
-.card-4--1__wrapper-2 {
-  border: 1px solid red;
-}
 .card-4--1__wrapper-2 img {
   display: block;
 }
-.card-4--1--2 {
-  border: 1px solid red;
+.card-4--2 span:nth-child(1) {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+.card-4--2 span:nth-child(2) {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 .card-4 .departure-time {
   display: flex;
