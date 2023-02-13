@@ -109,13 +109,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8rem;
+  gap: 9.5rem;
   width: 327px;
   background: #FFFFFF;
   padding: 2.4rem 3.2rem;
   border-radius: 24px;
   border-top: 1px dashed rgba(0, 0, 0, 0.32);
   border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+}
+.card-3 .seat div:nth-child(2) {
+  text-align: right;
 }
 
 .card-4 {
@@ -131,7 +134,7 @@ p {
 .card-4--1 {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 18px;
 }
 .card-4--1__wrapper-1 {
   display: flex;
