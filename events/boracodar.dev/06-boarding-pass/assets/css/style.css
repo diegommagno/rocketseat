@@ -65,8 +65,19 @@ p {
 .card-2 {
   background: #FFFFFF;
   border-radius: 24px;
+  padding: 2.4rem 3.2rem;
+  width: 327px;
+  height: 191px;
 }
-
+.card-2__wrapper-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-2__wrapper-1__2 .card-data span {
+  display: flex;
+  justify-content: flex-end;
+}
 .card-3 {
   display: flex;
   align-items: center;
