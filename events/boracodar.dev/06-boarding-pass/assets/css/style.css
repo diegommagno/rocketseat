@@ -65,24 +65,51 @@ p {
 .card-2 {
   background: #FFFFFF;
   border-radius: 24px;
-  padding: 2.4rem 3.2rem;
   width: 327px;
-  height: 191px;
+  padding: 2.4rem 3.2rem;
 }
 .card-2__wrapper-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2.4rem;
 }
 .card-2__wrapper-1__2 .card-data span {
   display: flex;
   justify-content: flex-end;
 }
+.card-2__wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-2__wrapper-2__1 .passenger-data, .card-2__wrapper-2__3 .passenger-data {
+  font-size: 4rem;
+  line-height: 4.7rem;
+}
+.card-2__wrapper-2__1 .card-data, .card-2__wrapper-2__3 .card-data {
+  line-height: 1.9rem;
+}
+.card-2__wrapper-2__2 img {
+  transform: translateX(9px);
+}
+.card-2__wrapper-2__3 {
+  display: flex;
+  flex-direction: column;
+}
+.card-2__wrapper-2__3 .passenger-data {
+  text-align: right;
+}
+.card-2__wrapper-2__3 .card-data {
+  text-align: right;
+}
+
 .card-3 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8rem;
+  width: 327px;
   background: #FFFFFF;
   padding: 2.4rem 3.2rem;
   border-radius: 24px;
@@ -95,6 +122,7 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
+  width: 327px;
   padding: 2.4rem 3.2rem;
   background: #FFFFFF;
   border-radius: 24px;
