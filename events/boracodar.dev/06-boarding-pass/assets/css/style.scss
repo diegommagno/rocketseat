@@ -134,16 +134,23 @@ p {
 
       .card-data {
         text-align: right;
+      }
 
+      div:nth-child(3) {
         div {
+          display: flex;
+          justify-content: flex-end;
+
+          
           span:nth-child(1) {
             font-size: 1.6rem;
+            line-height: 19px;
           }
           span:nth-child(2) {
-            border: 1px solid red;
             font-size: 10px;
+            transform: translateY(-2px);
+            
           }
-
         }
       }
     }
