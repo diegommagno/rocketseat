@@ -100,6 +100,11 @@ p {
     justify-content: space-between;
 
     &__1 {
+      div:nth-child(3) {
+        span {
+          font-size: 1.6rem;
+        }
+      }
     }
 
     &__1, &__3 {
@@ -129,6 +134,17 @@ p {
 
       .card-data {
         text-align: right;
+
+        div {
+          span:nth-child(1) {
+            font-size: 1.6rem;
+          }
+          span:nth-child(2) {
+            border: 1px solid red;
+            font-size: 10px;
+          }
+
+        }
       }
     }
   }

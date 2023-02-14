@@ -84,6 +84,9 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+.card-2__wrapper-2__1 div:nth-child(3) span {
+  font-size: 1.6rem;
+}
 .card-2__wrapper-2__1 .passenger-data, .card-2__wrapper-2__3 .passenger-data {
   font-size: 4rem;
   line-height: 4.7rem;
@@ -103,6 +106,13 @@ p {
 }
 .card-2__wrapper-2__3 .card-data {
   text-align: right;
+}
+.card-2__wrapper-2__3 .card-data div span:nth-child(1) {
+  font-size: 1.6rem;
+}
+.card-2__wrapper-2__3 .card-data div span:nth-child(2) {
+  border: 1px solid red;
+  font-size: 10px;
 }
 
 .card-3 {
