@@ -125,6 +125,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2.4rem;
   width: 327px;
   padding: 2.4rem 3.2rem;
@@ -134,7 +135,7 @@ p {
 .card-4--1 {
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: space-between;
 }
 .card-4--1__wrapper-1 {
   display: flex;
@@ -145,8 +146,11 @@ p {
   display: flex;
   flex-direction: column;
 }
-.card-4--1__wrapper-2 img {
-  display: block;
+.card-4--1__wrapper-2 div {
+  text-align: right;
+}
+.card-4--1__wrapper-2 div span {
+  padding-right: 1rem;
 }
 .card-4--2 span:nth-child(1) {
   font-family: "Rubik";

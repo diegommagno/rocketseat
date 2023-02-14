@@ -160,6 +160,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 2.4rem;
   width: 327px;
 
@@ -171,8 +172,8 @@ p {
   &--1 {
     display: flex;
     align-items: center;
-    gap: 18px;
-
+    justify-content: space-between;
+    
     &__wrapper-1 {
       display: flex;
       flex-direction: column;
@@ -185,8 +186,11 @@ p {
     }
 
     &__wrapper-2 {
-      img {
-        display: block;
+      div {
+        text-align: right;
+        span {
+          padding-right: 1rem;
+        }
       }
     }
   }
