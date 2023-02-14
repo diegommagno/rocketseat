@@ -196,4 +196,10 @@ p {
   height: 27px;
   background: #633BBC;
   border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+  .card-2 {
+    border-radius: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
