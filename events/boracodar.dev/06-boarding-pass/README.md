@@ -1,7 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Boarding Pass </h1>
 
 <p align="center">
-Easier way to share links. Share one page containing multiple links. <br/>
+Boarding pass example made with HTML and CSS. <br/>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Easier way to share links. Share one page containing multiple links. <br/>
 
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src="./.github/devlinks-cover.gif" width="90%" />
+  <img alt="Project photo showing a boarding pass." src="./.github/cover.png" width="40%" />
 </p>
 
 <br/>
@@ -27,7 +27,7 @@ Easier way to share links. Share one page containing multiple links. <br/>
 - [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/devlinks/)
 
 ## 🎨 Layout
-Check the [project layout](https://www.figma.com/community/file/1187422022288947321) on Figma. 
+Check the [project layout](https://www.figma.com/community/file/1205146101173113980) on Figma. 
 
 ## 🧑🏻‍💻 Technologies
 
