@@ -56,6 +56,14 @@ class NotesController {
 
     return response.json();
   }
+
+  async index(request, response) {
+    const { user_id } = request.query; /* query é algo dentro do insomnia que eu passo o valor do user_id digitando */
+
+    const notes = await knex("notes").where({ user_id }).orderBy("title");
+
+    return response.json({ notes });
+  }
 }
 
 module.exports = NotesController;

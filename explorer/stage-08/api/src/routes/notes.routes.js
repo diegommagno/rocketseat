@@ -6,6 +6,7 @@ const notesRoutes = Router(); /* inicializar o router - aqui é onde vão ficar 
 
 const notesController = new NotesController(); /* instanciar o controller, a class NotesController */
 
+notesRoutes.get("/", notesController.index); /* visto que esse é passado através de uma query e não parâmetro, não coloca nada */
 notesRoutes.post("/:user_id", notesController.create); /* Utilizar o create da class NotesController do arquivo de controller NotesController.js */
 notesRoutes.get("/:id", notesController.show);
 notesRoutes.delete("/:id", notesController.delete);
