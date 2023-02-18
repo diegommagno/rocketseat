@@ -33,6 +33,21 @@ class NotesController {
     response.json(); /* retorna informações de dentro do response feita no Insomnia */
 
   }
+
+  async show(request, response) {
+    const { id } = request.params; /* pega o ID da nota que foi passado através do request */
+
+    const note = await knex("notes").where({ id }).first();  /* buscar na tabela notas a primeira nota com essa id */
+    const tags = await knex("tags").where({ note_id: id }).orderBy("name");  /* buscar na tabela tags uma note_id que é igual a id */
+    const links = await knex("links").where({ note_id: id }).orderBy("created_at");  /* buscar na tabela tags uma note_id que é igual a id */
+
+    /* ...note para colocar todos os detalhes da nota aqui */
+    return response.json({
+      ...note,
+      tags,
+      links
+    });
+  }
 }
 
 module.exports = NotesController;

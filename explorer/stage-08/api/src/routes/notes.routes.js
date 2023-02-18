@@ -6,7 +6,7 @@ const notesRoutes = Router(); /* inicializar o router - aqui é onde vão ficar 
 
 const notesController = new NotesController(); /* instanciar o controller, a class NotesController */
 
-notesRoutes.post("/:id", notesController.create); /* Utilizar o create da class NotesController do arquivo de controller NotesController.js */
+notesRoutes.post("/:user_id", notesController.create); /* Utilizar o create da class NotesController do arquivo de controller NotesController.js */
+notesRoutes.get("/:id", notesController.show);
 
 module.exports = notesRoutes; /* exporta o router para quem quiser utilizar esse arquivo poder utilizar. Com isso, o server.js poder acessar as rotas da aplicação */
-
