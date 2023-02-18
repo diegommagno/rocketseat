@@ -5,7 +5,7 @@ class NotesController {
     const { title, description, tags, links } = request.body; /* importa informações de dentro do body da requisição feita no Insomnia */
     const { user_id } = request.params; /* importa informações de dentro do params da requisição feita no Insomnia */
 
-    const note_id = knex("notes").insert({
+    const note_id = await knex("notes").insert({
       title,
       description,
       user_id,
