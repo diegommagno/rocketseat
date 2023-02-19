@@ -58,9 +58,20 @@ class NotesController {
   }
 
   async index(request, response) {
-    const { title, user_id } = request.query; /* query é algo dentro do insomnia que eu passo o valor do user_id digitando */
+    const { title, user_id, tags } = request.query; /* query é algo dentro do insomnia que eu passo o valor do user_id digitando */
 
-    const notes = await knex("notes").where({ user_id }).whereLike("title", `%${title}%`).orderBy("title");
+    let notes; /* cria uma variável notes que vou usar no if */
+
+    if(tags) {
+      const filterTags = tags.split(',').map(tag => tag.trim()); /* tags.split separa as tags passadas no request através do split */
+
+      notes = await knex("tags").whereIn("name", filterTags); /* filtra as tags passadas no request através do whereIn */
+    
+    } else {
+
+      notes = await knex("notes").where({ user_id }).whereLike("title", `%${title}%`).orderBy("title");
+
+    }
 
     return response.json({ notes });
   }
