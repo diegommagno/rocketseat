@@ -65,7 +65,7 @@ class NotesController {
     if(tags) {
       const filterTags = tags.split(',').map(tag => tag.trim()); /* tags.split separa as tags passadas no request através do split */
 
-      notes = await knex("tags").whereIn("name", filterTags); /* filtra as tags passadas no request através do whereIn */
+      notes = await knex("tags").whereIn("name", filterTags).andWhere({ user_id }); /* filtra as tags passadas no request através do whereIn */
     
     } else {
 
