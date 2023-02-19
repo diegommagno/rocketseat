@@ -65,8 +65,12 @@ class NotesController {
     if(tags) {
       const filterTags = tags.split(',').map(tag => tag.trim()); /* tags.split separa as tags passadas no request através do split */
 
-      notes = await knex("tags").whereIn("name", filterTags).andWhere({ user_id }); /* filtra as tags passadas no request através do whereIn */
-    
+      notes = await knex("tags").select(["notes.id", "notes.title", "notes.user_id"])
+                                .where("notes.user_id", user_id)
+                                .whereLike("notes.title", `%${title}%`)
+                                .whereIn("name", filterTags)
+                                .innerJoin("notes", "notes.id", "tags.note_id")
+                                .orderBy("notes.title");
     } else {
 
       notes = await knex("notes").where({ user_id }).whereLike("title", `%${title}%`).orderBy("title");
