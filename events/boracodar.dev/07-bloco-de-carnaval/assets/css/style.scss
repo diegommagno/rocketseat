@@ -13,3 +13,14 @@
 body {
   font-size: 1.6rem;
 }
+
+header {
+  min-height: 53.2rem;
+  background-color: #F8F8FF;
+  text-align: center;
+
+  &:before {
+    content: '';
+    display: block;
+  }
+}
