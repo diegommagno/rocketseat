@@ -18,6 +18,7 @@ header {
   min-height: 53.2rem;
   background-color: #F8F8FF;
   text-align: center;
+  position: relative;
 }
 header:before {
   content: "";
@@ -33,4 +34,11 @@ header:before {
 header:after {
   content: "";
   background-image: url(../img/bg-header-bottom.svg);
+  background-repeat: no-repeat;
+  width: 41.4rem;
+  height: 33rem;
+  position: absolute;
+  right: 0;
+  bottom: -1.2rem;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
