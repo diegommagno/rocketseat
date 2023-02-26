@@ -21,8 +21,8 @@ header {
 
   &:before {
     content: '';
-    display: block;
     background-image: url(../img/bg-header-top.svg);
+    background-repeat: no-repeat;
     width: 40.7rem;
     height: 34.5rem;
 
@@ -31,5 +31,10 @@ header {
 
     top: 0;
     left: 0;
+  }
+
+  &:after {
+    content: '';
+    background-image: url(../img/bg-header-bottom.svg);
   }
 }

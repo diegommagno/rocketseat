@@ -21,7 +21,6 @@ header {
 }
 header:before {
   content: "";
-  display: block;
   background-image: url(../img/bg-header-top.svg);
   background-repeat: no-repeat;
   width: 40.7rem;
@@ -30,4 +29,8 @@ header:before {
   z-index: 0;
   top: 0;
   left: 0;
+}
+header:after {
+  content: "";
+  background-image: url(../img/bg-header-bottom.svg);
 }/*# sourceMappingURL=style.css.map */
