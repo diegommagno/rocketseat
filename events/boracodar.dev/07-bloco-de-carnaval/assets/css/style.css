@@ -12,4 +12,22 @@
 
 body {
   font-size: 1.6rem;
+}
+
+header {
+  min-height: 53.2rem;
+  background-color: #F8F8FF;
+  text-align: center;
+}
+header:before {
+  content: "";
+  display: block;
+  background-image: url(../img/bg-header-top.svg);
+  background-repeat: no-repeat;
+  width: 40.7rem;
+  height: 34.5rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=style.css.map */

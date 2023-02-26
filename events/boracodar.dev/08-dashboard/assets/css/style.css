@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --background: #292738;
+  --nps-geral: #81FBB8;
+  --grey: #4A4556;
+  --gradient-purple: linear-gradient(121.94deg, #CE9FFC 15.98%, #7367F0 82.85%);
+  --gradient-pink: linear-gradient(121.94deg, #DF9780 15.98%, #A66DE9 82.85%);
+  --gradient-gren-light: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
+  --gradient-green-dark: linear-gradient(180deg, #81FBB8 0%, #28C76F 100%);
+  --gradient-orange: linear-gradient(180deg, #EA5455 0%, #FEB692 100%);
+}
+
+body {
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
