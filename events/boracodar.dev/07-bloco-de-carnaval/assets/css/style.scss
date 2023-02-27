@@ -19,6 +19,8 @@ header {
   background-color: #F8F8FF;
   text-align: center;
   position: relative;
+  display: grid;
+  place-content: center;
 
   &:before {
     content: '';
@@ -45,5 +47,10 @@ header {
     right: 0;
     bottom: -1.2rem;
     overflow: hidden;
+  }
+
+  .content {
+    width: fit-content;
+    margin: auto;
   }
 }

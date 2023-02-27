@@ -19,6 +19,8 @@ header {
   background-color: #F8F8FF;
   text-align: center;
   position: relative;
+  display: grid;
+  place-content: center;
 }
 header:before {
   content: "";
@@ -41,4 +43,9 @@ header:after {
   right: 0;
   bottom: -1.2rem;
   overflow: hidden;
+}
+header .content {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
