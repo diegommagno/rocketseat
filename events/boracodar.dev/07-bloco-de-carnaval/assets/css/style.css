@@ -69,4 +69,14 @@ header h1 {
 }
 header h1 span {
   color: #6246EA;
+}
+
+form {
+  margin-top: 4rem;
+  display: flex;
+  padding: 4rem;
+  gap: 2.4rem;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */
