@@ -35,7 +35,6 @@ input, select, button {
 header {
   min-height: 53.2rem;
   background-color: #F8F8FF;
-  text-align: center;
   position: relative;
   display: grid;
   place-content: center;
@@ -66,6 +65,9 @@ header .content {
   width: -moz-fit-content;
   width: fit-content;
 }
+header .content .top {
+  text-align: center;
+}
 header p {
   font-weight: 500;
   font-size: 1.6rem;
@@ -79,6 +81,7 @@ header h1 {
   line-height: 125%;
   color: #121214;
   max-width: 64.7rem;
+  margin: auto;
 }
 header h1 span {
   color: #6246EA;
