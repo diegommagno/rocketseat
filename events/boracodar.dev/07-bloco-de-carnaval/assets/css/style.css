@@ -128,4 +128,9 @@ form button {
   color: #FFFFFF;
   background: #6246EA;
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 200ms;
+}
+form button:hover {
+  background: #523DBE;
 }/*# sourceMappingURL=style.css.map */

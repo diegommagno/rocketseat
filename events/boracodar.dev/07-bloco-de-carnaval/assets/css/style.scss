@@ -151,6 +151,13 @@ form {
 
     background: #6246EA;
     border-radius: 0.5rem;
+
+    cursor: pointer;
+    transition: background 200ms;
+
+    &:hover {
+      background: #523DBE;
+    }
   }
 }
 
