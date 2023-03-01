@@ -29,6 +29,7 @@ body {
 
 input, select, button {
   font-family: "Roboto", sans-serif;
+  all: unset;
 }
 
 header {
@@ -91,4 +92,23 @@ form {
   background: #FFFFFF;
   border: 1px solid #EAEAEA;
   border-radius: 1rem;
+}
+form input {
+  text-align: left;
+}
+form input, form select {
+  color: #7C7C8A;
+  min-width: 29rem;
+}
+form .search-field {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: #F4F4FF;
+  border-radius: 0.5rem;
+  padding: 1.2rem 0.8rem 1.2rem 1.4rem;
+}
+form .search-field i {
+  color: #E45858;
+  font-size: 2.4rem;
 }/*# sourceMappingURL=style.css.map */
