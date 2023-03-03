@@ -93,7 +93,7 @@ header {
     
     max-width: 64.7rem;
 
-    margin: auto;
+    margin: 1.8rem auto 0;
 
     span {
       color: #6246EA;
@@ -134,6 +134,21 @@ form {
       color: #E45858;
       font-size: 2.4rem;
     }
+
+    select {
+      z-index: 1;
+    }
+
+    select, .select {
+      position: relative;
+    }
+
+    .select i.ph-caret-down-light {
+      position: absolute;
+      right: 1rem;
+      z-index: 0;
+    }
+
   }
 
   button {
