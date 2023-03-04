@@ -120,6 +120,17 @@ form {
     color: #7C7C8A;
     min-width: 29rem;
   }
+
+  select, .select {
+    position: relative;
+  }
+
+  .select i.ph-caret-down-light {
+      position: absolute;
+      right: 1rem;
+      z-index: 0;
+      color: #858793;
+    }
   
   .search-field {
     display: flex;
@@ -137,16 +148,6 @@ form {
 
     select {
       z-index: 1;
-    }
-
-    select, .select {
-      position: relative;
-    }
-
-    .select i.ph-caret-down-light {
-      position: absolute;
-      right: 1rem;
-      z-index: 0;
     }
 
   }

@@ -103,6 +103,15 @@ form input, form select {
   color: #7C7C8A;
   min-width: 29rem;
 }
+form select, form .select {
+  position: relative;
+}
+form .select i.ph-caret-down-light {
+  position: absolute;
+  right: 1rem;
+  z-index: 0;
+  color: #858793;
+}
 form .search-field {
   display: flex;
   align-items: center;
@@ -117,14 +126,6 @@ form .search-field i {
 }
 form .search-field select {
   z-index: 1;
-}
-form .search-field select, form .search-field .select {
-  position: relative;
-}
-form .search-field .select i.ph-caret-down-light {
-  position: absolute;
-  right: 1rem;
-  z-index: 0;
 }
 form button {
   display: flex;
