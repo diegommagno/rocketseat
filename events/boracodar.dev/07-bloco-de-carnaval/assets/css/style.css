@@ -150,4 +150,9 @@ form button:hover {
 main .content {
   max-width: 1216px;
   margin: 10rem auto;
+}
+main section.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
