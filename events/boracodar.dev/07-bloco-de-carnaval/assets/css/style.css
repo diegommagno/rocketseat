@@ -145,4 +145,9 @@ form button {
 }
 form button:hover {
   background: #523DBE;
+}
+
+main .content {
+  max-width: 1216px;
+  margin: 10rem auto;
 }/*# sourceMappingURL=style.css.map */
