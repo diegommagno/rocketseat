@@ -12,14 +12,13 @@
 body {
   background-color: var(--bg-color);
   height: 100vh;
-
   display: grid;
   place-items: center;
 }
 
-body * { 
+body * {
   color: var(--text-color);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #btn-close,
@@ -35,19 +34,18 @@ body * {
 
 #product-image {
   position: relative;
-
-  button {
-    position: absolute;
-    right: 0;
-  }
-  
-  #static, #animated {
-    width: 449px;
-    height: 222px;
-    object-fit: cover;
-  }
+}
+#product-image button {
+  position: absolute;
+  right: 0;
+}
+#product-image #static, #product-image #animated {
+  width: 449px;
+  height: 222px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 h1 {
-  font-family: 'Crimson Pro', serif;
-}
+  font-family: "Crimson Pro", serif;
+}/*# sourceMappingURL=style.css.map */
