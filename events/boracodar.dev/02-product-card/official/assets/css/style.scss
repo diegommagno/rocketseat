@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -17,9 +19,10 @@ body {
   place-items: center;
 }
 
-body * { 
+body * { /* Pegue todos os elemtnso dentro do body e adicione essas propriedades */
   color: var(--text-color);
   font-family: 'Lato', sans-serif;
+  line-height: 100%;
 }
 
 #btn-close,
@@ -48,6 +51,20 @@ body * {
   }
 }
 
+h4 {
+  font-weight: 300;
+  font-size: 10px;
+}
+
 h1 {
   font-family: 'Crimson Pro', serif;
+  font-weight: 600;
+  font-size: 32px;
+
+  margin-top: 12px;
+}
+
+p {
+  margin-top: 12px;
+  opacity: 0.67;
 }
