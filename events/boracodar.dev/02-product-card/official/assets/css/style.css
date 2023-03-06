@@ -41,6 +41,9 @@ body * { /* Pegue todos os elemtnso dentro do body e adicione essas propriedades
 #product-image button {
   position: absolute;
   right: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
 }
 #product-image #static, #product-image #animated {
   width: 449px;

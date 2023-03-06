@@ -42,6 +42,11 @@ body * { /* Pegue todos os elemtnso dentro do body e adicione essas propriedades
   button {
     position: absolute;
     right: 0;
+
+    background: transparent; 
+    border: 0;
+    
+    cursor: pointer;
   }
   
   #static, #animated {
