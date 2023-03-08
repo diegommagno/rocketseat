@@ -48,12 +48,22 @@ body * { /* Pegue todos os elemtnso dentro do body e adicione essas propriedades
     
     cursor: pointer;
   }
-  
+
   #static, #animated {
     width: 449px;
     height: 222px;
     object-fit: cover;
   }
+}
+
+html.animated button#btn-360,
+  html.animated img#static {
+    display: none;
+  }
+
+ html.animated button#btn-close,
+ html.animated img#animated {
+  display: initial;    
 }
 
 h4 {
