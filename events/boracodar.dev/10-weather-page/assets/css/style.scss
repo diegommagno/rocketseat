@@ -379,4 +379,71 @@ body {
 
     }
   }
+
+  .week-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2.4rem;
+
+    width: 578px;
+    height: 212px;
+
+    background: #6D67D0;
+
+    border-radius: 10px;
+
+    .week-days {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.2rem;
+
+      padding: 4rem;
+      
+      .day {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+        
+        width: 9rem;
+
+        span {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+
+          color: var(--fc-light-2);
+        }
+
+        img {
+          width: 6.4rem;
+          height: 6.4rem;
+        }
+        .temperature {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+    
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+    
+          span:nth-child(1) {
+            color: var(--fc-white);
+          }
+    
+          span:nth-child(2) {
+            color: var(--fc-dark);
+          }
+        }
+      }
+    }
+
+  }
 }
