@@ -46,6 +46,13 @@ body {
   background-repeat: no-repeat; 
   background-size: cover; 
   border-radius: 10px;
+  position: relative;
+
+  #clouds {
+    position: absolute;
+    left: -56px;
+    top: -56px;
+  }
 
   .location {
     display: flex;

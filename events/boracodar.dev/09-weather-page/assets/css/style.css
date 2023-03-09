@@ -40,6 +40,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+  position: relative;
+}
+.temperature-now #clouds {
+  position: absolute;
+  left: -56px;
+  top: -56px;
 }
 .temperature-now .location {
   display: flex;
