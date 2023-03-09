@@ -16,4 +16,11 @@
 
 body {
   font-size: 1.6rem;
+  height: 100vh;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */
