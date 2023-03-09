@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --fc-light: #E7E6FB;
+  --fc-light-2: #DAD8F7;
+  --fc-dark: #C2BFF4;
+  --fc-air-quality: #87EBCD;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
