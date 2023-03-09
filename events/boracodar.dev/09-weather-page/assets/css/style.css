@@ -15,14 +15,15 @@
 }
 
 body {
+  display: grid;
+  place-items: center;
+  font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   height: 100vh;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  display: grid;
-  place-items: center;
 }
 
 #app {
@@ -33,8 +34,35 @@ body {
 
 .temperature-now {
   background-image: url("../img/temperature-now-bg.svg");
-  height: 500px;
+  width: 480px;
+  height: 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+}
+.temperature-now .location {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 3.3rem;
+  padding-right: 3.2rem;
+}
+.temperature-now .location span {
+  color: var(--fc-dark);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
