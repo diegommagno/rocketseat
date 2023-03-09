@@ -257,8 +257,10 @@ body {
 
   .container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 2.4rem;
 
     .air-quality {
       width: 277px;
@@ -284,7 +286,6 @@ body {
           color: var(--fc-light-2);
         }
       }
-      
 
       .air-quality-info {
         display: flex;
@@ -340,6 +341,42 @@ body {
           }
         }
       }
+    }
+
+    .sun-time {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      width: 277px;
+      height: 244px;
+      background: #6D67D0;
+      border-radius: 10px;
+
+      position: relative;
+
+      .title {
+        display: flex;
+        gap: 8px;
+
+        position: absolute;
+        top: 3.2rem;
+
+        span {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: var(--fc-light-2);
+        }
+      }
+
+      #chart {
+        position: absolute;
+        bottom: 1.6rem;
+      }
+
     }
   }
 }
