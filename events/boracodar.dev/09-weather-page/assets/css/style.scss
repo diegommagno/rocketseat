@@ -27,3 +27,21 @@ body {
   display: grid;
   place-items: center;
 }
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature-now {
+  background-image: url("../img/temperature-now-bg.svg");
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+
+
+

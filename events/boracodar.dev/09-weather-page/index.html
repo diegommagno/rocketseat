@@ -4,23 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Weather</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
   <div id="app">
     <div class="temperature-now">
-      <div class="location"></div>
+      <div class="location">
+        <img src="./assets/img/icon/location-pin.svg" alt="Location pin">
+        <span>Rio do Sul, SC</span>
+      </div>
       <div class="temperature">
-        <div class="number"></div>
+        <div class="number">
+          <span>18</span>
+          <span>°C</span>
+        </div>
         <div class="temperature">
-          <span></span>
-          <span></span>
+          <span>22° </span>
+          <span>16°</span>
         </div>
       </div>
       <div class="statistics">
-        <div class="wind"></div>
-        <div class="humidity"></div>
-        <div class="rain"></div>
+        <div class="wind">
+          <img src="./assets/img/icon/wind.svg" alt="Wind icon">
+          <div class="info">
+            <span>Wind</span>
+            <span>17 km/h</span>
+          </div>
+        </div>
+        <div class="humidity">
+          <img src="./assets/img/icon/humidity.svg" alt="Humidity icon">
+          <div class="info">
+            <span>Humidity</span>
+            <span>31%</span>
+          </div>
+        </div>
+        <div class="rain">
+          <img src="./assets/img/icon/rain.svg" alt="Rain icon">
+          <div class="info">
+            <span>Rain</span>
+            <span>10%</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="info">
