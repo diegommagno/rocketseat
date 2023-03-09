@@ -9,6 +9,7 @@
 :root {
   font-size: 62.5%;
 
+  --fc-white: #FFFFFF;
   --fc-light: #E7E6FB;
   --fc-light-2: #DAD8F7;
   --fc-dark: #C2BFF4;
@@ -63,10 +64,57 @@ body {
     padding-right: 3.2rem;
 
     span {
-      color: var(--fc-dark);
       font-weight: 700;
       font-size: 1.4rem;
       line-height: 1.7rem;
+      color: var(--fc-dark);
+    }
+  }
+
+  .temperature {
+    display: flex;
+    flex-direction: column;
+
+    .number {
+      padding-top: 5.9rem;
+      margin: 0 auto;
+
+      span:nth-child(1) {
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 106px;
+        color: var(--fc-white);
+        position: relative;
+      }
+
+      span:nth-child(2) {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: var(--fc-light-2);
+        position: absolute;
+        transform: translateY(1.7rem);
+      }
+    }
+
+    .temperature {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+
+      span:nth-child(1) {
+        color: var(--fc-white);
+      }
+
+      span:nth-child(2) {
+        color: var(--fc-dark);
+      }
     }
   }
 }
