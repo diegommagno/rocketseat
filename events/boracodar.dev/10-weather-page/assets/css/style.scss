@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3.2rem;
 }
 
 .temperature-now {
@@ -258,8 +259,87 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .air-quality {
+      width: 277px;
+      height: 244px;
+      background: #6D67D0;
+
+      position: relative;
+
+      border-radius: 10px;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        padding-top: 3.4rem;
+
+        span {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          color: var(--fc-light-2);
+        }
+      }
+      
+
+      .air-quality-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 3.2rem;
+
+        span:nth-child(1) {
+          font-weight: 700;
+          font-size: 1.8rem;
+          line-height: 2.2rem;
+          color: var(--fc-air-quality);
+        }
+
+        span:nth-child(2) {
+          font-weight: 700;
+          font-size: 4rem;
+          line-height: 4.8rem;
+          color: var(--fc-light-2);
+        }
+      }
+
+      .statistics {
+        display: flex;
+        text-align: center;
+        gap: 1.6rem;
+
+        position: absolute;
+        bottom: 1.6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        .number {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          span:nth-child(1) {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: var(--fc-air-quality);
+          }
+
+          span:nth-child(2) {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: var(--fc-light-2);
+          }
+        }
+      }
+    }
   }
 }
-
-
-
