@@ -55,8 +55,7 @@ body {
   justify-content: center;
   gap: 5rem;
 }
-
-img {
+.controls img {
   cursor: pointer;
 }
 
