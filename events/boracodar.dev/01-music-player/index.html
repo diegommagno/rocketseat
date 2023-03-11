@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +15,13 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <div class="screens">
+  <div id="app">
     <div class="screen-01">
       <div class="wrapper">
-        <img src="./assets/img/cover.png" alt="Album cover">
+        <img class="cover" src="./assets/img/cover.png" alt="Album cover">
         <div class="album">
-          <span class="name"></span>
-          <span class="band"></span>
+          <span class="name">Acorda Devinho</span>
+          <span class="band">Banda Rocketseat</span>
         </div>
         <div class="controls">
           <img src="./assets/img/controls/play-back.svg" alt="Play back button">
@@ -29,8 +33,10 @@
             <div class="bar"></div>
             <div class="progress"></div>
           </div>
-          <div class="time-elapsed">03:20</div>
-          <div class="time-remaining">00:12</div>
+          <div class="play-time">
+            <div class="time-elapsed">03:20</div>
+            <div class="time-remaining">00:12</div>
+          </div>
         </div>
       </div>
     </div>
