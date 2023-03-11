@@ -29,6 +29,74 @@ body {
   gap: 3.2rem;
 }
 
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.album .name {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 100%;
+  color: var(--fc-light);
+}
+.album .band {
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 100%;
+  color: var(--fc-dark);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+}
+.time .progress-bar {
+  position: relative;
+  margin-bottom: 1.3rem;
+}
+.time .progress-bar .bar {
+  width: 100%;
+  height: 0.6rem;
+  background: #D9D9D9;
+  border-radius: 1rem;
+  opacity: 0.3;
+  overflow: hidden;
+  position: absolute;
+}
+.time .progress-bar .progress {
+  width: 90%;
+  height: 0.6rem;
+  background: #D9D9D9;
+  border-radius: 1rem;
+  opacity: 0.8;
+  overflow: hidden;
+  position: absolute;
+}
+.time .play-time {
+  display: flex;
+  justify-content: space-between;
+}
+.time .play-time .time-elapsed, .time .play-time .time-remaining {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 160%;
+  color: var(--fc-dark);
+}
+
 .screen-01 {
   background: var(--bg-screen);
   width: 26.7rem;
@@ -46,70 +114,6 @@ body {
 .screen-01 .wrapper .cover {
   width: 19rem;
   height: 19rem;
-}
-.screen-01 .wrapper .album {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-.screen-01 .wrapper .album .name {
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 100%;
-  color: var(--fc-light);
-}
-.screen-01 .wrapper .album .band {
-  font-weight: 400;
-  font-size: 1.9rem;
-  line-height: 100%;
-  color: var(--fc-dark);
-}
-.screen-01 .wrapper .controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-}
-.screen-01 .wrapper img {
-  cursor: pointer;
-}
-.screen-01 .wrapper .time {
-  display: flex;
-  flex-direction: column;
-}
-.screen-01 .wrapper .time .progress-bar {
-  position: relative;
-  margin-bottom: 1.3rem;
-}
-.screen-01 .wrapper .time .progress-bar .bar {
-  width: 100%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.3;
-  overflow: hidden;
-  position: absolute;
-}
-.screen-01 .wrapper .time .progress-bar .progress {
-  width: 90%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.8;
-  overflow: hidden;
-  position: absolute;
-}
-.screen-01 .wrapper .time .play-time {
-  display: flex;
-  justify-content: space-between;
-}
-.screen-01 .wrapper .time .play-time .time-elapsed, .screen-01 .wrapper .time .play-time .time-remaining {
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 160%;
-  color: var(--fc-dark);
 }
 
 .container {
@@ -138,70 +142,6 @@ body {
 .container .screen-02 .info .cover {
   width: 8.4rem;
 }
-.container .screen-02 .info .album {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-.container .screen-02 .info .album .name {
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 100%;
-  color: var(--fc-light);
-}
-.container .screen-02 .info .album .band {
-  font-weight: 400;
-  font-size: 1.9rem;
-  line-height: 100%;
-  color: var(--fc-dark);
-}
-.container .screen-02 .controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-}
-.container .screen-02 img {
-  cursor: pointer;
-}
-.container .screen-02 .time {
-  display: flex;
-  flex-direction: column;
-}
-.container .screen-02 .time .progress-bar {
-  position: relative;
-  margin-bottom: 1.3rem;
-}
-.container .screen-02 .time .progress-bar .bar {
-  width: 100%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.3;
-  overflow: hidden;
-  position: absolute;
-}
-.container .screen-02 .time .progress-bar .progress {
-  width: 90%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.8;
-  overflow: hidden;
-  position: absolute;
-}
-.container .screen-02 .time .play-time {
-  display: flex;
-  justify-content: space-between;
-}
-.container .screen-02 .time .play-time .time-elapsed, .container .screen-02 .time .play-time .time-remaining {
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 160%;
-  color: var(--fc-dark);
-}
 .container .screen-03 {
   display: flex;
   flex-direction: column;
@@ -220,68 +160,4 @@ body {
 }
 .container .screen-03 .info .cover {
   width: 8.4rem;
-}
-.container .screen-03 .info .album {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-.container .screen-03 .info .album .name {
-  font-weight: 700;
-  font-size: 2.4rem;
-  line-height: 100%;
-  color: var(--fc-light);
-}
-.container .screen-03 .info .album .band {
-  font-weight: 400;
-  font-size: 1.9rem;
-  line-height: 100%;
-  color: var(--fc-dark);
-}
-.container .screen-03 .controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-}
-.container .screen-03 img {
-  cursor: pointer;
-}
-.container .screen-03 .time {
-  display: flex;
-  flex-direction: column;
-}
-.container .screen-03 .time .progress-bar {
-  position: relative;
-  margin-bottom: 1.3rem;
-}
-.container .screen-03 .time .progress-bar .bar {
-  width: 100%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.3;
-  overflow: hidden;
-  position: absolute;
-}
-.container .screen-03 .time .progress-bar .progress {
-  width: 90%;
-  height: 0.6rem;
-  background: #D9D9D9;
-  border-radius: 1rem;
-  opacity: 0.8;
-  overflow: hidden;
-  position: absolute;
-}
-.container .screen-03 .time .play-time {
-  display: flex;
-  justify-content: space-between;
-}
-.container .screen-03 .time .play-time .time-elapsed, .container .screen-03 .time .play-time .time-remaining {
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 160%;
-  color: var(--fc-dark);
 }/*# sourceMappingURL=style.css.map */
