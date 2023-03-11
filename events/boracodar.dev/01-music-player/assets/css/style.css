@@ -35,18 +35,18 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+  color: var(--fc-light);
 }
 .album .name {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 100%;
-  color: var(--fc-light);
 }
 .album .band {
   font-weight: 400;
   font-size: 1.9rem;
   line-height: 100%;
-  color: var(--fc-dark);
+  opacity: 0.67;
 }
 
 .controls {
