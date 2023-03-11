@@ -93,7 +93,8 @@ body {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 160%;
-  color: var(--fc-dark);
+  color: var(--fc-light);
+  opacity: 0.7;
 }
 
 .screen-01 {
