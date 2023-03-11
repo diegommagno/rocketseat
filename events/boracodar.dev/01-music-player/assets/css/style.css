@@ -72,6 +72,9 @@ body {
   justify-content: center;
   gap: 5rem;
 }
+.screen-01 .wrapper img {
+  cursor: pointer;
+}
 .screen-01 .wrapper .time {
   display: flex;
   flex-direction: column;
@@ -159,6 +162,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5rem;
+}
+.container .screen-02 img {
+  cursor: pointer;
 }
 .container .screen-02 .time {
   display: flex;
