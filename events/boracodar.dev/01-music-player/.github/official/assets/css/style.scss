@@ -36,19 +36,26 @@ body * {
   grid-area: A;
   padding: 5rem 3.8rem;
 
+  .wrapper {
+    width: 19rem;
+  }
+
   .cover {
     width: 19rem;
     height: 19rem;
     object-fit: cover;
+
+    border-radius: 6px;
   }
 
   .info {
-    margin-top: 2.6rem;
+    margin-top: 2.8rem;
   }
 }
 
 #player-2 {
   grid-area: B;
+  height: fit-content;
 }
 
 #player-3 {
@@ -60,21 +67,30 @@ body * {
   padding: 2.8rem;
   border-radius: 1rem;
 
-  .wrapper {
-    width: 19rem;
+  .info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+  }
 
-    .info {
-      display: grid;
-      gap: 9.6px;
-      color: #E1E1E6;
+  .cover {
+    width: 8.4rem;
+    height: 8.4rem;
+    object-fit: cover;
 
-      h1 {
-        font-size: 2.4rem;
-      }
+    border-radius: 6px;
+  }
 
-      p {
-        opacity: 0.67;
-      }
+  .info {
+    color: #E1E1E6;
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 9.6px;
+    }
+
+    p {
+      opacity: 0.67;
     }
   }
 }
