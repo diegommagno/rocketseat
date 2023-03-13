@@ -187,3 +187,26 @@ body {
     }
   }
 }
+
+@media (max-width: 670px) {
+    
+  #app {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 270px;
+    margin: auto;
+
+    height: auto;
+
+    padding-block: 60px;
+  }
+
+  .container {
+    .screen-02, .screen-03 {
+      width: 26.7rem;
+    }
+  }
+  
+
+}
