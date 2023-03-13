@@ -21,7 +21,7 @@ Screen designs for a music player. <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://github.com/diegommagno/rocketseat/events/boracover.dev/01-music-player)
+- [Link](https://diegommagno.com/github/rocketseat/events/boracover.dev/01-music-player)
 
 ## 🎨 Layout
 
@@ -36,5 +36,4 @@ Screen designs for a music player. <br/>
 ## 🎓 Worked on
 
 - Using customised fonts and icons
-- HTML: `form`,`header`,`main`,`section`,`select`,`img`,
 - CSS: `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsive`, `padding-block`
