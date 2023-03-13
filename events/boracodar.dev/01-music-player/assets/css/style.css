@@ -134,7 +134,6 @@ body {
 .container .screen-02 .info {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2.9rem;
 }
 .container .screen-02 .info .cover {
@@ -153,7 +152,6 @@ body {
 .container .screen-03 .info {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2.9rem;
 }
 .container .screen-03 .info .cover {
