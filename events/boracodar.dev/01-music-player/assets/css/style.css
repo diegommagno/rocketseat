@@ -138,6 +138,7 @@ body {
 }
 .container .screen-02 .info .cover {
   width: 8.4rem;
+  border-radius: 6px;
 }
 .container .screen-03 {
   display: flex;
@@ -156,4 +157,5 @@ body {
 }
 .container .screen-03 .info .cover {
   width: 8.4rem;
+  border-radius: 6px;
 }/*# sourceMappingURL=style.css.map */
