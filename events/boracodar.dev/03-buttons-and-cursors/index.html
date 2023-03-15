@@ -3,7 +3,7 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,19 @@
 </head>
 
 <body>
-  <button class="primary" disabled>Default Primary disabled</button>
-  <button class="primary movable"> <img src="./assets/img/btn/movable.svg" alt=""> Default Primary</button>
+
+  <div id="app">
+    <h1>Button test</h1>
+    <p>Interact with the buttons and observe the changes in appearance and cursors.</p>
+
+    <div class="buttons">
+      <button class="primary"> Default Primary</button>
+      <button class="primary" disabled> Default Primary</button>
+      <button class="primary loading"> <img src="./assets/img/loading.svg" alt=""> Default Primary</button>
+      <button class="primary movable"> <img src="./assets/img/movable.svg" alt=""> Default Primary</button>
+    </div>
+
+  </div>
+
 </body>
 </html>
