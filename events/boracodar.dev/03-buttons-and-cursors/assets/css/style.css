@@ -25,6 +25,16 @@ body {
   --bg-hover: #9674E5;
 }
 
+.secondary {
+  --bg-default: #3C3748;
+  --bg-hover: #6A617F;
+}
+
+.tertiary {
+  --bg-default: transparent;
+  --bg-hover: transparent;
+}
+
 button {
   display: flex;
   justify-content: center;
