@@ -1,1 +1,76 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  gap: 1.6rem;
+  height: 100vh;
+  background-color: #130F1E;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+}
+
+.primary {
+  --bg-default: #8257E5;
+  --bg-hover: #9674E5;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-default);
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  border: 0;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--bg-hover);
+}
+button:focus {
+  outline: 2px solid #D9CDF7;
+}
+button:disabled {
+  background-color: var(--bg-default);
+  opacity: 0.56;
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: progress;
+}
+.loading img {
+  animation: spin 700ms infinite linear;
+  cursor: progress;
+}
+
+.movable {
+  cursor: move;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
