@@ -12,8 +12,7 @@
 
 body {
   display: grid;
-  place-content: center;
-  gap: 1.6rem;
+  place-items: center;
   height: 100vh;
   background-color: #130F1E;
   color: #FFFFFF;
@@ -23,6 +22,7 @@ body {
 #app {
   max-width: 36rem;
   padding-inline: 4rem;
+  padding-block: 10rem;
 }
 
 h1 {
@@ -39,7 +39,7 @@ p {
 }
 
 .buttons {
-  margin-top: 10rem;
+  margin-top: 6rem;
   display: grid;
   gap: 3.2rem;
 }
