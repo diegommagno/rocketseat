@@ -14,7 +14,7 @@ Different kinds of buttons and cursors available. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="60%" />
+  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="30%" />
 </p>
 
 <br/>
