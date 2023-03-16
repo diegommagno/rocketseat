@@ -20,6 +20,30 @@ body {
   font-size: 1.6rem;
 }
 
+#app {
+  max-width: 36rem;
+  padding-inline: 4rem;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-size: 3.2rem;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.67;
+  margin-top: 8px;
+}
+
+.buttons {
+  margin-top: 10rem;
+  display: grid;
+  gap: 3.2rem;
+}
+
 .primary {
   --bg-default: #8257E5;
   --bg-hover: #9674E5;
