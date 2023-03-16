@@ -13,6 +13,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>">
 
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js"></script>
 </head>
 
 <body>
@@ -22,10 +23,24 @@
     <p>Interact with the buttons and observe the changes in appearance and cursors.</p>
 
     <div class="buttons">
-      <button class="primary"> Default Primary</button>
-      <button class="primary" disabled> Default Primary</button>
-      <button class="primary loading"> <img src="./assets/img/loading.svg" alt=""> Default Primary</button>
-      <button class="primary movable"> <img src="./assets/img/movable.svg" alt=""> Default Primary</button>
+      <button class="primary">Interact with me</button>
+      <button class="primary" disabled>Interact with me</button>
+      <button class="primary" onclick="loading(event)">Interact with me</button>
+      <button class="primary" onclick="movable(event)">Interact with me</button>
+    </div>
+
+    <div class="buttons">
+      <button class="secondary">Interact with me</button>
+      <button class="secondary" disabled>Interact with me</button>
+      <button class="secondary" onclick="loading(event)">Interact with me</button>
+      <button class="secondary" onclick="movable(event)">Interact with me</button>
+    </div>
+
+    <div class="buttons">
+      <button class="tertiary">Interact with me</button>
+      <button class="tertiary" disabled>Interact with me</button>
+      <button class="tertiary" onclick="loading(event)">Interact with me</button>
+      <button class="tertiary" onclick="movable(event)">Interact with me</button>
     </div>
 
   </div>
