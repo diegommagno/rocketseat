@@ -37,4 +37,4 @@ Different kinds of buttons and cursors available. <br/>
 ## 🎓 Worked on
 
 - Button states: `::hover`, `::focus`, `::disabled`, `.loading`, `.movable`
-- CSS: `flex e grid`, `@keyframes`
+- CSS: `flex and grid`, `@keyframes`

@@ -36,4 +36,4 @@ Screen designs for a music player. <br/>
 ## 🎓 Worked on
 
 - Using customised fonts and icons
-- CSS: `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsive`, `padding-block`
+- CSS: `::before`, `::after`, `rem`, `position`, `fit-content`, `flex and grid`, `@media`, `responsive`, `padding-block`
