@@ -1,1 +1,20 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg: #1A1924;
+  --primary-color: #E1E1E6;
+  --online-color: #00B37E;
+  --bg-message-received: #633BBC;
+  --bg-message-sent: #07847E;
+}
+
+body {
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
