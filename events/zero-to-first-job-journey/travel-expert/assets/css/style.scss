@@ -51,12 +51,16 @@ footer {
   align-items: center;
   gap: 1.6rem;
 
-  font-family: 'Cinzel';
-  font-size: 2rem;
-  line-height: 2.4rem;
-  font-weight: 700;
-
   padding-top: 7.2rem;
+
+
+  a, button {
+    padding: 1.6rem 3.2rem;
+    font-family: 'Cinzel';
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+  }
 
   a {
     color: var(--primary-color);  
@@ -66,10 +70,6 @@ footer {
 
   button {
     display: flex;
-    padding: 1.6rem 3.2rem;
-    font-size: 2rem;
-    font-weight: 700;
-
     color: #FFFFFF;
     background-color: var(--secondary-color);
     border: none;

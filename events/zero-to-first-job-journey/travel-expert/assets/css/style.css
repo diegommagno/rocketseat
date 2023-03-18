@@ -49,11 +49,14 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
+  padding-top: 7.2rem;
+}
+footer a, footer button {
+  padding: 1.6rem 3.2rem;
   font-family: "Cinzel";
   font-size: 2rem;
   line-height: 2.4rem;
   font-weight: 700;
-  padding-top: 7.2rem;
 }
 footer a {
   color: var(--primary-color);
@@ -62,9 +65,6 @@ footer a {
 }
 footer button {
   display: flex;
-  padding: 1.6rem 3.2rem;
-  font-size: 2rem;
-  font-weight: 700;
   color: #FFFFFF;
   background-color: var(--secondary-color);
   border: none;
