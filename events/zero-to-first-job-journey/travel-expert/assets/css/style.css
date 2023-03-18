@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: #151718;
+  --secondary-color: #DB2777;
+  --tertiary-color: #2C2E2F;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-size: 1.6rem;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}/*# sourceMappingURL=style.css.map */
