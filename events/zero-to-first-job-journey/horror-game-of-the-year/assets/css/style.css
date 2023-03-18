@@ -35,7 +35,6 @@ main {
 h3, span {
   font-weight: 700;
   line-height: 1.9rem;
-  text-align: center;
 }
 
 h3 {
@@ -48,19 +47,16 @@ span {
 
 h1 {
   font-family: "Emilys Candy";
-  font-style: normal;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 6.4rem;
+  line-height: 8rem;
   text-align: center;
   color: var(--secondary-color);
 }
 
 p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   text-align: center;
   color: var(--primary-color);
   opacity: 0.7;
@@ -73,29 +69,20 @@ p {
   gap: 1.6rem;
   margin-top: 7.2rem;
 }
-.links a {
+.links a, .links button {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1.2rem 3.2rem;
-  font-style: normal;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.4rem;
+}
+.links a {
   text-decoration-line: underline;
   color: var(--primary-color);
   opacity: 0.6;
 }
 .links button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.2rem 3.2rem;
   color: var(--tertiary-color);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
   background-color: var(--secondary-color);
   border: none;
   cursor: pointer;
