@@ -17,8 +17,57 @@ body {
   display: grid;
   place-content: center;
   height: 100vh;
-  font-size: 1.6rem;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+h1, span {
+  font-family: "Cinzel";
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: "Inter";
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  font-family: "Cinzel";
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  padding-top: 7.2rem;
+}
+footer a {
+  color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+}
+footer button {
+  display: flex;
+  padding: 1.6rem 3.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
