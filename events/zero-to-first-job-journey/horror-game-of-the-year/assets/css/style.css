@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: #FFFFFF;
+  --secondary-color: #FFC700;
+  --tertiary-color: #040101;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+h3, span {
+  font-weight: 700;
+  line-height: 1.9rem;
+  text-align: center;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: "Emilys Candy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 7.2rem;
+}
+.links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-decoration-line: underline;
+  color: var(--primary-color);
+  opacity: 0.6;
+}
+.links button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 3.2rem;
+  color: var(--tertiary-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
