@@ -1,6 +1,10 @@
 <h1 align="center"> Product Card </h1>
 
 <p align="center">
+A card showing information about a product and the possibility of viewing it on 360°. <br/>
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,7 +17,7 @@
 
 
 <p align="center">
-  <img alt="Project gif." src="./.github/cover.png" width="80%" />
+  <img alt="Project cover." src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
