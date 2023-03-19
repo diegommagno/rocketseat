@@ -14,14 +14,22 @@ Different kinds of buttons and cursors available. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="50%" />
+  <img alt="Project photo showing a screen with different buttons and actions." src=".github/cover.png" width="90%" />
 </p>
 
 <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://diegommagno.com/github/rocketseat/events/boracodar.dev/03-buttons-and-cursors/)
+- [Buttons and Cursors](https://diegommagno.com/github/rocketseat/events/boracodar.dev/03-buttons-and-cursors/)
+
+<br/>
+
+<p align="center">
+  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="50%" />
+</p>
+
+<br/>
 
 ## 🎨 Layout
 
