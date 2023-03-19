@@ -21,7 +21,7 @@ Screen designs for a music player. <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://diegommagno.com/github/rocketseat/events/boracodar.dev/01-music-player/)
+- [Music Player](https://diegommagno.com/github/rocketseat/events/boracodar.dev/01-music-player/)
 
 ## 🎨 Layout
 
