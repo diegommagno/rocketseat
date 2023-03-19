@@ -21,7 +21,7 @@ Different kinds of buttons and cursors available. <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://diegommagno.com/github/rocketseat/events/boracover.dev/03-buttons-and-cursors)
+- [Link](https://diegommagno.com/github/rocketseat/events/boracodar.dev/03-buttons-and-cursors/)
 
 ## 🎨 Layout
 
