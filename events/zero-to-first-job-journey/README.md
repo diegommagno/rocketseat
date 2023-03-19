@@ -16,6 +16,7 @@ This was an introduction to programming event with three different landing page 
 <p align="center">
   <img alt="Event cover and photos of each developed landing page." src=".github/preview-cover.png" width="90%" />
   <img alt="Landing pages created during the event." src=".github/preview-lps.gif" width="80%" />
+  <img alt="Landing pages created during the event." src=".github/preview-lps-02.gif" width="80%" />
 </p>
 
 <br/>
