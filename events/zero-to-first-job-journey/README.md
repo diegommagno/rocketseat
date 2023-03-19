@@ -28,7 +28,7 @@ This was an introduction to programming event with three different landing page 
 <br/>
 
 <p align="center">
-  <img alt="Landing pages created during the event." src=".github/preview-lps.gif" width="80%" />
+  https://user-images.githubusercontent.com/20372804/226194924-8076f5f3-201e-4308-8a9e-2023c41a888a.mp4
 </p>
 
 <br/>
