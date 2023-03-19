@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img alt="Project gif." src="./.github/cover.gif" width="90%" />
+  <img alt="Project gif." src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -21,6 +21,14 @@
 ## 📝 Live Preview 
 
 - [Product Card](https://diegommagno.com/github/rocketseat/events/boracodar.dev/02-product-card)
+
+<br/>
+
+<p align="center">
+  <img alt="Project gif." src="./.github/preview-cover.gif" width="80%" />
+</p>
+
+<br/>
 
 ## 🧑🏻‍💻 Technologies
 

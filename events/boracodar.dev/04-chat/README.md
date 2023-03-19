@@ -1,7 +1,7 @@
-<h1 align="center"> Buttons and Cursors </h1>
+<h1 align="center"> Chat </h1>
 
 <p align="center">
-Different kinds of buttons and cursors available. <br/>
+This was an introduction to programming event with three different landing page projects. It is always nice to see how much I’ve learned from the first time I attended these beginners events, being able to do these simple projects in just a few minutes. <br/>
 </p>
 
 <p align="center">
@@ -14,27 +14,35 @@ Different kinds of buttons and cursors available. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="50%" />
+  <img alt="Event cover and photos of each developed landing page." src=".github/preview-cover.png" width="90%" />
 </p>
 
 <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://diegommagno.com/github/rocketseat/events/boracover.dev/03-buttons-and-cursors)
+- [Horror Game of the Year](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Travel Expert](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/travel-expert)
+- [Healthy Recipes](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/healthy-recipes)
+
+<br/>
+
+<p align="center">
+  <img alt="Landing pages created during the event." src=".github/preview-lps.gif" width="80%" />
+</p>
+
+<br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1197534710257750520). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1216014509044898198/Horror-Game-LP). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- JavaScript
 - SCSS
 
 ## 🎓 Worked on
 
-- Button states: `::hover`, `::focus`, `::disabled`, `.loading`, `.movable`
-- CSS: `flex and grid`, `padding-inline`, `padding-block`, `@keyframes`, `focus-within`, `:not()`, `scrollIntoView()`, `rem`, `responsive`
+- CSS: `flex and grid`, `rem`, `background`
