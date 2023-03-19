@@ -27,9 +27,7 @@ This was an introduction to programming event with three different landing page 
 
 <br/>
 
-<p align="center">
-  https://user-images.githubusercontent.com/20372804/226194924-8076f5f3-201e-4308-8a9e-2023c41a888a.mp4
-</p>
+https://user-images.githubusercontent.com/20372804/226195089-ef5fd2c9-a27e-40e1-b906-c34b77b701c2.mp4
 
 <br/>
 
