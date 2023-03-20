@@ -41,5 +41,11 @@ header {
     background-color: var(--primary-color);
 
     padding: 2rem;
+
+    .logo, .menu {
+      img {
+        cursor: pointer;
+      }
+    }
   }
 }

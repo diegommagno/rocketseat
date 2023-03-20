@@ -31,4 +31,7 @@ header nav {
   height: 8rem;
   background-color: var(--primary-color);
   padding: 2rem;
+}
+header nav .logo img, header nav .menu img {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
