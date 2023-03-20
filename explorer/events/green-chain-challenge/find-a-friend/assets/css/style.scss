@@ -9,11 +9,10 @@
 :root {
   font-size: 62.5%;
 
-  --menu-bg: #E44449;
-  --menu-header: #F15156;
+  --primary-color: #E44449;
+  --secondary-color: #F15156;
 
   --menu-btn-open: #000000;
-  --menu-btn-close: #F15156;
   --menu-btn-bg: #FFFFFF;
 
   --btn-bg: #FFFFFF;
@@ -26,6 +25,8 @@ body {
   color: #FFFFFF;
 
   height: 100vh;
+
+  background-color: var(--secondary-color);
 }
 
 header {
@@ -37,7 +38,7 @@ header {
     width: 100%;
     height: 8rem;
 
-    background-color: var(--menu-bg);
+    background-color: var(--primary-color);
 
     padding: 2rem;
   }
