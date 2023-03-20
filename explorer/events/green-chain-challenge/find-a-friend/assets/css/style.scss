@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --menu-bg: #E44449;
+  --menu-header: #F15156;
+
+  --menu-btn-open: #000000;
+  --menu-btn-close: #F15156;
+  --menu-btn-bg: #FFFFFF;
+
+  --btn-bg: #FFFFFF;
+  --btn-fc: #0D3B66;
+}
+
+body {
+  font-size: 1.6rem;
+
+  color: #FFFFFF;
+}
