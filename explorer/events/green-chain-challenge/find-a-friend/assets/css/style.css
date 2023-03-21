@@ -179,6 +179,9 @@ header .banner .carousel .carousel__card--right {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+header .banner .carousel .carousel__card--desktop, header .banner .carousel .carousel__card--desktop--bottom, header .banner .carousel .carousel__card--desktop--bottom-right, header .banner .carousel .carousel__card--desktop--bottom-right-corner {
+  opacity: 1;
+}
 header .banner .carousel__card--center {
   width: 279px;
   height: 255px;
@@ -208,6 +211,9 @@ header .banner .carousel__card--center button {
 }
 
 @media (min-width: 992px) {
+  body {
+    height: 82rem !important;
+  }
   .banner {
     display: flex;
     justify-content: space-between;
@@ -224,18 +230,105 @@ header .banner .carousel__card--center button {
     padding-bottom: 7rem;
     padding-left: 0rem !important;
   }
+  .banner .wrapper .friends-in-your-city__amount p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  .banner .wrapper .friends-in-your-city__amount strong {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 34px;
+  }
   .banner .wrapper h1 {
     font-size: 72px !important;
     padding-bottom: 8rem;
+    padding-top: 0rem !important;
     padding-left: 0rem !important;
   }
   .banner .wrapper #p-hidden {
     display: inline;
-  }
-  .banner .wrapper p {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 34px;
+  }
+  .banner .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .banner .carousel__card--left, .banner .carousel__card--right {
+    display: none;
+  }
+  .banner .carousel__card--center {
+    width: 592px !important;
+    height: 386px !important;
+    background: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
+    border-radius: 20px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .banner .carousel__card--center img {
+    height: 110%;
+    width: 100%;
+    transform: translateY(-39px) matrix(-1, 0, 0, 1, 0, 0) !important;
+  }
+  .banner .carousel__card--center button {
+    display: none;
+  }
+  .banner .carousel__card--desktop {
+    opacity: 0;
+    position: absolute;
+    width: 592px;
+    height: 152px;
+    bottom: -172px;
+    left: 0px;
+    background: #E44449;
+    border-radius: 20px;
+  }
+  .banner .carousel__card--desktop button {
+    width: 492px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 34px;
+    background-color: #FFFFFF;
+    left: 50%;
+    bottom: 0px;
+    margin: 4rem 5rem;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  .banner .carousel__card--desktop--bottom {
+    opacity: 0;
+    width: 592px;
+    height: 58px;
+    background: #E44449;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+  .banner .carousel__card--desktop--bottom-right {
+    position: absolute;
+    opacity: 0;
+    width: 96px;
+    height: 557px;
+    right: 0px;
+    margin-top: 170px;
+    margin-left: 1.6rem;
+    background: #E44449;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  .banner .carousel__card--desktop--bottom-right-corner {
+    opacity: 0;
+    width: 96px;
+    height: 23px;
+    background: #E44449;
   }
 }/*# sourceMappingURL=style.css.map */
