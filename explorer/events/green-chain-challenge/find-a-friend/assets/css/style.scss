@@ -340,6 +340,8 @@ header {
         background: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
         border-radius: 20px;
 
+        margin-right: 112px;
+
         transform: matrix(-1, 0, 0, 1, 0, 0);
 
         img {
@@ -421,13 +423,19 @@ header {
       }
 
       &__card--desktop--bottom-right-corner {
+        position: absolute;
         opacity: 0;
         width: 96px;
-        height: 23px;
+        height: 58px;
+
+        right: 0px;
+        bottom: 0px;
+
+        transform: translateY(78px);
 
         background: #E44449;
 
-
+        border-top-left-radius: 2rem;
       }
     }
   }
