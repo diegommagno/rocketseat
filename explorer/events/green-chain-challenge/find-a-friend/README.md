@@ -1,7 +1,7 @@
 <h1 align="center"> Find a Friend </h1>
 
 <p align="center">
-FindAFriend is a product developed by the Startup FindAFriend, where you can find the ideal pet for your life style! 🐶. <br/>
+FindAFriend is a product developed by the Startup FindAFriend, where you can find the ideal pet for your life style! 🐶 <br/>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ FindAFriend is a product developed by the Startup FindAFriend, where you can fin
 
 ## 📝 Live Preview 
 
-- [Find a Friend](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Find a Friend](https://diegommagno.com/github/rocketseat/explorer/events/green-chain-challenge/find-a-friend/index.html)
 
 <br/>
 
@@ -31,16 +31,12 @@ FindAFriend is a product developed by the Startup FindAFriend, where you can fin
 
 <br/>
 
-## 🎨 Layout
-
-- You can check the layout [here](https://www.figma.com/community/file/1216014509044898198/Horror-Game-LP). You will need a [Figma](https://figma.com) account to access it.
-
-
 ## 🧑🏻‍💻 Technologies
 
 - HTML
 - SCSS
+- JavaScript
 
 ## 🎓 Worked on
 
-- CSS: `flex and grid`, `rem`, `background`
+- CSS: `flex`, `rem`, `background`
