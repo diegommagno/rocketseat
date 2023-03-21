@@ -12,6 +12,7 @@
   <title>Find a Friend</title>
 
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" defer></script>
 </head>
 <body>
 
@@ -21,12 +22,18 @@
         <img src="./assets/img/logo.svg" alt="Logo">
       </div>
 
-      <div class="menu">
+      <!-- <div class="hamburger">
         <img src="./assets/img/open-menu.svg" alt="Open menu button">
         <img class="hidden" src="./assets/img/close-menu.svg" alt="Close menu button">
-      </div>
+      </div> -->
 
-      <ul>
+      <button class="hamburger">
+        <img class="menuIcon" src="./assets/img/open-menu.svg" alt="" />
+        <img class="closeIcon" src="./assets/img/close-menu.svg" alt="" />
+      </button>
+
+      <ul class="menu">
+        <div class="line"></div>
         <li><a href="#" class="active">Home</a></li>
         <li><a href="#">Sobre o app</a></li>
         <li><a href="#">Animais disponíveis</a></li>

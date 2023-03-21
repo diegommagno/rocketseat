@@ -32,6 +32,75 @@ body {
   background-color: var(--secondary-color);
 }
 
+/* Imported Code */
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1.2rem;
+  right: 2rem;
+  padding: 3px;
+  border: 0;
+  border-radius: 0.8rem;
+  background: white;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #e44449;
+  color: #ffffff;
+  list-style: none;
+  padding-top: 4rem;
+}
+.menu .active {
+  color: #FFFFFF;
+}
+.menu a {
+  text-decoration: none;
+  color: #d4d0d0;
+}
+.menu a:hover {
+  color: #ffffff;
+}
+.menu a + a {
+  margin: 1rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+  width: 36rem;
+  height: 23rem;
+  padding: 7.9rem 2.5rem 0;
+  border-radius: 0 0 2rem 2rem;
+}
+
+#line {
+  position: absolute;
+  width: 27.2rem;
+  height: 0px;
+  opacity: 0.2;
+  border: 1px solid #ffffff;
+}
+
+.showMenu li {
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  margin-top: 0.5rem;
+}
+
+/* ------- */
 header nav {
   display: flex;
   justify-content: space-between;
@@ -43,6 +112,10 @@ header nav {
 }
 header nav .logo img, header nav .menu img {
   cursor: pointer;
+}
+header nav .logo {
+  position: fixed;
+  z-index: 999;
 }
 header nav .hidden {
   display: none;
@@ -128,4 +201,12 @@ header .banner .carousel__card--center button {
   border: none;
   border-radius: 9px;
   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
