@@ -21,7 +21,7 @@ FindAFriend is a product developed by the Startup FindAFriend, where you can fin
 
 ## 📝 Live Preview 
 
-- [Find a Friend](https://diegommagno.com/github/rocketseat/explorer/events/green-chain-challenge/find-a-friend/index.html)
+- [Find a Friend](https://diegommagno.com/rocketseat/explorer/events/green-chain-challenge/find-a-friend/)
 
 <br/>
 
