@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Nunito";
   font-size: 1.6rem;
   color: #FFFFFF;
   height: 100vh;
@@ -34,4 +35,66 @@ header nav {
 }
 header nav .logo img, header nav .menu img {
   cursor: pointer;
+}
+header .banner .friends-in-your-city {
+  padding-top: 5.2rem;
+  padding-left: 2.1rem;
+}
+header .banner .friends-in-your-city__photos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+header .banner .friends-in-your-city__photos img {
+  margin-right: -1.2rem;
+}
+header .banner .friends-in-your-city__amount {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 120%;
+}
+header .banner h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  padding-top: 3.5rem;
+  padding-left: 2.1rem;
+}
+header .banner .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.3rem;
+  position: relative;
+  transform: translateY(15px);
+}
+header .banner .carousel__card--center {
+  width: 279px;
+  height: 255px;
+  background: linear-gradient(153.09deg, #F36A6F 17.23%, #E44449 73.77%);
+  border-radius: 20px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+header .banner .carousel__card--center img {
+  height: 110%;
+  width: 100%;
+  transform: translateY(-26px) matrix(-1, 0, 0, 1, 0, 0);
+}
+header .banner .carousel__card--center button {
+  width: 239px;
+  height: 55px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 15px;
+  background-color: #FFFFFF;
+  left: 50%;
+  bottom: 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: none;
+  border-radius: 9px;
 }/*# sourceMappingURL=style.css.map */
