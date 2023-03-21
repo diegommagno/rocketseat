@@ -16,6 +16,14 @@
   --btn-fc: #0D3B66;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Nunito";
   font-size: 1.6rem;
@@ -35,6 +43,9 @@ header nav {
 }
 header nav .logo img, header nav .menu img {
   cursor: pointer;
+}
+header nav .hidden {
+  display: none;
 }
 header .banner .friends-in-your-city {
   padding-top: 5.2rem;
@@ -72,6 +83,25 @@ header .banner .carousel {
   position: relative;
   transform: translateY(15px);
 }
+header .banner .carousel .carousel__card--left, header .banner .carousel .carousel__card--right {
+  position: absolute;
+  width: 20px;
+  height: 255px;
+  background: linear-gradient(0deg, #E44449, #E44449), #D9D9D9;
+}
+header .banner .carousel .carousel__card--left {
+  left: 0px;
+  bottom: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+header .banner .carousel .carousel__card--right {
+  right: 0px;
+  bottom: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 header .banner .carousel__card--center {
   width: 279px;
   height: 255px;
@@ -94,7 +124,8 @@ header .banner .carousel__card--center button {
   background-color: #FFFFFF;
   left: 50%;
   bottom: 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: translateX(20px) translateY(-100px) matrix(-1, 0, 0, 1, 0, 0);
   border: none;
   border-radius: 9px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

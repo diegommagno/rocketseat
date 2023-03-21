@@ -19,6 +19,14 @@
   --btn-fc: #0D3B66;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   font-family: 'Nunito';
   font-size: 1.6rem;
@@ -47,6 +55,10 @@ header {
       img {
         cursor: pointer;
       }
+    }
+
+    .hidden {
+      display: none;
     }
   }
 
@@ -99,6 +111,31 @@ header {
 
       transform: translateY(15px);
 
+      .carousel__card--left, .carousel__card--right {
+        position: absolute;
+        width: 20px;
+        height: 255px;
+
+        background: linear-gradient(0deg, #E44449, #E44449), #D9D9D9;
+      }
+
+      .carousel__card--left {
+        left: 0px;
+        bottom: 0px;
+
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+      }
+
+      .carousel__card--right {
+        right: 0px;
+        bottom: 0px;
+
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+
       &__card--center {
         width: 279px;
         height: 255px;
@@ -115,7 +152,6 @@ header {
         }
 
         button {
-
           width: 239px;
           height: 55px;
 
@@ -129,10 +165,12 @@ header {
           left: 50%;
           bottom: 0px;
 
-          transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: translateX(20px) translateY(-100px) matrix(-1, 0, 0, 1, 0, 0);
 
           border: none;
           border-radius: 9px;
+
+          cursor: pointer;
         }
       }
     }
