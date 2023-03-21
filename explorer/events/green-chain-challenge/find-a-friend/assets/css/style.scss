@@ -278,11 +278,8 @@ header {
     height: 82rem !important;
   }
 
-  .menu-desktop {
-    opacity: 0;
-  }
-
   header {
+
     nav {
       display: flex;
       justify-content: space-between;
@@ -297,7 +294,7 @@ header {
 
       ul {
         flex-direction: row;
-        gap: 3.6rem;
+        gap: 6.2rem;
       }
 
       .logo {
@@ -307,6 +304,18 @@ header {
 
       .hamburger {
         display: none;
+      }
+
+      .menu-desktop {
+        display: flex;
+        position: absolute;
+        right: 118px;
+
+        padding-top: 3.5rem;
+
+        li a {
+          color: #FFFFFF;
+        }
       }
     }
   }
