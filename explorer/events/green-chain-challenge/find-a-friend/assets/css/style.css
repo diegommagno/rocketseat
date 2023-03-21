@@ -121,7 +121,7 @@ header nav .logo {
   position: fixed;
   z-index: 999;
 }
-header nav .hidden {
+header nav .hidden, header nav .menu-desktop {
   display: none;
 }
 header .banner .wrapper .friends-in-your-city {
@@ -182,6 +182,9 @@ header .banner .carousel .carousel__card--right {
 header .banner .carousel .carousel__card--desktop, header .banner .carousel .carousel__card--desktop--bottom, header .banner .carousel .carousel__card--desktop--bottom-right, header .banner .carousel .carousel__card--desktop--bottom-right-corner {
   opacity: 1;
 }
+header .banner .carousel .carousel__card--desktop {
+  display: none;
+}
 header .banner .carousel__card--center {
   width: 279px;
   height: 255px;
@@ -213,6 +216,29 @@ header .banner .carousel__card--center button {
 @media (min-width: 992px) {
   body {
     height: 82rem !important;
+  }
+  .menu-desktop {
+    opacity: 0;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+  }
+  header nav ul {
+    flex-direction: row;
+    gap: 3.6rem;
+  }
+  header nav .logo {
+    padding-top: 4rem;
+    padding-left: 112px;
+  }
+  header nav .hamburger {
+    display: none;
   }
   .banner {
     display: flex;
@@ -281,7 +307,7 @@ header .banner .carousel__card--center button {
     display: none;
   }
   .banner .carousel__card--desktop {
-    opacity: 0;
+    display: block !important;
     position: absolute;
     width: 592px;
     height: 152px;
