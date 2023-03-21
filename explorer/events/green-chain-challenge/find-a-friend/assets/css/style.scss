@@ -27,6 +27,10 @@ ul {
   list-style: none;
 }
 
+#p-hidden {
+  display: none;
+}
+
 body {
   font-family: 'Nunito';
   font-size: 1.6rem;
@@ -145,40 +149,42 @@ header {
 
   .banner {
     
-    .friends-in-your-city {
-      padding-top: 5.2rem;
-      padding-left: 2.1rem;
-
-      &__photos {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        padding-bottom: 1rem;
-        
-        img {
-          margin-right: -1.2rem;
+    .wrapper {
+      .friends-in-your-city {
+        padding-top: 5.2rem;
+        padding-left: 2.1rem;
+  
+        &__photos {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+  
+          padding-bottom: 1rem;
+          
+          img {
+            margin-right: -1.2rem;
+          }
+        }
+  
+        &__amount {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 120%;
         }
       }
-
-      &__amount {
+  
+      h1 {
         font-style: normal;
-        font-weight: 800;
-        font-size: 14px;
-        line-height: 120%;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 110%;
+  
+        letter-spacing: -0.02em;
+  
+        padding-top: 3.5rem;
+        padding-left: 2.1rem;
       }
-    }
-
-    h1 {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 44px;
-      line-height: 110%;
-
-      letter-spacing: -0.02em;
-
-      padding-top: 3.5rem;
-      padding-left: 2.1rem;
     }
 
     .carousel {
@@ -266,5 +272,34 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    .wrapper {
+      padding-left: 113px;
+
+      .friends-in-your-city {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 18px;
+        padding-bottom: 7rem;
+        padding-left: 0rem !important;
+      }
+
+      h1 {
+        font-size: 72px !important;
+        padding-bottom: 8rem;
+        padding-left: 0rem !important;
+      }
+
+      #p-hidden {
+        display: inline;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+      }
+    }
   }
 }

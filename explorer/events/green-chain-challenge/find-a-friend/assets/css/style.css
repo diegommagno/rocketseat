@@ -24,6 +24,10 @@ ul {
   list-style: none;
 }
 
+#p-hidden {
+  display: none;
+}
+
 body {
   font-family: "Nunito";
   font-size: 1.6rem;
@@ -120,26 +124,26 @@ header nav .logo {
 header nav .hidden {
   display: none;
 }
-header .banner .friends-in-your-city {
+header .banner .wrapper .friends-in-your-city {
   padding-top: 5.2rem;
   padding-left: 2.1rem;
 }
-header .banner .friends-in-your-city__photos {
+header .banner .wrapper .friends-in-your-city__photos {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   padding-bottom: 1rem;
 }
-header .banner .friends-in-your-city__photos img {
+header .banner .wrapper .friends-in-your-city__photos img {
   margin-right: -1.2rem;
 }
-header .banner .friends-in-your-city__amount {
+header .banner .wrapper .friends-in-your-city__amount {
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
   line-height: 120%;
 }
-header .banner h1 {
+header .banner .wrapper h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
@@ -208,5 +212,30 @@ header .banner .carousel__card--center button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .banner .wrapper {
+    padding-left: 113px;
+  }
+  .banner .wrapper .friends-in-your-city {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    padding-bottom: 7rem;
+    padding-left: 0rem !important;
+  }
+  .banner .wrapper h1 {
+    font-size: 72px !important;
+    padding-bottom: 8rem;
+    padding-left: 0rem !important;
+  }
+  .banner .wrapper #p-hidden {
+    display: inline;
+  }
+  .banner .wrapper p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
   }
 }/*# sourceMappingURL=style.css.map */
