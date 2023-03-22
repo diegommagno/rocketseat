@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary-color: #7C3AED;
+  --secondary-color: #E2D6FF;
+  --fc-primary: #403937;
+  --fc-secondary: #756966;
+  --fc-secondary: #CAB3FF;
+  --fc-secondary: #7C7C8A;
+}
+
+body {
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
