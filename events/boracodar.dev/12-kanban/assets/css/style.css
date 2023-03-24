@@ -12,10 +12,56 @@
   --secondary-color: #E2D6FF;
   --fc-primary: #403937;
   --fc-secondary: #756966;
-  --fc-secondary: #CAB3FF;
-  --fc-secondary: #7C7C8A;
+  --fc-tertiary: #CAB3FF;
+  --fc-quaternary: #7C7C8A;
 }
 
 body {
   font-size: 1.6rem;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu .logo {
+  padding-right: 9rem;
+  padding-bottom: 6rem;
+}
+.menu .menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  padding-right: 2.7rem;
+}
+.menu .menu-items .active {
+  color: #FFFFFF;
+}
+.menu .menu-items .active svg path {
+  fill: #FFFFFF;
+}
+.menu .menu-items button {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: var(--fc-tertiary);
+  font-size: 2.4rem;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.menu .menu-items button svg path {
+  fill: var(--fc-tertiary);
 }/*# sourceMappingURL=style.css.map */
