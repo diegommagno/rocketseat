@@ -19,6 +19,7 @@
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
 
   background-color: var(--primary-color);
@@ -80,4 +81,43 @@ body {
       }
     }
   }
+}
+
+.board {
+  background-color: #FFFFFF;
+
+  .header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem;
+
+    .wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1.2rem;
+
+      .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        color: var(--fc-primary);
+      }
+
+      button {
+        border: none;
+        background: transparent;
+      }
+    }
+
+    .user-photo {
+      img {
+        height: 6.4rem;
+        width: 6.4rem;
+      }
+    }
+  }
+
 }

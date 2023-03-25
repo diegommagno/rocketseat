@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   background-color: var(--primary-color);
   color: #FFFFFF;
@@ -64,4 +65,35 @@ body {
 }
 .menu .menu-items button svg path {
   fill: var(--fc-tertiary);
+}
+
+.board {
+  background-color: #FFFFFF;
+}
+.board .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+}
+.board .header .wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+}
+.board .header .wrapper .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: var(--fc-primary);
+}
+.board .header .wrapper button {
+  border: none;
+  background: transparent;
+}
+.board .header .user-photo img {
+  height: 6.4rem;
+  width: 6.4rem;
 }/*# sourceMappingURL=style.css.map */
