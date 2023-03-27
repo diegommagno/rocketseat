@@ -69,12 +69,18 @@ body {
 
 .board {
   background-color: #FFFFFF;
+  padding: 4.8rem 3.2rem 0;
+}
+.board .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 2.4rem;
 }
 .board .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3.2rem;
 }
 .board .header .wrapper {
   display: flex;
@@ -85,7 +91,7 @@ body {
 .board .header .wrapper .title {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 130%;
   color: var(--fc-primary);
 }
