@@ -102,4 +102,37 @@ body {
 .board .header .user-photo img {
   height: 6.4rem;
   width: 6.4rem;
+}
+.board .filter {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.board .filter button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  padding: 1.2rem 3.2rem;
+  border: none;
+  border-radius: 5px;
+}
+.board .filter .filter-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+  border: 0.7px solid #E3E3E3;
+  box-shadow: 0px 4px 16px rgba(22, 22, 22, 0.1);
+  border-radius: 8px;
+  padding: 1.6rem 2.4rem;
+}
+.board .filter .filter-wrapper label, .board .filter .filter-wrapper input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--fc-quaternary);
+  border: none;
 }/*# sourceMappingURL=style.css.map */
