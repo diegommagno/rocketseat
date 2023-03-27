@@ -21,7 +21,7 @@ Kanban is a visual workflow management methodology that aims to increase the eff
 
 ## 📝 Live Preview 
 
-- [Kanban](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Kanban](https://diegommagno.com/github/rocketseat/events/boracodar.dev/12-kanban/)
 
 <br/>
 
