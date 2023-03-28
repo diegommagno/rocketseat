@@ -8,8 +8,90 @@
 
 :root {
   font-size: 62.5%;
+
+  --primary-color: #E44449;
+  --secondary-color: #F15156;
+
+  --menu-btn-open: #000000;
+  --menu-btn-bg: #FFFFFF;
+
+  --btn-bg: #FFFFFF;
+  --btn-fc: #0D3B66;
 }
 
 body {
+  font-family: 'Nunito';
   font-size: 1.6rem;
+
+  height: 100vh;
+}
+
+
+
+.section-01 {
+  display: flex;
+  flex-direction: column;
+
+  .wrapper-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 7rem 2rem 3.6rem 2rem;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      h3 {
+        width: 320px;
+        height: 66px;
+
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+    
+        color: #0D3B66;
+  
+        margin-bottom: 2rem;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: column;
+    
+        width: 320px;
+        height: 197px;
+    
+        padding-top: 3rem;
+        padding-left: 3rem;
+    
+        background: #FDECED;
+        border: 1px solid rgba(241, 81, 86, 0.3);
+        border-radius: 20px;
+    
+        img {
+          width: 30px;
+          height: 33px;
+    
+          margin-bottom: 1.3rem;
+        }
+    
+        p {
+          width: 223px;
+          height: 91px;
+    
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 110%;
+          color: #000000;
+        }
+      }
+    }
+  }
 }
