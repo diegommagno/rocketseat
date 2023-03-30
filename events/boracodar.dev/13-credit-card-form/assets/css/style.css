@@ -8,9 +8,21 @@
 
 :root {
   font-size: 62.5%;
+  --btn: #9333EA;
+  --btn-hover: #A855F7;
 }
 
 body {
   font-size: 1.6rem;
   background-color: #111827;
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: 3.2rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 6.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
