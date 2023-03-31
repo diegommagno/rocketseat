@@ -12,7 +12,6 @@
 <body>
   <div id="app">
     <div class="wrapper">
-
       <div class="card">
         <div class="card-header">
           <img class="type" src="" alt="">
@@ -20,32 +19,37 @@
         </div>
       </div>
 
-      <div class="card-info">
-        <div class="number">
-          <input type="text">
+      <form action="">
+        <div class="input-wrapper">
+          <label for="card-number">Card number</label>
+          <input id="card-number" />
         </div>
 
-        <div class="name">
-
+        <div class="input-wrapper">
+          <label for="card-holder">Name on card</label>
+          <input id="card-holder" />
         </div>
 
-        <div class="expiry-date">
+        <div class="flex">
+          <div class="input-wrapper">
+            <label for="expiry-date">Expiry date</label>
+            <input id="expiry-date" />
+          </div>
 
+          <div class="input-wrapper">
+            <label for="security-code">CVC</label>
+            <input id="security-code" />
+          </div>
+
+          <div class="safe-data">
+            <img src="./assets/img/shield-check.svg" alt="Safe check pass"> 
+            <span>Seus dados estão seguros</span>
+          </div>
         </div>
 
-        <div class="security-code">
+        <button id="add-card">ADD CARD</button>
+      </form>
 
-        </div>
-
-        <div class="safe-data">
-          <img src="./assets/img/shield-check.svg" alt="Safe check pass"> 
-          <span>Seus dados estão seguros</span>
-        </div>
-      </div>
-
-      <button>
-        Adicionar cartão
-      </button>
     </div>
   </div>
 </body>
