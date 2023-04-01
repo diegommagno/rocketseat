@@ -18,10 +18,41 @@ body {
   background-color: #111827;
 }
 
+#app {
+  margin-top: 6.4rem;
+}
+
+.wrapper {
+  padding: 3.2rem 2.4rem;
+
+  .card {
+    padding-right: 24rem;
+    padding-left: 24rem;
+
+    width: 280px;
+    height: 168px;
+
+    background: rgba(17, 24, 39, 0.4);
+    backdrop-filter: blur(24px);
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
+
+
+
+
+
 @media (min-width: 768px) {
   .app {
     padding: 3.2rem;
   }
+
+  
 
   .wrapper {
     display: flex;
