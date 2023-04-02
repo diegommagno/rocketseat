@@ -9,12 +9,23 @@
 :root {
   font-size: 62.5%;
   --bg: #1A1924;
-  --primary-color: #E1E1E6;
+  --fc: #E1E1E6;
   --online-color: #00B37E;
   --bg-message-received: #633BBC;
   --bg-message-sent: #07847E;
 }
 
 body {
+  background-color: var(--bg);
   font-size: 1.6rem;
+  color: var(--fc);
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+#app {
+  padding: 3.2rem 2.4rem;
 }/*# sourceMappingURL=style.css.map */
