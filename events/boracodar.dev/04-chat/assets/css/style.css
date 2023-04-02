@@ -16,9 +16,10 @@
 }
 
 body {
-  background-color: var(--bg);
+  font-family: "Roboto";
   font-size: 1.6rem;
   color: var(--fc);
+  background-color: var(--bg);
 }
 
 .container {
@@ -28,4 +29,24 @@ body {
 
 #app {
   padding: 3.2rem 2.4rem;
+}
+
+header {
+  display: flex;
+  gap: 1.6rem;
+}
+header .contact-photo img {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+header .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+header .contact-info .name {
+  font-weight: 700;
+}
+header .contact-info .status .online {
+  color: var(--online-color);
 }/*# sourceMappingURL=style.css.map */
