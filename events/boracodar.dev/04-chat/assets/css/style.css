@@ -28,25 +28,28 @@ body {
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   padding: 3.2rem 2.4rem;
 }
 
-header {
+.contact {
   display: flex;
   gap: 1.6rem;
 }
-header .contact-photo img {
+.contact .contact-photo img {
   width: 4.8rem;
   height: 4.8rem;
 }
-header .contact-info {
+.contact .contact-info {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-header .contact-info .name {
+.contact .contact-info .name {
   font-weight: 700;
 }
-header .contact-info .status .online {
+.contact .contact-info .status .online {
   color: var(--online-color);
 }/*# sourceMappingURL=style.css.map */
