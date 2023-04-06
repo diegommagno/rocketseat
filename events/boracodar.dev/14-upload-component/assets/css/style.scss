@@ -18,14 +18,17 @@ body {
 
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
+
+  background-color: grey;
 }
 
 #app {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
-.file-upload {
+.upload-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +54,6 @@ body {
   }
 }
 
-.file-uploading {
+.uploading-area {
 
 }
