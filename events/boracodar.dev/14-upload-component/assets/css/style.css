@@ -11,5 +11,35 @@
 }
 
 body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+  height: 160px;
+  border: 1px dashed #C1B2FA;
+  border-radius: 8px;
+  background-color: #F3F0FF;
+}
+.file-upload span:nth-child(even) {
+  font-weight: 700;
+  color: #7A5FEC;
+}
+.file-upload span:nth-child(odd) {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #746E82;
 }/*# sourceMappingURL=style.css.map */
