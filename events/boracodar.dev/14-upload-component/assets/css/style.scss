@@ -61,6 +61,11 @@ body {
     display: flex;
     gap: 1.2rem;
 
+    padding: 8px;
+
+    box-shadow: 0px 4px 16px #EAE2FD;
+    border-radius: 8px;
+
     .icon {
       display: flex;
       justify-content: center;
