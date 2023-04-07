@@ -91,4 +91,16 @@ body {
   font-weight: 500;
   font-size: 1.2rem;
   color: #857E95;
+}
+.uploading-area .file .file-info .progress-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.uploading-area .file .file-info .progress-bar .bar {
+  width: 324px;
+  height: 8px;
+  background: #E3E3ED;
+  border-radius: 999px;
 }/*# sourceMappingURL=style.css.map */

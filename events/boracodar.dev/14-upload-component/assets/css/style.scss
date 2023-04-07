@@ -106,6 +106,20 @@ body {
         font-size: 1.2rem;
         color: #857E95;
       }
+
+      .progress-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        
+        .bar {
+          width: 324px;
+          height: 8px;
+          background: #E3E3ED;
+          border-radius: 999px;
+        }
+      }
     }
   }
 
