@@ -18,8 +18,6 @@ body {
 
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
-
-  background-color: grey;
 }
 
 #app {
@@ -60,6 +58,8 @@ body {
   gap: 1.2rem;
 
   .file {
+    display: flex;
+    gap: 1.2rem;
 
     .icon {
       display: flex;
@@ -87,6 +87,24 @@ body {
       background: #F2D9D9;
       svg path {
         fill: #E36363;
+      }
+    }
+
+    .file-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .name {
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: #575361;
+      }
+
+      .size, .progress-bar {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #857E95;
       }
     }
   }

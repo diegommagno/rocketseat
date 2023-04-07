@@ -16,7 +16,6 @@ body {
   height: 100vh;
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
-  background-color: grey;
 }
 
 #app {
@@ -51,6 +50,10 @@ body {
   flex-direction: column;
   gap: 1.2rem;
 }
+.uploading-area .file {
+  display: flex;
+  gap: 1.2rem;
+}
 .uploading-area .file .icon {
   display: flex;
   justify-content: center;
@@ -73,4 +76,19 @@ body {
 }
 .uploading-area .file .red svg path {
   fill: #E36363;
+}
+.uploading-area .file .file-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.uploading-area .file .file-info .name {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #575361;
+}
+.uploading-area .file .file-info .size, .uploading-area .file .file-info .progress-bar {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #857E95;
 }/*# sourceMappingURL=style.css.map */
