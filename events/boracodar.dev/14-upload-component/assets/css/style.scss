@@ -55,5 +55,40 @@ body {
 }
 
 .uploading-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  .file {
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 48px;
+      height: 56px;
+
+      border-radius: 4px;
+    }
+
+    .purple {
+      background: #E9E3F8;
+    }
+
+    .green {
+      background: #DAF2D9;
+      svg path {
+        fill: #73B172;
+      }
+    }
+
+    .red {
+      background: #F2D9D9;
+      svg path {
+        fill: #E36363;
+      }
+    }
+  }
 
 }

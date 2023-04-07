@@ -44,4 +44,33 @@ body {
   font-weight: 400;
   font-size: 1.4rem;
   color: #746E82;
+}
+
+.uploading-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.uploading-area .file .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 56px;
+  border-radius: 4px;
+}
+.uploading-area .file .purple {
+  background: #E9E3F8;
+}
+.uploading-area .file .green {
+  background: #DAF2D9;
+}
+.uploading-area .file .green svg path {
+  fill: #73B172;
+}
+.uploading-area .file .red {
+  background: #F2D9D9;
+}
+.uploading-area .file .red svg path {
+  fill: #E36363;
 }/*# sourceMappingURL=style.css.map */
