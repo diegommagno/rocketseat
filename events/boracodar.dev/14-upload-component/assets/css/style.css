@@ -34,6 +34,7 @@ body {
   border: 1px dashed #C1B2FA;
   border-radius: 8px;
   background-color: #F3F0FF;
+  cursor: pointer;
 }
 .upload-area img {
   padding-bottom: 1.2rem;
@@ -92,7 +93,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.uploading-area .file .file-info .wrapper .stop-upload {
+.uploading-area .file .file-info .wrapper .stop-upload, .uploading-area .file .file-info .wrapper .refresh {
   padding-right: 7px;
   cursor: pointer;
 }

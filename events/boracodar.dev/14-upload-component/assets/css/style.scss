@@ -40,6 +40,8 @@ body {
 
   background-color: #F3F0FF;
 
+  cursor: pointer;
+
   img {
     padding-bottom: 1.2rem;
   }
@@ -108,10 +110,10 @@ body {
         display: flex;
         justify-content: space-between;
 
-        .stop-upload {
+        .stop-upload, .refresh {
           padding-right: 7px;
-          
           cursor: pointer;
+
         }
       }
 
