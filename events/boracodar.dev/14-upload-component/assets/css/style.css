@@ -88,6 +88,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.uploading-area .file .file-info .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.uploading-area .file .file-info .wrapper .stop-upload {
+  padding-right: 7px;
+}
 .uploading-area .file .file-info .name {
   font-weight: 700;
   font-size: 1.4rem;

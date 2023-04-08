@@ -104,6 +104,15 @@ body {
       flex-direction: column;
       justify-content: space-between;
 
+      .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .stop-upload {
+          padding-right: 7px;
+        }
+      }
+
       .name {
         font-weight: 700;
         font-size: 1.4rem;
