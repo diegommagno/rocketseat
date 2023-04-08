@@ -35,6 +35,9 @@ body {
   border-radius: 8px;
   background-color: #F3F0FF;
 }
+.upload-area img {
+  padding-bottom: 1.2rem;
+}
 .upload-area span:nth-child(even) {
   font-weight: 700;
   color: #7A5FEC;
