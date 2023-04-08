@@ -94,6 +94,7 @@ body {
 }
 .uploading-area .file .file-info .wrapper .stop-upload {
   padding-right: 7px;
+  cursor: pointer;
 }
 .uploading-area .file .file-info .name {
   font-weight: 700;
