@@ -115,6 +115,7 @@ body {
 }
 .uploading-area .file .file-info .progress-bar .wrapper {
   position: relative;
+  transform: translateY(-3px);
 }
 .uploading-area .file .file-info .progress-bar .wrapper .bar {
   width: 324px;
