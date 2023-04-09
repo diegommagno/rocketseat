@@ -17,12 +17,12 @@
 
 ## 📝 Live Preview 
 
-- [Upload Component](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Upload Component](https://diegommagno.com/github/rocketseat/events/boracodar.dev/14-upload-component)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.gif" width="80%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="50%" />
 </p>
 
 <br/>
@@ -39,4 +39,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex and grid`, `rem`, `background`
+- CSS: `flex and grid`, `rem`, `nth-child`, `update svg color`, `position`
