@@ -40,28 +40,46 @@ body {
 
 .contact {
   display: flex;
-  gap: 1.6rem;
+  flex-direction: column;
+  gap: 2.6rem;
+  
+  .wrapper {
+    display: flex;
+    gap: 1.6rem;
 
-  .contact-photo {
-    img {
-      width: 4.8rem;
-      height: 4.8rem;
+    .contact-photo {
+      img {
+        width: 4.8rem;
+        height: 4.8rem;
+      }
     }
-  }
-
-  .contact-info {
-    display: flex; 
-    flex-direction: column;
-    gap: 4px;
-
-    .name {
-      font-weight: 700;
-    }
-
-    .status {
-      .online {
-        color: var(--online-color);
+  
+    .contact-info {
+      display: flex; 
+      flex-direction: column;
+      gap: 4px;
+  
+      .name {
+        font-weight: 700;
+      }
+  
+      .status {
+        .online {
+          color: var(--online-color);
+        }
       }
     }
   }
+
+  .message-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 1.2rem;
+    color: var(--fc);
+  
+    background-color: var(--bg);
+  }
 }
+

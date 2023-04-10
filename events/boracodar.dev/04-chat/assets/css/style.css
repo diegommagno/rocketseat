@@ -36,20 +36,33 @@ body {
 
 .contact {
   display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+.contact .wrapper {
+  display: flex;
   gap: 1.6rem;
 }
-.contact .contact-photo img {
+.contact .wrapper .contact-photo img {
   width: 4.8rem;
   height: 4.8rem;
 }
-.contact .contact-info {
+.contact .wrapper .contact-info {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.contact .contact-info .name {
+.contact .wrapper .contact-info .name {
   font-weight: 700;
 }
-.contact .contact-info .status .online {
+.contact .wrapper .contact-info .status .online {
   color: var(--online-color);
+}
+.contact .message-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--fc);
+  background-color: var(--bg);
 }/*# sourceMappingURL=style.css.map */
