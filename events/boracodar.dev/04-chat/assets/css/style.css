@@ -13,6 +13,7 @@
   --online-color: #00B37E;
   --bg-message-received: #633BBC;
   --bg-message-sent: #07847E;
+  --bg-message-input: #282843;
 }
 
 body {
@@ -79,6 +80,23 @@ body {
   padding: 1.4rem;
   gap: 10rem;
   max-width: 15rem;
-  background: #633BBC;
+  background: var(--bg-message-received);
+  border-radius: 0px 8px 8px 8px;
+}
+
+.message-sent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.message-sent .message-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.4rem;
+  gap: 10rem;
+  max-width: 15rem;
+  background-color: var(--bg-message-sent);
   border-radius: 0px 8px 8px 8px;
 }/*# sourceMappingURL=style.css.map */
