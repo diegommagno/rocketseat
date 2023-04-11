@@ -124,3 +124,25 @@ body {
   }
 }
 
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 2.4rem;
+  gap: 1rem;
+
+  margin-top: 2.4rem;
+
+  background-color: var(--bg-message-input);
+  border-radius: 999px;
+
+  input {
+    background-color: var(--bg-message-input);
+    border: none;
+    width: 23rem;
+
+    &::placeholder {
+      color: var(--fc);
+    }
+  }
+}

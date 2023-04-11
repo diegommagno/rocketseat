@@ -99,4 +99,26 @@ body {
   max-width: 15rem;
   background-color: var(--bg-message-sent);
   border-radius: 0px 8px 8px 8px;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 2.4rem;
+  gap: 1rem;
+  margin-top: 2.4rem;
+  background-color: var(--bg-message-input);
+  border-radius: 999px;
+}
+.message-input input {
+  background-color: var(--bg-message-input);
+  border: none;
+  width: 23rem;
+}
+.message-input input::-moz-placeholder {
+  color: var(--fc);
+}
+.message-input input::placeholder {
+  color: var(--fc);
 }/*# sourceMappingURL=style.css.map */
