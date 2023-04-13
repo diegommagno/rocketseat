@@ -9,14 +9,24 @@
 :root {
   font-size: 62.5%;
 
+  --grey-900: #0F172A;
+  --grey-800: #1E293B;
+  --grey-700: #334155;
+  --grey-600: #475569;
+  --grey-500: #64748B;
+  --grey-400: #94A3B8;
+  --grey-300: #CBD5E1;
+  --grey-200: #E2E8F0;
+  --grey-100: #F1F5F9;
+  --grey-50: #F8FAFC;
+
+  --green-100: #04D361;
+  --green-200: #1B873F;
+
   --purple-200: #7C3AED;
   --purple-100: #996DFF;
 
-  --grey-900: #0F172A;
-  --grey-800: #1E293B;
-  --grey-600: #475569;
-  --grey-300: #CBD5E1;
-  --grey-50: #F8FAFC;
+  --white: #FFFFFF;
 
   --orange: #FBA94C;
 }
