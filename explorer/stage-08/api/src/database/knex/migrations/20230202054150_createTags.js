@@ -1,5 +1,5 @@
 exports.up = knex => knex.schema.createTable("tags", table => { 
-  /* "notes" é onde coloca o nome da tabela. Up é o processo de criar a tabela. */
+  /* "tags" é onde coloca o nome da tabela. UP é o processo de criar a tabela. */
   
     table.increments("id");
     table.text("name").notNullable(); /* Não permito um nulo aqui */
@@ -12,4 +12,4 @@ exports.up = knex => knex.schema.createTable("tags", table => {
   });
     
   exports.down = knex => knex.schema.dropTable("tags"); 
-  /* Down é o processo de deletar a tabela. Troca para dropTable ao invés de createTable e somente passa o nome da tabela. */
+  /* DOWN é o processo de deletar a tabela. Troca para dropTable ao invés de createTable e somente passa o nome da tabela. */
