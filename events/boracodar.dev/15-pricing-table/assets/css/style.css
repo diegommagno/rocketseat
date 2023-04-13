@@ -29,4 +29,39 @@
 body {
   font-size: 1.6rem;
   background-color: #29292E;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #29292E;
+}
+
+.essencials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2.4rem;
+  background-color: var(--white);
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+}
+.essencials .header {
+  color: var(--purple-200);
+}
+.essencials .plan-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.essencials .plan-info .name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: var(--grey-800);
 }/*# sourceMappingURL=style.css.map */
