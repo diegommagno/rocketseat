@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --purple-200: #7C3AED;
+  --purple-100: #996DFF;
+
+  --grey-900: #0F172A;
+  --grey-800: #1E293B;
+  --grey-600: #475569;
+  --grey-300: #CBD5E1;
+  --grey-50: #F8FAFC;
+
+  --orange: #FBA94C;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #29292E;
+}
