@@ -26,14 +26,14 @@ This was an introduction to programming event with three different landing page 
 <br/>
 
 <p align="center">
-  <img alt="Landing pages created during the event." src=".github/preview-cover.gif" width="80%" />
+  <img alt="Landing pages created during the event." src=".github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1216014509044898198/Horror-Game-LP). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1200070743637495660). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
