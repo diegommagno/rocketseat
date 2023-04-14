@@ -7,7 +7,7 @@ class NotesController {
 
     /* Vou armazenar em note_id a id da nota que acabei de cadastrar porque as tabelas tags e links vão usar. 
     Nesse caso eu crio a nota e já recupero o id da nota que acabei de criar. Já vou usar isso agora nos próximos códigos porque as tags e links são inseridos daqui mesmo.  */
-    const note_id = await knex("notes").insert({
+    const [note_id] = await knex("notes").insert({
       title,
       description,
       user_id,
