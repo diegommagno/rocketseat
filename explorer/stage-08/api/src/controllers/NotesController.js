@@ -5,8 +5,8 @@ class NotesController {
     const { title, description, tags, links } = request.body; /* importa informações de dentro do body da requisição feita no Insomnia */
     const { user_id } = request.params; /* importa informações de dentro do params da requisição feita no Insomnia */
 
-    /* Vou armazenar em note_id a id da nota que acabei de cadastrar porque as tabelas tags e links vão usar. 
-    Nesse caso eu crio a nota e já recupero o id da nota que acabei de criar. Já vou usar isso agora nos próximos códigos porque as tags e links são inseridos daqui mesmo.  */
+    /* Vou armazenar em note_id a id da nota que acabei de cadastrar porque as tabelas tags e links vão usar 
+    Nesse caso eu crio a nota e já recupero o id da nota que acabei de criar. Já vou usar isso agora nos próximos códigos porque as tags e links são inseridos daqui mesmo  */
     const [note_id] = await knex("notes").insert({
       title,
       description,
@@ -59,6 +59,7 @@ class NotesController {
     return response.json();
   }
 
+  /* Listar as notas do user */
   async index(request, response) {
     const { title, user_id, tags } = request.query; /* query é algo dentro do insomnia que eu passo o valor do user_id digitando */
 
