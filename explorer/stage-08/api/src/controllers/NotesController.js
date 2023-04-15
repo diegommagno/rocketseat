@@ -37,7 +37,7 @@ class NotesController {
   }
 
   async show(request, response) {
-    const { id } = request.params; /* pega o ID da nota que foi passado através do request */
+    const { id } = request.params; /* pega o id da nota que foi passado através do request */
 
     const note = await knex("notes").where({ id }).first();  /* buscar na tabela notas a primeira nota com essa id */
     const tags = await knex("tags").where({ note_id: id }).orderBy("name");  /* buscar na tabela tags uma note_id que é igual a id */
@@ -52,7 +52,7 @@ class NotesController {
   }
 
   async delete(request, response) {
-    const { id } = request.params;
+    const { id } = request.params; /* pega o id da nota que foi passado através do request */
 
     await knex("notes").where({ id }).delete(); /* deleta a nota com o id passado através do request */
 
@@ -68,6 +68,12 @@ class NotesController {
     if(tags) {
       const filterTags = tags.split(',').map(tag => tag.trim()); /* tags.split separa as tags passadas no request através do split */
 
+
+      /* 
+      .select = array com campos das tabelas que quero selecionar, como tabelas podem ter campos com o mesmo nome, colocamos o nomeDaTabela.nomeDoCampo
+      .innerJoin (conectar uma tabela com a outra). Quero conectar a tabela de notas com tags, então coloco "notes" e depois coloco quais campos quero utilizar para conectar elas, nesse caso, o "notes.id" na tabela notes e o "tags.note_id" na tabela tags.
+      .orderBy: quero organizar por ordem alfabética, pelo título.
+      */
       notes = await knex("tags").select(["notes.id", "notes.title", "notes.user_id"])
                                 .where("notes.user_id", user_id)
                                 .whereLike("notes.title", `%${title}%`)
@@ -82,6 +88,11 @@ class NotesController {
 
     const userTags = await knex("tags").where({ user_id }); /* filtro em todas as tags onde a tag seja igual ao id do usuário */
 
+    /* ... é o Spread operator, pega todos os itens do array e coloca dentro do novo array. Esse array então é esse novo + todo o array antigo. Utiliza o conceito da imutabilidade, criando um novo array. 
+    O map percorre o array e retorna um novo array com as informações que eu quero. No caso, eu quero retornar todas as informações do note e também as tags que estão relacionadas a essa nota.
+    Com isso, caso a nota tenha tags, eu vou retornar todas as informações da nota e também as tags que estão relacionadas a essa nota.
+    Então, ...note para pegar todas as informações da nota e adiciona as informações das tags.
+    */
     const notesWithTags = notes.map(note => {
       const noteTags = userTags.filter(tag => tag.note_id === note.id);
 
