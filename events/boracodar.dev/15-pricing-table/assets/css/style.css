@@ -38,6 +38,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #29292E;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .essencials, .enterprise {
@@ -48,10 +50,11 @@ body {
   padding: 2.4rem;
   background-color: var(--white);
   border: 1px solid #E2E8F0;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 .essencials .header, .enterprise .header {
   color: var(--purple-200);
+  text-transform: uppercase;
 }
 .essencials .plan-info, .enterprise .plan-info {
   display: flex;
@@ -60,9 +63,25 @@ body {
 }
 .essencials .plan-info .name, .enterprise .plan-info .name {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 37px;
+  font-size: 2.4rem;
+  line-height: 3.7rem;
   color: var(--grey-800);
+}
+.essencials .plan-info .amount, .enterprise .plan-info .amount {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey-800);
+}
+.essencials button, .enterprise button {
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  background-color: var(--white);
+  border: 1px solid #1E293B;
+  border-radius: 4px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .enterprise {
