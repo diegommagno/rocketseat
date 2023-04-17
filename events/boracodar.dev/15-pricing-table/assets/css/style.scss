@@ -49,6 +49,36 @@ body {
   padding-left: 2rem;
 }
 
+.essencials {
+  .plan-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    .divider { 
+      width: 100%;
+      height: 1px;
+      background-color: #E2E8F0;
+      margin-top: 1.6rem;
+    }
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      line-height: 2.4rem;
+      letter-spacing: 0.06em;
+
+      .feature {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+    }
+  }
+}
+
 .essencials, .enterprise {
   display: flex;
   flex-direction: column;
@@ -122,6 +152,10 @@ body {
       color: var(--white);
     }
   }
+}
+
+.enterprise {
+  margin-top: 2.4rem;
 
   .plan-features {
     display: flex;
@@ -137,21 +171,11 @@ body {
 
     .wrapper {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 8px;
 
       line-height: 2.4rem;
       letter-spacing: 0.06em;
-
-      .feature {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
     }
   }
-}
-
-.enterprise {
-  margin-top: 2.4rem;
 }
