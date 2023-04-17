@@ -43,7 +43,7 @@ body {
   justify-content: center;
   min-height: 100vh;
 
-  background-color: #29292E;
+  background-color: var(--grey-100);
 
   padding-right: 2rem;
   padding-left: 2rem;
@@ -62,8 +62,13 @@ body {
   border-radius: 1rem;
 
   .header {
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.06em;
     color: var(--purple-200);
     text-transform: uppercase;
+
+    margin-bottom: 8px;
   }
 
   .plan-info {
@@ -78,36 +83,47 @@ body {
       color: var(--grey-800);
     }
 
-    .amount {
-      font-weight: 700;
+    .price {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
       font-size: 1.8rem;
-      line-height: 2.7rem;
-      color: var(--grey-800);
+
+      .amount {
+        font-weight: 700;
+        line-height: 2.7rem;
+        color: var(--grey-800);
+      }
     }
   }
 
   button {
+    font-family: 'Titillium Web';
     font-weight: 700;
     line-height: 2.4rem;
 
     padding: 1.6rem 2.4rem;
+
+    font-size: 1.7rem;
 
     background-color: var(--white);
     border: 1px solid #1E293B;
     border-radius: 4px;
 
     margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
   }
 
   .plan-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 
     .divider { 
       width: 100%;
       height: 1px;
       background-color: #E2E8F0;
       margin-top: 1.6rem;
-      margin-bottom: 1.6rem;
     }
 
     .wrapper {
