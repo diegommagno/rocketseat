@@ -79,7 +79,7 @@ body {
   }
 }
 
-.essencials, .enterprise {
+.essencials, .enterprise, .ultimate {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,4 +209,8 @@ body {
       letter-spacing: 0.06em;
     }
   }
+}
+
+.ultimate {
+  
 }

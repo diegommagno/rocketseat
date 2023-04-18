@@ -66,7 +66,7 @@ body {
   gap: 6px;
 }
 
-.essencials, .enterprise {
+.essencials, .enterprise, .ultimate {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,10 +76,10 @@ body {
   border: 1px solid #E2E8F0;
   border-radius: 1rem;
 }
-.essencials:hover, .enterprise:hover {
+.essencials:hover, .enterprise:hover, .ultimate:hover {
   border: 1px solid var(--purple-100);
 }
-.essencials .header, .enterprise .header {
+.essencials .header, .enterprise .header, .ultimate .header {
   font-weight: 600;
   line-height: 2.1rem;
   letter-spacing: 0.06em;
@@ -87,29 +87,29 @@ body {
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.essencials .plan-info, .enterprise .plan-info {
+.essencials .plan-info, .enterprise .plan-info, .ultimate .plan-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.essencials .plan-info .name, .enterprise .plan-info .name {
+.essencials .plan-info .name, .enterprise .plan-info .name, .ultimate .plan-info .name {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 3.7rem;
   color: var(--grey-800);
 }
-.essencials .plan-info .price, .enterprise .plan-info .price {
+.essencials .plan-info .price, .enterprise .plan-info .price, .ultimate .plan-info .price {
   display: flex;
   align-items: center;
   gap: 5px;
   font-size: 1.8rem;
 }
-.essencials .plan-info .price .amount, .enterprise .plan-info .price .amount {
+.essencials .plan-info .price .amount, .enterprise .plan-info .price .amount, .ultimate .plan-info .price .amount {
   font-weight: 700;
   line-height: 2.7rem;
   color: var(--grey-800);
 }
-.essencials button, .enterprise button {
+.essencials button, .enterprise button, .ultimate button {
   font-family: "Titillium Web";
   font-weight: 700;
   line-height: 2.4rem;
@@ -120,7 +120,7 @@ body {
   border-radius: 4px;
   margin-top: 1.6rem;
 }
-.essencials button:hover, .enterprise button:hover {
+.essencials button:hover, .enterprise button:hover, .ultimate button:hover {
   background-color: var(--grey-800);
   color: var(--white);
 }
