@@ -171,9 +171,25 @@ body {
   letter-spacing: 0.06em;
 }
 
+.best-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+  padding: 8px 16px;
+  margin-bottom: 2.3rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transform: translateY(4rem);
+}
+.best-value span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--grey-900);
+}
+
 .ultimate {
   padding: 4rem 2.4rem 2.4rem 2.4rem;
-  margin-top: 4rem;
   background-color: var(--grey-900);
 }
 .ultimate .header {
