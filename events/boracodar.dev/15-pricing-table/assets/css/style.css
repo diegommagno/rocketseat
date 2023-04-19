@@ -38,8 +38,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--grey-100);
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding: 8rem 2rem;
 }
 
 .essencials .plan-features, .ultimate .plan-features {
