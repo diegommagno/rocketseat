@@ -353,7 +353,17 @@ body {
         line-height: 4.9rem;
       }
 
-      
+      .price {
+        .currency {
+          font-size: 1.8rem;
+          line-height: 2.7rem;
+        }
+
+        .amount {
+          font-size: 2.4rem;
+          line-height: 3.7rem;
+        }
+      }
     }
   }
 

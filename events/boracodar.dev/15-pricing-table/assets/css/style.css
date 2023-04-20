@@ -267,6 +267,14 @@ body {
     font-size: 3.2rem;
     line-height: 4.9rem;
   }
+  .essencials .plan-info .price .currency, .enterprise .plan-info .price .currency, .ultimate .plan-info .price .currency {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+  .essencials .plan-info .price .amount, .enterprise .plan-info .price .amount, .ultimate .plan-info .price .amount {
+    font-size: 2.4rem;
+    line-height: 3.7rem;
+  }
   .essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
     font-size: 1.6rem;
   }
