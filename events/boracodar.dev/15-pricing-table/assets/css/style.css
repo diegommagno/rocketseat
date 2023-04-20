@@ -260,6 +260,9 @@ body {
     width: 100%;
     padding: 4.8rem 3.2rem;
   }
+  .essencials .header, .enterprise .header, .ultimate .header {
+    font-size: 1.4rem;
+  }
   .essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
     font-size: 1.6rem;
   }
