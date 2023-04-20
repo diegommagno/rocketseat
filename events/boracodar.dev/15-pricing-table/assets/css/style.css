@@ -263,6 +263,10 @@ body {
   .essencials .header, .enterprise .header, .ultimate .header {
     font-size: 1.4rem;
   }
+  .essencials .plan-info .name, .enterprise .plan-info .name, .ultimate .plan-info .name {
+    font-size: 3.2rem;
+    line-height: 4.9rem;
+  }
   .essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
     font-size: 1.6rem;
   }
