@@ -231,6 +231,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    gap: 3.2rem;
     background-color: var(--grey-100);
     padding: 8rem 2rem;
   }
@@ -257,8 +258,14 @@ body {
   .essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
     font-size: 1.6rem;
   }
+  .enterprise {
+    margin-top: 0rem;
+  }
   .enterprise .plan-features .wrapper .feature {
     font-size: 1.6rem;
+  }
+  .ultimate {
+    margin-top: 0rem;
   }
   .ultimate .plan-features .wrapper .feature {
     font-size: 1.6rem;

@@ -296,6 +296,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+    gap: 3.2rem;
   
     background-color: var(--grey-100);
   
@@ -340,6 +342,9 @@ body {
   }
 
   .enterprise {
+
+    margin-top: 0rem;
+    
     .plan-features {
       .wrapper {
         .feature {
@@ -350,6 +355,9 @@ body {
   }
 
   .ultimate {
+
+    margin-top: 0rem;
+
     .plan-features {
       .wrapper {
         .feature {
