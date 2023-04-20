@@ -287,3 +287,75 @@ body {
     }
   }
 }
+
+@media (min-width: 768px) {
+
+  #app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  
+    background-color: var(--grey-100);
+  
+    padding: 8rem 2rem;
+  }
+
+  button {
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    line-height: 2.4rem;
+
+    padding: 1.6rem 2.4rem;
+
+    font-size: 1.7rem;
+
+    background-color: var(--white);
+    border: 1px solid #1E293B;
+    border-radius: 4px;
+
+    margin-top: 3.2rem;
+
+    &:hover {
+      background-color: var(--grey-800);
+      color: var(--white);
+    }
+  }
+  
+  .essencials, .enterprise, .ultimate {
+    width: 100%;
+    height: 45rem;
+    max-width: 38rem;
+  }
+
+  .essencials, .ultimate {
+    .plan-features {
+      .wrapper {
+        .feature {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .enterprise {
+    .plan-features {
+      .wrapper {
+        .feature {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .ultimate {
+    .plan-features {
+      .wrapper {
+        .feature {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
