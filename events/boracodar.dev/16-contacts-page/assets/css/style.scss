@@ -27,7 +27,7 @@
 
 body {
   font-size: 1.6rem;
-
+  font-family: "Roboto", sans-serif;
 }
 
 #app {
@@ -63,10 +63,24 @@ body {
       color: var(--white);
     }
 
-    button {
-      background-color: var(--blue-900);
-      border: none;
-      cursor: pointer;
+    .wrapper {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      button {
+        background-color: var(--blue-900);
+        border: none;
+        cursor: pointer;
+      }
     }
+  }
+}
+
+@media (min-width: 450px) {
+
+  .contacts-menu {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 }

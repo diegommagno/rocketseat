@@ -22,6 +22,7 @@
 
 body {
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
 
 #app {
@@ -51,8 +52,20 @@ body {
 .contacts-menu .menu h2 {
   color: var(--white);
 }
-.contacts-menu .menu button {
+.contacts-menu .menu .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.contacts-menu .menu .wrapper button {
   background-color: var(--blue-900);
   border: none;
   cursor: pointer;
+}
+
+@media (min-width: 450px) {
+  .contacts-menu {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
