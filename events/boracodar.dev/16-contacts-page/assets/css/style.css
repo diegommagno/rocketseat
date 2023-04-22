@@ -39,6 +39,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2.4rem;
   background-color: var(--blue-900);
   width: 100%;
   padding: 4rem;
@@ -62,8 +63,48 @@ body {
   border: none;
   cursor: pointer;
 }
+.contacts-menu .search {
+  width: 100%;
+  background-color: var(--blue-800);
+  border-radius: 8px;
+  position: relative;
+  padding-left: 4.5rem;
+}
+.contacts-menu .search::before {
+  content: url("../img/magnifier.svg");
+  position: absolute;
+  left: 2.4rem;
+  top: 1.3rem;
+}
+.contacts-menu .search input {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--blue-800);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+.contacts-menu .search input::-moz-placeholder {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--white);
+}
+.contacts-menu .search input::placeholder {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--white);
+}
+.contacts-menu .search input:focus {
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
 
 @media (min-width: 450px) {
+  #app {
+    margin-top: 2rem;
+  }
   .contacts-menu {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
