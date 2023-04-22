@@ -30,6 +30,7 @@ body {
   align-items: center;
   height: 100vh;
   max-width: 43rem;
+  margin: 0 auto;
 }
 
 .contacts-menu {
@@ -49,4 +50,9 @@ body {
 }
 .contacts-menu .menu h2 {
   color: var(--white);
+}
+.contacts-menu .menu button {
+  background-color: var(--blue-900);
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

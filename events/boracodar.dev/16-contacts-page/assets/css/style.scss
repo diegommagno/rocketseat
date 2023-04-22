@@ -27,6 +27,7 @@
 
 body {
   font-size: 1.6rem;
+
 }
 
 #app {
@@ -36,7 +37,9 @@ body {
   height: 100vh;
 
   max-width: 43rem;
-}
+
+  margin: 0 auto;
+  }
 
 .contacts-menu {
   display: flex;
@@ -58,6 +61,12 @@ body {
 
     h2 {
       color: var(--white);
+    }
+
+    button {
+      background-color: var(--blue-900);
+      border: none;
+      cursor: pointer;
     }
   }
 }
