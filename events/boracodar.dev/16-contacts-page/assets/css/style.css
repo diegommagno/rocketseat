@@ -9,7 +9,8 @@
 :root {
   font-size: 62.5%;
   --blue-900: #16151E;
-  --blue-800: #282843;
+  --blue-800: #1A1924;
+  --blue-700: #282843;
   --blue-500: #24243D;
   --blue-200: #0088B3;
   --green: #07847E;
@@ -79,7 +80,7 @@ body {
 .contacts-menu .search input {
   width: 100%;
   height: 4rem;
-  background-color: var(--blue-800);
+  background-color: var(--blue-700);
   border: none;
   border-radius: 8px;
   outline: none;
@@ -99,6 +100,10 @@ body {
 .contacts-menu .search input:focus {
   border: 1px solid var(--white);
   border-radius: 8px;
+}
+
+.list {
+  background-color: var(--blue-800);
 }
 
 @media (min-width: 450px) {
