@@ -124,13 +124,36 @@ body {
 }
 
 .list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  padding: 4.8rem 4rem;
   background-color: var(--blue-800);
   color: var(--white);
 
-  .letter-a {
+  .letter-a, .letter-b, .letter-c, .letter-d, .letter-e, .letter-f, .letter-g, .letter-h, .letter-i, .letter-j, .letter-k, .letter-l, .letter-m, .letter-n, .letter-o, .letter-p, .letter-q, .letter-r, .letter-s, .letter-t, .letter-u, .letter-v, .letter-w, .letter-x, .letter-y, .letter-z {
     display: flex;
-    align-items: center;
+    align-items: flex-center;
     gap: 5.2rem;
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      .contact {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+  
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
+      }
+    }
   }
 
 }

@@ -103,13 +103,32 @@ body {
 }
 
 .list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 4.8rem 4rem;
   background-color: var(--blue-800);
   color: var(--white);
 }
-.list .letter-a {
+.list .letter-a, .list .letter-b, .list .letter-c, .list .letter-d, .list .letter-e, .list .letter-f, .list .letter-g, .list .letter-h, .list .letter-i, .list .letter-j, .list .letter-k, .list .letter-l, .list .letter-m, .list .letter-n, .list .letter-o, .list .letter-p, .list .letter-q, .list .letter-r, .list .letter-s, .list .letter-t, .list .letter-u, .list .letter-v, .list .letter-w, .list .letter-x, .list .letter-y, .list .letter-z {
+  display: flex;
+  align-items: flex-center;
+  gap: 5.2rem;
+}
+.list .letter-a .contacts, .list .letter-b .contacts, .list .letter-c .contacts, .list .letter-d .contacts, .list .letter-e .contacts, .list .letter-f .contacts, .list .letter-g .contacts, .list .letter-h .contacts, .list .letter-i .contacts, .list .letter-j .contacts, .list .letter-k .contacts, .list .letter-l .contacts, .list .letter-m .contacts, .list .letter-n .contacts, .list .letter-o .contacts, .list .letter-p .contacts, .list .letter-q .contacts, .list .letter-r .contacts, .list .letter-s .contacts, .list .letter-t .contacts, .list .letter-u .contacts, .list .letter-v .contacts, .list .letter-w .contacts, .list .letter-x .contacts, .list .letter-y .contacts, .list .letter-z .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.list .letter-a .contacts .contact, .list .letter-b .contacts .contact, .list .letter-c .contacts .contact, .list .letter-d .contacts .contact, .list .letter-e .contacts .contact, .list .letter-f .contacts .contact, .list .letter-g .contacts .contact, .list .letter-h .contacts .contact, .list .letter-i .contacts .contact, .list .letter-j .contacts .contact, .list .letter-k .contacts .contact, .list .letter-l .contacts .contact, .list .letter-m .contacts .contact, .list .letter-n .contacts .contact, .list .letter-o .contacts .contact, .list .letter-p .contacts .contact, .list .letter-q .contacts .contact, .list .letter-r .contacts .contact, .list .letter-s .contacts .contact, .list .letter-t .contacts .contact, .list .letter-u .contacts .contact, .list .letter-v .contacts .contact, .list .letter-w .contacts .contact, .list .letter-x .contacts .contact, .list .letter-y .contacts .contact, .list .letter-z .contacts .contact {
   display: flex;
   align-items: center;
-  gap: 5.2rem;
+  gap: 1.6rem;
+}
+.list .letter-a .contacts .contact .info, .list .letter-b .contacts .contact .info, .list .letter-c .contacts .contact .info, .list .letter-d .contacts .contact .info, .list .letter-e .contacts .contact .info, .list .letter-f .contacts .contact .info, .list .letter-g .contacts .contact .info, .list .letter-h .contacts .contact .info, .list .letter-i .contacts .contact .info, .list .letter-j .contacts .contact .info, .list .letter-k .contacts .contact .info, .list .letter-l .contacts .contact .info, .list .letter-m .contacts .contact .info, .list .letter-n .contacts .contact .info, .list .letter-o .contacts .contact .info, .list .letter-p .contacts .contact .info, .list .letter-q .contacts .contact .info, .list .letter-r .contacts .contact .info, .list .letter-s .contacts .contact .info, .list .letter-t .contacts .contact .info, .list .letter-u .contacts .contact .info, .list .letter-v .contacts .contact .info, .list .letter-w .contacts .contact .info, .list .letter-x .contacts .contact .info, .list .letter-y .contacts .contact .info, .list .letter-z .contacts .contact .info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 @media (min-width: 450px) {
