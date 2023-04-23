@@ -125,6 +125,14 @@ body {
 
 .list {
   background-color: var(--blue-800);
+  color: var(--white);
+
+  .letter-a {
+    display: flex;
+    align-items: center;
+    gap: 5.2rem;
+  }
+
 }
 
 @media (min-width: 450px) {
