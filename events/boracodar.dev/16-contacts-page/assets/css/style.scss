@@ -104,7 +104,6 @@ body {
 
       color: var(--white);
       
-
       border: none;
       border-radius: 8px;
 
@@ -159,6 +158,18 @@ body {
           display: flex;
           flex-direction: column;
           gap: 4px;
+
+          .name {
+            font-weight: 700;
+            line-height: 2rem;
+          }
+
+          .phone-number {
+            font-weight: 400;
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            color: var(--purple-100);
+          }
         }
       }
     }

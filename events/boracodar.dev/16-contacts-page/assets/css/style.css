@@ -133,6 +133,16 @@ body {
   flex-direction: column;
   gap: 4px;
 }
+.list .letter-a .contacts .contact .info .name, .list .letter-b .contacts .contact .info .name, .list .letter-c .contacts .contact .info .name, .list .letter-d .contacts .contact .info .name, .list .letter-e .contacts .contact .info .name, .list .letter-f .contacts .contact .info .name, .list .letter-g .contacts .contact .info .name, .list .letter-h .contacts .contact .info .name, .list .letter-i .contacts .contact .info .name, .list .letter-j .contacts .contact .info .name, .list .letter-k .contacts .contact .info .name, .list .letter-l .contacts .contact .info .name, .list .letter-m .contacts .contact .info .name, .list .letter-n .contacts .contact .info .name, .list .letter-o .contacts .contact .info .name, .list .letter-p .contacts .contact .info .name, .list .letter-q .contacts .contact .info .name, .list .letter-r .contacts .contact .info .name, .list .letter-s .contacts .contact .info .name, .list .letter-t .contacts .contact .info .name, .list .letter-u .contacts .contact .info .name, .list .letter-v .contacts .contact .info .name, .list .letter-w .contacts .contact .info .name, .list .letter-x .contacts .contact .info .name, .list .letter-y .contacts .contact .info .name, .list .letter-z .contacts .contact .info .name {
+  font-weight: 700;
+  line-height: 2rem;
+}
+.list .letter-a .contacts .contact .info .phone-number, .list .letter-b .contacts .contact .info .phone-number, .list .letter-c .contacts .contact .info .phone-number, .list .letter-d .contacts .contact .info .phone-number, .list .letter-e .contacts .contact .info .phone-number, .list .letter-f .contacts .contact .info .phone-number, .list .letter-g .contacts .contact .info .phone-number, .list .letter-h .contacts .contact .info .phone-number, .list .letter-i .contacts .contact .info .phone-number, .list .letter-j .contacts .contact .info .phone-number, .list .letter-k .contacts .contact .info .phone-number, .list .letter-l .contacts .contact .info .phone-number, .list .letter-m .contacts .contact .info .phone-number, .list .letter-n .contacts .contact .info .phone-number, .list .letter-o .contacts .contact .info .phone-number, .list .letter-p .contacts .contact .info .phone-number, .list .letter-q .contacts .contact .info .phone-number, .list .letter-r .contacts .contact .info .phone-number, .list .letter-s .contacts .contact .info .phone-number, .list .letter-t .contacts .contact .info .phone-number, .list .letter-u .contacts .contact .info .phone-number, .list .letter-v .contacts .contact .info .phone-number, .list .letter-w .contacts .contact .info .phone-number, .list .letter-x .contacts .contact .info .phone-number, .list .letter-y .contacts .contact .info .phone-number, .list .letter-z .contacts .contact .info .phone-number {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--purple-100);
+}
 
 @media (min-width: 450px) {
   #app {
