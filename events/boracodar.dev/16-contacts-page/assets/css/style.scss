@@ -88,7 +88,6 @@ body {
 
     position: relative;
     
-    padding-left: 4.5rem;
 
     &::before {
       content: url("../img/magnifier.svg");
@@ -103,10 +102,16 @@ body {
 
       background-color: var(--blue-700);
 
+      color: var(--white);
+      
+
       border: none;
       border-radius: 8px;
 
       outline: none;
+
+      padding-left: 4.5rem;
+
 
       &::placeholder {
         padding-left: 1rem;
