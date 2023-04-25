@@ -14,9 +14,14 @@ export default createGlobalStyle`
   }
   
   body {
-    font-size: 1.6rem;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
     color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+
+  body, input, button, textarea {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6rem;
+    outline: none;
   }
 
   a {
