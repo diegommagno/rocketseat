@@ -1,7 +1,6 @@
-<h1 align="center"> Chat </h1>
+<h1 align="center"> Contacts Page </h1>
 
 <p align="center">
-This was an introduction to programming event with three different landing page projects. It is always nice to see how much I’ve learned from the first time I attended these beginners events, being able to do these simple projects in just a few minutes. <br/>
 </p>
 
 <p align="center">
@@ -21,7 +20,7 @@ This was an introduction to programming event with three different landing page 
 
 ## 📝 Live Preview 
 
-- [Chat](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Chat](https://diegommagno.com/github/rocketseat/events/boracodar.dev/16-contacts-page)
 
 <br/>
 
@@ -33,7 +32,7 @@ This was an introduction to programming event with three different landing page 
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1200070743637495660). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1230513627011474566). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
