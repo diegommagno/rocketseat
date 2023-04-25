@@ -44,3 +44,14 @@ export const Profile = styled.div`
     }
   }
 `;
+
+export const Logout = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  > svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    font-size: 36px;
+  }
+`;
