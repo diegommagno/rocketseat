@@ -82,12 +82,9 @@ body {
   .search {
     width: 100%;
 
-    background-color: var(--blue-800);
-
     border-radius: 8px;
 
     position: relative;
-    
 
     &::before {
       content: url("../img/magnifier.svg");
@@ -111,9 +108,7 @@ body {
 
       padding-left: 4.5rem;
 
-
       &::placeholder {
-        padding-left: 1rem;
         font-size: 1.2rem;
         line-height: 1.4rem;
         color: var(--white);

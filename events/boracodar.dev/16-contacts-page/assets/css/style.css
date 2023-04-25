@@ -66,7 +66,6 @@ body {
 }
 .contacts-menu .search {
   width: 100%;
-  background-color: var(--blue-800);
   border-radius: 8px;
   position: relative;
 }
@@ -87,13 +86,11 @@ body {
   padding-left: 4.5rem;
 }
 .contacts-menu .search input::-moz-placeholder {
-  padding-left: 1rem;
   font-size: 1.2rem;
   line-height: 1.4rem;
   color: var(--white);
 }
 .contacts-menu .search input::placeholder {
-  padding-left: 1rem;
   font-size: 1.2rem;
   line-height: 1.4rem;
   color: var(--white);
