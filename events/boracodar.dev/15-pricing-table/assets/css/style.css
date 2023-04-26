@@ -118,6 +118,7 @@ body {
   border: 1px solid #1E293B;
   border-radius: 4px;
   margin-top: 1.6rem;
+  cursor: pointer;
 }
 .essencials button:hover, .enterprise button:hover, .ultimate button:hover {
   background-color: var(--grey-800);
