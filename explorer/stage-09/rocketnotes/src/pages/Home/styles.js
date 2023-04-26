@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   display: grid;
   grid-template-columns: 250px auto;
@@ -38,6 +38,15 @@ export const Brand = styled.div`
 
 export const Menu = styled.ul`
   grid-area: menu;
+
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+  padding-top: 64px;
+  text-align: center;
+
+  > li {
+    margin-bottom: 24px;
+  }
 `;
 
 export const Search = styled.div`
