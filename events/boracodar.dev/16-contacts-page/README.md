@@ -20,12 +20,12 @@
 
 ## 📝 Live Preview 
 
-- [Chat](https://diegommagno.com/github/rocketseat/events/boracodar.dev/16-contacts-page)
+- [Contacts Page](https://diegommagno.com/github/rocketseat/events/boracodar.dev/16-contacts-page)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="40%" />
 </p>
 
 <br/>
@@ -42,4 +42,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex and grid`, `rem`, `background`
+- CSS: `flex`, `rem`, `variables`, `placeholder`, `focus`, `responsive`
