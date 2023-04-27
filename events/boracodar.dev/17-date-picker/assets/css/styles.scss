@@ -10,6 +10,7 @@
   font-size: 62.5%;
 
   --color-font-text: #666666;
+  --color-font-heading: #333333;
 
   --color-item-highlight: #6200EE;
   --color-item-on-hover: #ECE0FD;
@@ -17,4 +18,69 @@
 
 body {
   font-size: 1.6rem;
+
+  display: grid;
+  place-content: center;
+
+  height: 80vh;
+}
+
+.months-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 34rem;
+  height: 32rem;
+
+  padding: 2.3rem;
+
+  border-radius: 16px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.16);
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg {
+      cursor: pointer;
+    }
+
+    span {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      line-height: 2.4rem;
+      color: var(--color-font-heading);
+    }
+  }
+
+  .months {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1.6rem;
+    margin-top: 2.4rem;
+
+    .month {
+      padding: 12px 29px;
+
+      font-family: 'Lato', sans-serif;
+      line-height: 1.6rem;
+      color: var(--color-font-text);
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--color-item-on-hover);
+        border-radius: 8px;
+      }
+
+      &.selected {
+        background-color: var(--color-item-highlight);
+        color: #fff;
+        border-radius: 8px;
+      }
+    }
+  }
 }
