@@ -19,7 +19,6 @@ export function Note({ data, ...rest }) {
   );
 }
 
-
 Note.propTypes = {
   data: PropsTypes.shape({
     title: PropsTypes.string.isRequired,
@@ -30,5 +29,4 @@ Note.propTypes = {
       })
     )
   }).isRequired,
-  
 }
