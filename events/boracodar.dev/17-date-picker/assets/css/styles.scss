@@ -75,11 +75,15 @@ body {
         background-color: var(--color-item-on-hover);
         border-radius: 8px;
       }
+    }
 
-      &.selected {
+    .isSelected {
+      background-color: var(--color-item-highlight);
+      color: #fff;
+      border-radius: 8px;
+
+      &:hover {
         background-color: var(--color-item-highlight);
-        color: #fff;
-        border-radius: 8px;
       }
     }
   }
