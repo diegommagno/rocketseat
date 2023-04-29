@@ -34,6 +34,7 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
+- CSS
 - React
 
 ## 🎓 Worked on
