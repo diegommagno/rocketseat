@@ -70,4 +70,43 @@ body {
 }
 .months-view .months .isSelected:hover {
   background-color: var(--color-item-highlight);
+}
+
+.days-view {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34rem;
+  height: 32rem;
+  padding: 2.3rem;
+  border-radius: 16px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.16);
+}
+.days-view .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.days-view .header svg {
+  cursor: pointer;
+}
+.days-view .header span {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--color-font-heading);
+}
+.days-view .days {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+.days-view .days .isSelected {
+  background-color: var(--color-item-highlight);
+  color: #fff;
+  border-radius: 8px;
+}
+.days-view .days .isSelected:hover {
+  background-color: var(--color-item-highlight);
 }/*# sourceMappingURL=styles.css.map */
