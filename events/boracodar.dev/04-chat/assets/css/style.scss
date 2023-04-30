@@ -46,6 +46,7 @@ header {
   
   .wrapper {
     display: flex;
+    justify-content: space-between;
     gap: 1.6rem;
 
     .contact {
@@ -160,12 +161,6 @@ header {
 @media (min-width: 700px) {
   #app {
     padding: 3.2rem 7.2rem;
-  }
-
-  header {
-    .wrapper {
-      justify-content: space-between;
-    }
   }
 
   .message-received {
