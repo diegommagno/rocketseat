@@ -39,34 +39,40 @@ body {
   padding: 3.2rem 2.4rem;
 }
 
-.contact {
+header {
   display: flex;
   flex-direction: column;
   gap: 2.6rem;
   
   .wrapper {
     display: flex;
+    justify-content: row;
     gap: 1.6rem;
 
-    .contact-photo {
-      img {
-        width: 4.8rem;
-        height: 4.8rem;
-      }
-    }
-  
-    .contact-info {
-      display: flex; 
+    .contact {
+      display: flex;
       flex-direction: column;
-      gap: 4px;
-  
-      .name {
-        font-weight: 700;
+
+      .photo {
+        img {
+          width: 4.8rem;
+          height: 4.8rem;
+        }
       }
-  
-      .status {
-        .online {
-          color: var(--online-color);
+
+      .info {
+        display: flex; 
+        flex-direction: column;
+        gap: 4px;
+    
+        .name {
+          font-weight: 700;
+        }
+    
+        .status {
+          .online {
+            color: var(--online-color);
+          }
         }
       }
     }
@@ -143,6 +149,54 @@ body {
 
     &::placeholder {
       color: var(--fc);
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  #app {
+    padding: 3.2rem 7.2rem;
+  }
+
+  .contact {
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.6rem;
+  
+      .contact-photo {
+        img {
+          width: 4.8rem;
+          height: 4.8rem;
+        }
+      }
+    
+      .contact-info {
+        display: flex; 
+        flex-direction: column;
+        gap: 4px;
+    
+        .name {
+          font-weight: 700;
+        }
+    
+        .status {
+          .online {
+            color: var(--online-color);
+          }
+        }
+      }
+    }
+  
+    .message-date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      font-size: 1.2rem;
+      color: var(--fc);
+    
+      background-color: var(--bg);
     }
   }
 }

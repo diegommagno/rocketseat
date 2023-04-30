@@ -35,31 +35,36 @@ body {
   padding: 3.2rem 2.4rem;
 }
 
-.contact {
+header {
   display: flex;
   flex-direction: column;
   gap: 2.6rem;
 }
-.contact .wrapper {
+header .wrapper {
   display: flex;
+  justify-content: row;
   gap: 1.6rem;
 }
-.contact .wrapper .contact-photo img {
+header .wrapper .contact {
+  display: flex;
+  flex-direction: column;
+}
+header .wrapper .contact .photo img {
   width: 4.8rem;
   height: 4.8rem;
 }
-.contact .wrapper .contact-info {
+header .wrapper .contact .info {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.contact .wrapper .contact-info .name {
+header .wrapper .contact .info .name {
   font-weight: 700;
 }
-.contact .wrapper .contact-info .status .online {
+header .wrapper .contact .info .status .online {
   color: var(--online-color);
 }
-.contact .message-date {
+header .message-date {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,4 +126,38 @@ body {
 }
 .message-input input::placeholder {
   color: var(--fc);
+}
+
+@media (min-width: 700px) {
+  #app {
+    padding: 3.2rem 7.2rem;
+  }
+  .contact .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+  }
+  .contact .wrapper .contact-photo img {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+  .contact .wrapper .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .contact .wrapper .contact-info .name {
+    font-weight: 700;
+  }
+  .contact .wrapper .contact-info .status .online {
+    color: var(--online-color);
+  }
+  .contact .message-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--fc);
+    background-color: var(--bg);
+  }
 }/*# sourceMappingURL=style.css.map */
