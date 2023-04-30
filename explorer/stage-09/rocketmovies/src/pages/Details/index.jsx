@@ -3,7 +3,7 @@ import { Container } from './styles';
 export function Details() {
   return (
     <Container>
-      <h1>Details</h1>
+      <h1>jdiasjd</h1>
     </Container>
   );
 }
