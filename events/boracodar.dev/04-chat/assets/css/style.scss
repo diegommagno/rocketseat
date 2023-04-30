@@ -150,11 +150,15 @@ header {
   input {
     background-color: var(--bg-message-input);
     border: none;
-    width: 23rem;
+    width: 90%;
 
     &::placeholder {
       color: var(--fc);
     }
+  }
+
+  img {
+    cursor: pointer;
   }
 }
 

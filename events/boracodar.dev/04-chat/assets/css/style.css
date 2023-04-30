@@ -123,13 +123,16 @@ header .message-date {
 .message-input input {
   background-color: var(--bg-message-input);
   border: none;
-  width: 23rem;
+  width: 90%;
 }
 .message-input input::-moz-placeholder {
   color: var(--fc);
 }
 .message-input input::placeholder {
   color: var(--fc);
+}
+.message-input img {
+  cursor: pointer;
 }
 
 @media (min-width: 700px) {
