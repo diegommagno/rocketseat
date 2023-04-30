@@ -78,7 +78,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 34rem;
-  height: 32rem;
+  height: 43rem;
   padding: 2.3rem;
   border-radius: 16px;
   box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.16);
@@ -99,8 +99,33 @@ body {
 }
 .days-view .days {
   display: flex;
-  gap: 1.6rem;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
   margin-top: 2.4rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: var(--color-font-text);
+}
+.days-view .days .week-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.days-view .days .week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.days-view .days .week span {
+  font-family: "Lato";
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+.days-view .days .week .previous-month, .days-view .days .week .next-month {
+  color: var(--color-font-text);
+  opacity: 0.6;
 }
 .days-view .days .isSelected {
   background-color: var(--color-item-highlight);

@@ -97,7 +97,7 @@ body {
   align-items: center;
   
   width: 34rem;
-  height: 32rem;
+  height: 43rem;
 
   padding: 2.3rem;
 
@@ -123,10 +123,45 @@ body {
 
   .days {
     display: flex;
-    gap: 1.6rem;
+    flex-direction: column; 
+    gap: 8px;
+
+    width: 100%;
+
     margin-top: 2.4rem;
 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
     
+
+    color: var(--color-font-text);
+
+    .week-days {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+    .week {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-family: 'Lato';
+        line-height: 1.6rem;
+
+        cursor: pointer;
+      }
+
+      .previous-month, .next-month {
+        color: var(--color-font-text);
+        opacity: .6;
+      }
+    }
 
     .isSelected {
       background-color: var(--color-item-highlight);
