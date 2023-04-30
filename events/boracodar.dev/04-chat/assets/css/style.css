@@ -64,6 +64,9 @@ header .wrapper .contact .info .name {
 header .wrapper .contact .info .status .online {
   color: var(--online-color);
 }
+header .wrapper #close-chat {
+  cursor: pointer;
+}
 header .message-date {
   display: flex;
   justify-content: center;
