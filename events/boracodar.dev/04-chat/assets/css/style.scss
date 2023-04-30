@@ -163,4 +163,16 @@ header {
       justify-content: space-between;
     }
   }
+
+  .message-received {
+    .message-content {
+      max-width: fit-content;
+    }
+  }
+  
+  .message-sent {
+    .message-content {
+      max-width: fit-content;
+    }
+  }
 }

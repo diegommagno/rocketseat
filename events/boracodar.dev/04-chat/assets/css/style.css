@@ -135,4 +135,12 @@ header .message-date {
   header .wrapper {
     justify-content: space-between;
   }
+  .message-received .message-content {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .message-sent .message-content {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
 }/*# sourceMappingURL=style.css.map */
