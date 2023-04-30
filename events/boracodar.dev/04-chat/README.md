@@ -1,10 +1,6 @@
 <h1 align="center"> Chat </h1>
 
 <p align="center">
-This was an introduction to programming event with three different landing page projects. It is always nice to see how much I’ve learned from the first time I attended these beginners events, being able to do these simple projects in just a few minutes. <br/>
-</p>
-
-<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -21,12 +17,12 @@ This was an introduction to programming event with three different landing page 
 
 ## 📝 Live Preview 
 
-- [Chat](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Chat](https://diegommagno.com/github/rocketseat/events/boracodar.dev/04-chat/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="100%" />
 </p>
 
 <br/>
@@ -43,4 +39,4 @@ This was an introduction to programming event with three different landing page 
 
 ## 🎓 Worked on
 
-- CSS: `flex and grid`, `rem`, `background`
+- CSS: `flex`, `rem`, `background`, `media`, `variables` 
