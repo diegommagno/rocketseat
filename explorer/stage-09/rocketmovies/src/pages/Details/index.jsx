@@ -1,9 +1,12 @@
 import { Container } from './styles';
 
+import { Button } from '../../components/Button';
+
 export function Details() {
   return (
     <Container>
-      <h1>jdiasjd</h1>
+      <Button title="Cadastrar" loading/>
+      <Button title="Login" />
     </Container>
   );
 }
