@@ -46,12 +46,12 @@ header {
   
   .wrapper {
     display: flex;
-    justify-content: row;
     gap: 1.6rem;
 
     .contact {
       display: flex;
-      flex-direction: column;
+      align-items: center;
+      gap: 1.6rem;
 
       .photo {
         img {
@@ -158,45 +158,9 @@ header {
     padding: 3.2rem 7.2rem;
   }
 
-  .contact {
+  header {
     .wrapper {
-      display: flex;
       justify-content: space-between;
-      gap: 1.6rem;
-  
-      .contact-photo {
-        img {
-          width: 4.8rem;
-          height: 4.8rem;
-        }
-      }
-    
-      .contact-info {
-        display: flex; 
-        flex-direction: column;
-        gap: 4px;
-    
-        .name {
-          font-weight: 700;
-        }
-    
-        .status {
-          .online {
-            color: var(--online-color);
-          }
-        }
-      }
-    }
-  
-    .message-date {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    
-      font-size: 1.2rem;
-      color: var(--fc);
-    
-      background-color: var(--bg);
     }
   }
 }
