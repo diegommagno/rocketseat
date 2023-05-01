@@ -9,7 +9,7 @@ export const Container = styled.div`
   "header" 
   "content";
 
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+  background-color: ${({ theme }) => theme.COLORS.BG_900};
 `;
 
 export const Search = styled.div`

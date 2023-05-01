@@ -37,6 +37,7 @@ export const Search = styled.div`
 
 export const Profile = styled.div`
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
 
   > img {
@@ -48,7 +49,8 @@ export const Profile = styled.div`
   > div {
     display: flex;
     flex-direction: column;
-    margin-left: 9px;
+    align-items: flex-end;
+    margin-right: 9px;
     line-height: 24px;
 
     min-width: 10rem;
