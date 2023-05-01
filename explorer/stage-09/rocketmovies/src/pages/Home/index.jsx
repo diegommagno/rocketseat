@@ -1,4 +1,4 @@
-import { Container, Search, Content } from './styles';
+import { Container, Content } from './styles';
 
 import { Header } from '../../components/Header';
 
@@ -7,10 +7,6 @@ export function Home() {
     <Container>
 
     <Header />
-
-    <Search>
-    
-    </Search>
 
     <Content>
 

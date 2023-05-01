@@ -12,8 +12,10 @@ export const Container = styled.header`
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 64px;
 
-  padding: 0 80px;
+  padding: 0 123px;
 
   background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 `;
@@ -27,6 +29,10 @@ export const Logo = styled.div`
   font-size: 24px;
   line-height: 32px;
   color: ${({ theme }) => theme.COLORS.PINK};
+`;
+
+export const Search = styled.div`
+  width: 100%;
 `;
 
 export const Profile = styled.div`
@@ -44,6 +50,8 @@ export const Profile = styled.div`
     flex-direction: column;
     margin-left: 9px;
     line-height: 24px;
+
+    min-width: 10rem;
 
     span {
       font-size: 14px;
