@@ -1,14 +1,21 @@
-import PropsTypes from 'prop-types';
-import { Container } from './styles';
+import PropTypes from 'prop-types';
+import { Container, Header } from './styles';
 
-export function Section({ children }) {
-  return (
-    <Container>
-      {children}
-    </Container>
-  );
+import { Button } from '../Button';
+
+export function Section({ title, children }) {
+    return (
+        <Container>
+            <Header>
+                <h2>{title}</h2>
+                <Button title="Adicionar filme"></Button>
+            </Header>
+            {children}
+        </Container>
+    )
 }
 
 Section.propTypes = {
-  children: PropsTypes.node.isRequired,
-};
+    title: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired
+}

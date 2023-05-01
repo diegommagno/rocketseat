@@ -5,10 +5,12 @@ export const Container = styled.span`
   height: fit-content;
 
   font-size: 12px;
+  color: #E5E5E5;
   line-height: 14px;
+  
+  margin-right: 8px;
   padding: 8px 16px;
   border-radius: 8px;
-  color: #E5E5E5;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 `;
