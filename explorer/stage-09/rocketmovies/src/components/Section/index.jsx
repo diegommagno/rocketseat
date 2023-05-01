@@ -1,14 +1,17 @@
 import PropTypes from 'prop-types';
-import { Container, Header } from './styles';
+import { FiPlus } from 'react-icons/fi';
 
-import { Button } from '../Button';
+import { Container, Header, Button } from './styles';
 
 export function Section({ title, children }) {
     return (
         <Container>
             <Header>
                 <h2>{title}</h2>
-                <Button title="Adicionar filme"></Button>
+                <Button>
+                    <FiPlus />
+                    Adicionar filme
+                </Button>
             </Header>
             {children}
         </Container>

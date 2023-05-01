@@ -17,9 +17,33 @@ export const Header = styled.div`
     line-height: 42px;
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
+`;
+
+
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
-  > button {
-    width: 200px;
-    margin-top: 0px;
+  width: 200px;
+  background-color: ${({ theme }) => theme.COLORS.PINK};
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+
+  height: 56px;
+  border: 0;
+  padding: 0 16px;
+  margin-top: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 `;
