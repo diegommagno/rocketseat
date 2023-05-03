@@ -14,18 +14,18 @@ Page to check Carnival related activites. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src=".github/preview-cover.jpeg" width="80%" />
+  <img alt="Project photo showing a list of buttons with links." src=".github/project-cover.png" width="80%" />
 </p>
 
 <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://explorer-spa-universe-gamma.vercel.app/)
+- [Link](https://diegommagno.com/github/rocketseat/events/boracodar.dev/07-bloco-de-carnaval/)
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/file/m8zp3mtxvwyTGQs69nIFM8/%5BDesafios-Explorer%5D-SPA-Universe). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1207675804423978995/%23boraCodar---Desafio-7). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
