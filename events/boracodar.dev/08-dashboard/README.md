@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Chat](https://diegommagno.com/github/rocketseat/events/boracodar.dev/08-dashboard/)
+- [Dashboard](https://diegommagno.com/github/rocketseat/events/boracodar.dev/08-dashboard/)
 
 <br/>
 
