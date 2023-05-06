@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Contacts Page](https://diegommagno.com/github/rocketseat/events/boracodar.dev/18-character-card)
+- [Character Card](https://diegommagno.com/github/rocketseat/events/boracodar.dev/18-character-card)
 
 <br/>
 
@@ -42,4 +42,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `variables`, `placeholder`, `focus`, `responsive`
+- CSS: `flex`, `rem`, `variables`
