@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg: ;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 22rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: red;
+  position: relative;
+}
+.cards .left {
+  position: absolute;
+  top: 6rem;
+  left: 25%;
+  width: 348px;
+  height: 486.4px;
+  background-color: green;
+}
+.cards .right {
+  position: absolute;
+  top: 6rem;
+  right: 25%;
+  width: 348px;
+  height: 486.4px;
+  background-image: url("../img/right.png");
+  box-shadow: 0px 113px 45px rgba(0, 0, 0, 0.02), 0px 64px 38px rgba(0, 0, 0, 0.08), 0px 28px 28px rgba(0, 0, 0, 0.13), 0px 7px 16px rgba(0, 0, 0, 0.15), 0px 0px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+.cards .mid {
+  width: 436px;
+  height: 608px;
+  background-color: yellow;
+  z-index: 1;
+}/*# sourceMappingURL=styles.css.map */
