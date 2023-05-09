@@ -1,4 +1,4 @@
-<h1 align="center"> Date Picker</h1>
+<h1 align="center"> Date Picker </h1>
 
 <p align="center">
 </p>
@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Character Card](https://diegommagno.com/github/rocketseat/events/boracodar.dev/17-date-picker)
+- [Date Picker](https://diegommagno.com/github/rocketseat/events/boracodar.dev/17-date-picker)
 
 <br/>
 
@@ -32,7 +32,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1235589928611910732/%23boraCodar---Desafio-18). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1233047894822880766/%23boraCodar---Desafio-17). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
