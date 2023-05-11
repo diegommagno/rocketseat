@@ -14,4 +14,22 @@ body {
   font-size: 1.6rem;
   display: grid;
   place-content: center;
+  height: 100vh;
+  background-color: grey;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem 5.6rem;
+  width: 80rem;
+  height: 68rem;
+  background-color: #FFFFFF;
+  border-radius: 4rem;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 9.9rem;
 }/*# sourceMappingURL=style.css.map */
