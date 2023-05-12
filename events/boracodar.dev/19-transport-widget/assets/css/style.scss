@@ -12,6 +12,7 @@
 
 body {
   font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
 
   display: grid;
   place-content: center;
@@ -36,5 +37,14 @@ body {
 .widget {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 9.9rem;
+
+  .divider {
+    width: 168px;
+    height: 17px;
+
+    background: #E5D8EA;
+    border-radius: 999px;
+  }
 }
