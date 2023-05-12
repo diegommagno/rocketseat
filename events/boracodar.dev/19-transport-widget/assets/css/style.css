@@ -13,6 +13,7 @@
 body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
+  color: #372D3B;
   display: grid;
   place-content: center;
   height: 100vh;
@@ -40,4 +41,17 @@ body {
   height: 17px;
   background: #E5D8EA;
   border-radius: 999px;
+}
+.widget .driver-info .name span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.widget .driver-info .name .name {
+  color: #864293;
+}
+.widget .driver-info .arrival-time {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
