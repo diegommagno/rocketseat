@@ -54,4 +54,32 @@ body {
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
+}
+.widget .ride-info {
+  display: flex;
+}
+.widget .ride-info .wrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.widget .ride-info .wrapper .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.widget .ride-info .wrapper .container span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.widget .ride-info .wrapper .driver-car-photo {
+  transform: translateX(-30px);
+  position: relative;
+  top: 0;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */
