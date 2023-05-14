@@ -57,6 +57,7 @@ body {
 }
 .widget .ride-info {
   display: flex;
+  gap: 55px;
 }
 .widget .ride-info .wrapper {
   display: flex;
@@ -75,4 +76,20 @@ body {
 }
 .widget .ride-info .wrapper .driver-car-photo {
   transform: translateX(-40px);
+}
+.widget .ride-info .car-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.widget .ride-info .car-info .plate span {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 50px;
+}
+.widget .ride-info .car-info .car-model span {
+  font-weight: 500;
+  font-size: 24.6573px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */

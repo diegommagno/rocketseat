@@ -71,6 +71,7 @@ body {
 
   .ride-info {
     display: flex;
+    gap: 55px;
 
     .wrapper {
       display: flex;
@@ -91,6 +92,29 @@ body {
 
       .driver-car-photo {
         transform: translateX(-40px);
+      }
+    }
+
+    .car-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .plate {
+        span {
+          font-weight: 700;
+          font-size: 4rem;
+          line-height: 50px;
+        }
+      }
+
+      .car-model {
+        span {
+          font-weight: 500;
+          font-size: 24.6573px;
+          line-height: 30px;
+        }
       }
     }
   }
