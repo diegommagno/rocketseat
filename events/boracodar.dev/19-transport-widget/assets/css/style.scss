@@ -118,4 +118,32 @@ body {
       }
     }
   }
+
+  .contact-driver {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+
+    .message {
+      input {
+        width: 50rem;
+        height: 6.4rem;
+
+        padding: 1.7rem 2.9rem;
+
+        background: #F5EDF7;
+
+        border: none;
+        border-radius: 24px;
+        
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+      }
+    }
+
+    .call, .add {
+      cursor: pointer;
+    }
+  }
 }

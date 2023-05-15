@@ -92,4 +92,23 @@ body {
   font-weight: 500;
   font-size: 24.6573px;
   line-height: 30px;
+}
+.widget .contact-driver {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.widget .contact-driver .message input {
+  width: 50rem;
+  height: 6.4rem;
+  padding: 1.7rem 2.9rem;
+  background: #F5EDF7;
+  border: none;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.widget .contact-driver .call, .widget .contact-driver .add {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
