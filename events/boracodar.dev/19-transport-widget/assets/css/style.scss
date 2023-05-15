@@ -100,12 +100,14 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+      gap: 1.2rem;
 
       .plate {
         span {
           font-weight: 700;
           font-size: 4rem;
           line-height: 50px;
+
         }
       }
 
