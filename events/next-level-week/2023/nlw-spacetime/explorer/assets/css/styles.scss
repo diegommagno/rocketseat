@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+nav {
+  padding: 6.4rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  color: #EAEAEA;
+
+  background-color: #121215;
+}
+
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  text-decoration: none;
+
+  margin-bottom: 6.4rem;
+
+  small {
+    font-size: 1.2rem;
+    color: #BEBEBF;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    color: #BEBEBF;
+  }
+
+  img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  p {
+    font-size: 1.8rem;
+    color: #BEBEBF;
+    line-height: 2.8rem;
+  }
+}
