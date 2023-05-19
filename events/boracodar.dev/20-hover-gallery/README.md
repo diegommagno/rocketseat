@@ -1,4 +1,4 @@
-<h1 align="center"> Chat </h1>
+<h1 align="center"> Hover Gallery </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Chat](https://diegommagno.com/github/rocketseat/events/boracodar.dev/04-chat/)
+- [Hover Gallery](https://diegommagno.com/github/rocketseat/events/boracodar.dev/20-hover-gallery/)
 
 <br/>
 
@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1200070743637495660). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1240650697984569274). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
@@ -39,4 +39,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `background`, `media`, `variables` 
+- CSS: `flex`, `rem`
