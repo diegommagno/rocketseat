@@ -42,4 +42,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `variables`
+- CSS: `flex & grid`, `rem`, `variables`, `aside`, 

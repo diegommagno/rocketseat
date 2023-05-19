@@ -12,6 +12,8 @@
 
 nav {
   padding: 6.4rem;
+  grid-area: timeline;  
+  overflow-y: auto;
 }
 
 body {
@@ -20,6 +22,50 @@ body {
   color: #EAEAEA;
 
   background-color: #121215;
+
+  display: grid;
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+}
+
+aside {
+  grid-area: profile;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  background-image: url("../img/background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  border-right: 1px solid;
+  border-image: linear-gradient(#727275, #2C2C31) 1;
+
+  img:nth-child(2) {
+    width: 16rem;
+    height: 16rem;
+    
+    background: linear-gradient(#D39E33, #ED5636, #633BBC) padding-box,
+    linear-gradient(260deg, #D39E33, #ED5636, #633BBC) border-box;
+
+    border-radius: 50%;
+    border: 4px solid transparent;
+  }
+
+  p {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  span {
+    font-size: 1.2rem;
+    color: #9E9EA0;
+  }
 }
 
 .memory {
