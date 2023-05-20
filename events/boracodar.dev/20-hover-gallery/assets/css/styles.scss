@@ -14,28 +14,40 @@ body {
   font-size: 1.6rem;
   color: #FFFFFF;
 
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas: "aside gallery";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+
+  // padding-top: 14rem;
+  // padding-right: 13.4rem;
 
   background-color: #121214;
 }
 
 aside {
+  grid-area: aside;
   display: flex;
   flex-direction: column;
 
+  background-color: #202024;
 }
 
 .gallery {
+  grid-area: gallery;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 3.2rem;
 
-  background-color: red;
+  padding-top: 14rem;
 
   overflow-y: auto;
+
+  .landscape {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+  }
 
   .portrait {
     width: 384px;
@@ -43,7 +55,7 @@ aside {
     object-fit: cover;
   }
 
-  .wrapper-01, .wrapper-02 {
+  .wrapper {
     display: flex;
     gap: 3.2rem;
 
