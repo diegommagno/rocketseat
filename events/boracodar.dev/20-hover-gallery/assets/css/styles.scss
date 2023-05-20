@@ -16,11 +16,12 @@ body {
 
   display: grid;
   grid-template-areas: "aside gallery";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 100vh;
 
-  // padding-top: 14rem;
-  // padding-right: 13.4rem;
+  margin-top: 14rem;
+  margin-right: 13.4rem;
+  overflow: hidden;
 
   background-color: #121214;
 }
@@ -29,18 +30,16 @@ aside {
   grid-area: aside;
   display: flex;
   flex-direction: column;
-
-  background-color: #202024;
 }
 
 .gallery {
   grid-area: gallery;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   gap: 3.2rem;
 
-  padding-top: 14rem;
-
+  
   overflow-y: auto;
 
   .landscape {
