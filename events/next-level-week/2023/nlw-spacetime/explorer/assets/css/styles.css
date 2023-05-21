@@ -77,6 +77,9 @@ aside span {
   text-decoration: none;
   margin-bottom: 6.4rem;
 }
+.memory:hover img {
+  transform: scale(1.1);
+}
 .memory small {
   font-size: 1.2rem;
   color: #BEBEBF;
@@ -90,6 +93,13 @@ aside span {
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+.memory div {
+  width: 100%;
+  height: 28rem;
+  overflow: hidden;
   border-radius: 8px;
 }
 .memory p {
