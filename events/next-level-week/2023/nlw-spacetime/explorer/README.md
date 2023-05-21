@@ -43,4 +43,4 @@ This project captures the essence of a time capsule using a few of my LinkedIn p
 
 ## 🎓 Worked on
 
-- CSS: `flex & grid`, `rem`, `variables`, `aside`, `overflow-y: auto`, `overflow-y: visible`,  
+- CSS: `flex & grid`, `rem`, `variables`, `aside`, `overflow-y: auto`, `overflow-y: visible`, `webkit-scrollbar`,`@keyframes`,`@media`
