@@ -1,6 +1,7 @@
 <h1 align="center"> NLW Spacetime </h1>
 
 <p align="center">
+This project captures the essence of a time capsule using a few of my LinkedIn posts. It showcases a timeline of significant events and milestones, providing a unique glimpse into the past. It's like a digital time capsule experience.
 </p>
 
 <p align="center">
