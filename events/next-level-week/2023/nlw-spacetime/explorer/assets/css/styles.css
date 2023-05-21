@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +15,7 @@ nav {
   padding: 6.4rem;
   grid-area: timeline;
   overflow-y: auto;
+  animation: entering 0.7s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -70,6 +72,11 @@ aside span {
   color: #9E9EA0;
 }
 
+/* Adicionar a animação somente nos elementos dentro do aside, para o background e border ficarem fixos */
+aside * {
+  animation: entering 0.7s ease-in-out;
+}
+
 .memory {
   display: flex;
   flex-direction: column;
@@ -106,4 +113,15 @@ aside span {
   font-size: 1.8rem;
   color: #BEBEBF;
   line-height: 2.8rem;
+}
+
+@keyframes entering {
+  from {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }/*# sourceMappingURL=styles.css.map */
