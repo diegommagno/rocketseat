@@ -145,3 +145,28 @@ aside * {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+
+  :root {
+    font-size: 54.69%;
+  }
+
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr;
+    grid-template-areas: 
+    "profile"
+    "timeline";
+  }
+
+  aside {
+    border-right: none;
+    padding: 3.2rem 1.2rem;
+  }
+
+  nav {
+    overflow-y: visible;
+    padding: 2.2rem;
+  }
+}

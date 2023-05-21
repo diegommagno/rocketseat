@@ -42,4 +42,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex & grid`, `rem`, `variables`, `aside`, 
+- CSS: `flex & grid`, `rem`, `variables`, `aside`, `overflow-y: auto`, `overflow-y: visible`,  
