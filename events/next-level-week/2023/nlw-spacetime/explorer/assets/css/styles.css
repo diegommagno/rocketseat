@@ -16,6 +16,18 @@ nav {
   overflow-y: auto;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2C2C31;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9E9EA0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
