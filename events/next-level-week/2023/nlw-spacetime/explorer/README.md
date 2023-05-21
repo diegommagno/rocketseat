@@ -20,12 +20,12 @@
 
 ## 📝 Live Preview 
 
-- [NLW Spacetime](https://diegommagno.com/github/rocketseat/events/boracodar.dev/19-transport-widget)
+- [NLW Spacetime](https://dmm.studio/github/rocketseat/events/next-level-week/2023/nlw-spacetime/explorer/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="40%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
