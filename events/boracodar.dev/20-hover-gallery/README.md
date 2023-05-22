@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Hover Gallery](https://diegommagno.com/github/rocketseat/events/boracodar.dev/20-hover-gallery/)
+- [Hover Gallery](https://dmm.studio/github/rocketseat/events/boracodar.dev/20-hover-gallery/)
 
 <br/>
 
