@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Transport Widget](https://diegommagno.com/github/rocketseat/events/boracodar.dev/19-transport-widget)
+- [Transport Widget](https:/dmm.studio/github/rocketseat/events/boracodar.dev/19-transport-widget)
 
 <br/>
 
