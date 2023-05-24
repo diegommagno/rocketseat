@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Character Card](https://diegommagno.com/github/rocketseat/events/boracodar.dev/18-character-card)
+- [Character Card](https://dmm.studio/github/rocketseat/events/boracodar.dev/18-character-card)
 
 <br/>
 
