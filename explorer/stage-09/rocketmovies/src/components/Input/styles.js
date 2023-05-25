@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   background-color: ${({ theme }) => theme.COLORS.BG_700};
 
-  color: ${({ theme }) => theme.COLORS.GREY_100};
+  color: ${({ theme }) => theme.COLORS.GREY_400};
 
   margin-bottom: 8px;
   border-radius: 10px;
@@ -24,7 +24,7 @@ export const Container = styled.div`
     border: none;
 
     &::placeholder {
-      color: ${({ theme }) => theme.COLORS.GREY_100};
+      color: ${({ theme }) => theme.COLORS.GREY_400};
     }
   }
 
