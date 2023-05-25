@@ -1,5 +1,3 @@
-import { FiArrowLeft } from 'react-icons/fi';
-
 import styled from 'styled-components';
 import backgroundImg from '../../assets/images/background.png';
 
@@ -40,6 +38,11 @@ export const Form = styled.form`
     margin-top: 42px;
     color: ${({ theme }) => theme.COLORS.PINK};
     text-align: center;
+
+    svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      font-size: 24px;
+    }
   }
 `;
 
@@ -47,9 +50,4 @@ export const Background = styled.div`
   flex: 1;
   background: url(${backgroundImg}) no-repeat center;
   background-size: cover;
-`;
-
-export const ArrowLeft = styled(FiArrowLeft)`
-  color: ${({ theme }) => theme.COLORS.PINK};
-  font-size: 24px;
 `;

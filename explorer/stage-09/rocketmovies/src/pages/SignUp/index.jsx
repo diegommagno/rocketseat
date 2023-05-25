@@ -1,6 +1,6 @@
-import { FiUser, FiMail, FiLock } from 'react-icons/fi';
+import { FiUser, FiMail, FiLock, FiArrowLeft } from 'react-icons/fi';
 
-import { Container, Form, Background, ArrowLeft } from './styles';
+import { Container, Form, Background } from './styles';
 
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
@@ -35,7 +35,7 @@ export function SignUp() {
         <Button title="Cadastrar" />
 
           <a href="#">
-            <ArrowLeft />
+            <FiArrowLeft />
             Voltar para o login
           </a>
       </Form>
