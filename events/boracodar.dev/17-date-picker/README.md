@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Date Picker](https://diegommagno.com/github/rocketseat/events/boracodar.dev/17-date-picker)
+- [Date Picker](https://dmm.studio/github/rocketseat/events/boracodar.dev/17-date-picker)
 
 <br/>
 
