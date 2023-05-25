@@ -14,6 +14,7 @@ export default {
 
     GREY_100: "#CAC4CF",
     GREY_300: "#666360",
+    GREY_400: "#948F99",
 
     GRAY_100: "#CAC4CF",
     GRAY_300: "#666360",
