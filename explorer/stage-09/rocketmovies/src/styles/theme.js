@@ -4,7 +4,7 @@ export default {
     BACKGROUND_800: "#312E38",
     BACKGROUND_700: "#3E3B47",
 
-    BG_900: "#1C1B1E",
+    BG_900: "rgba(255, 133, 155, 0.05)",
     BG_800: "",
     BG_700: "#262529",
     BG_RED: "rgba(255, 133, 155, 0.05);",
