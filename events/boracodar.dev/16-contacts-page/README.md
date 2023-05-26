@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [Contacts Page](https://diegommagno.com/github/rocketseat/events/boracodar.dev/16-contacts-page)
+- [Contacts Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/16-contacts-page)
 
 <br/>
 
