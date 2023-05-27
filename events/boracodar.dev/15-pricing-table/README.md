@@ -21,7 +21,7 @@ Page showing different plans and prices. <br/>
 
 ## 📝 Live Preview 
 
-- [Pricing Table](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Pricing Table](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
 
 <br/>
 
