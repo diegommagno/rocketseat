@@ -1,16 +1,16 @@
-import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from 'react-icons/fi';
+import { FiUser, FiMail, FiLock, FiCamera } from 'react-icons/fi';
 import { Container, Form, Avatar } from './styles';
 
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
+import { ButtonBack } from '../../components/ButtonBack';
 
 export function Profile() {
   return (
     <Container>
       <header>
         <a href="/">
-          <FiArrowLeft />
-          Voltar
+          <ButtonBack />
         </a>
       </header>
 

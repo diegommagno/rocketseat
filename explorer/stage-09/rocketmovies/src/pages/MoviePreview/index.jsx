@@ -2,7 +2,7 @@ import { Container } from './styles';
 
 import { Header } from '../../components/Header';
 import { Tag } from '../../components/Tag';
-import { ButtonText } from '../../components/ButtonText';
+import { ButtonBack } from '../../components/ButtonBack';
 import { Section } from '../../components/Section';
 
 export function MoviePreview() {
@@ -10,7 +10,9 @@ export function MoviePreview() {
     <Container>
       <Header />
 
-      <ButtonText title="Voltar" />
+      <a href="/">
+        <ButtonBack />
+      </a>
 
       <h1>Interestellar</h1>
 
