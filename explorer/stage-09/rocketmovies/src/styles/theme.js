@@ -9,6 +9,7 @@ export default {
     BG_700: "#262529",
     BG_RED: "rgba(255, 133, 155, 0.05);",
 
+    BLACK: "0D0C0F",
     WHITE: "#F4EDE8",
     PINK: "#FF859B",
 
