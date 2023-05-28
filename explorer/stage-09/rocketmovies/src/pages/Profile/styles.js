@@ -14,9 +14,15 @@ export const Container = styled.div`
 
     padding: 0 124px;
 
-    svg {
-      color: ${({ theme }) => theme.COLORS.GREY_100};
-      font-size: 24px;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: ${({ theme }) => theme.COLORS.PINK};
+
+      svg {
+        font-size: 24px;
+      }
     }
   }
 `;
