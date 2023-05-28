@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Upload Component](https://diegommagno.com/github/rocketseat/events/boracodar.dev/14-upload-component)
+- [Upload Component](https://dmm.studio/github/rocketseat/events/boracodar.dev/14-upload-component)
 
 <br/>
 
