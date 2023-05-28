@@ -9,4 +9,26 @@ export const Container = styled.div`
   grid-template-areas: 
   "header"
   "content";
+
+  main {
+    margin-top: 40px;
+    padding: 0 123px;
+
+  }
+`;
+
+export const Form = styled.form`
+  width: 100%;
+  margin: 24px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
 `;
