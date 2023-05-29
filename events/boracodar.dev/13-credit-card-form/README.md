@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Credit Card Details](https://diegommagno.com/github/rocketseat/events/boracodar.dev/13-credit-card-form)
+- [Credit Card Details](https://dmm.studio/github/rocketseat/events/boracodar.dev/13-credit-card-form)
 
 <br/>
 
