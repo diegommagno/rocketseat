@@ -9,16 +9,17 @@ export default {
     BG_700: "#262529",
     BG_RED: "rgba(255, 133, 155, 0.05);",
 
-    BLACK: "0D0C0F",
+    BLACK: "#0D0C0F",
     WHITE: "#F4EDE8",
     PINK: "#FF859B",
 
-    GREY_100: "#CAC4CF",
-    GREY_300: "#666360",
     GREY_400: "#948F99",
-
-    GRAY_100: "#CAC4CF",
+    GREY_300: "#666360",
+    GREY_200: "#999591",
+    GREY_100: "#CAC4CF",
+    
     GRAY_300: "#666360",
+    GRAY_100: "#CAC4CF",
 
     RED: "#FF002E"
   }
