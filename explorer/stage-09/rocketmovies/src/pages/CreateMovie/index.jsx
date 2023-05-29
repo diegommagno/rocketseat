@@ -29,9 +29,10 @@ export function CreateMovie() {
 
           <Textarea placeholder="Observações" />
 
-          <Section title="Links Úteis">
-            <div>
-              <NoteItem value="https://rocketseat.com.br" />
+          <Section title="Marcadores">
+            <div className="tags">
+              <NoteItem value="React" />
+              <NoteItem isNew placeholder="Novo marcador"/>
             </div>
           </Section>
         </Form>

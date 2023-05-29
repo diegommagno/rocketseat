@@ -10,10 +10,23 @@ export const Container = styled.div`
   "header"
   "content";
 
-  main {
+  > main {
+    grid-area: content;
+    overflow-y: auto;
+
     margin-top: 40px;
     padding: 0 123px;
+  }
 
+  .tags {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+    padding: 16px;
+    border-radius: 8px;
+
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
   }
 `;
 
