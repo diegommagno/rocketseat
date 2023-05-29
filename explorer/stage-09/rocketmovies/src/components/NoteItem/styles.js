@@ -18,6 +18,11 @@ export const Container = styled.div`
     background: none;
   }
 
+  .button-add, .button-delete {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    font-size: 24px;
+  }
+
   > input {
     height: 56px;
     width: 100%;
