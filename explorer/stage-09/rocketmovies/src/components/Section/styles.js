@@ -1,24 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  margin: 28px 0;
 `;
 
 export const Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 
   > h2 {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 42px;
-    color: ${({ theme }) => theme.COLORS.WHITE};
+    line-height: 26px;
+    color: ${({ theme }) => theme.COLORS.GREY_200};
   }
 `;
-
 
 export const Button = styled.button`
   display: flex;
