@@ -13,6 +13,8 @@ export const Container = styled.div`
   padding: 16px;
 
   > button {
+    display: flex;
+    align-items: center;
     border: none;
     background: none;
   }
