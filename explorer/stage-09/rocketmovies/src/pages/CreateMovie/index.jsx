@@ -6,6 +6,7 @@ import { ButtonBack } from '../../components/ButtonBack';
 import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
 import { Section } from '../../components/Section';
+import { Button } from '../../components/Button';
 
 export function CreateMovie() {
   return (
@@ -35,6 +36,11 @@ export function CreateMovie() {
               <NoteItem isNew placeholder="Novo marcador"/>
             </div>
           </Section>
+
+          <div>
+            <Button className="button black" title="Excluir filme"/>
+            <Button className="button" title="Salvar Alterações"/>
+          </div>
         </Form>
       </main>
     </Container>

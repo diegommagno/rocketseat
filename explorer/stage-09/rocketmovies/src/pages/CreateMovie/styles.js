@@ -28,6 +28,15 @@ export const Container = styled.div`
 
     background-color: ${({ theme }) => theme.COLORS.BLACK};
   }
+
+  .button {
+    margin-top: 0px;
+  }
+
+  .black {
+    color: ${({ theme }) => theme.COLORS.PINK};
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
+  }
 `;
 
 export const Form = styled.form`
