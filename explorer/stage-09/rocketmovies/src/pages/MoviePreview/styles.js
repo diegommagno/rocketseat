@@ -8,5 +8,11 @@ export const Container = styled.div`
   grid-template-rows: 105px auto;
   grid-template-areas: 
   "header"
-  "content"
+  "content";
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
 `;

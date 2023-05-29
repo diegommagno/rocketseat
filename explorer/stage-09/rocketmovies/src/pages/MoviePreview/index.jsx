@@ -1,7 +1,10 @@
+import { FiPlus } from 'react-icons/fi';
+
 import { Container } from './styles';
 
 import { Header } from '../../components/Header';
 import { Tag } from '../../components/Tag';
+import { Button } from '../../components/Button';
 import { ButtonBack } from '../../components/ButtonBack';
 import { Section } from '../../components/Section';
 
@@ -14,7 +17,12 @@ export function MoviePreview() {
         <ButtonBack />
       </a>
 
-      <h1>Interestellar</h1>
+      <div>
+        <h1>Interestellar</h1>
+        <Button title="Adicionar filme">
+          <FiPlus />
+        </Button>
+      </div>
 
 
       <Section>
