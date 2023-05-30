@@ -10,9 +10,25 @@ export const Container = styled.div`
   "header"
   "content";
 
-  div {
+  > main {
+    grid-area: content;
+    overflow-y: auto;
+
+    margin-top: 40px;
+    padding: 0 123px;
+  }
+
+  .movie-header {
     display: flex;
-    justify-content: space-between;
+    gap: 19px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
 `;
