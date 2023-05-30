@@ -30,5 +30,26 @@ export const Container = styled.div`
     align-items: center;
     gap: 10px;
   }
+
+  .added-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    .user, .timestamp {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      img {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #3E3B47;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  
   
 `;
