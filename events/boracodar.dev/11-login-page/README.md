@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Login Page](https://diegommagno.com/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Login Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
 
 <br/>
 
