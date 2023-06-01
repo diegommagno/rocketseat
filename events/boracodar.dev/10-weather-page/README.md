@@ -21,7 +21,7 @@ Weather page made with HTML and SCSS. <br/>
 
 ## 📝 Live Preview 
 
-- [Weather Page](https://diegommagno.com/github/rocketseat/events/boracodar.dev/10-weather-page)
+- [Weather Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/10-weather-page)
 
 <br/>
 
