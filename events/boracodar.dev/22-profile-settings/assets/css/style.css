@@ -12,6 +12,7 @@
 
 body {
   background: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);
+  font-family: "Heebo", sans-serif;
   font-size: 1.6rem;
   display: grid;
   place-items: center;
@@ -25,20 +26,67 @@ body {
   border-radius: 12px;
 }
 
-.avatar img {
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 1.6rem;
+}
+.user-info .avatar {
+  display: flex;
+}
+.user-info .avatar img {
   width: 4.8rem;
   height: 4.8rem;
   border-radius: 8px;
+}
+.user-info div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.user-info div:nth-child(2) .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.user-info div:nth-child(2) .email {
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .divider {
   width: 327px;
   border: 1px solid #F4EFFA;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
+.account-info span:nth-child(1) {
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  color: #797085;
+}
+.account-info .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.account-info .wrapper div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #38343D;
+}
+.account-info .wrapper svg path {
+  fill: #797085;
+}
 .account-info div:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 3.2rem;
 }/*# sourceMappingURL=style.css.map */
