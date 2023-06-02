@@ -1,0 +1,58 @@
+$gray_100: #38343D;
+$gray_200: #686071;
+$gray_300: #797085;
+$gray_400: #F4EFFA;
+$gray_500: #FDFCFE;
+$gradient: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);
+$red: #AA2222;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: $gradient;
+  font-size: 1.6rem;
+
+  display: grid;
+  place-items: center;
+}
+
+#app {
+  padding: 2.4rem;
+  background-color: $gray_500;
+
+  border: 1px solid #F4EFFA;
+  box-shadow: 0px 52px 21px rgba(30, 30, 30, 0.01), 0px 29px 18px rgba(30, 30, 30, 0.05), 0px 13px 13px rgba(30, 30, 30, 0.09), 0px 3px 7px rgba(30, 30, 30, 0.1), 0px 0px 0px rgba(30, 30, 30, 0.1);
+  border-radius: 12px;
+}
+
+.avatar {
+  img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 8px;
+  }
+}
+
+.divider {
+  width: 327px;
+  border: 1px solid #F4EFFA;
+}
+
+.account-info {
+  div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.2rem;
+  }
+}
