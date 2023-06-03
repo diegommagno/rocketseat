@@ -1,4 +1,4 @@
-<h1 align="center"> Shopping Cart </h1>
+<h1 align="center"> Profile Settings </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,12 +17,14 @@
 
 ## 📝 Live Preview 
 
-- [Shopping Cart](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/)
+- [Profile Settings - EN](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/en.html)
+- [Profile Settings - FR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/fr.html)
+- [Profile Settings - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="100%" />
+  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="35%" />
 </p>
 
 <br/>
@@ -39,4 +41,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`
+- CSS: `flex`, `grid`, `rem`
