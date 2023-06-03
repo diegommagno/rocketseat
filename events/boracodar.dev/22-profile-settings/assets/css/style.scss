@@ -26,6 +26,7 @@ body {
 
   display: grid;
   place-items: center;
+  height: 100vh;
 }
 
 #app {
@@ -85,7 +86,7 @@ i {
   margin-bottom: 1.6rem;
 }
 
-.account-info, .preferences, .privacy {
+.account-info, .preferences, .privacy, .footer {
   span:nth-child(1) {
     text-transform: uppercase;
     margin-bottom: 1.2rem;
@@ -114,6 +115,12 @@ i {
 
     svg path {
       fill: $gray_300;
+    }
+
+    .sign-out {
+      i, span {
+        color: $red;
+      }
     }
   }
 

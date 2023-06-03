@@ -16,6 +16,7 @@ body {
   font-size: 1.6rem;
   display: grid;
   place-items: center;
+  height: 100vh;
 }
 
 #app {
@@ -67,13 +68,13 @@ i {
   margin-bottom: 1.6rem;
 }
 
-.account-info span:nth-child(1), .preferences span:nth-child(1), .privacy span:nth-child(1) {
+.account-info span:nth-child(1), .preferences span:nth-child(1), .privacy span:nth-child(1), .footer span:nth-child(1) {
   text-transform: uppercase;
   margin-bottom: 1.2rem;
   font-size: 1.2rem;
   color: #797085;
 }
-.account-info .wrapper, .preferences .wrapper, .privacy .wrapper {
+.account-info .wrapper, .preferences .wrapper, .privacy .wrapper, .footer .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,16 +82,19 @@ i {
   margin: 8px 0;
   cursor: pointer;
 }
-.account-info .wrapper div, .preferences .wrapper div, .privacy .wrapper div {
+.account-info .wrapper div, .preferences .wrapper div, .privacy .wrapper div, .footer .wrapper div {
   display: flex;
   align-items: center;
   gap: 8px;
   color: #38343D;
 }
-.account-info .wrapper svg path, .preferences .wrapper svg path, .privacy .wrapper svg path {
+.account-info .wrapper svg path, .preferences .wrapper svg path, .privacy .wrapper svg path, .footer .wrapper svg path {
   fill: #797085;
 }
-.account-info div:nth-child(2), .preferences div:nth-child(2), .privacy div:nth-child(2) {
+.account-info .wrapper .sign-out i, .account-info .wrapper .sign-out span, .preferences .wrapper .sign-out i, .preferences .wrapper .sign-out span, .privacy .wrapper .sign-out i, .privacy .wrapper .sign-out span, .footer .wrapper .sign-out i, .footer .wrapper .sign-out span {
+  color: #AA2222;
+}
+.account-info div:nth-child(2), .preferences div:nth-child(2), .privacy div:nth-child(2), .footer div:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: space-between;
