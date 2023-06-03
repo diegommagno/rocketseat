@@ -26,6 +26,11 @@ body {
   border-radius: 12px;
 }
 
+i {
+  font-size: 2rem;
+  color: #38343D;
+}
+
 .user-info {
   display: flex;
   align-items: center;
@@ -62,30 +67,30 @@ body {
   margin-bottom: 1.6rem;
 }
 
-.account-info span:nth-child(1) {
+.account-info span:nth-child(1), .preferences span:nth-child(1) {
   text-transform: uppercase;
   margin-bottom: 1.2rem;
   font-size: 1.2rem;
   color: #797085;
 }
-.account-info .wrapper {
+.account-info .wrapper, .preferences .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1.6rem;
-  padding: 8px 0;
+  margin: 8px 0;
   cursor: pointer;
 }
-.account-info .wrapper div {
+.account-info .wrapper div, .preferences .wrapper div {
   display: flex;
   align-items: center;
   gap: 8px;
   color: #38343D;
 }
-.account-info .wrapper svg path {
+.account-info .wrapper svg path, .preferences .wrapper svg path {
   fill: #797085;
 }
-.account-info div:nth-child(2) {
+.account-info div:nth-child(2), .preferences div:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: space-between;
