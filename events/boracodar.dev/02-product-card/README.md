@@ -24,7 +24,7 @@ A card showing information about a product and the possibility of viewing it on 
 
 ## 📝 Live Preview 
 
-- [Product Card](https://diegommagno.com/github/rocketseat/events/boracodar.dev/02-product-card)
+- [Product Card](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card)
 
 <br/>
 
