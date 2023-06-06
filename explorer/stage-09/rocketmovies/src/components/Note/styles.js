@@ -9,7 +9,7 @@ export const Container = styled.button`
   border-radius: 10px;
 
   padding: 22px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 
   > h1 {
     flex: 1; /* Para ele ocupar o máximo de espaço disponível para ele */
