@@ -40,4 +40,43 @@ export const Content = styled.div`
   ::-webkit-scrollbar-thumb:hover {
     background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
   }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 38px;
+
+    h2 {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 42px;
+    }
+
+    button {
+      width: 207px;
+      height: 56px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      background-color: ${({ theme }) => theme.COLORS.PINK};
+
+      color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+      font-weight: 500;
+      
+      border: 0;
+      border-radius: 10px;
+
+      padding: 0 16px;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
 `;
