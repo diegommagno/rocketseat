@@ -19,32 +19,23 @@ export const Search = styled.div`
 
 export const Content = styled.div`
   grid-area: content;
-  
-  padding: 47px 123px;
-
+  margin: 47px 123px;
   overflow-y: auto; /* Caso haja muitas notas, vai aparecer uma barrinha para poder rolar somente as notas */
   
   /* Scrollbar code */
   /* width */
   ::-webkit-scrollbar {
-    width: 20px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-    border-radius: 10px;
+    width: 8px;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    background: ${({ theme }) => theme.COLORS.PINK};
     border-radius: 10px;
-    border: 6px solid ${({ theme }) => theme.COLORS.BACKGROUND_800};
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
   }
 `;
