@@ -16,6 +16,8 @@ export const Container = styled.div`
 
     margin-top: 40px;
     padding: 0 123px;
+
+    
   }
 
   .movie-header {
@@ -50,6 +52,12 @@ export const Container = styled.div`
     }
   }
 
+  .wrapper {
+    padding-top: 16px;
+    margin-bottom: 40px;
+  }
   
-  
+  p {
+    text-align: justify;
+  }
 `;
