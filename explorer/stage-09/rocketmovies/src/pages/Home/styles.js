@@ -9,6 +9,7 @@ export const Container = styled.div`
   "header" 
   "content";
 
+
   background-color: ${({ theme }) => theme.COLORS.BG_900};
 `;
 
@@ -20,6 +21,7 @@ export const Search = styled.div`
 export const Content = styled.div`
   grid-area: content;
   margin: 47px 123px;
+  padding-right: 8px;
   overflow-y: auto; /* Caso haja muitas notas, vai aparecer uma barrinha para poder rolar somente as notas */
   
   /* Scrollbar code */
