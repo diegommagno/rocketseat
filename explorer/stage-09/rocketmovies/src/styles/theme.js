@@ -12,6 +12,7 @@ export default {
     BLACK: "#0D0C0F",
     WHITE: "#F4EDE8",
     PINK: "#FF859B",
+    PINK_HOVER: "#E76F86",
 
     GREY_400: "#948F99",
     GREY_300: "#666360",

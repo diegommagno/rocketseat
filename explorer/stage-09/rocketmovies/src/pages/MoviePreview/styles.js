@@ -14,10 +14,24 @@ export const Container = styled.div`
     grid-area: content;
     overflow-y: auto;
 
-    margin-top: 40px;
-    padding: 0 123px;
+    margin: 40px 123px;
 
-    
+    /* Scrollbar code */
+    /* width */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: ${({ theme }) => theme.COLORS.PINK};
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
+    }
   }
 
   .movie-header {
@@ -59,5 +73,6 @@ export const Container = styled.div`
   
   p {
     text-align: justify;
+    padding-right: 20px;
   }
 `;
