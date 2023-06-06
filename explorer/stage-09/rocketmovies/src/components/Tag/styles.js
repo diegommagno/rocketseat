@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.span`
+  font-family: 'Roboto', sans-serif;
+
   width: fit-content;
   height: fit-content;
 
