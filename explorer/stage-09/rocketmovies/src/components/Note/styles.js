@@ -26,4 +26,29 @@ export const Container = styled.button`
     display: flex;
     margin-top: 24px;
   }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    margin-top: 8px;
+  }
+
+  p {
+    max-height: 57px;
+    overflow: hidden;
+    text-align: justify;
+
+    color: ${({ theme }) => theme.COLORS.WHITE};
+
+    padding-right: 20px;
+
+    margin-top: 15px;
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+
+  }
+  
 `;
