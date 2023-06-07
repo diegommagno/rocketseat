@@ -8,10 +8,9 @@ export const Container = styled.div`
   display: grid;
   grid-template-areas:
   "header" 
-  "Wrapper"
-  "NewMovieNote"
+  "wrapper"
+  "newmovienote"
   "content";
-
 
   background-color: ${({ theme }) => theme.COLORS.BG_900};
 `;
@@ -22,7 +21,7 @@ export const Search = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  grid-area: Wrapper;
+  grid-area: wrapper;
   margin: 47px 123px;
 
   display: flex;
@@ -39,7 +38,7 @@ export const Wrapper = styled.div`
 `;
 
 export const NewMovieNote = styled(Link)`
-  grid-area: NewMovieNote;
+  grid-area: newmovienote;
 
   width: 207px;
   height: 56px;
@@ -54,7 +53,6 @@ export const NewMovieNote = styled(Link)`
   color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
   font-weight: 500;
   
-  border: 0;
   border-radius: 10px;
 
   padding: 0 16px;

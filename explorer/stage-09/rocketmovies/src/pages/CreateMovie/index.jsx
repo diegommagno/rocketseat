@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Container, Form } from './styles';
 
 import { Header } from '../../components/Header';
@@ -14,9 +16,9 @@ export function CreateMovie() {
       <Header />
 
       <main>
-      <a href="/">
+      <Link to="/">
         <ButtonBack />
-      </a>
+      </Link>
 
         <Form>
           <header>

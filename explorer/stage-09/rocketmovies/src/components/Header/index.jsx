@@ -16,7 +16,7 @@ export function Header() {
         <Input placeholder="Pesquisar pelo título" icon={FiSearch}/>
       </Search>
 
-      <Profile>
+      <Profile to="/profile">
         <img src="https://github.com/diegommagno.png" alt="Foto do Usuário" />
 
         <div>
