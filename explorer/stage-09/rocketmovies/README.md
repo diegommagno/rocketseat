@@ -1,4 +1,4 @@
-<h1 align="center"> Rocketmovies </h1>
+<h1 align="center"> RocketMovies </h1>
 
 <p align="center">
   <br/>
