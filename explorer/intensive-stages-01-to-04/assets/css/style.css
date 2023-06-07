@@ -130,4 +130,19 @@ main .contact .get-in-touch form button {
 }
 main .contact img {
   display: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 1.6rem;
+  background: var(--bg-main);
+}
+footer span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  color: var(--white);
 }/*# sourceMappingURL=style.css.map */
