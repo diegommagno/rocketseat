@@ -14,5 +14,39 @@
 }
 
 body {
+  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  width: 364px;
+  height: 370px;
+  margin-bottom: 1.7rem;
+}
+header h1 {
+  color: var(--fc-primary);
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 5px;
+}
+header p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+header svg {
+  margin-top: 3.5rem;
+  margin-bottom: 9.3rem;
+}
+
+main .contact img {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
