@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Rocketmovies](https://diegommagno.com/github/rocketseat/explorer/stage-09/rocketmovies)
+- [RocketMovies](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketmovies)
 
 <br/>
 
@@ -40,4 +40,4 @@
 ## 🎓 Worked on
 
 - CSS: `flex and grid`, `rem`, `tokens`, `align-self`, `responsive`
-- React: `folder structure`, `components`, `GlobalStyles`, `ThemeProvider`, `importing components`
+- React: `folder structure`, `components`, `GlobalStyles`, `ThemeProvider`, `importing components`, `react-icons/fi`, `react-router-dom`
