@@ -170,21 +170,90 @@ footer span {
     height: 73rem;
     margin-bottom: 10rem;
   }
-  header h1 {
-    color: var(--fc-primary);
-    font-weight: 900;
-    font-size: 3.2rem;
-    line-height: 4rem;
-    margin-bottom: 5px;
-  }
-  header p {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 25px;
-  }
   header svg {
     position: absolute;
     bottom: 0px;
+  }
+  main .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    background: var(--bg-main);
+    padding: 6.4rem 11rem;
+  }
+  main .cards .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    padding: 3.2rem;
+    border-radius: 2.4rem;
+  }
+  main .cards .card img {
+    width: 9.7rem;
+    height: 9.7rem;
+    margin-bottom: 4rem;
+  }
+  main .cards .card h2 {
+    font-weight: 900;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    margin-bottom: 1.3rem;
+  }
+  main .cards .card p {
+    min-width: 32rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  main .contact {
+    margin: 7.8rem 4rem 6.5rem;
+  }
+  main .contact .get-in-touch h2 {
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: var(--fc-primary);
+    margin-bottom: 4.3rem;
+  }
+  main .contact .get-in-touch form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  main .contact .get-in-touch form input, main .contact .get-in-touch form textarea {
+    color: var(--fc-secondary);
+    border: 1.5px solid var(--fc-secondary);
+    border-radius: 1.6rem;
+  }
+  main .contact .get-in-touch form input::-moz-placeholder, main .contact .get-in-touch form textarea::-moz-placeholder {
+    color: var(--fc-secondary);
+  }
+  main .contact .get-in-touch form input::placeholder, main .contact .get-in-touch form textarea::placeholder {
+    color: var(--fc-secondary);
+  }
+  main .contact .get-in-touch form input {
+    padding: 1.2rem 1.6rem;
+  }
+  main .contact .get-in-touch form textarea {
+    padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+    resize: none;
+  }
+  main .contact .get-in-touch form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    height: 4.5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--white);
+    border: none;
+    border-radius: 16px;
+    padding: 1.6rem;
+    background: var(--bg-main);
+    cursor: pointer;
+  }
+  main .contact img {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
