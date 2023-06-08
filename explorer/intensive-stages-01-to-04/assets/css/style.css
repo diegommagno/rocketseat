@@ -19,6 +19,18 @@ body {
   font-size: 1.6rem;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -100,16 +112,42 @@ main .contact .get-in-touch form {
   flex-direction: column;
   gap: 2.4rem;
 }
+main .contact .get-in-touch form .name-input, main .contact .get-in-touch form .email-input {
+  position: relative;
+}
+main .contact .get-in-touch form .name-input:before, main .contact .get-in-touch form .email-input:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px; /* adjust the width and height as needed */
+  height: 20px;
+  position: absolute;
+  left: 10px; /* adjust the positioning as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .contact .get-in-touch form .name-input:before {
+  background-image: url("../img/username.svg");
+}
+main .contact .get-in-touch form .email-input:before {
+  background-image: url("../img/email.svg");
+}
+main .contact .get-in-touch form input[type=text], main .contact .get-in-touch form input[type=email] {
+  padding-left: 34px;
+}
 main .contact .get-in-touch form input, main .contact .get-in-touch form textarea {
   color: var(--fc-secondary);
   border: 1.5px solid var(--fc-secondary);
   border-radius: 1.6rem;
+  width: 100%;
 }
 main .contact .get-in-touch form input::-moz-placeholder, main .contact .get-in-touch form textarea::-moz-placeholder {
   color: var(--fc-secondary);
+  margin-right: 1.2rem;
 }
 main .contact .get-in-touch form input::placeholder, main .contact .get-in-touch form textarea::placeholder {
   color: var(--fc-secondary);
+  margin-right: 1.2rem;
 }
 main .contact .get-in-touch form input {
   padding: 1.2rem 1.6rem;

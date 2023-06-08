@@ -10,6 +10,7 @@
 
   <title>Explore sem limites</title>
 
+  <script src="https://unpkg.com/phosphor-icons"></script>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -57,9 +58,17 @@
       <div class="get-in-touch">
         <h2>Entre em contato</h2>
 
-        <form action="">
-          <input type="text" placeholder="Seu nome">
-          <input type="email" placeholder="E-mail">
+        <form>
+          <div class="name-input">
+            <label for="nameInput" class="sr-only">Seu nome</label>
+            <input id="nameInput" type="text" placeholder="Seu nome">
+          </div>
+
+          <div class="email-input">
+            <label for="emailInput" class="sr-only">E-mail</label>
+            <input id="emailInput" type="email" placeholder="E-mail">
+          </div>
+          
           <textarea 
             name="message" 
             id="message-box" 

@@ -22,6 +22,18 @@ body {
   font-size: 1.6rem;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -121,13 +133,44 @@ main {
         flex-direction: column;
         gap: 2.4rem;
 
+        .name-input, .email-input {
+          position: relative;
+        }
+
+        .name-input:before, .email-input:before {
+          content: "";
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 20px; /* adjust the width and height as needed */
+          height: 20px;
+          position: absolute;
+          left: 10px; /* adjust the positioning as needed */
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .name-input:before {
+          background-image: url("../img/username.svg");
+        }
+
+        .email-input:before {
+          background-image: url("../img/email.svg");
+        }
+        
+        input[type="text"], input[type="email"] {
+          padding-left: 34px;
+        }
+
         input, textarea {
           color: var(--fc-secondary);
           border: 1.5px solid var(--fc-secondary);
           border-radius: 1.6rem;
 
+          width: 100%;
+
           &::placeholder {
             color: var(--fc-secondary);
+            margin-right: 1.2rem;
           }
         }
 
