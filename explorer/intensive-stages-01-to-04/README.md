@@ -1,4 +1,4 @@
-<h1 align="center"> Profile Settings </h1>
+<h1 align="center"> Explore without limits </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,9 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Profile Settings - EN](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/en.html)
-- [Profile Settings - FR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/fr.html)
-- [Profile Settings - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/)
+- [Explore without limits](https://dmm.studio/github/rocketseat/explorer/intensive-stages-01-to-04/)
 
 <br/>
 
@@ -31,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1245736372337157133). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites/duplicate). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
@@ -41,4 +39,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`
+- CSS: `flex`, `rem`, `mobile first`, `transitions`, `:before`
