@@ -105,9 +105,9 @@ main {
   }
 
   .contact {
-    margin: 7.8rem 4rem 6.5rem;
-
     .get-in-touch {
+      padding: 7.8rem 4rem 6.5rem;
+
       h2 {
         font-weight: 900;
         font-size: 3.2rem;
@@ -268,9 +268,14 @@ footer {
     }
   
     .contact {
-      margin: 7.8rem 4rem 6.5rem;
-  
+      display: flex;
+      flex-direction: row;
+
       .get-in-touch {
+        padding: 9.5rem 9.2rem 9.5rem 11rem;
+
+        width: 50%;
+
         h2 {
           font-weight: 900;
           font-size: 3.2rem;
@@ -278,57 +283,11 @@ footer {
           color: var(--fc-primary);
           margin-bottom: 4.3rem;
         }
-  
-        form {
-          display: flex;
-          flex-direction: column;
-          gap: 2.4rem;
-  
-          input, textarea {
-            color: var(--fc-secondary);
-            border: 1.5px solid var(--fc-secondary);
-            border-radius: 1.6rem;
-  
-            &::placeholder {
-              color: var(--fc-secondary);
-            }
-          }
-  
-          input {
-            padding: 1.2rem 1.6rem;
-          }
-  
-          textarea {
-            padding: 1.2rem 1.6rem 1.6rem 1.6rem;
-            resize: none;
-          }
-  
-          button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-  
-            width: 16rem;
-            height: 4.5rem;
-  
-            font-weight: 700;
-            font-size: 1.4rem;
-            line-height: 2.4rem;
-            color: var(--white);
-  
-            border: none;
-            border-radius: 16px;
-  
-            padding: 1.6rem;
-  
-            background: var(--bg-main);
-  
-            cursor: pointer;
-          }
-        }
       }
+
       img {
-        display: none;
+        width: 50%;
+        display: block;
       }
     }
   }

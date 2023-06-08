@@ -85,8 +85,8 @@ main .cards .card p {
   line-height: 2rem;
   color: var(--fc-secondary);
 }
-main .contact {
-  margin: 7.8rem 4rem 6.5rem;
+main .contact .get-in-touch {
+  padding: 7.8rem 4rem 6.5rem;
 }
 main .contact .get-in-touch h2 {
   font-weight: 900;
@@ -214,7 +214,12 @@ footer span {
     line-height: 2.4rem;
   }
   main .contact {
-    margin: 7.8rem 4rem 6.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+  main .contact .get-in-touch {
+    padding: 9.5rem 9.2rem 9.5rem 11rem;
+    width: 50%;
   }
   main .contact .get-in-touch h2 {
     font-weight: 900;
@@ -223,46 +228,8 @@ footer span {
     color: var(--fc-primary);
     margin-bottom: 4.3rem;
   }
-  main .contact .get-in-touch form {
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
-  }
-  main .contact .get-in-touch form input, main .contact .get-in-touch form textarea {
-    color: var(--fc-secondary);
-    border: 1.5px solid var(--fc-secondary);
-    border-radius: 1.6rem;
-  }
-  main .contact .get-in-touch form input::-moz-placeholder, main .contact .get-in-touch form textarea::-moz-placeholder {
-    color: var(--fc-secondary);
-  }
-  main .contact .get-in-touch form input::placeholder, main .contact .get-in-touch form textarea::placeholder {
-    color: var(--fc-secondary);
-  }
-  main .contact .get-in-touch form input {
-    padding: 1.2rem 1.6rem;
-  }
-  main .contact .get-in-touch form textarea {
-    padding: 1.2rem 1.6rem 1.6rem 1.6rem;
-    resize: none;
-  }
-  main .contact .get-in-touch form button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16rem;
-    height: 4.5rem;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    color: var(--white);
-    border: none;
-    border-radius: 16px;
-    padding: 1.6rem;
-    background: var(--bg-main);
-    cursor: pointer;
-  }
   main .contact img {
-    display: none;
+    width: 50%;
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
