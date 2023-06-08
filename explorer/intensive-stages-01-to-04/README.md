@@ -10,7 +10,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Project cover." src=".github/cover.png" width="70%" />
 </p>
 
 <br/>
@@ -22,7 +22,8 @@
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="35%" />
+  <img alt="Landing page created for the event." src=".github/desktop-preview-cover.png" width="35%" />
+  <img alt="Landing page created for the event." src=".github/mobile-preview-cover.png" width="10%" />
 </p>
 
 <br/>
