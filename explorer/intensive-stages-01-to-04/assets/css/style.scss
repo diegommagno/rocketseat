@@ -98,6 +98,12 @@ main {
         width: 8rem;
         height: 8rem;
         margin-bottom: 3.3rem;
+
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
 
       h2 {
