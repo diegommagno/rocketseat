@@ -60,24 +60,27 @@
         <h2>Entre em contato</h2>
 
         <form>
-          <div class="name-input">
-            <label for="nameInput" class="sr-only">Seu nome</label>
-            <input id="nameInput" type="text" placeholder="Seu nome">
-          </div>
-
-          <div class="email-input">
-            <label for="emailInput" class="sr-only">E-mail</label>
-            <input id="emailInput" type="text" placeholder="E-mail">
-          </div>
+          <fieldset>
+            <div class="name-input">
+              <label for="nameInput" class="sr-only">Seu nome</label>
+              <input id="nameInput" type="text" placeholder="Seu nome">
+            </div>
+  
+            <div class="email-input">
+              <label for="emailInput" class="sr-only">E-mail</label>
+              <input id="emailInput" type="text" placeholder="E-mail">
+            </div>
+            
+            <textarea 
+              name="message" 
+              id="message-box" 
+              cols="30" 
+              rows="10" 
+              placeholder="Digite sua mensagem aqui..."
+            ></textarea>
+          </fieldset>
           
-          <textarea 
-            name="message" 
-            id="message-box" 
-            cols="30" 
-            rows="10" 
-            placeholder="Digite sua mensagem aqui..."
-          ></textarea>
-          <button>Enviar Mensagem</button>
+          <button type="submit">Enviar Mensagem</button>
         </form>
       </div>
 
@@ -86,7 +89,7 @@
 
     <footer>
       <span>
-        © 2023 - Rocketseat Explorer
+        &copy; 2023 - Rocketseat Explorer
       </span>
     </footer>
   </main>

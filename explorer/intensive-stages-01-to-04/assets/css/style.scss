@@ -18,8 +18,11 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
   font-size: 1.6rem;
+}
+
+body * {
+  font-family: 'Mulish', sans-serif;
 }
 
 .sr-only {
@@ -135,9 +138,16 @@ main {
       }
 
       form {
-        display: flex;
-        flex-direction: column;
-        gap: 2.4rem;
+        fieldset {
+          display: flex;
+          flex-direction: column;
+          gap: 2.4rem;
+        
+          border: none;
+          background: none;
+
+          margin-bottom: 2.4rem;
+        }
 
         .name-input, .email-input {
           position: relative;

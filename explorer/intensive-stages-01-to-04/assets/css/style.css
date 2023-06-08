@@ -15,8 +15,11 @@
 }
 
 body {
-  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
+}
+
+body * {
+  font-family: "Mulish", sans-serif;
 }
 
 .sr-only {
@@ -111,10 +114,13 @@ main .contact .get-in-touch h2 {
   color: var(--fc-primary);
   margin-bottom: 4.3rem;
 }
-main .contact .get-in-touch form {
+main .contact .get-in-touch form fieldset {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  border: none;
+  background: none;
+  margin-bottom: 2.4rem;
 }
 main .contact .get-in-touch form .name-input, main .contact .get-in-touch form .email-input {
   position: relative;
