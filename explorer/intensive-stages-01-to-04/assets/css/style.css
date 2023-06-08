@@ -175,6 +175,10 @@ main .contact .get-in-touch form button {
   padding: 1.6rem;
   background: var(--bg-main);
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow to the transition */
+}
+main .contact .get-in-touch form button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.289);
 }
 main .contact img {
   display: none;
