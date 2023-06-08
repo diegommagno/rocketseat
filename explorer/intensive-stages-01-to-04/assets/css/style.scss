@@ -348,7 +348,10 @@ footer {
       display: flex;
       flex-direction: row;
 
+      max-height: 61rem;
+
       .get-in-touch {
+
         padding: 9.5rem 9.2rem 9.5rem 11rem;
 
         width: 50%;
@@ -365,6 +368,7 @@ footer {
       img {
         width: 50%;
         display: block;
+        object-fit: cover;
       }
     }
   }

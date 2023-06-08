@@ -276,6 +276,7 @@ footer span {
   main .contact {
     display: flex;
     flex-direction: row;
+    max-height: 61rem;
   }
   main .contact .get-in-touch {
     padding: 9.5rem 9.2rem 9.5rem 11rem;
@@ -291,5 +292,7 @@ footer span {
   main .contact img {
     width: 50%;
     display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */
