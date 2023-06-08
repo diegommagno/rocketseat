@@ -149,6 +149,10 @@ main .contact .get-in-touch form input::placeholder, main .contact .get-in-touch
   color: var(--fc-secondary);
   margin-right: 1.2rem;
 }
+main .contact .get-in-touch form input:focus, main .contact .get-in-touch form textarea:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 main .contact .get-in-touch form input {
   padding: 1.2rem 1.6rem;
 }
