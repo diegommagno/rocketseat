@@ -12,10 +12,12 @@
   --fc-secondary: #312D64;
   --white: #FFFFFF;
   --bg-main: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  --light-gray: #f9f4fb;
 }
 
 body {
   font-size: 1.6rem;
+  background: var(--light-gray);
 }
 
 body * {
@@ -150,6 +152,7 @@ main .contact .get-in-touch form input, main .contact .get-in-touch form textare
   border: 1.5px solid var(--fc-secondary);
   border-radius: 1.6rem;
   width: 100%;
+  background: var(--light-gray);
 }
 main .contact .get-in-touch form input::-moz-placeholder, main .contact .get-in-touch form textarea::-moz-placeholder {
   color: var(--fc-secondary);
@@ -167,6 +170,7 @@ main .contact .get-in-touch form input {
   padding: 1.2rem 1.6rem;
 }
 main .contact .get-in-touch form textarea {
+  height: 12.6rem;
   padding: 1.2rem 1.6rem 1.6rem 1.6rem;
   resize: none;
 }

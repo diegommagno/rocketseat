@@ -15,10 +15,12 @@
   --white: #FFFFFF;
 
   --bg-main: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  --light-gray: #f9f4fb;
 }
 
 body {
   font-size: 1.6rem;
+  background: var(--light-gray);
 }
 
 body * {
@@ -184,6 +186,8 @@ main {
 
           width: 100%;
 
+          background: var(--light-gray);
+
           &::placeholder {
             color: var(--fc-secondary);
             margin-right: 1.2rem;
@@ -202,6 +206,7 @@ main {
         }
 
         textarea {
+          height: 12.6rem;
           padding: 1.2rem 1.6rem 1.6rem 1.6rem;
           resize: none;
         }
