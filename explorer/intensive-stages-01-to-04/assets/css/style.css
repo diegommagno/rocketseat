@@ -43,11 +43,11 @@ header h1 {
   line-height: 4rem;
   margin-bottom: 5px;
 }
-header p {
+header span {
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 header svg {
   margin-top: 3.5rem;
@@ -169,6 +169,15 @@ footer span {
     width: 72rem;
     height: 73rem;
     margin-bottom: 10rem;
+  }
+  header h1 {
+    font-size: 5.8rem;
+    line-height: 7.3rem;
+    margin-bottom: 8px;
+  }
+  header span {
+    font-size: 3.2rem;
+    line-height: 4rem;
   }
   header svg {
     position: absolute;
