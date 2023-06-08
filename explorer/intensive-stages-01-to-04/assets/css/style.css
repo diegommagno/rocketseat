@@ -66,37 +66,37 @@ header svg {
   margin-bottom: 9.3rem;
 }
 
-main .cards {
+main #cards {
   display: flex;
   flex-direction: column;
   gap: 5rem;
   background: var(--bg-main);
   padding: 5.3rem 3.9rem;
 }
-main .cards .card {
+main #cards .card {
   display: flex;
   flex-direction: column;
   background: var(--white);
   padding: 2.6rem;
   border-radius: 2rem;
 }
-main .cards .card img {
+main #cards .card img {
   width: 8rem;
   height: 8rem;
   margin-bottom: 3.3rem;
   transition: transform 0.3s ease;
 }
-main .cards .card img:hover {
+main #cards .card img:hover {
   transform: scale(1.1);
 }
-main .cards .card h2 {
+main #cards .card h2 {
   font-weight: 900;
   font-size: 2.9rem;
   line-height: 3.7rem;
   color: var(--fc-primary);
   margin-bottom: 1rem;
 }
-main .cards .card p {
+main #cards .card p {
   font-weight: 600;
   line-height: 2rem;
   color: var(--fc-secondary);
@@ -233,32 +233,32 @@ footer span {
     position: absolute;
     bottom: 0px;
   }
-  main .cards {
+  main #cards {
     display: flex;
     flex-direction: row;
     gap: 6rem;
     background: var(--bg-main);
     padding: 6.4rem 11rem;
   }
-  main .cards .card {
+  main #cards .card {
     display: flex;
     flex-direction: column;
     background: var(--white);
     padding: 3.2rem;
     border-radius: 2.4rem;
   }
-  main .cards .card img {
+  main #cards .card img {
     width: 9.7rem;
     height: 9.7rem;
     margin-bottom: 4rem;
   }
-  main .cards .card h2 {
+  main #cards .card h2 {
     font-weight: 900;
     font-size: 3.6rem;
     line-height: 4.4rem;
     margin-bottom: 1.3rem;
   }
-  main .cards .card p {
+  main #cards .card p {
     min-width: 32rem;
     font-size: 2rem;
     line-height: 2.4rem;

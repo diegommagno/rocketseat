@@ -75,7 +75,7 @@ header {
 }
 
 main {
-  .cards {
+  #cards {
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -289,7 +289,7 @@ footer {
   }
 
   main {
-    .cards {
+    #cards {
       display: flex;
       flex-direction: row;
       gap: 6rem;
