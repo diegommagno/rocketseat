@@ -184,6 +184,8 @@ footer {
 
     border: none;
     border-radius: 6px;
+    
+    transition: transform 0.3s ease;
 
     cursor: pointer;
   }
@@ -195,7 +197,31 @@ footer {
   }
 
   #btn-next {
-    color: var(--white); 
+    color: var(--white);
     background: var(--purple-mid);
+
+    &:hover {
+      transform: scale(1.035);
+    }
+  }
+
+  #btn-back { 
+    border: 1px solid var(--purple-mid);
+    color: var(--purple-mid); 
+    background: var(--white);
+
+    &:hover {
+      transform: scale(1.035);
+    }
+  }
+}
+
+#form-02 {
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
   }
 }

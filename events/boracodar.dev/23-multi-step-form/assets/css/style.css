@@ -140,6 +140,7 @@ footer button {
   padding: 1.6rem 3.2rem;
   border: none;
   border-radius: 6px;
+  transition: transform 0.3s ease;
   cursor: pointer;
 }
 footer #btn-back {
@@ -150,4 +151,21 @@ footer #btn-back {
 footer #btn-next {
   color: var(--white);
   background: var(--purple-mid);
+}
+footer #btn-next:hover {
+  transform: scale(1.035);
+}
+footer #btn-back {
+  border: 1px solid var(--purple-mid);
+  color: var(--purple-mid);
+  background: var(--white);
+}
+footer #btn-back:hover {
+  transform: scale(1.035);
+}
+
+#form-02 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
