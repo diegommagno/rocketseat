@@ -112,6 +112,7 @@ main form fieldset input::placeholder {
 main form fieldset input:focus {
   border-color: var(--purple-mid);
   outline: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
