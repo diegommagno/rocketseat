@@ -14,7 +14,7 @@
 </head>
 <body>
   <div id="app">
-    <div class="form-01 hide">
+    <div id="form-01" class="hide">
       <header>
         <nav>
           <div class="step selected">
@@ -66,7 +66,7 @@
       </footer>
     </div>
 
-    <div class="form-02 ">
+    <div id="form-02" class="">
       <header>
         <nav>
           <div class="step checked">
@@ -98,25 +98,26 @@
         <form>
           <fieldset>
             <div>
-              <label for="name">Nome</label>
-              <input type="text" placeholder="Como prefere ser chamado">
+              <label for="name">Nome da empresa</label>
+              <input type="text" placeholder="Qual é o nome da empresa">
             </div>
   
             <div>
-              <label for="phone">Telefone</label>
-              <input type="text" placeholder="Digite seu número de WhatsApp">
+              <label for="phone">Número de funcionários</label>
+              <input type="text" placeholder="Digite o número de colaboradores">
             </div>
   
             <div>
-              <label for="email">E-mail</label>
-              <input type="text" placeholder="Digite seu e-mail">
+              <label for="email">Sobre seu negócio</label>
+              <textarea placeholder="Fale um pouco sobre seus produtos ou serviços"></textarea>
             </div>
           </fieldset>
         </form>
       </main>
 
       <footer>
-        <button>Continuar</button>
+        <button id="btn-back">Voltar</button>
+        <button id="btn-next">Continuar</button>
       </footer>
     </div>
 

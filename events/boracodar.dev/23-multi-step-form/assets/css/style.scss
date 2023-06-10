@@ -141,7 +141,7 @@ main {
         margin-bottom: 4px;
       }
 
-      input {
+      input, textarea {
         font-weight: 400;
         color: var(--grey-400);
 
@@ -151,6 +151,8 @@ main {
 
         border: 1px solid var(--grey-100);
         border-radius: 2px;
+
+        resize: none;
 
         &::placeholder {
           color: var(--grey-200);
@@ -175,11 +177,8 @@ footer {
     width: 15.8rem;
     height: 5.6rem;
 
-    color: var(--white); 
     font-weight: 700;
     text-transform: uppercase;
-
-    background: var(--purple-mid);
 
     padding: 1.6rem 3.2rem;
 
@@ -187,5 +186,16 @@ footer {
     border-radius: 6px;
 
     cursor: pointer;
+  }
+
+  #btn-back { 
+    border: 1px solid var(--purple-mid);
+    color: var(--purple-mid); 
+    background: var(--white);
+  }
+
+  #btn-next {
+    color: var(--white); 
+    background: var(--purple-mid);
   }
 }

@@ -106,21 +106,22 @@ main form fieldset label {
   color: var(--grey-400);
   margin-bottom: 4px;
 }
-main form fieldset input {
+main form fieldset input, main form fieldset textarea {
   font-weight: 400;
   color: var(--grey-400);
   width: 100%;
   padding: 1.6rem;
   border: 1px solid var(--grey-100);
   border-radius: 2px;
+  resize: none;
 }
-main form fieldset input::-moz-placeholder {
+main form fieldset input::-moz-placeholder, main form fieldset textarea::-moz-placeholder {
   color: var(--grey-200);
 }
-main form fieldset input::placeholder {
+main form fieldset input::placeholder, main form fieldset textarea::placeholder {
   color: var(--grey-200);
 }
-main form fieldset input:focus {
+main form fieldset input:focus, main form fieldset textarea:focus {
   border-color: var(--purple-mid);
   outline: none;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
@@ -134,12 +135,19 @@ footer {
 footer button {
   width: 15.8rem;
   height: 5.6rem;
-  color: var(--white);
   font-weight: 700;
   text-transform: uppercase;
-  background: var(--purple-mid);
   padding: 1.6rem 3.2rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+footer #btn-back {
+  border: 1px solid var(--purple-mid);
+  color: var(--purple-mid);
+  background: var(--white);
+}
+footer #btn-next {
+  color: var(--white);
+  background: var(--purple-mid);
 }/*# sourceMappingURL=style.css.map */
