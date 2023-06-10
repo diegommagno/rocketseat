@@ -41,6 +41,10 @@ body * {
   border-radius: 6px;
 }
 
+.hide {
+  display: none;
+}
+
 header nav {
   display: flex;
   align-items: center;
