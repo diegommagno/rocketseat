@@ -8,8 +8,27 @@
 
 :root {
   font-size: 62.5%;
+
+  /* Colors */
+
+  --purple-mid: #633BBC;
+  --purple-light: #8257E5;
+
+  --white: #FFFFFF;
+  
+  --grey-400: #323238;
+  --grey-300: #7C7C8A;
+  --grey-200: #8D8D99;
+  --grey-100: #E1E1E6;
+
+  --sucess-color: #1D8841;
 }
 
 body {
   font-size: 1.6rem;
+  background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
 }
