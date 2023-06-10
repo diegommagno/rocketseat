@@ -20,14 +20,15 @@
 }
 
 body {
-  font-size: 1.6rem;
-  background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
   display: grid;
   place-content: center;
   height: 100vh;
+  background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
 }
 
 body * {
+  font-size: 1.6rem;
+  line-height: 150%;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -46,8 +47,6 @@ header nav {
   justify-content: center;
   gap: 4rem;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
 }
 header nav .step {
   display: flex;
@@ -93,20 +92,26 @@ main form fieldset {
 }
 main form fieldset label {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
   color: var(--grey-400);
   margin-bottom: 4px;
 }
 main form fieldset input {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: var(--grey-200);
+  color: var(--grey-400);
   width: 100%;
   padding: 1.6rem;
   border: 1px solid var(--grey-100);
   border-radius: 2px;
+}
+main form fieldset input::-moz-placeholder {
+  color: var(--grey-200);
+}
+main form fieldset input::placeholder {
+  color: var(--grey-200);
+}
+main form fieldset input:focus {
+  border-color: var(--purple-mid);
+  outline: none;
 }
 
 footer {
@@ -119,7 +124,6 @@ footer button {
   height: 5.6rem;
   color: var(--white);
   font-weight: 700;
-  line-height: 150%;
   text-transform: uppercase;
   background: var(--purple-mid);
   padding: 1.6rem 3.2rem;
