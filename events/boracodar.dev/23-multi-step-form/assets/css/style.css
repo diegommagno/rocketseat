@@ -41,7 +41,7 @@ body * {
   border-radius: 6px;
 }
 
-.hide {
+.hidden {
   display: none;
 }
 
@@ -126,6 +126,9 @@ main form fieldset input:focus, main form fieldset textarea:focus {
   outline: none;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
+main form fieldset textarea {
+  height: 10rem;
+}
 
 footer {
   display: flex;
@@ -133,8 +136,6 @@ footer {
   justify-content: flex-end;
 }
 footer button {
-  width: 15.8rem;
-  height: 5.6rem;
   font-weight: 700;
   text-transform: uppercase;
   padding: 1.6rem 3.2rem;
@@ -164,7 +165,7 @@ footer #btn-back:hover {
   transform: scale(1.035);
 }
 
-#form-02 footer {
+#form-02 footer, #form-03 footer {
   display: flex;
   align-items: center;
   justify-content: space-between;

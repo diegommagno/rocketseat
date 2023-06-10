@@ -50,7 +50,7 @@ body * {
   border-radius: 6px;
 }
 
-.hide {
+.hidden {
   display: none;
 }
 
@@ -164,6 +164,10 @@ main {
           box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
         }
       }
+
+      textarea {
+        height: 10rem;
+      }
     }
   }
 }
@@ -174,9 +178,6 @@ footer {
   justify-content: flex-end;
 
   button {
-    width: 15.8rem;
-    height: 5.6rem;
-
     font-weight: 700;
     text-transform: uppercase;
 
@@ -216,12 +217,10 @@ footer {
   }
 }
 
-#form-02 {
+#form-02, #form-03 {
   footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
-    
   }
 }

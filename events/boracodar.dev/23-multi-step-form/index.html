@@ -14,7 +14,7 @@
 </head>
 <body>
   <div id="app">
-    <div id="form-01" class="hide">
+    <div id="form-01" class="hidden">
       <header>
         <nav>
           <div class="step selected">
@@ -66,7 +66,7 @@
       </footer>
     </div>
 
-    <div id="form-02" class="">
+    <div id="form-02" class="hidden">
       <header>
         <nav>
           <div class="step checked">
@@ -118,6 +118,51 @@
       <footer>
         <button id="btn-back">Voltar</button>
         <button id="btn-next">Continuar</button>
+      </footer>
+    </div>
+
+    <div id="form-03" class="">
+      <header>
+        <nav>
+          <div class="step checked">
+            <div class="number">
+              <img src="./assets/img/check.svg" alt="Check">
+            </div>
+            <span>Contato</span>
+          </div>
+
+          <img src="./assets/img/right-arrow.svg" alt="Right arrow">
+
+          <div class="step checked">
+            <div class="number">
+              <img src="./assets/img/check.svg" alt="Check">
+            </div>
+            <span>Empresa</span>
+          </div>
+
+          <img src="./assets/img/right-arrow.svg" alt="Right arrow">
+
+          <div class="step selected">
+            <div class="number">3</div>
+            <span>Projeto</span>
+          </div>
+        </nav>
+
+        <div class="divider">
+      </header>
+
+      <main>
+        <form>
+          <fieldset>
+            <label for="email">Objetivos do projeto</label>
+            <textarea placeholder="Descreva quais os objetivos desse projeto"></textarea>
+          </fieldset>
+        </form>
+      </main>
+
+      <footer>
+        <button id="btn-back">Voltar</button>
+        <button id="btn-next">Enviar proposta</button>
       </footer>
     </div>
 
