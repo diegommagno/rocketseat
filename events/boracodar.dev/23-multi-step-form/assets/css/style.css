@@ -82,6 +82,9 @@ header .divider {
   margin: 3.2rem 0px;
 }
 
+main form {
+  margin-bottom: 3.2rem;
+}
 main form fieldset {
   display: flex;
   flex-direction: column;
@@ -104,4 +107,23 @@ main form fieldset input {
   padding: 1.6rem;
   border: 1px solid var(--grey-100);
   border-radius: 2px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+footer button {
+  width: 15.8rem;
+  height: 5.6rem;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  background: var(--purple-mid);
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
