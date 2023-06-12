@@ -1,4 +1,4 @@
-<h1 align="center"> Profile Settings </h1>
+<h1 align="center"> Multi Step Form </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,9 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Profile Settings - EN](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/en.html)
-- [Profile Settings - FR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/assets/locales/fr.html)
-- [Profile Settings - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/22-profile-settings/)
+- [Multi Step Form](https://dmm.studio/github/rocketseat/events/boracodar.dev/23-multi-step-form/)
 
 <br/>
 
@@ -31,14 +29,15 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1245736372337157133). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1248257890741817885). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
 
 - HTML
+- JavaScript
 - SCSS
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`
+- CSS: `flex`, `grid`, `rem`, `form`, `addEventListener`
