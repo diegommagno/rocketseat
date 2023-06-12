@@ -40,4 +40,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`, `form`, `addEventListener`
+- CSS: `flex`, `grid`, `rem`, `form`, `addEventListener`, `js-confetti library`, `setTimeout`

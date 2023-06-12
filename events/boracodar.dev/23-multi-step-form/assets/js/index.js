@@ -10,8 +10,6 @@ const canvas = document.querySelector('#confetti');
 
 const jsConfetti = new JSConfetti();
 
-let btnNextForm03Count = 0;
-
 btnNextForm01.addEventListener('click', () => {
   form01.classList.add('hidden');
   form02.classList.remove('hidden');
@@ -24,14 +22,11 @@ btnNextForm02.addEventListener('click', () => {
 });
 
 btnNextForm03.addEventListener('click', () => {
-  jsConfetti.addConfetti();
-  btnNextForm03Count++;
-  console.log(btnNextForm03Count);
-  if (btnNextForm03Count > 1) {
-    jsConfetti.addConfetti({
-      emojis: ['🚀', '✨', '🚀', '✨', '🚀', '✨'],
-    })
-  }
+  setTimeout(() => {
+    jsConfetti.addConfetti();
+  }, 500);
+  form03.classList.add('hidden');
+  approved.classList.remove('hidden');
 });
 
 btnBackForm02.addEventListener('click', () => {
@@ -43,6 +38,3 @@ btnBackForm03.addEventListener('click', () => {
   form03.classList.add('hidden');
   form02.classList.remove('hidden');
 });
-
-
-
