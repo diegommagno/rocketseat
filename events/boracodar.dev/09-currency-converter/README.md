@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Currency Converter](https://diegommagno.com/github/rocketseat/events/boracodar.dev/09-currency-converter/)
+- [Currency Converter](https://dmm.studio/github/rocketseat/events/boracodar.dev/09-currency-converter/)
 
 <br/>
 
