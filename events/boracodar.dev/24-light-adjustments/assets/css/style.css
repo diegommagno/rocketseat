@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #FFFFFF;
+  --black: #151515;
+  --purple: #8B03FB;
+  --grey-100: #D9D9D9;
+  --rainbow: linear-gradient(90deg, #FF0000 5.21%, #FF8A00 16.48%, #FFE600 27.74%, #14FF00 39.35%, #00A3FF 49.37%, #0500FF 61.18%, #AD00FF 72.26%, #FF00C7 83.53%, #FF0000 94.61%);
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
+}
+
+body * {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90.3rem;
+  width: 40.3rem;
+  background: var(--black);
+}
+
+header {
+  display: none;
+}
+header .light {
+  width: 84.6rem;
+  height: 84.6rem;
+  opacity: 0.65;
+  box-shadow: 0rem 0rem 5.5rem 1.3rem rgba(135, 3, 252, 0.91);
+  border-radius: 9999px;
+  background: var(--purple);
+  top: -49.6rem;
+  position: absolute;
+  left: calc(50% - 423px + 12px);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9rem 5.5rem 1.1rem 5.5rem;
+}
+main h2 {
+  font-weight: 300;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  color: var(--white);
+  margin-bottom: 9rem;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 8.2rem;
+}
+main section .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+main section .wrapper .color-slider, main section .wrapper .brightness-slider, main section .wrapper .contrast-slider {
+  width: 28.1rem;
+  height: 5px;
+  position: relative;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+main section .wrapper .color-slider .selector, main section .wrapper .brightness-slider .selector, main section .wrapper .contrast-slider .selector {
+  height: 1.8rem;
+  width: 1.8rem;
+  right: 6.4rem;
+  position: absolute;
+  top: -6px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 9999px;
+  cursor: grab;
+}
+main section .wrapper .color-slider {
+  background: var(--rainbow);
+  position: relative;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+main section .wrapper .color-slider .selector {
+  height: 1.8rem;
+  width: 1.8rem;
+  background: var(--purple);
+  right: 6.4rem;
+  position: absolute;
+  top: -6px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 9999px;
+  cursor: grab;
+}
+main section .wrapper .brightness-slider, main section .wrapper .contrast-slider {
+  background: var(--grey-100);
+}
+main section .wrapper .brightness-slider .selector, main section .wrapper .contrast-slider .selector {
+  right: 4.2rem;
+  background: var(--black);
+}/*# sourceMappingURL=style.css.map */
