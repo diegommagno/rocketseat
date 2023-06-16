@@ -30,7 +30,7 @@
 ## 📝 Live Preview 
 
 - [Product Card](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card)
-- [Product Card - Instructor version](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card/projects/official/)
+- [Product Card - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card/projects/official/)
 
 <br/>
 
