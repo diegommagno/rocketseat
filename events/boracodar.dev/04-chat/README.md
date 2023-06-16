@@ -1,6 +1,15 @@
 <h1 align="center"> Chat </h1>
 
 <p align="center">
+  Simple and responsive chat interface design. 
+  <br/>
+  <br/>
+  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+  <br/>
+  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,6 +27,7 @@
 ## 📝 Live Preview 
 
 - [Chat](https://dmm.studio/github/rocketseat/events/boracodar.dev/04-chat/)
+- [Chat - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/04-chat/projects/official/)
 
 <br/>
 
@@ -39,4 +49,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `background`, `media`, `variables` 
+- CSS: `flex`, `rem`, `background`, `media`, `variables`, `:focus-within`, `not()`, `.scrollIntoView()`, , `responsive`, `flex: 1`, `::before`
