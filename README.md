@@ -53,29 +53,30 @@ Starter course: HTML, CSS, JavaScript.
 
 <br/>
 
-### Level 4 Projects - React
+### Level 3 Projects - React
 - [Event Platform](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform)
 - [Rocket Notes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketnotes)
 
 <br/>
 
-### Level 3 Projects - HTML + CSS + JavaScript
+### Level 2 Projects - HTML + CSS + JavaScript
 
 - [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
-- [DoctorCare](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-return/origin)
 - [NLW eSports Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
+- [NLW Spacetime Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
 
 <br/>
 
-### Level 2 Projects - HTML + CSS
+### Level 1 Projects - HTML + CSS
 
 - [SpaceCream](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
+- [Weather Page](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/10-weather-page/)
+- [Pricing Table](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/15-pricing-table/)
+- [Multi Step Form](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/23-multi-step-form/)
+- [Kanban](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/12-kanban/)
+- [Profile Settings](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/22-profile-settings/)
+- [Transport Widget](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/19-transport-widget/)
 - [Forms](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/create-your-event-form)
-
-<br/>
-
-### Level 1 Projects - HTML
-- [RocketCoffee](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee)
 - [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
 - [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
 
