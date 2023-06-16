@@ -31,7 +31,7 @@
 - [NLW eSports Explorer - Cinema](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer/challenge/en)
 - [NLW Return Origin - DoctorCare](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-return/origin)
 
-##### Let's code!
+##### Boracodar.dev - Let's code!
 - [01 - Music Player](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/01-music-player)
 - [02 - Product Card](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/02-product-card)
 - [03 - Buttons and Cursors](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/03-buttons-and-cursors)
