@@ -1,7 +1,9 @@
 <h1 align="center"> Buttons and Cursors </h1>
 
 <p align="center">
-Different kinds of buttons and cursors available. <br/>
+  Explore an array of buttons and cursor styles to enhance user interaction.
+  <br/>
+  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
 </p>
 
 <p align="center">
