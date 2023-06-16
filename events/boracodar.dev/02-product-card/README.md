@@ -1,7 +1,12 @@
 <h1 align="center"> Product Card </h1>
 
 <p align="center">
-A card showing information about a product and the possibility of viewing it on 360°. <br/>
+  Introducing a dynamic product card featuring information and an immersive 360° viewing experience.
+  <br/>
+  <br/>
+  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+  <br/>
+  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
 </p>
 
 <p align="center">
@@ -25,6 +30,7 @@ A card showing information about a product and the possibility of viewing it on 
 ## 📝 Live Preview 
 
 - [Product Card](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card)
+- [Product Card - Instructor version](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card/projects/official/)
 
 <br/>
 
