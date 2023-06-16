@@ -1,7 +1,12 @@
 <h1 align="center"> Music Player </h1>
 
 <p align="center">
-Screen designs for a music player. <br/>
+  Screen designs for a music player. 
+  <br/>
+  <br/>
+  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+  <br/>
+  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
 </p>
 
 <p align="center">
@@ -22,6 +27,7 @@ Screen designs for a music player. <br/>
 ## 📝 Live Preview 
 
 - [Music Player](https://dmm.studio/github/rocketseat/events/boracodar.dev/01-music-player/)
+- [Music Player - Instructor version](https://dmm.studio/github/rocketseat/events/boracodar.dev/01-music-player/assets/misc/official/)
 
 ## 🎨 Layout
 
