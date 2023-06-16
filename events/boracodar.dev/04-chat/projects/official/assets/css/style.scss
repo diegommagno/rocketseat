@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #E1E1E6;
+  background-color: #1A1924;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+
+  padding: 2.4rem 3.2rem;
+
+  height: 100vh;
+  width: 100vw;
+
+  /* Desktop */
+  max-width: 88rem;
+  margin: 0 auto;
+}
+
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#user-info {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  img {
+    width: 4.8rem;
+    height: 4.8rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+#user-status {
+  .status {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    
+    margin-top: 0.4rem;
+
+    font-size: 1.2rem;
+    color: #00B37E;
+
+    &::before {
+      content: ''; /* Precisa colocar um conteúdo mesmo que vazio */
+      width: 0.8rem;
+      height: 0.8rem;
+      display: block;
+  
+      background-color: #00B37E;
+      border-radius: 50%;
+    }
+  }
+}
+
+#messages {
+  overflow-y: auto;
+  padding-bottom: 2.4rem;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  #last-seen {
+    margin-top: 2.6rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+  }
+  
+  .messages {
+    margin-top: 3rem;
+    display: grid;
+    gap: 3rem;
+
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    .message {
+      .body {
+        margin-top: 1rem;
+        background-color: #633BBC;
+        padding: 1.4rem;
+        border-radius: 0 0.8rem 0.8rem 0.8rem;
+
+        /* Desktop */
+        width: fit-content; /* Deixar o tamanho da caixa de acordo com o tamanho do conteúdo */
+      }
+
+      &:not(.you) {
+        width: 40vw; /* Ajuda para quando for desktop */
+      }
+    }
+
+    .message.you {
+      margin-left: auto;
+
+      .top {
+        text-align: right;
+      }
+
+      .body {
+        background-color: #07847E;
+        border-radius: 0.8rem 0.8rem 0 0.8rem;
+      }
+    }
+  }
+}
+
+form {
+  display: flex;
+  align-items: center;
+
+  background: #282843;
+  border-radius: 999rem;
+  padding: 1.4rem 2.4rem;
+
+  &:focus-within {
+    outline: 2px solid white;
+  }
+
+  input {
+    flex: 1; /* Faz ocupar todo o espaço, como se fosse width: 100% */
+    outline: none;
+
+    color: #E1E1E6;
+
+    &::placeholder {
+      color: #E1E1E6;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  button i {
+    color: #E1E1E6;
+    font-size: 2.4rem;
+  }
+
+  input, button {
+    background-color: transparent;
+    border: 0;
+  }
+}
