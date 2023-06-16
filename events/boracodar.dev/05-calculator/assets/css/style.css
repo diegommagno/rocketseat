@@ -1,1 +1,24 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  /* Colors */
+  --grey-300: #2D2A37;
+  --grey-200: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+  --grey-100: #6B6B6B;
+  --purple-400: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;
+  --purple-300: #975DFA;
+  --purple-200: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+  --purple-100: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+  --fc: #EBEBEB;
+}
+
+body {
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
