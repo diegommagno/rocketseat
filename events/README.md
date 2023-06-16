@@ -13,8 +13,8 @@
 
 ##### Explorer Lab
 - [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
-- [RocketPay pt-br](https://github.com/diegommagno/explorer-lab-rocketpay)
-- [RocketPay en](https://github.com/diegommagno/explorer-lab-rocketpay-en)
+- [RocketPay PT/BR](https://github.com/diegommagno/explorer-lab-rocketpay)
+- [RocketPay EN](https://github.com/diegommagno/explorer-lab-rocketpay-en)
 
 ##### Explorer Marathon
 - [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
