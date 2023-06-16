@@ -27,7 +27,7 @@
 ## 📝 Live Preview 
 
 - [Music Player](https://dmm.studio/github/rocketseat/events/boracodar.dev/01-music-player/)
-- [Music Player - Instructor version](https://dmm.studio/github/rocketseat/events/boracodar.dev/01-music-player/assets/misc/official/)
+- [Music Player - Instructor version](https://dmm.studio/github/rocketseat/events/boracodar.dev/01-music-player/official/)
 
 ## 🎨 Layout
 
