@@ -6,7 +6,7 @@
 Rocketseat
 </h2>
 <p align="center">
-Repository for projects I understood and can reproduce, created while studying at the coding school Rocketseat.
+Repository with a collection of projects I've mastered and can confidently reproduce, developed during my studies at Rocketseat coding school.
 </p>
 
 <br/>
@@ -17,8 +17,16 @@ Courses taken at Rocketseat. Inside each repo are the projects for that course.
 
 <br/>
 
+<a href="./events">
+<img alt="NLW logo" src="./events/next-level-week/.github/nlw.png" style="width: 15%; height: 15%;">
+</a> 
+<br/>
+Events projects
+
+<br/><br/>
+
 <a href="./discover">
-  <img alt="Ignite logo" src="./.github/discover-logo.png" style="width: 23%;">
+  <img alt="Discover logo" src="./.github/discover-logo.png" style="width: 23%;">
 </a>
 <br/>
 Starter course: HTML, CSS, JavaScript.
@@ -26,7 +34,7 @@ Starter course: HTML, CSS, JavaScript.
 <br/><br/>
 
 <a href="./explorer">
-  <img alt="Ignite logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
+  <img alt="Explorer logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
   </a>
   <br/>
   Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
@@ -40,14 +48,6 @@ Starter course: HTML, CSS, JavaScript.
   Advanced course: React.js, React Native, Node.js, TailwindCSS.
   
   <br/><br/>
-  
-  <a href="./events">
-  <img alt="Ignite logo" src="./events/next-level-week/.github/nlw.png" style="width: 15%; height: 15%;">
-  </a> 
-  <br/>
-  Events projects
-
-<br/><br/>
 
 ## :star: Featured Projects
 
