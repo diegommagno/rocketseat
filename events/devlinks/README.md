@@ -27,7 +27,7 @@ Easier way to share links. Share one page containing multiple links. <br/>
 - [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/devlinks/)
 
 ## 🎨 Layout
-Check the [project layout](https://www.figma.com/community/file/1187422022288947321) on Figma. 
+- You can check the layout [here](https://www.figma.com/community/file/1187422022288947321). You will need a [Figma](https://figma.com) account to access it.
 
 ## 🧑🏻‍💻 Technologies
 
