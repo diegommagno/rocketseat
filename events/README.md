@@ -16,11 +16,6 @@
 - [RocketPay PT/BR](https://github.com/diegommagno/explorer-lab-rocketpay)
 - [RocketPay EN](https://github.com/diegommagno/explorer-lab-rocketpay-en)
 
-##### Explorer Marathon
-- [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
-- [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
-- [RocketCoffee](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee)
-
 ##### DevLinks
 - [DevLinks](https://github.com/diegommagno/rocketseat/tree/main/events/devlinks)
 
@@ -29,7 +24,6 @@
 - [NLW World Cup - Card](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/card/pt-br)
 - [NLW eSports Explorer - Games](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
 - [NLW eSports Explorer - Cinema](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer/challenge/en)
-- [NLW Return Origin - DoctorCare](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-return/origin)
 
 ##### Boracodar.dev - Let's code!
 - [01 - Music Player](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/01-music-player)
@@ -57,4 +51,7 @@
 - [23 - Multi Step Form](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/23-multi-step-form)
 - [24 - Light Adjustments](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/24-light-adjustments)
 
-<br/>
+##### Explorer Marathon
+- [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
+- [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
+- [RocketCoffee](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee)
