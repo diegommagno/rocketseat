@@ -21,8 +21,8 @@
 
 ## 📝 Live Preview 
 
-- [NLW eSports Explorer - PT/BR](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/pt-br)
-- [NLW eSports Explorer - EN](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/nlw-esports/explorer/en)
+- [NLW eSports Explorer - PT/BR](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer/pt-br)
+- [NLW eSports Explorer - EN](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer/en)
 - [NLW eSports Explorer - EN (Movies version)](https://diegommagno.com/github/rocketseat/events/next-level-week/nlw-esports/explorer/challenge/en) - viewing now
 
 <div align="center">
