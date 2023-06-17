@@ -13,6 +13,9 @@ List showing the projects and challenges developed during the Explorer course.
 ### Events
 - [Project 01 - FindAFriend](https://github.com/diegommagno/rocketseat/tree/main/explorer/events/green-chain-challenge/find-a-friend)
 
+### Intensive Stages 01 to 04
+- [Explore without limits](https://github.com/diegommagno/rocketseat/tree/main/explorer/intensive-stages-01-to-04/)
+
 ### Stage 02
 
 - [Project 01 - Furniture Store](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/furniture-store/pt-br)
