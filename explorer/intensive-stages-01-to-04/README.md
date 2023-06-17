@@ -30,7 +30,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites/duplicate). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/file/563kgHMxsEy17nCdTJI6JC/Explore-sem-limites). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
