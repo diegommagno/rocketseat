@@ -1,19 +1,22 @@
-# Switching themes with CSS
+<h1 align="center"> Switching themes with CSS and JS </h1>
 
+<p align="center">
+  Switching theme colors using CSS and JS.
+</p>
 
-> Switching theme colors using only CSS.
-<br>
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
 
-<div align="center">
-  <img alt="2022 World Cup game dates and countries playing." src="../.github/cover.png" width="80%" />
-</div>
+<br/>
 
-<br>
+<br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer/en)
+- [Switching themes with CSS and JS](https://dmm.studio/github/rocketseat/events/youtube/switching-themes-css-and-js/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/youtube/switching-themes-css-and-js/)
 
 ## 🧑🏻‍💻 Technologies
 
