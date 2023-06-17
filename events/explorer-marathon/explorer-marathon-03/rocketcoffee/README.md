@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br/>
@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [RocketCoffee - PT/BR](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br) - viewing now
+- [RocketCoffee - PT/BR](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br)
 - [RocketCoffee - EN](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
 
 ## 🎨 Layout
