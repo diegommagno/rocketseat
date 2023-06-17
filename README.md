@@ -69,6 +69,7 @@ Starter course: HTML, CSS, JavaScript.
 
 ### Level 1 Projects - HTML + CSS
 
+- [Explore without limits](https://github.com/diegommagno/rocketseat/tree/main/explorer/intensive-stages-01-to-04/)
 - [SpaceCream](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
 - [Weather Page](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/10-weather-page/)
 - [Pricing Table](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/15-pricing-table/)
