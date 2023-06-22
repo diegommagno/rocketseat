@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1250810959627241982/Ajustes-de-Ilumina%C3%A7%C3%A3o). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1253345035290143826/Player-de-VR-%E2%80%A2-Desafio-25). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
