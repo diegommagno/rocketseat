@@ -8,8 +8,24 @@
 
 :root {
   font-size: 62.5%;
+  --black-10: rgba(0, 0, 0, 0.10);
+  --white-80: rgba(255, 255, 255, 0.80);
+  --white-60: rgba(255, 255, 255, 0.60);
+  --white-20: rgba(255, 255, 255, 0.20);
+  --white-10: rgba(255, 255, 255, 0.10);
+  --white: #FFFFFF;
 }
 
 body {
   font-size: 1.6rem;
+  background: lightgray url("../img/bg.png") 50%/cover no-repeat;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%);
 }/*# sourceMappingURL=style.css.map */
