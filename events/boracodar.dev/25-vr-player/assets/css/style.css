@@ -22,6 +22,10 @@ body {
   background: lightgray url("../img/bg.png") 50%/cover no-repeat;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+}
+
 #app {
   width: 100vw;
   height: 100vh;
@@ -54,9 +58,10 @@ body {
 .container .main-ui .main-content .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2.4rem;
-  padding: 1.2rem;
+  width: 85%;
+  padding: 0.8rem 1.2rem;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.1) inset;
   -webkit-backdrop-filter: blur(16px);
@@ -83,6 +88,7 @@ body {
 .container .main-ui .main-content .nav-bar .wrapper:nth-child(2) {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   padding: 1.2rem;
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
