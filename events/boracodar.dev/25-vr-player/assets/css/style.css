@@ -18,6 +18,7 @@
 
 body {
   font-size: 1.6rem;
+  color: var(--white);
   background: lightgray url("../img/bg.png") 50%/cover no-repeat;
 }
 
@@ -28,4 +29,68 @@ body {
   justify-content: center;
   align-items: center;
   background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.container .main-ui {
+  display: flex;
+  gap: 2.4rem;
+}
+.container .main-ui .side-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 3.2rem;
+}
+.container .main-ui .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+.container .main-ui .main-content .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.1) inset;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+  border-radius: 8rem;
+}
+.container .main-ui .main-content .nav-bar .wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+.container .main-ui .main-content .nav-bar .wrapper i {
+  padding: 6px 8px;
+  font-size: 2.4rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8rem;
+}
+.container .main-ui .main-content .nav-bar .wrapper ion-icon {
+  padding: 8px;
+}
+.container .main-ui .main-content .nav-bar .wrapper i, .container .main-ui .main-content .nav-bar .wrapper ion-icon {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+.container .main-ui .main-content .nav-bar .wrapper:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 8rem;
+}
+.container .main-ui .main-content .nav-bar .wrapper:nth-child(2) .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }/*# sourceMappingURL=style.css.map */

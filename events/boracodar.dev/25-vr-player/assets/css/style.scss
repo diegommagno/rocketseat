@@ -20,6 +20,7 @@
 
 body {
   font-size: 1.6rem;
+  color: var(--white);
 
   background: lightgray url("../img/bg.png") 50% / cover no-repeat;
 }
@@ -33,4 +34,88 @@ body {
   align-items: center;
 
   background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+.container {
+
+  .main-ui {
+    display: flex;
+    gap: 2.4rem;
+
+    .side-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+
+      padding: 1.2rem;
+
+      border-radius: 3.2rem;
+      // filter: blur(50px);
+
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3.2rem;
+
+      .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.4rem;
+
+        padding: 1.2rem;
+
+        background: rgba(255, 255, 255, 0.10);
+        box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+        backdrop-filter: blur(16px);
+        border-radius: 8rem;
+
+        .wrapper {
+          display: flex;
+          gap: 1.6rem;
+
+          i {
+            padding: 6px 8px;
+            font-size: 2.4rem;
+
+            background: rgba(255, 255, 255, 0.20);
+            border-radius: 8rem;
+          }
+
+          ion-icon {
+            padding: 8px;
+          }
+
+          i, ion-icon {
+            font-size: 2.4rem;
+            cursor: pointer;
+          }
+        }
+
+        .wrapper:nth-child(2) {
+          display: flex;
+          justify-content: space-between;
+
+          padding: 1.2rem;
+
+          background: rgba(0, 0, 0, 0.10);
+          box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.20) inset;
+          border-radius: 8rem;
+
+          .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+          }
+        }
+      }
+    }
+  }
 }
