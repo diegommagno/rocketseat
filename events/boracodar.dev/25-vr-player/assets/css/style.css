@@ -41,12 +41,23 @@ body * {
 }
 .container .main-ui .side-menu {
   display: flex;
+  align-items: center;
+}
+.container .main-ui .side-menu .wrapper {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
   padding: 1.2rem;
-  border-radius: 3.2rem;
+  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.1) inset;
+  -webkit-backdrop-filter: blur(16px);
+          backdrop-filter: blur(16px);
+}
+.container .main-ui .side-menu .wrapper .menu-item {
+  cursor: pointer;
 }
 .container .main-ui .main-content {
   display: flex;
