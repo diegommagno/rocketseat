@@ -1,4 +1,4 @@
-<h1 align="center"> VR Player </h1>
+<h1 align="center"> Receita Junina </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [VR Player](https://dmm.studio/github/rocketseat/events/boracodar.dev/25-vr-player/)
+- [Receita Junina](https://dmm.studio/github/rocketseat/events/boracodar.dev/26-receita-junina/)
 
 <br/>
 
