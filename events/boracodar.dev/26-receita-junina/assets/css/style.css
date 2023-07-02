@@ -22,6 +22,12 @@ body * {
   font-family: "Source Serif 4", serif;
 }
 
+#app {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+}
+
 .dish {
   display: flex;
   align-items: center;
@@ -61,4 +67,35 @@ body * {
 }
 .dish .info .quantity .manage .amount {
   font-size: 4rem;
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+  padding: 7.4rem 5rem;
+  background: var(--medium-brown);
+}
+.recipe ul, .recipe ol {
+  list-style: none;
+}
+.recipe .ingredients, .recipe .preparation-method {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.recipe .ingredients div, .recipe .preparation-method div {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+.recipe .ingredients div h3, .recipe .preparation-method div h3 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: var(--light-brown);
+}
+.recipe .ingredients ul, .recipe .ingredients ol, .recipe .preparation-method ul, .recipe .preparation-method ol {
+  font-size: 2.8rem;
+  color: var(--white);
 }/*# sourceMappingURL=style.css.map */

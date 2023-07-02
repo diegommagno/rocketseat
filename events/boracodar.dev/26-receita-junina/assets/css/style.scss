@@ -17,10 +17,17 @@
 
 body {
   font-size: 1.6rem;
+
 }
 
 body * {
   font-family: 'Source Serif 4', serif;
+}
+
+#app {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
 }
 
 .dish {
@@ -72,6 +79,44 @@ body * {
           font-size: 4rem;
         }
       }
+    }
+  }
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+
+  padding: 7.4rem 5rem;
+
+  background: var(--medium-brown);
+
+  ul, ol {
+    list-style: none;
+  }
+
+  .ingredients, .preparation-method {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    
+    div {
+      display: flex;
+      align-items: center;
+      gap: 1.1rem;
+  
+      h3 {
+        font-size: 3.8rem;
+        font-weight: 700;
+        color: var(--light-brown);
+      }
+    }
+
+    ul, ol {
+      font-size: 2.8rem;
+      color: var(--white);
     }
   }
 }
