@@ -8,12 +8,57 @@
 
 :root {
   font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
   --dark-brown: #58190A;
   --medium-brown: #9B6647;
   --light-brown: #FEECE0;
   --white: #FFFFFF;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body * {
+  font-family: "Source Serif 4", serif;
+}
+
+.dish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.6rem;
+  padding-top: 11.2rem;
+  padding-bottom: 5.6rem;
+  background: var(--light-brown);
+}
+.dish .info h1 {
+  font-size: 7.2rem;
+  font-weight: 700;
+  color: var(--dark-brown);
+}
+.dish .info span {
+  font-size: 3.8rem;
+  color: var(--dark-brown);
+}
+.dish .info .quantity {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 3.5rem;
+}
+.dish .info .quantity span {
+  color: var(--medium-brown);
+}
+.dish .info .quantity .manage {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.dish .info .quantity .manage .remove, .dish .info .quantity .manage .add {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.dish .info .quantity .manage .amount {
+  font-size: 4rem;
 }/*# sourceMappingURL=style.css.map */
