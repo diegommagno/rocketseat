@@ -22,14 +22,14 @@
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="95%" />
+  <img alt="Landing page created for the event." src=".github/preview-cover.png" width=75%" />
 </p>
 
 <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1253345035290143826/Player-de-VR-%E2%80%A2-Desafio-25). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1255887923488942888). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
