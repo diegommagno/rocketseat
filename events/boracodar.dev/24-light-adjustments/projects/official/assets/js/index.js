@@ -16,14 +16,14 @@ const contrastNumber = document.querySelector(".contrastAmount");
   colorPreview.style.boxShadow = `0px 0px 53px 13px ${color}`;
   colorNumber.textContent = `Hue ${hue}`;
 
-  const brightness = 80;
+  const brightness = 90;
   colorPreview.style.filter = `brightness(${brightness}%)`;
-  brightnessSlider.value = 80;
+  brightnessSlider.value = 90;
   brightnessNumber.textContent = `${brightness}`;
 
-  const contrast = 80;
+  const contrast = 90;
   colorPreview.style.filter = `contrast(${contrast}%)`;
-  contrastSlider.value = 80;
+  contrastSlider.value = 90;
   contrastNumber.textContent = `${contrast}`;
 })();
 
