@@ -15,3 +15,8 @@ brightnessSlider.addEventListener("input", function() {
   const brightness = this.value;
   colorPreview.style.filter = `brightness(${brightness}%)`;
 });
+
+contrastSlider.addEventListener("input", function() { 
+  const contrast = this.value;
+  colorPreview.style.filter = `contrast(${contrast}%)`;
+});

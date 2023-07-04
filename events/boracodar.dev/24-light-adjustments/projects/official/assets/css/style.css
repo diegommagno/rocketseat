@@ -37,6 +37,7 @@ main {
   padding: 5.2rem;
   position: relative;
   overflow: hidden;
+  border-radius: 1rem;
 }
 main span {
   font-size: 3rem;
