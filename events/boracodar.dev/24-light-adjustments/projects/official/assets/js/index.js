@@ -7,6 +7,26 @@ const colorNumber = document.querySelector(".colorAmount");
 const brightnessNumber = document.querySelector(".brightnessAmount");
 const contrastNumber = document.querySelector(".contrastAmount");
 
+(function() {
+  colorSlider.value = 272;
+  const hue = colorSlider.value;
+  const color = `hsl(${hue}, 100%, 50%)`;
+
+  colorPreview.style.backgroundColor = color;
+  colorPreview.style.boxShadow = `0px 0px 53px 13px ${color}`;
+  colorNumber.textContent = `Hue ${hue}`;
+
+  const brightness = 80;
+  colorPreview.style.filter = `brightness(${brightness}%)`;
+  brightnessSlider.value = 80;
+  brightnessNumber.textContent = `${brightness}`;
+
+  const contrast = 80;
+  colorPreview.style.filter = `contrast(${contrast}%)`;
+  contrastSlider.value = 80;
+  contrastNumber.textContent = `${contrast}`;
+})();
+
 colorSlider.addEventListener("input", function() {
   const hue = this.value;
   const color = `hsl(${hue}, 100%, 50%)`;
