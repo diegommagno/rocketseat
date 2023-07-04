@@ -24,4 +24,65 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main {
+  width: 43rem;
+  height: 93.2rem;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5.2rem;
+}
+main span {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  text-align: center;
+}
+main i {
+  font-size: 2.4rem;
+}
+main .controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8.2rem;
+  width: 32.1rem;
+}
+main .controls .hue, main .controls .brightness, main .controls .contrast {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+main .controls .hue div, main .controls .brightness div, main .controls .contrast div {
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  background-color: var(--white);
+}
+main .controls .hue input[type=range], main .controls .brightness input[type=range], main .controls .contrast input[type=range] {
+  width: 28.1rem;
+  height: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+}
+main .controls .hue input[type=range]::-webkit-slider-thumb, main .controls .brightness input[type=range]::-webkit-slider-thumb, main .controls .contrast input[type=range]::-webkit-slider-thumb {
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 3px solid var(--white);
+  background-color: transparent;
+  -webkit-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+main .controls .hue div {
+  background: var(--rainbow);
+}
+main .controls .brightness input[type=range]::-webkit-slider-thumb, main .controls .contrast input[type=range]::-webkit-slider-thumb {
+  background-color: var(--black);
 }/*# sourceMappingURL=style.css.map */

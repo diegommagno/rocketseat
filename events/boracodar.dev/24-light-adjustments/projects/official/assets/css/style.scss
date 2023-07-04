@@ -29,3 +29,79 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+main {
+  width: 43rem;
+  height: 93.2rem;
+  background-color: var(--black);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5.2rem;
+
+  span {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    text-align: center;
+  }
+
+  i {
+    font-size: 2.4rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.2rem;
+
+    width: 32.1rem;
+
+    .hue, .brightness, .contrast {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      
+      div {
+        display: flex;
+        align-items: center;
+        // height: 5px;
+        border-radius: 1.2rem;
+        background-color: var(--white);
+      }
+
+      input[type="range"] {
+        width: 28.1rem;
+        height: 5px;
+        appearance: none;
+        background-color: transparent;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        width: 1.8rem;
+        height: 1.8rem;
+        border: 3px solid var(--white);
+        background-color: transparent;
+        appearance: none;
+        border-radius: 50%;
+
+        cursor: pointer;
+      }
+    }
+
+    .hue {
+      div {
+        background: var(--rainbow);
+      }
+    }
+
+    .brightness, .contrast {
+      input[type="range"]::-webkit-slider-thumb {
+        background-color: var(--black);
+      }
+    }
+  }
+}
