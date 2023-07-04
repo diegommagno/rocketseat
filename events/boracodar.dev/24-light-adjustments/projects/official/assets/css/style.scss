@@ -79,6 +79,16 @@ main {
 
     width: 32.1rem;
 
+    #hue, #brightness, #contrast {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      font-size: 1.4rem;
+      color: var(--white);
+      font-family: 'Roboto', sans-serif;
+    }
+
     .hue, .brightness, .contrast {
       display: flex;
       align-items: center;

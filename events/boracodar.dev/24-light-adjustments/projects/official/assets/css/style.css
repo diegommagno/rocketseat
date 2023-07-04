@@ -65,6 +65,14 @@ main .controls {
   gap: 8.2rem;
   width: 32.1rem;
 }
+main .controls #hue, main .controls #brightness, main .controls #contrast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+}
 main .controls .hue, main .controls .brightness, main .controls .contrast {
   display: flex;
   align-items: center;
