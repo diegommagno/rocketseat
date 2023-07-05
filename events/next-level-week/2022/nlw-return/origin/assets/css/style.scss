@@ -8,8 +8,52 @@
 
 :root {
   font-size: 62.5%;
+  
+  --primary-color: hsl(170, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
 }
 
 body {
   font-size: 1.6rem;
+  font-family: 'DM Sans', sans-serif;
+
+  text-align: center;
+
+  background: grey;
+}
+
+header {
+  width: 37.5rem;
+  margin: 4.1rem auto 0;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--paragraph);
+
+  margin-bottom: 3.2rem;
+}
+
+button {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 0.8rem;
+
+  margin-bottom: 6rem;
 }
