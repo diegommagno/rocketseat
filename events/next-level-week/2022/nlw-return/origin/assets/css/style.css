@@ -11,6 +11,7 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --brand-beige: hsl(39, 100%, 97%);
   --white: hsla(0, 0%, 100%, 1);
 }
 
@@ -61,4 +62,19 @@ button {
   padding: 1.6rem 3.2rem;
   margin: 0 auto 6rem;
   cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  width: 32.7rem;
+  height: 47rem;
+  margin-inline: auto;
+  background-color: var(--brand-beige);
+}
+.stats .stat p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
