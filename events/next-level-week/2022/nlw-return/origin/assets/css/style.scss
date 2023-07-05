@@ -12,6 +12,7 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --white: hsla(0, 0%, 100%, 1);
 }
 
 body {
@@ -51,9 +52,23 @@ p {
 }
 
 button {
-  background: var(--primary-color);
-  border: none;
-  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
 
-  margin-bottom: 6rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--white);
+
+  background: var(--primary-color);
+
+  border: none;
+  border-radius: 4rem;
+
+  padding: 1.6rem 3.2rem;
+  margin: 0 auto 6rem;
+
+  cursor: pointer;
 }
