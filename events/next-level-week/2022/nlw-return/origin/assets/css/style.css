@@ -34,6 +34,17 @@ header img {
   -o-object-position: 0 20px;
      object-position: 0 20px;
 }
+header ::before {
+  content: "";
+  width: 100vw;
+  height: 108rem;
+  background-color: var(--brand-light);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 h4 {
   font-size: 1.4rem;
