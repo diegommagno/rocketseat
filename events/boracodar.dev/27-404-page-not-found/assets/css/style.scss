@@ -63,5 +63,20 @@ p {
 }
 
 button {
+  font-size: 1.4rem;
+  font-weight: 500;
   color: var(--grey-02);
+  text-transform: uppercase;
+
+  background: var(--blue);
+  padding: 1.2rem 2.4rem;
+
+  border-radius: 999px;
+  border: none;
+
+  cursor: pointer;
+
+  &:hover {
+    background: var(--blue-light);
+  }
 }
