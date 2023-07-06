@@ -12,7 +12,10 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+
   --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: hsl(148, 23%, 89%);
+
   --white: hsla(0, 0%, 100%, 1);
 }
 
@@ -28,6 +31,13 @@ body {
 header {
   width: 37.5rem;
   margin: 4.1rem auto 0;
+
+  img {
+    display: block;
+    width: 26.4rem;
+    margin-inline: auto;
+    object-position: 0 20px;;
+  }
 }
 
 h4 {
@@ -77,18 +87,30 @@ button {
 .stats {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 1.6rem;
+  gap: 6rem;
 
   width: 32.7rem;
-  height: 47rem;
-
+  padding-block: 4rem;
   margin-inline: auto;
 
   background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
+  border-radius: 6px;
 
-  .stat p {
-    margin: 0;
+  .stat {
+    h3 {
+      font-size: 4.8rem;
+      color: var(--headline);
+      line-height: 130%;
+      margin-bottom: 4px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--primary-color);
+      font-size: 1.6rem;
+      line-height: 150%;
+    }
   }
 }
