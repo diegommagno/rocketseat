@@ -37,24 +37,26 @@ body {
   padding-left: 16rem;
 }
 
-.message {
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+aside .message {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
   max-width: 38rem;
 }
-
-h1 {
+aside .message h1 {
   font-size: 4rem;
   line-height: 120%;
 }
-
-p {
+aside .message p {
   font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
 }
-
 button {
   font-size: 1.4rem;
   font-weight: 500;
