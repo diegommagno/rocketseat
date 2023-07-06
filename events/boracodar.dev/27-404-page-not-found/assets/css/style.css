@@ -21,9 +21,7 @@ body {
   font-size: 1.6rem;
   color: var(--grey-01);
   background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
   width: 100%;
   height: 100vh;
   display: grid;
@@ -74,4 +72,15 @@ aside .navigation button {
 }
 aside .navigation button:hover {
   background: var(--blue-light);
+}
+
+.error-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.error-code img {
+  width: 8rem;
+  height: 10.5rem;
 }/*# sourceMappingURL=style.css.map */
