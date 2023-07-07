@@ -28,6 +28,12 @@ body {
   background: grey;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header {
   width: 37.5rem;
   margin: 4.1rem auto 0;
