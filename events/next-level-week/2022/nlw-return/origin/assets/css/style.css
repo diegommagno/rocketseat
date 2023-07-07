@@ -33,46 +33,24 @@ header {
   width: 37.5rem;
   margin: 4.1rem auto 0;
 }
-header img {
-  display: block;
-  width: 26.4rem;
-  margin-inline: auto;
-  -o-object-position: 0 20px;
-     object-position: 0 20px;
-}
-header ::before {
-  content: "";
-  width: 100vw;
-  height: 108rem;
-  background-color: var(--brand-light);
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-h4 {
+header h4 {
   font-size: 1.4rem;
   color: var(--primary-color);
   margin-bottom: 1.6rem;
 }
-
-h1 {
+header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
   margin-bottom: 2.4rem;
 }
-
-p {
+header p {
   font-size: 1.8rem;
   line-height: 150%;
   color: var(--paragraph);
   margin-bottom: 3.2rem;
 }
-
-button {
+header button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,8 +66,14 @@ button {
   margin: 0 auto 6rem;
   cursor: pointer;
 }
-
-.stats {
+header img {
+  display: block;
+  width: 26.4rem;
+  margin-inline: auto;
+  -o-object-position: 0 20px;
+     object-position: 0 20px;
+}
+header .stats {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,13 +85,13 @@ button {
   border: 1px solid var(--brand-light);
   border-radius: 6px;
 }
-.stats .stat h3 {
+header .stats .stat h3 {
   font-size: 4.8rem;
   color: var(--headline);
   line-height: 130%;
   margin-bottom: 4px;
 }
-.stats .stat p {
+header .stats .stat p {
   margin: 0;
   color: var(--primary-color);
   font-size: 1.6rem;
