@@ -9,6 +9,8 @@
 :root {
   font-size: 62.5%;
   
+  --nav-height: 7.2rem;
+
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -38,7 +40,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 
-  padding: 1.6rem 2.4rem;
+  height: var(--nav-height);
 
   position: fixed;
   top: 0;
@@ -47,7 +49,7 @@ nav {
 }
 
 header {
-  margin-top: 4.1rem;
+  margin-top: calc(4.1rem + var(--nav-height));
 
   ::before {
     content: "";
