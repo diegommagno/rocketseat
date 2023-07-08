@@ -30,15 +30,29 @@ body {
   padding-inline: 2.4rem;
 }
 
+.scroll {
+  background: var(--primary-color);
+  width: 100vw;
+}
+.scroll svg:nth-child(1) path {
+  fill: var(--white);
+}
+.scroll svg:nth-child(2) path {
+  stroke: var(--white);
+}
+
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: var(--nav-height);
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header {

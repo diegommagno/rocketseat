@@ -36,10 +36,21 @@ body {
   padding-inline: 2.4rem;
 }
 
+.scroll {
+  background: var(--primary-color);
+  width: 100vw;
+
+  svg:nth-child(1) path {
+    fill: var(--white);
+  }
+
+  svg:nth-child(2) path {
+    stroke: var(--white);
+  }
+}
+
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 
   height: var(--nav-height);
 
@@ -47,6 +58,12 @@ nav {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+
+  .wrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 header {
