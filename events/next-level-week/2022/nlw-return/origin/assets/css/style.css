@@ -23,15 +23,19 @@ body {
   background: grey;
 }
 
+.wrapper {
+  width: 37.5rem;
+  margin-inline: auto;
+}
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 header {
-  width: 37.5rem;
-  margin: 4.1rem auto 0;
+  margin-top: 4.1rem;
 }
 header ::before {
   content: "";

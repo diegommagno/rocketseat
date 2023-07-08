@@ -28,15 +28,19 @@ body {
   background: grey;
 }
 
+.wrapper { 
+  width: 37.5rem;
+  margin-inline: auto;
+}
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 header {
-  width: 37.5rem;
-  margin: 4.1rem auto 0;
+  margin-top: 4.1rem;
 
   ::before {
     content: "";
@@ -50,7 +54,7 @@ header {
     left: 0;
     z-index: -1;
   }
-  
+
   h4 {
     font-size: 1.4rem;
     color: var(--primary-color);
