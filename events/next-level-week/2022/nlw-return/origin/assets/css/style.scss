@@ -37,6 +37,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  padding: 1.6rem 2.4rem;
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header {
