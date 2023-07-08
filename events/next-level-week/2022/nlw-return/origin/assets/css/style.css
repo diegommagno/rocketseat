@@ -27,6 +27,7 @@ body {
 .wrapper {
   width: 37.5rem;
   margin-inline: auto;
+  padding-inline: 2.4rem;
 }
 
 nav {
@@ -46,7 +47,7 @@ header {
 header ::before {
   content: "";
   width: 100vw;
-  height: 108rem;
+  height: calc(108rem + var(--nav-height));
   background-color: var(--brand-light);
   display: block;
   position: absolute;
