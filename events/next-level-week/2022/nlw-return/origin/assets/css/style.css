@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*=== GENERAL ==============================*/
 * {
   margin: 0;
@@ -67,6 +68,16 @@ nav.scroll svg:nth-child(2) path {
 }
 
 /*=== MENU-EXPANDED ==============================*/
+/* Essas classes deixam o menu escondido e quando a classe
+   .menu-expanded é adicionada ao body, o menu aparece.
+*/
+.menu,
+.close-menu,
+body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
 body.menu-expanded .menu {
   position: fixed;
   top: 0;
@@ -75,6 +86,10 @@ body.menu-expanded .menu {
 }
 body.menu-expanded nav {
   position: relative;
+}
+body.menu-expanded .menu, body.menu-expanded .close-menu {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*=== HEADER ==============================*/
