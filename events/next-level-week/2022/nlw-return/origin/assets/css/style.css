@@ -89,6 +89,12 @@ body.menu-expanded .menu {
   width: 100vw;
   height: 100vh;
 }
+body.menu-expanded .menu .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
 body.menu-expanded nav {
   position: relative;
 }

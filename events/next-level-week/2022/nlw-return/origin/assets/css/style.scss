@@ -99,6 +99,13 @@ body.menu-expanded {
 
     width: 100vw;
     height: 100vh;
+
+    .social-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3.2rem;
+    }
   }
 
   nav {
