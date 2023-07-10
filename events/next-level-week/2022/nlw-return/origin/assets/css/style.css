@@ -78,11 +78,16 @@ body.menu-expanded .open-menu {
   visibility: hidden;
 }
 
+body.menu-expanded {
+  overflow: hidden;
+}
 body.menu-expanded .menu {
   position: fixed;
   top: 0;
   left: 0;
   background: var(--primary-color);
+  width: 100vw;
+  height: 100vh;
 }
 body.menu-expanded nav {
   position: relative;

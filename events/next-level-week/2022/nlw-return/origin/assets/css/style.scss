@@ -89,11 +89,16 @@ body.menu-expanded .open-menu {
 }
 
 body.menu-expanded {
+  overflow: hidden;
+
   .menu {
     position: fixed;
     top: 0;
     left: 0;
     background: var(--primary-color);
+
+    width: 100vw;
+    height: 100vh;
   }
 
   nav {
