@@ -1,3 +1,4 @@
+/*=== GENERAL ==============================*/
 * {
   margin: 0;
   padding: 0;
@@ -41,19 +42,11 @@ body {
   padding-inline: 2.4rem;
 }
 
-.scroll {
-  background: var(--primary-color);
-  width: 100vw;
-
-  svg:nth-child(1) path {
-    fill: var(--white);
-  }
-
-  svg:nth-child(2) path {
-    stroke: var(--white);
-  }
+ul {
+  list-style: none;
 }
 
+/*=== NAVIGATION ==============================*/
 nav {
   display: flex;
 
@@ -71,6 +64,34 @@ nav {
   }
 }
 
+nav.scroll {
+  background: var(--primary-color);
+  width: 100vw;
+
+  svg:nth-child(1) path {
+    fill: var(--white);
+  }
+
+  svg:nth-child(2) path {
+    stroke: var(--white);
+  }
+}
+
+/*=== MENU-EXPANDED ==============================*/
+body.menu-expanded {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--primary-color);
+  }
+
+  nav {
+    position: relative;
+  }
+}
+
+/*=== HEADER ==============================*/
 header {
   margin-top: calc(4.1rem + var(--nav-height));
 
