@@ -55,6 +55,11 @@ nav .wrapper {
   align-items: center;
   justify-content: space-between;
 }
+nav .wrapper button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
 nav.scroll {
   background: var(--primary-color);

@@ -61,7 +61,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
   }
+
 }
 
 nav.scroll {
