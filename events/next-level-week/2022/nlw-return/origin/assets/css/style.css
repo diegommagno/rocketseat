@@ -71,6 +71,9 @@ nav.scroll svg:nth-child(1) path {
 nav.scroll svg:nth-child(2) path {
   stroke: var(--white);
 }
+nav.scroll button path {
+  stroke: var(--white);
+}
 
 /*=== MENU-EXPANDED ==============================*/
 /* Essas classes deixam o menu escondido e quando a classe

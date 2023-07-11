@@ -68,7 +68,6 @@ nav {
       cursor: pointer;
     }
   }
-
 }
 
 nav.scroll {
@@ -80,6 +79,10 @@ nav.scroll {
   }
 
   svg:nth-child(2) path {
+    stroke: var(--white);
+  }
+
+  button path {
     stroke: var(--white);
   }
 }
