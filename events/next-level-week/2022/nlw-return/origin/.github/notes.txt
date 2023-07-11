@@ -1,0 +1,11 @@
+.menu,
+.close-menu,
+body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu, .close-menu {
+    opacity: 1;
+    visibility: visible;
+  }
