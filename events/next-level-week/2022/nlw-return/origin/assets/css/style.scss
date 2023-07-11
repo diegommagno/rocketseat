@@ -78,10 +78,6 @@ nav.scroll {
     fill: var(--white);
   }
 
-  svg:nth-child(2) path {
-    stroke: var(--white);
-  }
-
   button path {
     stroke: var(--white);
   }
@@ -94,8 +90,7 @@ nav.scroll {
 .menu,
 .close-menu,
 body.menu-expanded .open-menu {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 
 body.menu-expanded {
@@ -182,8 +177,7 @@ body.menu-expanded {
   }
 
   .menu, .close-menu {
-    opacity: 1;
-    visibility: visible;
+    display: inline;
   }
 }
 
