@@ -100,6 +100,24 @@ body.menu-expanded {
     width: 100vw;
     height: 100vh;
 
+    .button {
+      display: inline-block;
+
+      padding: 1.6rem 3.2rem;
+      margin-top: 4.8rem;
+      margin-bottom: 8rem;
+      
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--primary-color);
+      background: var(--white);
+
+      border-radius: 4rem;
+    }
+
     .social-links {
       display: flex;
       align-items: center;
