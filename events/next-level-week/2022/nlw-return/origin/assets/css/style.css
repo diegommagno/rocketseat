@@ -80,6 +80,26 @@ body.menu-expanded .open-menu {
 
 body.menu-expanded {
   overflow: hidden;
+  /* > significa primeiro nível
+     :not significa que não é para pegar o nav
+  */
+  /* Position relative para poder usar z-index para trazer ele para cima */
+}
+body.menu-expanded > :not(nav) {
+  display: none;
+}
+body.menu-expanded .logo,
+body.menu-expanded button {
+  position: relative;
+  z-index: 100;
+}
+body.menu-expanded .logo path,
+body.menu-expanded button path {
+  fill: var(--white);
+}
+body.menu-expanded .logo button path,
+body.menu-expanded button button path {
+  stroke: var(--white);
 }
 body.menu-expanded .menu {
   position: fixed;
@@ -88,6 +108,7 @@ body.menu-expanded .menu {
   background: var(--primary-color);
   width: 100vw;
   height: 100vh;
+  padding-top: var(--nav-height);
 }
 body.menu-expanded .menu ul:nth-child(1) {
   display: flex;

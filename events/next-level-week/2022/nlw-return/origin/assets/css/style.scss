@@ -91,6 +91,28 @@ body.menu-expanded .open-menu {
 body.menu-expanded {
   overflow: hidden;
 
+  /* > significa primeiro nível
+     :not significa que não é para pegar o nav
+  */
+  > :not(nav) {
+    display: none;
+  }
+
+  /* Position relative para poder usar z-index para trazer ele para cima */
+  .logo, 
+  button {
+    position: relative;
+    z-index: 100;
+
+    path {
+      fill: var(--white);
+    }
+
+    button path {
+      stroke: var(--white);
+    }
+  }
+
   .menu {
     position: fixed;
     top: 0;
@@ -99,6 +121,8 @@ body.menu-expanded {
 
     width: 100vw;
     height: 100vh;
+
+    padding-top: var(--nav-height);
 
     ul:nth-child(1) {
       display: flex;
