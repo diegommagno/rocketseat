@@ -18,6 +18,7 @@
 }
 
 body {
+  font-family: IBM Plex Sans;
   font-size: 1.6rem;
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
