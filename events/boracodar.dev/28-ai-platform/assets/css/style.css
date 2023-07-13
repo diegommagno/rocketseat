@@ -27,4 +27,16 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
+}
+
+.icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+  border: 1px solid var(--grey-05);
+  background: var(--grey-06);
 }/*# sourceMappingURL=style.css.map */
