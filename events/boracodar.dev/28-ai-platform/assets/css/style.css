@@ -46,7 +46,7 @@ body {
   display: flex;
   width: 64px;
   height: 64px;
-  padding: 12px;
+  padding: 1.6rem;
   justify-content: center;
   align-items: center;
   border-radius: 1.6rem;
@@ -91,7 +91,7 @@ main .tab {
   padding: 1.6rem;
   width: 608px;
   background: var(--grey-06);
-  border: 1px solid var(--gray-04);
+  border: 1px solid var(--grey-04);
   border-radius: 1.6rem;
   cursor: pointer;
 }
