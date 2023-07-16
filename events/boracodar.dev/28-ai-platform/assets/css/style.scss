@@ -94,7 +94,7 @@ body {
     align-items: center;
     gap: 2.4rem;
 
-    span {
+    span, input {
       font-size: 1.8rem;
       font-weight: 600;
       color: var(--grey-02);
@@ -142,8 +142,18 @@ footer {
         cursor: pointer;
       }
 
-      span {
-      font-weight: 400;
+      input {
+        display: flex;
+        font-weight: 400;
+        background: var(--grey-06);
+        width: 90rem;
+
+        border: none;
+        outline: none;
+
+        &::placeholder {
+          color: var(--grey-02);
+        }
       }
     }
   }

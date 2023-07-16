@@ -81,7 +81,7 @@ body {
   align-items: center;
   gap: 2.4rem;
 }
-.tab .wrapper span, .tab-input .wrapper span {
+.tab .wrapper span, .tab .wrapper input, .tab-input .wrapper span, .tab-input .wrapper input {
   font-size: 1.8rem;
   font-weight: 600;
   color: var(--grey-02);
@@ -124,6 +124,17 @@ footer .tab-input .wrapper {
 footer .tab-input .wrapper svg {
   cursor: pointer;
 }
-footer .tab-input .wrapper span {
+footer .tab-input .wrapper input {
+  display: flex;
   font-weight: 400;
+  background: var(--grey-06);
+  width: 90rem;
+  border: none;
+  outline: none;
+}
+footer .tab-input .wrapper input::-moz-placeholder {
+  color: var(--grey-02);
+}
+footer .tab-input .wrapper input::placeholder {
+  color: var(--grey-02);
 }/*# sourceMappingURL=style.css.map */
