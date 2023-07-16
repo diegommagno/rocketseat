@@ -105,4 +105,13 @@ main {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+footer .tab .wrapper {
+  gap: 1.6rem;
 }/*# sourceMappingURL=style.css.map */

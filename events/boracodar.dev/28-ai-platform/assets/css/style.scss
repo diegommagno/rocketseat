@@ -120,6 +120,17 @@ main {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
+}
 
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  .tab {
+    .wrapper {
+      gap: 1.6rem;
+    }
+  }
 
 }
