@@ -52,6 +52,7 @@ body {
   border-radius: 1.6rem;
   border: 1px solid var(--grey-05);
   background: var(--grey-06);
+  cursor: pointer;
 }
 
 .icon-next {
