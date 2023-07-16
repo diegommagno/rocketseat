@@ -65,7 +65,7 @@ body {
   background: var(--grey-04);
 }
 
-.tab {
+.tab, .tab-input {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,12 +76,12 @@ body {
   border-radius: 1.6rem;
   cursor: pointer;
 }
-.tab .wrapper {
+.tab .wrapper, .tab-input .wrapper {
   display: flex;
   align-items: center;
   gap: 2.4rem;
 }
-.tab .wrapper span {
+.tab .wrapper span, .tab-input .wrapper span {
   font-size: 1.8rem;
   font-weight: 600;
   color: var(--grey-02);
@@ -109,10 +109,21 @@ main {
 }
 
 footer {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
-footer .tab .wrapper {
+footer .tab-input {
+  width: 100%;
+  cursor: auto;
+}
+footer .tab-input .wrapper {
   gap: 1.6rem;
+}
+footer .tab-input .wrapper svg {
+  cursor: pointer;
+}
+footer .tab-input .wrapper span {
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

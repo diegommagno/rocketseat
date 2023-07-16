@@ -74,7 +74,7 @@ body {
   background: var(--grey-04);
 }
 
-.tab {
+.tab, .tab-input {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,13 +125,26 @@ main {
 }
 
 footer {
+  width: 100%;
+
   display: flex;
   align-items: center;
   gap: 1.6rem;
 
-  .tab {
+  .tab-input {
+    width: 100%;
+    cursor: auto;
+    
     .wrapper {
       gap: 1.6rem;
+
+      svg {
+        cursor: pointer;
+      }
+
+      span {
+      font-weight: 400;
+      }
     }
   }
 }
