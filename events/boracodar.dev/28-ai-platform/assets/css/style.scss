@@ -72,6 +72,34 @@ body {
   background: var(--grey-04);
 }
 
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 1.6rem;
+
+  width: 608px;
+
+  background: var(--grey-06);
+  border: 1px solid var(--grey-04);
+  border-radius: 1.6rem;
+
+  cursor: pointer;
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+
+    span {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--grey-02);
+    }
+  }
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -93,31 +121,5 @@ main {
   justify-content: center;
   gap: 1.6rem;
 
-  .tab {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    padding: 1.6rem;
 
-    width: 608px;
-
-    background: var(--grey-06);
-    border: 1px solid var(--grey-04);
-    border-radius: 1.6rem;
-
-    cursor: pointer;
-    
-    .wrapper {
-      display: flex;
-      align-items: center;
-      gap: 2.4rem;
-
-      span {
-        font-size: 1.8rem;
-        font-weight: 600;
-        color: var(--grey-02);
-      }
-    }
-  }
 }
