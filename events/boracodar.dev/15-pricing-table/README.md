@@ -43,4 +43,4 @@ Page showing different plans and prices. <br/>
 
 ## 🎓 Worked on
 
-- CSS: `flex and grid`, `rem`, `background`
+- CSS: `flex`, `rem`, `background`
