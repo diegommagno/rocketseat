@@ -33,6 +33,10 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   max-width: 38rem;
 }
 
