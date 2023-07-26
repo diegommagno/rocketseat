@@ -33,19 +33,24 @@ body {
 }
 
 main {
-  max-width: 23.75rem;
+  max-width: 38rem;
+}
+
+aside {
+  display: flex;
+  align-items: center;
 }
 
 h1 {
   color: #D6D6F2;
-  font-size: 2.5rem;
+  font-size: 4rem;
   line-height: 120%;
 }
 
 p {
   color: #D6D6F2;
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 140%;
 }
@@ -62,7 +67,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 1.5rem;
+  padding: 1.2rem 2.4rem;
 
   background: var(--blue, #151557);
   border-radius: 62.4375rem;
