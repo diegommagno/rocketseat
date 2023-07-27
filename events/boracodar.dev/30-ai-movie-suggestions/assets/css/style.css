@@ -102,4 +102,17 @@ main .movie .details .duration, main .movie .details .release-date {
   align-items: center;
   gap: 0.4rem;
   color: var(--light-grey);
+}
+main .movie .trailer {
+  display: flex;
+  padding: 0.8rem 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+  color: var(--white);
+  border-radius: 0.4rem;
+  background: var(--cores-cinza, #2B2B37);
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
