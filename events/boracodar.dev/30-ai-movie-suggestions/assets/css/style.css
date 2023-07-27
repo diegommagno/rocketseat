@@ -89,4 +89,17 @@ main .movie .header .rating {
   display: flex;
   align-items: center;
   color: var(--cores-amarelo, #FEEA35);
+}
+main .movie .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-block: 0.8rem;
+}
+main .movie .details .duration, main .movie .details .release-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--light-grey);
 }/*# sourceMappingURL=style.css.map */

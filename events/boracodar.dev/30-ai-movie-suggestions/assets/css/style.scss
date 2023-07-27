@@ -107,5 +107,22 @@ main {
                 color: var(--cores-amarelo, #FEEA35);
             }
         }
+
+        .details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            margin-block: 0.8rem;
+
+            .duration, .release-date {
+                display: flex;
+                align-items: center;
+                gap: 0.4rem;
+
+                color: var(--light-grey);
+            }
+        }
     }
 }
