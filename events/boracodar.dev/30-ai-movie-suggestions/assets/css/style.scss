@@ -30,6 +30,10 @@ body {
     height: 100vh;
 }
 
+body * {
+    font-family: 'Outfit', sans-serif;
+}
+
 #app {
     display: flex;
     padding: 6.4rem 9.6rem;
@@ -42,3 +46,33 @@ body {
     background: var(--cores-cinza-dark, #1E1F28);
     box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
+
+        color: white;
+
+        padding: 0.8rem 1.6rem;
+
+        border-radius: 4px;
+        border: none;
+        background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
+    }
+}
+
+
+/*
+    <i class="ph ph-clock"></i>
+    <i class="ph ph-calendar-blank"></i>
+    <i class="ph ph-play"></i>
+    <i class="ph ph-circle-notch"></i>
+
+*/
