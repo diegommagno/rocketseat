@@ -68,9 +68,10 @@ header {
     }
 }
 
-
-/*
-    <i class="ph ph-play"></i>
-    <i class="ph ph-circle-notch"></i>
-
-*/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem;
+    color: var(--white);
+}

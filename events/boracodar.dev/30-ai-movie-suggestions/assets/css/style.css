@@ -58,8 +58,10 @@ header button {
   background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
 }
 
-/*
-    <i class="ph ph-play"></i>
-    <i class="ph ph-circle-notch"></i>
-
-*//*# sourceMappingURL=style.css.map */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.6rem;
+  color: var(--white);
+}/*# sourceMappingURL=style.css.map */
