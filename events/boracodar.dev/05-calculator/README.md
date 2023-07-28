@@ -48,4 +48,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `background`, `media`, `variables` 
+- CSS: `flex`, `grid`, `rem`, `background`, `media`, `variables`, `linear-gradient`, `box-shadow`, `inset`, `repeat`
