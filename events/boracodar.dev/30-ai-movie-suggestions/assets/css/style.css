@@ -92,6 +92,9 @@ main .movie .header .rating {
   align-items: center;
   color: var(--cores-amarelo, #FEEA35);
 }
+main .movie .cover {
+  cursor: pointer;
+}
 main .movie .details {
   display: flex;
   align-items: center;
