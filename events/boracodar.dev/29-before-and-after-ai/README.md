@@ -39,4 +39,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`, `variables`, `cursor`
+- CSS: `flex`, `grid`, `rem`, `variables`, `cursor`, `aspect-ratio`
