@@ -1,4 +1,4 @@
-<h1 align="center">Movie AI</h1>
+<h1 align="center">AI Movie Suggestions</h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Movie AI](https://dmm.studio/github/rocketseat/events/boracodar.dev/29-before-and-after-ai)
+- [AI Movie Suggestions](https://dmm.studio/github/rocketseat/events/boracodar.dev/30-ai-movie-suggestions)
 
 <br/>
 
