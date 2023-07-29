@@ -25,15 +25,13 @@ body * {
 }
 
 #calculator {
-  width: 35.6rem;
-  height: 56.5rem;
+  padding: 5.4rem 3.2rem 3.2rem 3.2rem;
   background: #2D2A37;
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.22) inset, 0px 6px 8px 0px rgba(255, 255, 255, 0.1) inset, 0px 8px 17px 0px rgba(0, 0, 0, 0.29), 0px 30px 30px 0px rgba(0, 0, 0, 0.26), 0px 68px 41px 0px rgba(0, 0, 0, 0.15), 0px 120px 48px 0px rgba(0, 0, 0, 0.04), 0px 188px 52px 0px rgba(0, 0, 0, 0.01), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 4.8rem;
 }
 #calculator #display {
-  margin-top: 5.4rem;
-  padding-inline: 5.4rem;
+  padding-inline: 2.2rem;
 }
 #calculator #display .last-calc {
   text-align: right;
@@ -56,7 +54,6 @@ body * {
   grid-template-columns: repeat(4, 1fr); /* Criar um posicionamento automatico de 1fr, ou seja, 1 fracao, para cada elemento. Entao aqui tem 4 colunas iguais. */
   gap: 1.2rem;
   margin-top: 2.6rem;
-  margin-inline: 3.2rem;
 }
 #calculator #keyboard button {
   width: 6.4rem;

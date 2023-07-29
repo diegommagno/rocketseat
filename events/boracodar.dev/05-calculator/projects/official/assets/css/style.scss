@@ -28,8 +28,7 @@ body * {
 }
 
 #calculator {
-  width: 35.6rem;
-  height: 56.5rem;
+  padding: 5.4rem 3.2rem 3.2rem 3.2rem;
 
   background: #2D2A37;
 
@@ -38,8 +37,7 @@ body * {
   border-radius: 4.8rem;
 
   #display {
-    margin-top: 5.4rem;
-    padding-inline: 5.4rem;
+    padding-inline: 2.2rem;
 
     .last-calc {
       text-align: right;
@@ -68,7 +66,6 @@ body * {
     gap: 1.2rem;
 
     margin-top: 2.6rem;
-    margin-inline: 3.2rem;
 
     button {
       width: 6.4rem;
