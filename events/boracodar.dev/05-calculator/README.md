@@ -48,4 +48,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`, `background`, `media`, `variables`, `linear-gradient`, `box-shadow`, `inset`, `repeat`
+- CSS: `flex`, `grid`, `rem`, `background`, `media`, `variables`, `linear-gradient`, `box-shadow`, `inset`, `grid-template-columns: repeat()` 
