@@ -3,9 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Login Page</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-  
+  <div id="app">
+    <header>
+      logo
+    </header>
+
+    <main>
+      <div class="headline">
+        <h1>Acessa a plataforma</h1>
+        <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+      </div>
+
+      <form>
+        <div class="input-wrapper">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" required />
+        </div>
+
+        <div class="input-wrapper">
+          <div class="label-wrapper">
+            <label for="senha">Senha</label>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+          <input id="senha" type="password">
+
+          <img class="show-password" src="" alt="">
+          <img class="hide-password" src="" alt="">
+
+          <button type="submit">Entrar</button>
+
+          <div class="create-account">
+            Ainda não tem uma conta? <a href="#">Inscreva-se</a>
+          </div>
+        </div>
+      </form>
+    </main>
+  </div>
 </body>
 </html>
