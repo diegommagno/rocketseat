@@ -12,4 +12,33 @@
 
 body {
   font-size: 1.6rem;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+#app > * {
+  width: 50%;
+}
+#app > * img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#app aside {
+  padding: 4rem 11.2rem;
+}
+#app aside header img {
+  width: 16rem;
+  height: 5.4rem;
+}
+#app aside main {
+  margin-top: 11.4rem;
+}
+#app aside main .headline {
+  max-width: 35rem;
+}
+#app aside main form {
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */

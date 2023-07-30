@@ -13,3 +13,45 @@
 body {
   font-size: 1.6rem;
 }
+
+#app {
+  display: flex;
+  height: 100vh;
+
+  & > * {
+    width: 50%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  aside {
+    padding: 4rem 11.2rem;
+
+    header {
+      img { 
+        width: 16rem;
+        height: 5.4rem;
+      }
+    }
+
+    main {
+      margin-top: 11.4rem;
+
+      .headline {
+        max-width: 35rem;
+      }
+
+      form {
+        margin-top: 4rem;
+      }
+    }
+  }
+}
+
+
+
+
+
