@@ -56,6 +56,10 @@ a {
 #app aside main form .input-wrapper {
   position: relative;
 }
+#app aside main form .input-wrapper label {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 #app aside main form .input-wrapper .label-wrapper {
   display: flex;
   justify-content: space-between;
