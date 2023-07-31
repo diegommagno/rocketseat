@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -41,4 +42,36 @@ body {
 }
 #app aside main form {
   margin-top: 4rem;
+}
+#app aside main form input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 0.1rem solid #E2E8F0;
+  border-radius: 0.4rem;
+  padding: 1.6rem 1.2rem;
+  margin-top: 0.8rem;
+}
+#app aside main form .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */
+  margin-top: 1.6rem;
+}
+#app aside main form button {
+  all: unset; /* Tira todas as propriedades dos botões (menos duas que se passar o mouse nessa propriedade mostra o que fica) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  border-radius: 4px;
+  background: var(--purple, #7C3AED);
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-block: 3.2rem;
+}
+#app aside main form button:focus { /* Quando o botão é selecionado pelo tab */
+  outline: 2px solid black;
+  border-radius: 0.2rem;
+  border-radius: 4px;
+}
+#app aside main form button:hover {
+  background: #9F67FF;
 }/*# sourceMappingURL=style.css.map */
