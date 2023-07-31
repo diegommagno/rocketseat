@@ -51,6 +51,7 @@ a {
 }
 #app aside main {
   margin-top: 11.4rem;
+  max-width: 38.4rem;
 }
 #app aside main .headline {
   max-width: 35rem;
