@@ -10,6 +10,9 @@
 :root {
   font-size: 62.5%;
   --purple: #7C3AED;
+  --gray-800: #1E293B;
+  --gray-600: #475569;
+  --gray-400: #94A3B8 ;
 }
 
 body {
@@ -51,6 +54,12 @@ a {
 #app aside main .headline {
   max-width: 35rem;
 }
+#app aside main .headline h1 {
+  color: var(--gray-800);
+}
+#app aside main .headline p {
+  color: var(--gray-600);
+}
 #app aside main form {
   margin-top: 4rem;
 }
@@ -59,6 +68,7 @@ a {
 }
 #app aside main form .input-wrapper label {
   font-size: 1.4rem;
+  color: var(--gray-800);
   font-weight: 600;
 }
 #app aside main form .input-wrapper .label-wrapper {
@@ -92,11 +102,11 @@ a {
   margin-top: 0.8rem;
 }
 #app aside main form input::-moz-placeholder {
-  color: var(--gray-400, #94A3B8);
+  color: var(--gray-400);
   font-size: 1.4rem;
 }
 #app aside main form input::placeholder {
-  color: var(--gray-400, #94A3B8);
+  color: var(--gray-400);
   font-size: 1.4rem;
 }
 #app aside main form .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */

@@ -10,6 +10,9 @@
   font-size: 62.5%;
 
   --purple: #7C3AED;
+  --gray-800: #1E293B;
+  --gray-600: #475569;
+  --gray-400: #94A3B8
 }
 
 body {
@@ -54,6 +57,14 @@ a {
 
       .headline {
         max-width: 35rem;
+
+        h1 {
+          color: var(--gray-800);
+        }
+
+        p {
+          color: var(--gray-600);
+        }
       }
 
       form {
@@ -64,6 +75,7 @@ a {
 
           label {
             font-size: 1.4rem;
+            color: var(--gray-800);
             font-weight: 600;
           }
 
@@ -108,7 +120,7 @@ a {
           margin-top: 0.8rem;
 
           &::placeholder {
-            color: var(--gray-400, #94A3B8);
+            color: var(--gray-400);
             font-size: 1.4rem;
           }
         }
