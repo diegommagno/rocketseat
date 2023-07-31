@@ -138,4 +138,7 @@ a {
 #app aside main form .create-account a {
   color: var(--purple);
   font-weight: 700;
+}
+#app aside main form .create-account a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
