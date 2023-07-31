@@ -12,7 +12,8 @@
   --purple: #7C3AED;
   --gray-800: #1E293B;
   --gray-600: #475569;
-  --gray-400: #94A3B8 ;
+  --gray-400: #94A3B8;
+  --gray-200: #E2E8F0;
 }
 
 body {
@@ -115,6 +116,11 @@ a {
 #app aside main form input:focus, #app aside main form input:hover {
   border: 1px solid var(--purple);
   outline: 0;
+}
+#app aside main form input:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  border: 1px solid var(--gray-200);
 }
 #app aside main form .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */
   margin-top: 1.6rem;

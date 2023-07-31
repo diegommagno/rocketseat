@@ -12,7 +12,8 @@
   --purple: #7C3AED;
   --gray-800: #1E293B;
   --gray-600: #475569;
-  --gray-400: #94A3B8
+  --gray-400: #94A3B8;
+  --gray-200: #E2E8F0;
 }
 
 body {
@@ -132,6 +133,12 @@ a {
           &:hover {
             border: 1px solid var(--purple);
             outline: 0;
+          }
+
+          &:disabled {
+            opacity: 0.35;
+            cursor: not-allowed;
+            border: 1px solid var(--gray-200);
           }
         }
 
