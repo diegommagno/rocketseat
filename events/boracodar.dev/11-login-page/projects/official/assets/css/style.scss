@@ -98,6 +98,11 @@ a {
           padding: 1.6rem 1.2rem;
 
           margin-top: 0.8rem;
+
+          &::placeholder {
+            color: var(--gray-400, #94A3B8);
+            font-size: 1.4rem;
+          }
         }
 
         .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */

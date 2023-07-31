@@ -85,6 +85,14 @@ a {
   padding: 1.6rem 1.2rem;
   margin-top: 0.8rem;
 }
+#app aside main form input::-moz-placeholder {
+  color: var(--gray-400, #94A3B8);
+  font-size: 1.4rem;
+}
+#app aside main form input::placeholder {
+  color: var(--gray-400, #94A3B8);
+  font-size: 1.4rem;
+}
 #app aside main form .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */
   margin-top: 1.6rem;
 }
