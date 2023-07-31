@@ -8,6 +8,8 @@
 
 :root {
   font-size: 62.5%;
+
+  --purple: #7C3AED;
 }
 
 body {
@@ -70,7 +72,7 @@ a {
             justify-content: space-between;
 
             a {
-              color: var(#7C3AED);
+              color: var(--purple);
               font-size: 1.4rem;
               font-weight: 600;
             }
@@ -125,7 +127,7 @@ a {
           width: 100%;
 
           border-radius: 4px;
-          background: var(#7C3AED);
+          background: var(--purple);
         
           font-weight: bold;
           color: #FFFFFF;
