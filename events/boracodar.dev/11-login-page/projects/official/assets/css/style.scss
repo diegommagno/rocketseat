@@ -123,6 +123,10 @@ a {
             color: var(--gray-400);
             font-size: 1.4rem;
           }
+
+          &:focus {
+            outline: 1px solid var(--purple);
+          }
         }
 
         .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */
@@ -147,7 +151,7 @@ a {
           margin-block: 3.2rem;
 
           &:focus { /* Quando o botão é selecionado pelo tab */
-            outline: 2px solid black;
+            outline: 2px solid var(--gray-800);
             border-radius: 0.2rem; 
   
             border-radius: 4px;
