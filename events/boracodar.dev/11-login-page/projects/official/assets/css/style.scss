@@ -191,7 +191,30 @@ a {
   }
 }
 
+@media (max-width: 900px) {
+  #app {
+    & > * {
+      width: 100%;
+    }
 
+    & > img {
+      display: none;
+    }
 
+    aside {
+      padding: 11rem;
+    }
+  }
 
+  main {
+    max-width: 100%;
+  }
+}
 
+@media (max-width: 600px) {
+  #app {
+    aside {
+      padding: 2rem;
+    }
+  }
+}

@@ -152,4 +152,24 @@ a {
 }
 #app aside main form .create-account a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  #app > * {
+    width: 100%;
+  }
+  #app > img {
+    display: none;
+  }
+  #app aside {
+    padding: 11rem;
+  }
+  main {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #app aside {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
