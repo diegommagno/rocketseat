@@ -133,17 +133,17 @@ a {
           color: #FFFFFF;
 
           margin-block: 3.2rem;
-        }
 
-        button:focus { /* Quando o botão é selecionado pelo tab */
-          outline: 2px solid black;
-          border-radius: 0.2rem; 
+          &:focus { /* Quando o botão é selecionado pelo tab */
+            outline: 2px solid black;
+            border-radius: 0.2rem; 
+  
+            border-radius: 4px;
+          }
 
-          border-radius: 4px;
-        }
-
-        button:hover {
-          background: #9F67FF;
+          &:hover {
+            background: #9F67FF;
+          }
         }
       }
     }
