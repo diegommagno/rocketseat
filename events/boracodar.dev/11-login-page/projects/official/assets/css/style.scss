@@ -125,8 +125,10 @@ a {
             font-size: 1.4rem;
           }
 
-          &:focus {
-            outline: 1px solid var(--purple);
+          &:focus,
+          &:hover {
+            border: 1px solid var(--purple);
+            outline: 0;
           }
         }
 

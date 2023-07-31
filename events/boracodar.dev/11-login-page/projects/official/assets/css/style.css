@@ -110,8 +110,9 @@ a {
   color: var(--gray-400);
   font-size: 1.4rem;
 }
-#app aside main form input:focus {
-  outline: 1px solid var(--purple);
+#app aside main form input:focus, #app aside main form input:hover {
+  border: 1px solid var(--purple);
+  outline: 0;
 }
 #app aside main form .input-wrapper + .input-wrapper { /* Pega o .input-wrapper que tem um .input-wrapper anterior a ele */
   margin-top: 1.6rem;
