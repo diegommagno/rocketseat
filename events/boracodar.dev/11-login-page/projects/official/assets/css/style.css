@@ -121,4 +121,8 @@ a {
 }
 #app aside main form button:hover {
   background: #9F67FF;
+}
+#app aside main form .create-account a {
+  color: var(--purple);
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

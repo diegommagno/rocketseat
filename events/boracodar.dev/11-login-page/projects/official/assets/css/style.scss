@@ -145,6 +145,13 @@ a {
             background: #9F67FF;
           }
         }
+
+        .create-account {
+          a {
+            color: var(--purple);
+            font-weight: 700;
+          }
+        }
       }
     }
   }
