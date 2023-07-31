@@ -14,6 +14,15 @@ body {
   font-size: 1.6rem;
 }
 
+button {
+  all: unset; /* Tira todas as propriedades dos botões, até as aplicadas por CSS antes daqui (menos duas que se passar o mouse nessa propriedade mostra o que fica) */
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
 #app {
   display: flex;
   height: 100vh;
@@ -48,9 +57,28 @@ body {
         margin-top: 4rem;
 
         .input-wrapper {
+          position: relative;
+
           .label-wrapper {
             display: flex;
             justify-content: space-between;
+          }
+
+          ::ms-reveal { /* Microsoft Edge adiciona o eye no password, isso tira para ter o nosso. */ 
+            display: none;
+          }
+
+          .eye {
+            width: 2rem;
+            height: 2rem;
+
+            position: absolute;
+            top: 20%;
+            right: 5%;
+          }
+
+          .hide {
+            display: none;
           }
         }
 
@@ -70,9 +98,7 @@ body {
           margin-top: 1.6rem;
         }
 
-        button {
-          all: unset; /* Tira todas as propriedades dos botões (menos duas que se passar o mouse nessa propriedade mostra o que fica) */
-        
+        button {        
           display: flex;
           justify-content: center;
           align-items: center;
