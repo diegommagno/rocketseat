@@ -43,6 +43,10 @@ body {
 #app aside main form {
   margin-top: 4rem;
 }
+#app aside main form .input-wrapper .label-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 #app aside main form input {
   width: 100%;
   background: #FFFFFF;
