@@ -36,7 +36,8 @@
 
 - HTML
 - SCSS
+- JavaScript
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `variables`
+- CSS: `flex`, `rem`, `ternary`, `toggle`, `form`, `all: unset;`, `> *`, `onclick`
