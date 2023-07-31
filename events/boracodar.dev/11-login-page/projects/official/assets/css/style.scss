@@ -68,6 +68,12 @@ a {
           .label-wrapper {
             display: flex;
             justify-content: space-between;
+
+            a {
+              color: var(#7C3AED);
+              font-size: 1.4rem;
+              font-weight: 600;
+            }
           }
 
           ::ms-reveal { /* Microsoft Edge adiciona o eye no password, isso tira para ter o nosso. */ 
@@ -119,7 +125,7 @@ a {
           width: 100%;
 
           border-radius: 4px;
-          background: var(--purple, #7C3AED);
+          background: var(#7C3AED);
         
           font-weight: bold;
           color: #FFFFFF;

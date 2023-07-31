@@ -64,6 +64,11 @@ a {
   display: flex;
   justify-content: space-between;
 }
+#app aside main form .input-wrapper .label-wrapper a {
+  color: var(#7C3AED);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 #app aside main form .input-wrapper ::ms-reveal { /* Microsoft Edge adiciona o eye no password, isso tira para ter o nosso. */
   display: none;
 }
@@ -103,7 +108,7 @@ a {
   padding: 1.6rem 2.4rem;
   width: 100%;
   border-radius: 4px;
-  background: var(--purple, #7C3AED);
+  background: var(#7C3AED);
   font-weight: bold;
   color: #FFFFFF;
   margin-block: 3.2rem;
