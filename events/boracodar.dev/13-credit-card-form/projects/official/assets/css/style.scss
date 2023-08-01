@@ -17,3 +17,40 @@ body {
 
   background: var(--bg);
 }
+
+form {
+  border: 1px solid red;
+  padding: 2.4rem;
+  max-width: 40rem;
+  margin: auto;
+
+  #credit-card {
+    width: 32.8rem;
+    height: 21.2rem;
+
+    perspective: 60rem; /* Geralmente aqui usamos position: relative, mas isso também vai deixar o card dentro da caixa. */
+
+    & > div {
+      width: inherit;
+      height: inherit;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+
+      transform-style: preserve-3d; /*  */
+      backface-visibility: hidden; /* Utilizado para esconder as coisas */
+    }
+  }
+
+  .front {
+    background: url(https://i.ibb.co/PYM2J4F/cc-front.png) no-repeat;
+    transform: rotateY(0);
+  }
+
+  .back {
+    background: url(https://i.ibb.co/kDnMdtZ/cc-back.png) no-repeat;
+    transform: rotateY(-180deg);
+  }
+}
