@@ -8,8 +8,12 @@
 
 :root {
   font-size: 62.5%;
+
+  --bg: #1F2937;
 }
 
 body {
   font-size: 1.6rem;
+
+  background: var(--bg);
 }
