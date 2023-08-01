@@ -18,7 +18,6 @@ body {
 }
 
 form {
-  border: 1px solid red;
   padding: 2.4rem;
   max-width: 40rem;
   margin: auto;
@@ -35,14 +34,22 @@ form #credit-card > div {
   top: 0;
   left: 0;
   z-index: 1000;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform-style: preserve-3d; /*  */
-  backface-visibility: hidden; /* Utilizado para esconder as coisas */
+  backface-visibility: hidden; /* Utilizado para esconder o cartão quando é mostrado a parte de trás dele */
 }
-form .front {
-  background: url(https://i.ibb.co/PYM2J4F/cc-front.png) no-repeat;
+form #credit-card .front {
+  background: url("../img/cc-front.png") no-repeat;
   transform: rotateY(0);
 }
-form .back {
-  background: url(https://i.ibb.co/kDnMdtZ/cc-back.png) no-repeat;
+form #credit-card .front:active {
+  transform: rotateY(180deg);
+}
+form #credit-card .back {
+  background: url("../img/cc-back.png") no-repeat;
   transform: rotateY(-180deg);
+  top: -5px;
+}
+form #credit-card .back:active {
+  transform: rotateY(0);
 }/*# sourceMappingURL=style.css.map */
