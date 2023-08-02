@@ -39,4 +39,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `variables`
+- CSS: `flex`, `rem`, `variables`, `perspective`, `inherit`, `position`
