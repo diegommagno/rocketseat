@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --purple: #8323FF;
+  --pink: #FF2DAF;
+  --yellow: #FEEA35;
+  --dark-grey: #1E1F28;
+  --grey: #2B2B37;
+  --mid-grey: #373745;
+  --light-grey: #8B8D9B;
+  --white: #FFFFFF;
+}
+
+body {
+  background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+body * {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+}
+
+#app {
+  display: flex;
+  padding: 6.4rem 9.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6rem;
+  border-radius: 1.6rem;
+  background: var(--cores-cinza-dark, #1E1F28);
+  box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  border: none;
+  background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.6rem;
+  color: var(--white);
+}
+main .movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 19.4rem;
+}
+main .movie .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+main .movie .header .title {
+  font-size: 2rem;
+  font-weight: 500;
+  max-height: 4rem;
+}
+main .movie .header .rating {
+  display: flex;
+  align-items: center;
+  color: var(--cores-amarelo, #FEEA35);
+}
+main .movie .cover {
+  cursor: pointer;
+}
+main .movie .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-block: 0.8rem;
+}
+main .movie .details .duration, main .movie .details .release-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--light-grey);
+}
+main .movie .trailer {
+  display: flex;
+  padding: 0.8rem 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+  color: var(--white);
+  border-radius: 0.4rem;
+  background: var(--cores-cinza, #2B2B37);
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
