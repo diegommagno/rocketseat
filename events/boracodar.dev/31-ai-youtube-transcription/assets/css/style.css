@@ -111,4 +111,23 @@ main .video {
 }
 main .video img {
   max-width: 100%;
+}
+main .transcription {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+main .transcription .line {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+main .transcription .line .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--surface-secondary, #1F2937);
 }/*# sourceMappingURL=style.css.map */
