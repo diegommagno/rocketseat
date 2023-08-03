@@ -48,6 +48,19 @@ header .search {
   justify-content: center;
   gap: 1.6rem;
 }
+header .search .input-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem;
+  border-radius: 8px;
+  border: 2px solid var(--surface-secondary);
+  background: var(--surface-primary);
+}
+header .search .input-wrapper .input {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
 
 main {
   display: flex;
