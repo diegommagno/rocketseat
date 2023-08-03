@@ -8,8 +8,24 @@
 
 :root {
     font-size: 62.5%;
+
+    /* Brand */
+    --brand-primary: #9705EA;
+
+    /* Neutrals */
+    --background: #030712;
+    --surface-primary: #111827;
+    --surface-secondary: #1F2937;
+    --surface-tertiary: #374151;
+    --video-background: #000000; 
+
+    /* Typography */
+    --text-primary: #F9FAFB;
+    --text-secondary: #E5E7EB;
+    --text-tertiary: #9CA3AF;
 }
 
 body {
     font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
 }
