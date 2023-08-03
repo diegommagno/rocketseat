@@ -87,6 +87,16 @@ header {
 
             background: var(--brand-primary);
             box-shadow: 0px 0px 16px 0px rgba(151, 5, 234, 0.50);
+        
+            cursor: pointer;
+
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                border-radius: 8px;
+                background: var(--brand-primary, #9705EA);
+                box-shadow: 0px 0px 32px 0px #9705EA;
+            }
         }
     }
 }
