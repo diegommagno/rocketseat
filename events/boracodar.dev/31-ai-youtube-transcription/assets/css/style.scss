@@ -110,15 +110,13 @@ header {
 
 main {
     display: flex;
-    gap: 3.2rem;
-
-    display: inline-flex;
-    height: 666px;
-    padding: 40px;
     justify-content: center;
     align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
+    gap: 3.2rem;
+
+    margin-inline: 8rem;
+
+    padding: 4rem;
 
     border-radius: 64px 64px 0px 0px;
 
@@ -130,6 +128,8 @@ main {
         justify-content: center;
 
         padding: 2rem 0rem;
+
+        margin-bottom: 18.6rem;
         
         border-radius: 32px;
 
