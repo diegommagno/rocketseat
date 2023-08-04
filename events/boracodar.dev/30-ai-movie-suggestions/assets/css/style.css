@@ -19,7 +19,7 @@
 }
 
 body {
-  background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+  background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
   display: grid;
   place-content: center;
   height: 100vh;
@@ -38,7 +38,7 @@ body * {
   align-items: center;
   gap: 3.6rem;
   border-radius: 1.6rem;
-  background: var(--cores-cinza-dark, #1E1F28);
+  background: var(--dark-grey);
   box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
 }
 
@@ -57,11 +57,11 @@ header button {
   padding: 0.8rem 1.6rem;
   border-radius: 4px;
   border: none;
-  background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
+  background: linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%);
   cursor: pointer;
 }
 header button:hover {
-  background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+  background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
 }
 
 main {
@@ -93,7 +93,7 @@ main .movie .header .title {
 main .movie .header .rating {
   display: flex;
   align-items: center;
-  color: var(--cores-amarelo, #FEEA35);
+  color: var(--yellow);
 }
 main .movie .cover {
   cursor: pointer;
@@ -120,10 +120,10 @@ main .movie .trailer {
   width: 100%;
   color: var(--white);
   border-radius: 0.4rem;
-  background: var(--cores-cinza, #2B2B37);
+  background: var(--grey);
   border: none;
   cursor: pointer;
 }
 main .movie .trailer:hover {
-  background: var(--cores-cinza-mdio, #373745);
+  background: var(--mid-grey);
 }/*# sourceMappingURL=style.css.map */
