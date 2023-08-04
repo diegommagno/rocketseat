@@ -123,4 +123,7 @@ main .movie .trailer {
   background: var(--cores-cinza, #2B2B37);
   border: none;
   cursor: pointer;
+}
+main .movie .trailer:hover {
+  background: var(--cores-cinza-mdio, #373745);
 }/*# sourceMappingURL=style.css.map */

@@ -152,6 +152,10 @@ main {
             border: none;
 
             cursor: pointer;
+
+            &:hover {
+                background: var(--cores-cinza-mdio, #373745);
+            }
         }
     }
 }
