@@ -60,6 +60,9 @@ header button {
   background: var(--gradientes-gradiente-normal, linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
   cursor: pointer;
 }
+header button:hover {
+  background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+}
 
 main {
   display: flex;
