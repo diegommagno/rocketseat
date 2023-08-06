@@ -98,6 +98,10 @@ main .movie .header .rating {
 main .movie .cover {
   cursor: pointer;
 }
+main .movie .cover img {
+  width: 19.4rem;
+  height: 28.9rem;
+}
 main .movie .details {
   display: flex;
   align-items: center;
