@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -88,7 +89,9 @@ main .movie .header {
 main .movie .header .title {
   font-size: 2rem;
   font-weight: 500;
-  max-height: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Isso que aplica as reticências no texto */
+  white-space: nowrap; /* Impede que o texto extenda para outra linha */
 }
 main .movie .header .rating {
   display: flex;

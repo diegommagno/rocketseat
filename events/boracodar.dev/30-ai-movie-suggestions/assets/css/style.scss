@@ -104,7 +104,9 @@ main {
             .title {
                 font-size: 2rem;
                 font-weight: 500;
-                max-height: 4rem;
+                overflow: hidden;
+                text-overflow: ellipsis; /* Isso que aplica as reticências no texto */
+                white-space: nowrap; /* Impede que o texto extenda para outra linha */
             }
 
             .rating {
