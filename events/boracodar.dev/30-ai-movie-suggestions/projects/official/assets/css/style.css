@@ -126,4 +126,11 @@ header button {
 .movies .movie .poster img {
   width: 19.4rem;
   height: 28.9rem;
+}
+.movies .movie .duration, .movies .movie .year {
+  gap: 4px;
+  color: var(--light-grey);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 166.667%; /* 20px */
 }/*# sourceMappingURL=style.css.map */
