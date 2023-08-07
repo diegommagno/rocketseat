@@ -116,4 +116,46 @@ header {
   display: flex;
   gap: 3.4rem;
 
+  .movie {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .title, .title div, .duration, .year, button {
+      display: flex;
+      align-items: center;
+    }
+
+    .title, .info {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .title {
+
+      span {
+        max-width: 14rem;
+        overflow: hidden;
+        color: var(--white);
+        text-overflow: ellipsis; /* Isso que aplica a reticências no texto */
+        white-space: nowrap; /* Impede que o texto extenda para outra linha */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 100%; /* 20px */
+      }
+
+      > div {
+        color: var(--yellow);
+        font-weight: 600;
+        line-height: 90.049%; /* 14.408px */
+      }
+    }
+
+    .poster {
+      img {
+        width: 19.4rem;
+        height: 28.9rem;
+      }
+    }
+  }
 }

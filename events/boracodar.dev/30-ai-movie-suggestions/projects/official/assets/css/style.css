@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -93,4 +94,36 @@ header button {
 .movies {
   display: flex;
   gap: 3.4rem;
+}
+.movies .movie {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.movies .movie .title, .movies .movie .title div, .movies .movie .duration, .movies .movie .year, .movies .movie button {
+  display: flex;
+  align-items: center;
+}
+.movies .movie .title, .movies .movie .info {
+  display: flex;
+  justify-content: space-between;
+}
+.movies .movie .title span {
+  max-width: 14rem;
+  overflow: hidden;
+  color: var(--white);
+  text-overflow: ellipsis; /* Isso que aplica a reticências no texto */
+  white-space: nowrap; /* Impede que o texto extenda para outra linha */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+}
+.movies .movie .title > div {
+  color: var(--yellow);
+  font-weight: 600;
+  line-height: 90.049%; /* 14.408px */
+}
+.movies .movie .poster img {
+  width: 19.4rem;
+  height: 28.9rem;
 }/*# sourceMappingURL=style.css.map */
