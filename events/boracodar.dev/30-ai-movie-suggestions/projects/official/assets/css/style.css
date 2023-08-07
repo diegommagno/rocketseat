@@ -99,6 +99,7 @@ header button {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 19.4rem;
 }
 .movies .movie .title, .movies .movie .title div, .movies .movie .duration, .movies .movie .year, .movies .movie button {
   display: flex;
