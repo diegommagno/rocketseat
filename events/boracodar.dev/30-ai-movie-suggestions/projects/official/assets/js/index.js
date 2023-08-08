@@ -508,11 +508,24 @@ function selectThreeVideos(results) {
 
   while(selectedVideos.size < 3) {
     selectedVideos.add(results[random()].id)
-    console.log(selectedVideos)
     /* Desestruturado para que retorne um array com 3 ids */
     /* Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos */
   } 
   return [...selectedVideos]
+}
+
+function minutesToHoursMinutesAndSeconds(minutes) {
+  const date = new Date(null)
+  date.setMinutes(minutes)
+  return date.toISOString().slice(11, 19)
+  /* .slice(11 caracteres e 19 caracteres para sobrar somente o que queremos) */
+
+  /*
+    Copilot Solution
+    const hours = Math.floor(minutes / 60)
+    const minutesLeft = minutes % 60
+    return `${hours}:${minutesLeft}:00`
+  */
 }
 
 async function start() {
@@ -532,8 +545,10 @@ async function start() {
       title: info.title,
       rating: Number(info.vote_average).toFixed(1),
       image: info.poster_path,
-      time: minutesToHoursMinutesAndSeconds(info.runtime),
+      time: minutesToHoursMinutesAndSeconds(info.runtime)
     }
+
+    console.log(props)
   })
 
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
