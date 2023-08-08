@@ -535,9 +535,9 @@ async function start() {
 
   /* Pegar randomicamente 3 filmes para sugestão */
   const bestofThree = selectThreeVideos(results)
-
-  /* Pegar informações extras dos três filmes */
-  bestofThree.forEach(async movie => {
+  .map(async movie => {
+    /* Pegar informações extras dos três filmes */
+    /* O selectThreeVideos vai retornar um array e estou passando um map, então ele vai fazer um novo array nesse bestOfThree. Precisa retornar algo, vou retornar o uso do createMovieLayout*/
     const info = await getMoreInfo(movie)
     console.log(info)
     const props = {
@@ -549,8 +549,10 @@ async function start() {
       year: info.release_date.split('-')[0] /* Ou .slice(0, 4), tirando os 4 últimos caracteres */
     }
 
-    console.log(props)
+    return createMovieLayout(props)
   })
+
+  console.log(bestofThree)
 
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
 
