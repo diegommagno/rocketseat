@@ -428,7 +428,11 @@ const data = {
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
 
-function createMovieLayout({title, rating, poster, time, year}) {
+function watch(e) {
+
+}
+
+function createMovieLayout({id, title, rating, poster, time, year}) {
     return `
     <div class="movie">
         <div class="title">
@@ -458,7 +462,7 @@ function createMovieLayout({title, rating, poster, time, year}) {
         </div>
         </div>
 
-        <button>
+        <button onclick="watch(e)" data-id="${id}">
           <img src="./assets/icons/play.svg" alt="">
           
           <span>Assistir trailer</span>
