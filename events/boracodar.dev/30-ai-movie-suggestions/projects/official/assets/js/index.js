@@ -428,9 +428,11 @@ const data = {
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
 
+/* Function for playing the movie trailer */
 function watch(e) {
 
 }
+
 
 function createMovieLayout({id, title, rating, poster, time, year}) {
     return `
@@ -470,3 +472,21 @@ function createMovieLayout({id, title, rating, poster, time, year}) {
     </div>
     `
 }
+
+/*
+  Vou ter que rodar o createMovieLayout três vezes, uma para cada filme.
+*/
+
+function start() {
+
+  /* Pegar as sugestões de filmes da API */
+
+  /* Pegar randomicamente 3 filmes para sugestão */
+
+  /* Pegar informações extras dos três filmes */
+
+  /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
+
+  /* Substitiuir o conteúdo dos movies no HTML */
+}
+
