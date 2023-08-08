@@ -436,6 +436,7 @@ async function getMoreInfo(id) {
     }
   };
 
+  /* Tente pegar esses dados da API */
   try {
     const data = await fetch('https://api.themoviedb.org/3/movie/' + id, options)
     .then(response => response.json())
@@ -444,8 +445,6 @@ async function getMoreInfo(id) {
   } catch (error) {
     console.log(error)
   }
-
-  
 }
 
 /* 
@@ -510,11 +509,12 @@ function selectThreeVideos(results) {
   while (selectedVideos.size < 3) {
     selectedVideos.add(results[random()].id)
 
-    return selectedVideos
-  } // Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos
+    return [...selectedVideos]
+    /* Desestruturado para que retorne um array com 3 ids */
+  } /* Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos */
 }
 
-function start() {
+async function start() {
 
   /* Pegar as sugestões de filmes da API */
   const results = data.results
