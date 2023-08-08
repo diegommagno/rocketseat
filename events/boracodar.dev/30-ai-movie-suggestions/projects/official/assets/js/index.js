@@ -420,3 +420,49 @@ const data = {
     "total_results": 788836
 }
 
+/* 
+  Extract movie details
+  https://api.themoviedb.org/3/movie/{movie_id} 
+
+   Watch trailer button
+   https://api.themoviedb.org/3/movie/{movie_id}/videos 
+*/
+
+function createMovieLayout({title, rating, poster, time, year}) {
+    return `
+    <div class="movie">
+        <div class="title">
+        <span>${title}</span>
+        
+        <div>
+            <img src="./assets/icons/star.svg" alt="">
+            <p>${rating}</p>
+        </div>
+        </div>
+
+        <div class="poster">
+            <img src="https://image.tmdb.org/t/p/w500${poster}" alt="${title} Poster">
+        </div>
+
+        <div class="info">
+        <div class="duration">
+            <img src="./assets/icons/clock.svg" alt="">
+        
+            <span>${time}</span>
+        </div>
+
+        <div class="year">
+            <img src="./assets/icons/calendar-blank.svg" alt="">
+        
+            <span>${year}</span>
+        </div>
+        </div>
+
+        <button>
+          <img src="./assets/icons/play.svg" alt="">
+          
+          <span>Assistir trailer</span>
+        </button>
+    </div>
+    `
+}
