@@ -506,12 +506,13 @@ function selectThreeVideos(results) {
 
   let selectedVideos = new Set() // Set é um array que não aceita valores repetidos, por exemplo, se fizer um .add nele e colocar 12 e depois .add de novo e colocar 12, vai ter somente um 12 e não dois.
 
-  while (selectedVideos.size < 3) {
+  while(selectedVideos.size < 3) {
     selectedVideos.add(results[random()].id)
-
-    return [...selectedVideos]
+    console.log(selectedVideos)
     /* Desestruturado para que retorne um array com 3 ids */
-  } /* Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos */
+    /* Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos */
+  } 
+  return [...selectedVideos]
 }
 
 async function start() {
@@ -523,8 +524,17 @@ async function start() {
   const bestofThree = selectThreeVideos(results)
 
   /* Pegar informações extras dos três filmes */
-  const info = await getMoreInfo(bestofThree[0])
-  console.log(info)
+  bestofThree.forEach(async movie => {
+    const info = await getMoreInfo(movie)
+    console.log(info)
+    const props = {
+      id: info.id,
+      title: info.title,
+      rating: Number(info.vote_average).toFixed(1),
+      image: info.poster_path,
+      time: minutesToHoursMinutesAndSeconds(info.runtime),
+    }
+  })
 
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
 
