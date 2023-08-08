@@ -474,14 +474,29 @@ function createMovieLayout({id, title, rating, poster, time, year}) {
 }
 
 /*
+  function select3Videos
   Vou ter que rodar o createMovieLayout três vezes, uma para cada filme.
 */
+
+function selectThreeVideos(results) {
+  const random = () => Math.floor(Math.random() * results.length)
+
+  let selectedVideos = new Set() // Set é um array que não aceita valores repetidos, por exemplo, se fizer um .add nele e colocar 12 e depois .add de novo e colocar 12, vai ter somente um 12 e não dois.
+
+  while (selectedVideos.size < 3) {
+    selectedVideos.add(results[random()].id)
+
+    return selectedVideos
+  } // Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos
+}
 
 function start() {
 
   /* Pegar as sugestões de filmes da API */
+  const results = data.results
 
   /* Pegar randomicamente 3 filmes para sugestão */
+  const bestofThree = selectThreeVideos()
 
   /* Pegar informações extras dos três filmes */
 
