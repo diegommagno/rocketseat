@@ -520,13 +520,16 @@ async function start() {
   const results = data.results
 
   /* Pegar randomicamente 3 filmes para sugestão */
-  const bestofThree = selectThreeVideos()
+  const bestofThree = selectThreeVideos(results)
 
   /* Pegar informações extras dos três filmes */
-
+  const info = await getMoreInfo(bestofThree[0])
+  console.log(info)
 
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
 
   /* Substitiuir o conteúdo dos movies no HTML */
 }
+
+start()
 
