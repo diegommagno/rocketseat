@@ -545,7 +545,8 @@ async function start() {
       title: info.title,
       rating: Number(info.vote_average).toFixed(1),
       image: info.poster_path,
-      time: minutesToHoursMinutesAndSeconds(info.runtime)
+      time: minutesToHoursMinutesAndSeconds(info.runtime),
+      year: info.release_date.split('-')[0] /* Ou .slice(0, 4), tirando os 4 últimos caracteres */
     }
 
     console.log(props)
