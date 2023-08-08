@@ -420,15 +420,39 @@ const data = {
     "total_results": 788836
 }
 
-/* 
+/*
   Extract movie details
   https://api.themoviedb.org/3/movie/{movie_id} 
 
-   Watch trailer button
+  Todas as vezes que estamos falando de sair da aplicação e buscar dados em algum lugar, esse algum sendo uma API ou DB, saindo da minha aplicação e buscando algo em algum lugar,
+  preciso esperar isso acontecer. Se preciso esperar, estou falando de algo assíncrono, que demora um pouco para podermos usar. 
+*/
+async function getMoreInfo(id) {
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Nzk0YWU2ZGVkMDQyMTM1OWY1ZDc0ZTgwMzYxMGI1MyIsInN1YiI6IjY0ZDA1NWZjMzAzYzg1MDBjNjE0MzI0OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a5SuPaaFr9zSzEhhQnGljMCYYV1G1dgE6QwW0YEdV_E'
+    }
+  };
+
+  try {
+    const data = await fetch('https://api.themoviedb.org/3/movie/' + id, options)
+    .then(response => response.json())
+
+    return data
+  } catch (error) {
+    console.log(error)
+  }
+
+  
+}
+
+/* 
+   Watch button function to play movie trailer
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
 
-/* Function for playing the movie trailer */
 function watch(e) {
 
 }
@@ -499,6 +523,7 @@ function start() {
   const bestofThree = selectThreeVideos()
 
   /* Pegar informações extras dos três filmes */
+
 
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
 
