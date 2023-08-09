@@ -452,8 +452,34 @@ async function getMoreInfo(id) {
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
 
-function watch(e) {
+async function watch(e) {
+  const movie_id = e.currentTarget.dataset.id
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Nzk0YWU2ZGVkMDQyMTM1OWY1ZDc0ZTgwMzYxMGI1MyIsInN1YiI6IjY0ZDA1NWZjMzAzYzg1MDBjNjE0MzI0OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a5SuPaaFr9zSzEhhQnGljMCYYV1G1dgE6QwW0YEdV_E'
+    }
+  };
 
+  try {
+    const data = await fetch(`https://api.themoviedb.org/3/movie/${movie_id}/videos`, options)
+    .then(response => response.json())
+
+    const { results } = data
+
+    const youtubeVideo = results.find(video => video.type === 'Trailer')
+
+    window.open(`https://www.youtube.com/watch?v=${youtubeVideo.key}`, '_blank')
+
+  } catch (error) {
+    console.log(error)
+  }
+  
+  /* 
+    console.log(e.currentTarget.dataset)
+    currentTarget é o botão, é o que tem essa função linkada
+  */
 }
 
 
@@ -487,7 +513,7 @@ function createMovieLayout({id, title, rating, poster, time, year}) {
         </div>
         </div>
 
-        <button onclick="watch(e)" data-id="${id}">
+        <button onclick="watch(event)" data-id="${id}">
           <img src="./assets/icons/play.svg" alt="">
           
           <span>Assistir trailer</span>
@@ -556,9 +582,9 @@ async function start() {
   })
 
   const output = await Promise.all(bestOfThree)
-  console.log(output)
-
 
   /* Substitiuir o conteúdo dos movies no HTML */
   document.querySelector('.movies').innerHTML = output.join("")
 }
+
+start()
