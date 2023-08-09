@@ -545,7 +545,7 @@ async function start() {
       id: info.id,
       title: info.title,
       rating: Number(info.vote_average).toFixed(1),
-      image: info.poster_path,
+      poster: info.poster_path,
       time: minutesToHoursMinutesAndSeconds(info.runtime),
       year: info.release_date.split('-')[0] /* Ou .slice(0, 4), tirando os 4 últimos caracteres */
     }
@@ -560,6 +560,7 @@ async function start() {
 
 
   /* Substitiuir o conteúdo dos movies no HTML */
+  document.querySelector('.movies').innerHTML = output.join("")
 }
 
 start()
