@@ -562,6 +562,3 @@ async function start() {
   /* Substitiuir o conteúdo dos movies no HTML */
   document.querySelector('.movies').innerHTML = output.join("")
 }
-
-start()
-
