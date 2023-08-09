@@ -534,7 +534,7 @@ async function start() {
   const results = data.results
 
   /* Pegar randomicamente 3 filmes para sugestão */
-  const bestofThree = selectThreeVideos(results)
+  const bestOfThree = selectThreeVideos(results)
   .map(async movie => {
     /* Pegar informações extras dos três filmes */
     /* O selectThreeVideos vai retornar um array e estou passando um map, então ele vai fazer um novo array nesse bestOfThree. Precisa retornar algo, vou retornar o uso do createMovieLayout*/
@@ -555,7 +555,7 @@ async function start() {
     /* Isso deve retornar um array de promessas */
   })
 
-  const output = await Promise.all(bestofThree)
+  const output = await Promise.all(bestOfThree)
   console.log(output)
 
 
