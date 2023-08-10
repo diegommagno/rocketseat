@@ -37,10 +37,9 @@ async function getMoreInfo(id) {
 
   /* Tente pegar esses dados da API */
   try {
-    const data = await fetch('https://api.themoviedb.org/3/movie/' + id, options)
+    return fetch('https://api.themoviedb.org/3/movie/' + id, options)
     .then(response => response.json())
 
-    return data
   } catch (error) {
     console.log(error)
   }
