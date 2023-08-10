@@ -164,7 +164,7 @@ async function start() {
     /* O selectThreeVideos vai retornar um array e estou passando um map, então ele vai fazer um novo array nesse bestOfThree. Precisa retornar algo, vou retornar o uso do createMovieLayout*/
     const info = await getMoreInfo(movie)
 
-  /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) */
+  /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) - organizar os dados que preciso de todos os dados que vem */
     const props = {
       id: info.id,
       title: info.title,
@@ -176,7 +176,7 @@ async function start() {
 
     return createMovieLayout(props)
     /* Retorno o uso do createMovieLayout passando as props que quero para ele */
-    /* Isso deve retornar um array de promessas */
+    /* Isso deve retornar um objeto com todas as informações e usa as informações em cada lugar do HTML */
   })
 
   const output = await Promise.all(bestOfThree)
