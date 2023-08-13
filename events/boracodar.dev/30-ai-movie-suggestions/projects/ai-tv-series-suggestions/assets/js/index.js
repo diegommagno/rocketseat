@@ -3,7 +3,7 @@ https://developer.themoviedb.org/reference/movie-popular-list
 */
 
 /* Clicar em Popular, troca para JavaScript e clica para gerar, coloca aqui e cria um try catch com o fetch */
-async function getMovies() {
+async function getTvSeries() {
   const options = {
     method: 'GET',
     headers: {
@@ -13,7 +13,7 @@ async function getMovies() {
   };
   
   try {
-    return fetch('https://api.themoviedb.org/3/movie/popular', options)
+    return fetch('https://api.themoviedb.org/3/tv/popular', options)
     .then(response => response.json())
   } catch (error) {
     console.log(error)
@@ -38,7 +38,7 @@ async function getMoreInfo(id) {
 
   /* Tente pegar esses dados da API */
   try {
-    return fetch('https://api.themoviedb.org/3/movie/' + id, options)
+    return fetch('https://api.themoviedb.org/3/tv/' + id, options)
     .then(response => response.json())
 
   } catch (error) {
@@ -50,37 +50,6 @@ async function getMoreInfo(id) {
    Watch button function to play movie trailer
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
-
-async function watch(e) {
-  const movie_id = e.currentTarget.dataset.id
-  const options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Nzk0YWU2ZGVkMDQyMTM1OWY1ZDc0ZTgwMzYxMGI1MyIsInN1YiI6IjY0ZDA1NWZjMzAzYzg1MDBjNjE0MzI0OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.a5SuPaaFr9zSzEhhQnGljMCYYV1G1dgE6QwW0YEdV_E'
-    }
-  };
-
-  try {
-    const data = await fetch(`https://api.themoviedb.org/3/movie/${movie_id}/videos`, options)
-    .then(response => response.json())
-
-    const { results } = data
-
-    const youtubeVideo = results.find(video => video.type === 'Trailer')
-
-    window.open(`https://www.youtube.com/watch?v=${youtubeVideo.key}`, '_blank')
-
-  } catch (error) {
-    console.log(error)
-  }
-  
-  /* 
-    console.log(e.currentTarget.dataset)
-    currentTarget é o botão, é o que tem essa função linkada
-  */
-}
-
 
 function createMovieLayout({id, title, rating, poster, time, year}) {
     return `
