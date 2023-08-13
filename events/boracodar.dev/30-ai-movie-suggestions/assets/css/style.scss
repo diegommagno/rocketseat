@@ -4,189 +4,187 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-:root {
+  }
+  
+  :root {
     font-size: 62.5%;
-
+  
     --purple: #8323FF;
     --pink: #FF2DAF;
     --yellow: #FEEA35;
-
+  
     --dark-grey: #1E1F28;
     --grey: #2B2B37;
     --mid-grey: #373745;
     --light-grey: #8B8D9B;
-
+  
     --white: #FFFFFF; 
-}
-
-body {
-    background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
-
-    display: grid;
-    place-content: center;
-
+  
+    --gradient: linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%);
+    --gradient-hover: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
     height: 100vh;
-}
-
-body * {
+  
+    color: var(--white);
+    background: var(--gradient-hover);
+  }
+  
+  body * {
     font-family: 'Outfit', sans-serif;
     font-size: 1.6rem;
-}
-
-#app {
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 3.6rem;
-
+  
     padding: 6.4rem 9.6rem;
-
+  
     border-radius: 1.6rem;
     background: var(--dark-grey);
     box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
-
+    
     position: relative;
-
+  
+    /* Before to create a border */
     &::before {
-        content: '';
-        position: absolute;
-        background: linear-gradient(120deg, #C497FF 30%, #9947FF 100%);
-    
-        width: 100%;
-        height: 100%;
-        padding: 8px;
-    
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    
-        border-radius: 1.6rem;
-    
-        z-index: -1;
+      content: '';
+      position: absolute;
+      background: linear-gradient(120deg, #C497FF 30%, #9947FF 100%);
+  
+      width: 100%;
+      height: 100%;
+      padding: 8px;
+  
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+      border-radius: 1.6rem;
+  
+      z-index: -1;
     }
-}
-
-header {
+  }
+  
+  .container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 3.6rem;
+  
+    max-width: 65.4rem;
+  }
+  
+  header {
+    display: flex;
     justify-content: space-between;
-
-    width: 100%;
-
+    align-items: center;
+  
     button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  
+      padding: 0.8rem 1.6rem;
+  
+      border-radius: 4px;
+  
+      background: var(--gradient);
+  
+      color: var(--white);
+      line-height: 125%;
 
-        color: white;
-
-        padding: 0.8rem 1.6rem;
-
-        border-radius: 4px;
-        border: none;
-        background: linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%);
-        
-        cursor: pointer;
-
-        &:hover {
+      &:hover {
             background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
         }
     }
-}
-
-main {
+  }
+  
+  .movies {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3.6rem;
-    color: var(--white);
-
+    gap: 3.4rem;
+  
     .movie {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-width: 19.4rem;
+  
+      .title, .title div, .duration, .year, button {
         display: flex;
-        flex-direction: column;
         align-items: center;
+      }
+  
+      .title, .info {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      .title {
+        span {
+          max-width: 14rem;
+          overflow: hidden;
+          color: var(--white);
+          text-overflow: ellipsis; /* Isso que aplica a reticências no texto */
+          white-space: nowrap; /* Impede que o texto extenda para outra linha */
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 100%; /* 20px */
+        }
+  
+        > div {
+          color: var(--yellow);
+          font-weight: 600;
+          line-height: 90.049%; /* 14.408px */
+        }
+      }
+  
+      .poster {
+        img {
+          width: 19.4rem;
+          height: 28.9rem;
+        }
+      }
+  
+      .duration, .year {
+        gap: 4px;
+        color: var(--light-grey);
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 166.667%; /* 20px */
+      }
+  
+      button {
+        display: flex;
+        width: 19.4rem;
+        padding: 0.8rem 1.6rem;
         justify-content: center;
+        align-items: center;
+        gap: 8px;
+  
+        border-radius: 4px;
+        background: var(--grey);
+      
+        color: var(--white);
+        font-weight: 400;
+        line-height: 125%; /* 20px */
 
-        max-width: 19.4rem;
-
-        .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            width: 100%;
-
-            margin-bottom: 1.2rem;
-
-            .title {
-                font-size: 2rem;
-                font-weight: 500;
-                overflow: hidden;
-                text-overflow: ellipsis; /* Isso que aplica as reticências no texto */
-                white-space: nowrap; /* Impede que o texto extenda para outra linha */
-            }
-
-            .rating {
-                display: flex;
-                align-items: center;
-
-                p {
-                    color: var(--yellow);
-                    font-weight: 600;
-                    line-height: 90.049%; /* 14.408px */
-                }
-            }
+        &:hover {
+            background: var(--mid-grey);
         }
-
-        .cover {
-            cursor: pointer;
-            img {
-                width: 19.4rem;
-                height: 28.9rem;
-            }
-        }
-
-        .details {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-
-            margin-block: 0.8rem;
-
-            .duration, .release-date {
-                display: flex;
-                align-items: center;
-                gap: 0.4rem;
-
-                color: var(--light-grey);
-            }
-        }
-
-        .trailer {
-            display: flex;
-            padding: 0.8rem 1.6rem;
-            justify-content: center;
-            align-items: center;
-            gap: 0.8rem;
-            
-            width: 100%;
-
-            color: var(--white);
-
-            border-radius: 0.4rem;
-            background: var(--grey);
-            border: none;
-
-            cursor: pointer;
-
-            &:hover {
-                background: var(--mid-grey);
-            }
-        }
+      }
     }
-}
+  }

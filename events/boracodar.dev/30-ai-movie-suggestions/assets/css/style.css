@@ -17,13 +17,18 @@
   --mid-grey: #373745;
   --light-grey: #8B8D9B;
   --white: #FFFFFF;
+  --gradient: linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%);
+  --gradient-hover: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
 }
 
 body {
-  background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 100vh;
+  color: var(--white);
+  background: var(--gradient-hover);
 }
 
 body * {
@@ -31,10 +36,14 @@ body * {
   font-size: 1.6rem;
 }
 
-#app {
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   gap: 3.6rem;
   padding: 6.4rem 9.6rem;
@@ -42,8 +51,9 @@ body * {
   background: var(--dark-grey);
   box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
   position: relative;
+  /* Before to create a border */
 }
-#app::before {
+.card::before {
   content: "";
   position: absolute;
   background: linear-gradient(120deg, #C497FF 30%, #9947FF 100%);
@@ -57,98 +67,89 @@ body * {
   z-index: -1;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  max-width: 65.4rem;
+}
+
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
 }
 header button {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  color: white;
+  gap: 8px;
   padding: 0.8rem 1.6rem;
   border-radius: 4px;
-  border: none;
-  background: linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%);
-  cursor: pointer;
+  background: var(--gradient);
+  color: var(--white);
+  line-height: 125%;
 }
 header button:hover {
   background: linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%);
 }
 
-main {
+.movies {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3.6rem;
-  color: var(--white);
+  gap: 3.4rem;
 }
-main .movie {
+.movies .movie {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  gap: 8px;
   max-width: 19.4rem;
 }
-main .movie .header {
+.movies .movie .title, .movies .movie .title div, .movies .movie .duration, .movies .movie .year, .movies .movie button {
   display: flex;
   align-items: center;
+}
+.movies .movie .title, .movies .movie .info {
+  display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 1.2rem;
 }
-main .movie .header .title {
-  font-size: 2rem;
-  font-weight: 500;
+.movies .movie .title span {
+  max-width: 14rem;
   overflow: hidden;
-  text-overflow: ellipsis; /* Isso que aplica as reticências no texto */
+  color: var(--white);
+  text-overflow: ellipsis; /* Isso que aplica a reticências no texto */
   white-space: nowrap; /* Impede que o texto extenda para outra linha */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
 }
-main .movie .header .rating {
-  display: flex;
-  align-items: center;
-}
-main .movie .header .rating p {
+.movies .movie .title > div {
   color: var(--yellow);
   font-weight: 600;
   line-height: 90.049%; /* 14.408px */
 }
-main .movie .cover {
-  cursor: pointer;
-}
-main .movie .cover img {
+.movies .movie .poster img {
   width: 19.4rem;
   height: 28.9rem;
 }
-main .movie .details {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-block: 0.8rem;
-}
-main .movie .details .duration, main .movie .details .release-date {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
+.movies .movie .duration, .movies .movie .year {
+  gap: 4px;
   color: var(--light-grey);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 166.667%; /* 20px */
 }
-main .movie .trailer {
+.movies .movie button {
   display: flex;
+  width: 19.4rem;
   padding: 0.8rem 1.6rem;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem;
-  width: 100%;
-  color: var(--white);
-  border-radius: 0.4rem;
+  gap: 8px;
+  border-radius: 4px;
   background: var(--grey);
-  border: none;
-  cursor: pointer;
+  color: var(--white);
+  font-weight: 400;
+  line-height: 125%; /* 20px */
 }
-main .movie .trailer:hover {
+.movies .movie button:hover {
   background: var(--mid-grey);
 }/*# sourceMappingURL=style.css.map */
