@@ -110,7 +110,11 @@ main .movie .header .title {
 main .movie .header .rating {
   display: flex;
   align-items: center;
+}
+main .movie .header .rating p {
   color: var(--yellow);
+  font-weight: 600;
+  line-height: 90.049%; /* 14.408px */
 }
 main .movie .cover {
   cursor: pointer;
