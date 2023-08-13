@@ -134,7 +134,11 @@ main {
                 display: flex;
                 align-items: center;
 
-                color: var(--yellow);
+                p {
+                    color: var(--yellow);
+                    font-weight: 600;
+                    line-height: 90.049%; /* 14.408px */
+                }
             }
         }
 
