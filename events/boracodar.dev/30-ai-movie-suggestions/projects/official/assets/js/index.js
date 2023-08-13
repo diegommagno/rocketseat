@@ -2,6 +2,7 @@
 https://developer.themoviedb.org/reference/movie-popular-list
 */
 
+/* Clicar em Popular, troca para JavaScript e clica para gerar, coloca aqui e cria um try catch com o fetch */
 async function getMovies() {
   const options = {
     method: 'GET',
