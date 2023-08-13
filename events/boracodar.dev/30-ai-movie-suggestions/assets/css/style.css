@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.6rem;
   width: 100%;
   height: 100vh;
   color: var(--white);
@@ -33,7 +34,6 @@ body {
 
 body * {
   font-family: "Outfit", sans-serif;
-  font-size: 1.6rem;
 }
 
 button {
@@ -86,6 +86,7 @@ header button {
   padding: 0.8rem 1.6rem;
   border-radius: 4px;
   background: var(--gradient);
+  font-size: 1.6rem;
   color: var(--white);
   line-height: 125%;
 }
@@ -147,6 +148,7 @@ header button:hover {
   border-radius: 4px;
   background: var(--grey);
   color: var(--white);
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 125%; /* 20px */
 }
