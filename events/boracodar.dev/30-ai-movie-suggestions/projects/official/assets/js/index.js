@@ -132,7 +132,7 @@ function selectThreeVideos(results) {
   let selectedVideos = new Set() // Set é um array que não aceita valores repetidos, por exemplo, se fizer um .add nele e colocar 12 e depois .add de novo e colocar 12, vai ter somente um 12 e não dois.
 
   while(selectedVideos.size < 3) {
-    selectedVideos.add(results[random()].id)
+    selectedVideos.add(results[random()].id) // Results são todas as informações do filme, por isso pega o id.
     /* Desestruturado para que retorne um array com 3 ids */
     /* Enquanto o tamanho do selectedVideos for menor que 3, vai adicionar um número aleatório no selectedVideos */
   } 
@@ -155,13 +155,14 @@ function minutesToHoursMinutesAndSeconds(minutes) {
 
 async function start() {
 
-  /* Pegar as sugestões de filmes da API */
+  /* Pegar as sugestões de filmes populares da API */
   const { results } = await getMovies()
 
   /* Pegar randomicamente 3 filmes para sugestão */
   const bestOfThree = selectThreeVideos(results)
   .map(async movie => {
     /* Pegar informações extras dos três filmes */
+    /* Aqui já temos o id do filme que foi obtivo pela selectThreeVideos */
     /* O selectThreeVideos vai retornar um array e estou passando um map, então ele vai fazer um novo array nesse bestOfThree. Precisa retornar algo, vou retornar o uso do createMovieLayout*/
     const info = await getMoreInfo(movie)
 
