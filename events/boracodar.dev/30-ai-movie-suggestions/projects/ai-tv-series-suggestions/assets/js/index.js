@@ -51,11 +51,11 @@ async function getMoreInfo(id) {
    https://api.themoviedb.org/3/movie/{movie_id}/videos 
 */
 
-function createMovieLayout({id, title, rating, poster, time, year}) {
+function createTvSeriesLayout({id, name, rating, poster, year}) {
     return `
     <div class="movie">
-        <div class="title">
-        <span>${title}</span>
+        <div class="name">
+        <span>${name}</span>
         
         <div>
             <img src="./assets/icons/star.svg" alt="">
@@ -64,14 +64,14 @@ function createMovieLayout({id, title, rating, poster, time, year}) {
         </div>
 
         <div class="poster">
-            <img src="https://image.tmdb.org/t/p/w500${poster}" alt="${title} Poster">
+            <img src="https://image.tmdb.org/t/p/w500${poster}" alt="${name} Poster">
         </div>
 
         <div class="info">
         <div class="duration">
             <img src="./assets/icons/clock.svg" alt="">
         
-            <span>${time}</span>
+            <span>Seasons</span>
         </div>
 
         <div class="year">
@@ -125,7 +125,7 @@ function minutesToHoursMinutesAndSeconds(minutes) {
 async function start() {
 
   /* Pegar as sugestões de filmes populares da API */
-  const { results } = await getMovies()
+  const { results } = await getTvSeries()
 
   /* Pegar randomicamente 3 filmes para sugestão */
   const bestOfThree = selectThreeVideos(results)
@@ -138,14 +138,14 @@ async function start() {
   /* Organizar os dados para... (o de baixo, substituir o conteúdo dos movies no HTML) - organizar os dados que preciso de todos os dados que vem */
     const props = {
       id: info.id,
-      title: info.title,
+      name: info.name,
       rating: Number(info.vote_average).toFixed(1),
       poster: info.poster_path,
       time: minutesToHoursMinutesAndSeconds(info.runtime),
-      year: info.release_date.split('-')[0] /* Ou .slice(0, 4), tirando os 4 últimos caracteres */
+      year: info.first_air_date.split('-')[0] /* Ou .slice(0, 4), tirando os 4 últimos caracteres */
     }
 
-    return createMovieLayout(props)
+    return createTvSeriesLayout(props)
     /* Retorno o uso do createMovieLayout passando as props que quero para ele */
     /* Isso deve retornar um objeto com todas as informações e usa as informações em cada lugar do HTML */
   })
