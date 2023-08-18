@@ -18,11 +18,12 @@
   /* Feedback */
   --success: #04D361;
   --danger: #FF8F8F;
-  /* Degrade */
-  --success: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
+  /* gradient */
+  --gradient: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
 }
 
 body {
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.6rem;
   width: 100vw;
   height: 100vh;
@@ -30,4 +31,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }/*# sourceMappingURL=style.css.map */
