@@ -39,4 +39,47 @@ body {
   display: flex;
   align-items: center;
   gap: 3.2rem;
+}
+
+.ticket-generation {
+  max-width: 49rem;
+}
+.ticket-generation h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 52px */
+  text-transform: uppercase;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ticket-generation .wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 38.4rem;
+}
+.ticket-generation .wrapper span {
+  color: var(--gray-light);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  text-transform: uppercase;
+}
+.ticket-generation .wrapper input {
+  display: flex;
+  padding: 16px 12px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--gray-light, #F3F4FE);
+  color: var(--gray-dark);
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
