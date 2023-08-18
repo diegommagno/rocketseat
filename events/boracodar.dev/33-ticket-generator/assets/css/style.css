@@ -82,4 +82,42 @@ body {
   font-weight: 400;
   line-height: 160%; /* 22.4px */
   width: 100%;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+  width: 26.6rem;
+  padding: 1.6rem;
+}
+.ticket .ticket-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+.ticket .ticket-header img {
+  width: 127px;
+  height: 128px;
+  border-radius: 63.5px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.ticket .ticket-header .level {
+  color: var(--purple-normal);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 125%; /* 15px */
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+}
+.ticket .ticket-header .name {
+  color: var(--gray-dark);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 125%; /* 20px */
 }/*# sourceMappingURL=style.css.map */
