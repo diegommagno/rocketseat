@@ -86,10 +86,15 @@ body {
 
 .ticket {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background: var(--white);
-  width: 26.6rem;
+  width: 61.3rem;
+  height: 31.8rem;
+}
+.ticket img:nth-child(1) {
+  background: red;
+}
+.ticket .wrapper {
   padding: 1.6rem;
 }
 .ticket .ticket-header {
@@ -97,6 +102,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 0.9rem;
+  margin-bottom: 3.6rem;
 }
 .ticket .ticket-header img {
   width: 127px;
@@ -120,4 +126,28 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 125%; /* 20px */
+}
+.ticket .ticket-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.1rem;
+}
+.ticket .ticket-body .event-name, .ticket .ticket-body .date, .ticket .ticket-body .hour {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 160%; /* 16px */
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}
+.ticket .ticket-body .event-name span:nth-child(1), .ticket .ticket-body .date span:nth-child(1), .ticket .ticket-body .hour span:nth-child(1) {
+  font-weight: 500;
+}
+.ticket .ticket-body .event-name span:nth-child(2), .ticket .ticket-body .date span:nth-child(2), .ticket .ticket-body .hour span:nth-child(2) {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
