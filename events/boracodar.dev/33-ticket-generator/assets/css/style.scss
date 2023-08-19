@@ -142,11 +142,11 @@ body {
             margin-bottom: 3.6rem;
     
     
-            img {
-                width: 127px;
-                height: 128px;
-                border-radius: 63.5px;
-                background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+            #img-avatar {
+                width: 12.7rem;
+                height: 12.8rem;
+                border-radius: 50%;
+                background: url(../img/img-avatar.png) no-repeat center/cover;
             }
     
             .level {
