@@ -90,6 +90,19 @@ body {
   background: var(--white);
   width: 61.3rem;
   height: 31.8rem;
+  position: relative;
+}
+.ticket::before {
+  content: "";
+  position: absolute;
+  background: url(../img/bg-card-ticket.svg) no-repeat center/cover;
+  width: 100%;
+  height: 100%;
+  padding: 4.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .ticket img:nth-child(1) {
   background: red;
