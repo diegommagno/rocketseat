@@ -97,6 +97,28 @@ body {
     
             width: 100%;
         }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            align-self: stretch;
+
+            padding: 2.2rem 4rem;
+
+            border: none;
+
+            background: var(--purple-normal);
+
+            color: var(--white);
+            font-family: Roboto;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            cursor: pointer;
+        }
     }
 }
 
