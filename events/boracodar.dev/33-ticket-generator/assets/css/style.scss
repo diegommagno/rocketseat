@@ -113,72 +113,75 @@ body {
     }
 
     .wrapper {
-     padding: 1.6rem;
+        padding: 1.6rem;
 
-    }
-    .ticket-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.9rem;
-
-        margin-bottom: 3.6rem;
-
-
-        img {
-            width: 127px;
-            height: 128px;
-            border-radius: 63.5px;
-            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-        }
-
-        .level {
-            color: var(--purple-normal);
-            text-align: center;
-            font-size: 1.2rem;
-            font-weight: 500;
-            line-height: 125%; /* 15px */
-            letter-spacing: 1.26px;
-            text-transform: uppercase;
-        }
-
-        .name {
-            color: var(--gray-dark);
-            text-align: center;
-            font-family: Roboto;
-            font-size: 1.6rem;
-            font-weight: 700;
-            line-height: 125%; /* 20px */
-        }
-    }
-
-    .ticket-body {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-
-        margin-bottom: 1.1rem;
-
-        .event-name, .date, .hour {
+        .ticket-header {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
-            text-transform: uppercase;
-
-            color: var(--gray-dark);
-            font-size: 1rem;
-            font-style: normal;
-            line-height: 160%; /* 16px */
-            letter-spacing: 1.05px;
-            text-transform: uppercase;
-
-            span:nth-child(1) {
-                font-weight: 500;
+            gap: 0.9rem;
+    
+            margin-bottom: 3.6rem;
+    
+    
+            img {
+                width: 127px;
+                height: 128px;
+                border-radius: 63.5px;
+                background: url(<path-to-image>), lightgray 50% / cover no-repeat;
             }
-
-            span:nth-child(2) {
+    
+            .level {
+                color: var(--purple-normal);
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: 500;
+                line-height: 125%; /* 15px */
+                letter-spacing: 1.26px;
+                text-transform: uppercase;
+            }
+    
+            .name {
+                color: var(--gray-dark);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 1.6rem;
                 font-weight: 700;
+                line-height: 125%; /* 20px */
+            }
+        }
+
+        .ticket-body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+    
+            margin-bottom: 1.1rem;
+    
+            .event-name, .date, .hour {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-transform: uppercase;
+    
+                color: var(--gray-dark);
+                font-size: 1rem;
+                font-style: normal;
+                line-height: 160%; /* 16px */
+                letter-spacing: 1.05px;
+                text-transform: uppercase;
+    
+                span:nth-child(1) {
+                    font-weight: 500;
+                }
+    
+                span:nth-child(2) {
+                    font-weight: 700;
+                }
             }
         }
     }
 }
+    
+
+    

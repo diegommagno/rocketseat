@@ -97,20 +97,20 @@ body {
 .ticket .wrapper {
   padding: 1.6rem;
 }
-.ticket .ticket-header {
+.ticket .wrapper .ticket-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.9rem;
   margin-bottom: 3.6rem;
 }
-.ticket .ticket-header img {
+.ticket .wrapper .ticket-header img {
   width: 127px;
   height: 128px;
   border-radius: 63.5px;
   background: url(<path-to-image>), lightgray 50%/cover no-repeat;
 }
-.ticket .ticket-header .level {
+.ticket .wrapper .ticket-header .level {
   color: var(--purple-normal);
   text-align: center;
   font-size: 1.2rem;
@@ -119,7 +119,7 @@ body {
   letter-spacing: 1.26px;
   text-transform: uppercase;
 }
-.ticket .ticket-header .name {
+.ticket .wrapper .ticket-header .name {
   color: var(--gray-dark);
   text-align: center;
   font-family: Roboto;
@@ -127,13 +127,13 @@ body {
   font-weight: 700;
   line-height: 125%; /* 20px */
 }
-.ticket .ticket-body {
+.ticket .wrapper .ticket-body {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-bottom: 1.1rem;
 }
-.ticket .ticket-body .event-name, .ticket .ticket-body .date, .ticket .ticket-body .hour {
+.ticket .wrapper .ticket-body .event-name, .ticket .wrapper .ticket-body .date, .ticket .wrapper .ticket-body .hour {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -145,9 +145,9 @@ body {
   letter-spacing: 1.05px;
   text-transform: uppercase;
 }
-.ticket .ticket-body .event-name span:nth-child(1), .ticket .ticket-body .date span:nth-child(1), .ticket .ticket-body .hour span:nth-child(1) {
+.ticket .wrapper .ticket-body .event-name span:nth-child(1), .ticket .wrapper .ticket-body .date span:nth-child(1), .ticket .wrapper .ticket-body .hour span:nth-child(1) {
   font-weight: 500;
 }
-.ticket .ticket-body .event-name span:nth-child(2), .ticket .ticket-body .date span:nth-child(2), .ticket .ticket-body .hour span:nth-child(2) {
+.ticket .wrapper .ticket-body .event-name span:nth-child(2), .ticket .wrapper .ticket-body .date span:nth-child(2), .ticket .wrapper .ticket-body .hour span:nth-child(2) {
   font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
