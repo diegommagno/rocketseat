@@ -59,12 +59,12 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 38.4rem;
+  gap: 1.6rem;
 }
 .ticket-generation .wrapper span {
   color: var(--gray-light);
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 400;
   line-height: 160%; /* 32px */
   text-transform: uppercase;
 }
