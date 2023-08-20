@@ -45,15 +45,14 @@ body {
   max-width: 49rem;
 }
 .ticket-generation h1 {
-  font-size: 40px;
+  font-size: 4rem;
   font-style: normal;
-  font-weight: 400;
   line-height: 130%; /* 52px */
   text-transform: uppercase;
   background: var(--gradient);
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .ticket-generation .wrapper {
   display: flex;
@@ -68,18 +67,24 @@ body {
   line-height: 160%; /* 32px */
   text-transform: uppercase;
 }
-.ticket-generation .wrapper input {
+.ticket-generation .wrapper .input-wrapper {
+  position: relative;
+}
+.ticket-generation .wrapper .input-wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 1.2rem;
+  transform: translateY(-50%);
+}
+.ticket-generation .wrapper .input-wrapper input {
   display: flex;
-  padding: 16px 12px;
+  padding: 1.6rem 1.2rem 1.6rem 4.4rem;
   align-items: center;
-  gap: 12px;
-  align-self: stretch;
+  gap: 1.2rem;
   background: var(--gray-light, #F3F4FE);
-  color: var(--gray-dark);
   font-family: "Roboto";
+  color: var(--gray-dark);
   font-size: 1.4rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: 160%; /* 22.4px */
   width: 100%;
 }

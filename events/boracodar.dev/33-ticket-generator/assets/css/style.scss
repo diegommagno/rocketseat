@@ -53,16 +53,15 @@ body {
     max-width: 49rem;
 
     h1 {
-        font-size: 40px;
+        font-size: 4rem;
         font-style: normal;
-        font-weight: 400;
         line-height: 130%; /* 52px */
         text-transform: uppercase;
 
         background: var(--gradient);
+        -webkit-text-fill-color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     .wrapper {
@@ -80,22 +79,30 @@ body {
             text-transform: uppercase;
         }
     
-        input {
-            display: flex;
-            padding: 16px 12px;
-            align-items: center;
-            gap: 12px;
-            align-self: stretch;
-            background: var(--gray-light, #F3F4FE);
-    
-            color: var(--gray-dark);
-            font-family: "Roboto";
-            font-size: 1.4rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 160%; /* 22.4px */
-    
-            width: 100%;
+        .input-wrapper {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 1.2rem;
+                transform: translateY(-50%);
+            }
+
+            input {
+                display: flex;
+                padding: 1.6rem 1.2rem 1.6rem 4.4rem;
+                align-items: center;
+                gap: 1.2rem;
+                background: var(--gray-light, #F3F4FE);
+        
+                font-family: "Roboto";
+                color: var(--gray-dark);
+                font-size: 1.4rem;
+                line-height: 160%; /* 22.4px */
+        
+                width: 100%;
+            }
         }
 
         button {
