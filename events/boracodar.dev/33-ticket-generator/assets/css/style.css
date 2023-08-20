@@ -98,6 +98,10 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+  transition: background 0.2s;
+}
+.ticket-generation .wrapper button:hover {
+  background: var(--purple-dark);
 }
 
 .ticket {
