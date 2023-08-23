@@ -101,6 +101,20 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
 }
+.ticket-generation .wrapper #ticket-success {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.ticket-generation .wrapper #ticket-success span {
+  color: var(--gray-light, #F3F4FE);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  text-transform: uppercase;
+}
 .ticket-generation .wrapper button {
   display: flex;
   justify-content: center;
