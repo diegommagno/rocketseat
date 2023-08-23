@@ -1,13 +1,14 @@
-const input = document.querySelector('.input-wrapper');
+const usernameInput = document.querySelector('.input-wrapper');
 const span = document.querySelector('.ticket-generation .wrapper span');
-const ticketSuccess = document.querySelector('.ticket-success');
+const btnTicketSuccess = document.querySelector('.ticket-success');
+
 
 const newBgImg = 'https://github.com/diegommagno.png';
 
 const newTicket = () => {
-    input.classList.add('hide');
+    usernameInput.classList.add('hide');
     span.classList.add('hide');
-    ticketSuccess.classList.remove('hide');
+    btnTicketSuccess.classList.remove('hide');
 
     const avatarImage = document.querySelector('.ticket #img-avatar');
     if (avatarImage) {
