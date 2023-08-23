@@ -91,6 +91,16 @@ body {
   line-height: 160%; /* 22.4px */
   width: 100%;
 }
+.ticket-generation .wrapper .input-wrapper input::-moz-placeholder {
+  color: var(--gray-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+.ticket-generation .wrapper .input-wrapper input::placeholder {
+  color: var(--gray-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
 .ticket-generation .wrapper button {
   display: flex;
   justify-content: center;

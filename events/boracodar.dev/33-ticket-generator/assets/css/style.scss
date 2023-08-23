@@ -106,6 +106,12 @@ body {
                 line-height: 160%; /* 22.4px */
         
                 width: 100%;
+
+                &::placeholder {
+                    color: var(--gray-dark);
+                    font-family: "Roboto", sans-serif;
+                    font-size: 1.4rem;
+                }
             }
         }
 
