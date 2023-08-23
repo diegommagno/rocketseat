@@ -49,6 +49,7 @@ body {
   font-style: normal;
   line-height: 130%; /* 52px */
   text-transform: uppercase;
+  margin-bottom: 3.2rem;
   background: var(--gradient);
   -webkit-text-fill-color: transparent;
   background-clip: text;
