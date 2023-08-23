@@ -41,6 +41,10 @@ body {
   gap: 3.2rem;
 }
 
+.hide {
+  display: none;
+}
+
 .ticket-generation {
   width: 49rem;
 }
@@ -101,13 +105,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
 }
-.ticket-generation .wrapper #ticket-success {
+.ticket-generation .wrapper .ticket-success .wrapper {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 1.6rem;
 }
-.ticket-generation .wrapper #ticket-success span {
-  color: var(--gray-light, #F3F4FE);
+.ticket-generation .wrapper .ticket-success .wrapper span {
+  color: var(--gray-light);
   font-family: "Space Grotesk", sans-serif;
   font-size: 2rem;
   font-style: normal;
