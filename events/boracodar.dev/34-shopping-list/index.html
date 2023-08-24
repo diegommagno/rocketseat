@@ -11,13 +11,78 @@
   <title>Shopping List</title>
 
   <link rel="stylesheet" href="./assets/css/style.css">
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <script src="./assets/js/index.js" defer></script>
+
+  <!-- Development version -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Production version -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
 </head>
 <body>
-  <div id="header-bg">.</div>
+  <div id="header-bg"></div>
   <div id="app">
-    
+    <header>
+      <h1>Lista de Compras</h1>
+
+      <div class="input-wrapper">
+        <label for="item">Item</label>
+        <input type="text" id="item">
+      </div>
+
+      <div class="drop-down-area">
+        <div class="input-wrapper">
+          <label for="amount">Quantidade</label>
+          <span>1</span>
+          <select id="amount">
+            <option value="" disabled selected>Un.</option>
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+            <!-- Add more items as needed -->
+        </select>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="category">Categoria</label>
+          <span>1</span>
+          <select id="amount">
+            <option value="" disabled selected>Selectione</option>
+            <option value="item1">Item 1</option>
+            <option value="item2">Item 2</option>
+            <option value="item3">Item 3</option>
+            <!-- Add more items as needed -->
+        </select>
+        </div>
+
+        <button>+</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="list-item">
+        <div class="wrapper">
+          <label for="checkbox">Checkbox Label</label>
+          <input type="checkbox" id="checkbox" name="checkbox">
+
+          <div class="wrapper">
+            <span>Maça</span>
+            <span>2 unidades</span>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-apple"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
+
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.33325 9.99998C8.33325 9.07951 9.07944 8.33331 9.99992 8.33331C10.9204 8.33331 11.6666 9.07951 11.6666 9.99998C11.6666 10.9205 10.9204 11.6666 9.99992 11.6666C9.07944 11.6666 8.33325 10.9205 8.33325 9.99998Z" fill="#A881E6"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.33325 4.16667C8.33325 3.24619 9.07944 2.5 9.99992 2.5C10.9204 2.5 11.6666 3.24619 11.6666 4.16667C11.6666 5.08714 10.9204 5.83333 9.99992 5.83333C9.07944 5.83333 8.33325 5.08714 8.33325 4.16667Z" fill="#A881E6"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.33325 15.8334C8.33325 14.9129 9.07944 14.1667 9.99992 14.1667C10.9204 14.1667 11.6666 14.9129 11.6666 15.8334C11.6666 16.7538 10.9204 17.5 9.99992 17.5C9.07944 17.5 8.33325 16.7538 8.33325 15.8334Z" fill="#A881E6"/>
+          </svg>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 </html>
