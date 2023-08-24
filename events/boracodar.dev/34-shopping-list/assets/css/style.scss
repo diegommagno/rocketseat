@@ -8,6 +8,37 @@
 
 :root {
     font-size: 62.5%;
+
+    /* Produto */
+    --purple-light: #A881E6;
+    --purple: #7450AC;
+    --purple-dark: #523480;
+
+    /* Base */
+    --grey-100: #FBF9FE;
+    --grey-200: #AFABB6;
+    --grey-300: #252529;
+    --grey-400: #17171A;
+    --grey-500: #111112;
+    --grey-600: #0C0C0D;
+
+    /* Feedback */
+    --success-light: #4E995E;
+    --success: #2F723D;
+
+    /* Cores de Apoio */
+    --pink: #DB5BBF;
+    --orange: #E07B67;
+    --yellow: #BB9F3A;
+    --green: #8CAD51;
+    --blue: #7B94CB;
+    --pink-dark: #251622;
+    --orange-dark: #261A17;
+    --yellow-dark: #211E12;
+    --green-dark: #1C2015;
+    --blue-dark: #1A1D23;
+
+
 }
 
 body {
