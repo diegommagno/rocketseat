@@ -18,4 +18,9 @@ const newTicket = () => {
     if (updateTicketName) {
         updateTicketName.textContent = 'diegommagno';
     }
+
+    const btnGenerateTicket = document.querySelector('.ticket-generation .wrapper button');
+    if (btnGenerateTicket) {
+        btnGenerateTicket.textContent = 'Fazer Download';
+    }
 }
