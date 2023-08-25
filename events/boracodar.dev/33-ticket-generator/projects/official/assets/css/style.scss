@@ -8,8 +8,36 @@
 
 :root {
   font-size: 62.5%;
+
+   /* Produto */
+   --purple-normal: #8860E6;
+   --purple-dark: #5B409B;
+
+   /* Base */
+   --grey-dark: #202024;
+   --grey-light: #F3F4FE;
+   --white: #FFFFFF;
+
+   /* Feedback */
+   --success: #04D361;
+   --danger: #FF8F8F;
+
+   /* gradient */
+   --gradient: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
 }
 
 body {
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 1.6rem;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url('../img/img-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: var(--grey-light);
+
+  justify-content: center;
 }
