@@ -61,6 +61,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  max-width: 35rem;
   margin-bottom: 3.2rem;
 }
 .content label {
@@ -154,7 +155,7 @@ body {
 .ticket .info {
   display: flex;
   flex-direction: column;
-  padding: 1.6rem;
+  padding: 1.5rem;
   background: var(--grey-light);
   color: var(--grey-dark);
 }
@@ -190,4 +191,22 @@ body {
   width: 12.7rem;
   height: 12.8rem;
   border-radius: 6.3rem;
+}
+.ticket .info .event-ticket-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.ticket .info .event-ticket-info span {
+  color: var(--grey-dark);
+  font-family: Space Grotesk;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 160% */
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}
+.ticket .info .event-ticket-info span:nth-child(2) {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
