@@ -120,14 +120,34 @@ body {
   }
 
   #error { 
-    color: var(--danger, #FF8F8F);
-
     font-family: 'Roboto', sans-serif;
+    color: var(--danger);
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 28.8px */
 
     display: none;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 2.2rem 4rem;
+    align-self: stretch;
+    background: var(--purple-normal);
+    cursor: pointer;
+
+    color: var(--white);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
   }
 }
