@@ -52,7 +52,7 @@ body {
 }
 .content h1 {
   font-family: Space Grotesk;
-  font-size: 40px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 52px */
@@ -109,8 +109,8 @@ body {
   line-height: 160%;
 }
 .content #error {
-  color: var(--danger, #FF8F8F);
   font-family: "Roboto", sans-serif;
+  color: var(--danger);
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
@@ -119,5 +119,75 @@ body {
 }
 .content button {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   padding: 2.2rem 4rem;
+  align-self: stretch;
+  background: var(--purple-normal);
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.ticket {
+  display: flex;
+  background-image: url("../img/bg-card-ticket.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 69.4rem;
+  height: 40.9rem;
+}
+.ticket .ticket-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem;
+}
+.ticket .info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+.ticket .info .user-ticket-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 3.6rem;
+}
+.ticket .info .user-ticket-info span {
+  color: var(--purple-normal);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 15px */
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+}
+.ticket .info .user-ticket-info h1 {
+  color: var(--grey-dark);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 20px */
+}
+.ticket .info .user-ticket-info img {
+  width: 12.7rem;
+  height: 12.8rem;
+  border-radius: 6.3rem;
 }/*# sourceMappingURL=style.css.map */
