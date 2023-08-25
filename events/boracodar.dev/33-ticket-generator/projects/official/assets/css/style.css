@@ -32,4 +32,13 @@ body {
   background-size: cover;
   color: var(--grey-light);
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 3.2rem;
 }/*# sourceMappingURL=style.css.map */

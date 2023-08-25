@@ -41,3 +41,12 @@ body {
 
   justify-content: center;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 3.2rem;
+}
