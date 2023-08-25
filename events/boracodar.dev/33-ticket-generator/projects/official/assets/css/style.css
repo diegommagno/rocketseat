@@ -67,9 +67,53 @@ body {
   color: var(--grey-light);
   /* Headline-20 */
   font-family: Space Grotesk;
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 32px */
   text-transform: uppercase;
+}
+.content .input {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: var(--grey-light);
+  padding: 1.6rem 1.2rem;
+}
+.content input {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--grey-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  background: var(--grey-light);
+}
+.content input::-moz-placeholder {
+  color: var(--grey-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.content input::placeholder {
+  color: var(--grey-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.content #error {
+  color: var(--danger, #FF8F8F);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  display: none;
 }/*# sourceMappingURL=style.css.map */
