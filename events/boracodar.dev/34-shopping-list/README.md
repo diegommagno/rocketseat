@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1273622271836473382/Gerador-de-Ticket---Desafio-33). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1276169043084346929/Lista-de-Compras-%E2%80%A2-Desafio-34). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
