@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1266028958590001589). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1268564660141195165). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
