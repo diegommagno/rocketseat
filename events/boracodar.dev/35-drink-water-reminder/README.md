@@ -1,4 +1,4 @@
-<h1 align="center"> Shopping List </h1>
+<h1 align="center">Drink Water Reminder</h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Shopping List](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Drink Water Reminder](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
 
 <br/>
 
