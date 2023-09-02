@@ -16,8 +16,42 @@ body {
     font-size: 1.6rem;
     color: var(--primary-color);
 
-        background-image: url('../img/old-paper-texture.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    background-image: url('../img/old-paper-texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3.7rem;
+
+    margin: 5.3rem 3.7rem; 
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    gap: 4.6rem;
+
+    p {
+        color: #A54328;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Source Serif Pro;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+h2 {
+    font-family: Source Serif Pro;
+    font-size: 2.8rem;
+    font-weight: 700;
+    leading-trim: both;
+    text-edge: cap;
 }
