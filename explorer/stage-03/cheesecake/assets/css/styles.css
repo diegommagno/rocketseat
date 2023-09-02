@@ -13,4 +13,9 @@
 
 body {
   font-size: 1.6rem;
+  color: var(--primary-color);
+  background-image: url("../img/old-paper-texture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=styles.css.map */
