@@ -8,6 +8,13 @@
 
 :root {
   font-size: 62.5%;
+  --blue: #7FC4ED;
+  --blue-dark: #659ABA;
+  --grey-500: #0F0E13;
+  --grey-400: #1D1B26;
+  --grey-300: #282533;
+  --grey-200: #322F40;
+  --grey-100: #FBF9FE;
 }
 
 body {
