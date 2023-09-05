@@ -35,8 +35,10 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
+- JavaScript
 - SCSS
+- API
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`, `variables`, `cursor`
+- CSS: `flex`, `grid`, `rem`, `variables`, `cursor`, `::before`, `> div`, `API Connection`, `Async`, `try/catch`, `map`
