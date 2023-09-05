@@ -50,6 +50,17 @@
 - [22 - Profile Settings](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/22-profile-settings)
 - [23 - Multi Step Form](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/23-multi-step-form)
 - [24 - Light Adjustments](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/24-light-adjustments)
+- [25 - VR Player](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/25-vr-player)
+- [26 - Receita Junina](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/26-receita-junina)
+- [27 - 404 Page not found](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/27-404-page-not-found)
+- [28 - AI Platform](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/28-ai-platform)
+- [29 - Before and after AI](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/29-before-and-after-ai)
+- [30 - AI Movie Suggestions](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/30-ai-movie-suggestions)
+- [31 - AI YouTube Transcription](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/31-ai-youtube-transcription)
+- [32 - AI SQL App Translation](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/32-ai-sql-app-translation)
+- [33 - Ticket Generator](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/33-ticket-generator)
+- [34 - Shopping List](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/34-shopping-list)
+- [35 - Drink Water Reminder](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/35-drink-water-reminder)
 
 ##### Explorer Marathon
 - [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
