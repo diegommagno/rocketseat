@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [AI SQL App Translation](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [AI SQL App Translation](https://dmm.studio/github/rocketseat/events/boracodar.dev/32-ai-sql-app-translation)
 
 <br/>
 
