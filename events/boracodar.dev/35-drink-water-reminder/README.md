@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Drink Water Reminder](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Drink Water Reminder](https://dmm.studio/github/rocketseat/events/boracodar.dev/35-drink-water-reminder)
 
 <br/>
 
