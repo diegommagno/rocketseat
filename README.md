@@ -61,6 +61,7 @@ Starter course: HTML, CSS, JavaScript.
 
 ### Level 2 Projects - HTML + CSS + JavaScript
 
+- [AI Movie Suggestions (Using an API)](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/30-ai-movie-suggestions)
 - [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
 - [NLW eSports Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
 - [NLW Spacetime Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
