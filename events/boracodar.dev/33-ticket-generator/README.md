@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Ticket Generator](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Ticket Generator](https://dmm.studio/github/rocketseat/events/boracodar.dev/33-ticket-generator)
 
 <br/>
 
