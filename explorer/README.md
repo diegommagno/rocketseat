@@ -31,6 +31,7 @@ List showing the projects and challenges developed during the Explorer course.
 - [Project 05 - Space Cream Mobile](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
 - [Project 06 - Space Cream Desktop - Mobile first](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update)
 - [Project 07 - Portfolio Cards](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/portfolio-cards)
+- [Project 08 - Cheesecake](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/cheesecake)
 
 
 ### Stage 04
