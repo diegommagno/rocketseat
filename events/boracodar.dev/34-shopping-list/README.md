@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Shopping List](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Shopping List](https://dmm.studio/github/rocketseat/events/boracodar.dev/34-shopping-list)
 
 <br/>
 
