@@ -1,4 +1,4 @@
-<h1 align="center">Drink Water Reminder</h1>
+<h1 align="center">Nutritional Table</h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Drink Water Reminder](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Nutritional Table](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
 
 <br/>
 
@@ -40,4 +40,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`, `ternary`, `toggle`, `form`, `all: unset;`, `> *`, `onclick`, `Arrow Function`
+- CSS: `flex`, `rem`
