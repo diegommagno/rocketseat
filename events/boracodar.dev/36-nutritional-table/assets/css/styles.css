@@ -8,8 +8,31 @@
 
 :root {
   font-size: 62.5%;
+  /* Product */
+  --primary: #3BAB1E;
+  --secondary: #DE215A;
+  /* Base */
+  --background: #D8EED2;
+  --surface: #FDFDFD;
+  --surface-element: #B1DDA5;
+  --text-primary: #242424;
+  --text-cts: #FDFDFD;
 }
 
 body {
   font-size: 1.6rem;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--surface-element);
+  display: grid;
+  place-content: center;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
