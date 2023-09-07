@@ -23,7 +23,7 @@ body {
   font-size: 1.6rem;
   width: 100%;
   height: 100vh;
-  background-color: var(--surface-element);
+  background-color: var(--background);
   display: grid;
   place-content: center;
 }
@@ -35,4 +35,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#app .navigation button {
+  display: inline-flex;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  border: none;
+  border-radius: 80px;
+  background: var(--background, #D8EED2);
+  box-shadow: 0px 8px 16px 0px rgba(59, 171, 30, 0.25);
+}
+#app .bar .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#app .bar .bar-filled {
+  height: 8px;
+  width: 4.2rem;
+  border-radius: 8rem;
+  background: var(--primary);
+}
+#app .bar .bar-empty {
+  height: 8px;
+  width: 4.2rem;
+  border-radius: 8rem;
+  background: var(--surface-element);
 }/*# sourceMappingURL=styles.css.map */
