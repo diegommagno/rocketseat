@@ -90,18 +90,43 @@ body {
   font-weight: 400;
   line-height: 2.4rem; /* 150% */
 }
-#app .bar .wrapper {
+#app .bars .item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+#app .bars .item div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#app .bars .item div h3 {
+  color: var(--text-primary);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6rem; /* 114.286% */
+}
+#app .bars .item div span {
+  color: var(--text-primary);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+#app .bars .item .wrapper {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-#app .bar .bar-filled {
+#app .bars .item .wrapper .bar-filled {
   height: 8px;
   width: 4.2rem;
   border-radius: 8rem;
   background: var(--primary);
 }
-#app .bar .bar-empty {
+#app .bars .item .wrapper .bar-empty {
   height: 8px;
   width: 4.2rem;
   border-radius: 8rem;
