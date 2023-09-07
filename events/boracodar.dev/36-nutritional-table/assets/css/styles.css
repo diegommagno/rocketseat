@@ -20,11 +20,14 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.6rem;
   width: 100%;
   height: 100vh;
   background-color: var(--background);
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
 }
 
 #app {
@@ -141,4 +144,21 @@ body {
   width: 4.2rem;
   border-radius: 8rem;
   background: var(--surface-element);
+}
+#app button.more-details {
+  display: flex;
+  width: 29.6rem;
+  padding: 1.6rem 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 1.6rem;
+  background: var(--primary);
+  box-shadow: 0px 8px 24px 0px rgba(59, 171, 30, 0.25);
+  color: var(--text-cta, #FDFDFD);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
