@@ -10,17 +10,18 @@
     font-size: 62.5%;
 
     /* Product */
-    --primary: #633BBC;
-    --secondary: #8257E5;
+    --primary: #3BAB1E;
+    --secondary: #DE215A;
 
     /* Base */
-    --background: #121214;
-    --surface: #202024;
-    --surface-element: #29292E;
-    --text-primary: #323238;
-    --text-cts: #505059;
+    --background: #D8EED2;
+    --surface: #FDFDFD;
+    --surface-element: #B1DDA5;
+    --text-primary: #242424;
+    --text-cts: #FDFDFD;
 }
 
 body {
     font-size: 1.6rem;
+    background: var(--surface-element);
 }
