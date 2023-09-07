@@ -93,6 +93,13 @@ body {
   font-weight: 400;
   line-height: 2.4rem; /* 150% */
 }
+#app .bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
 #app .bars .item {
   display: flex;
   flex-direction: column;
