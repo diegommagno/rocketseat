@@ -55,6 +55,9 @@ body * {
   cursor: pointer;
 }
 #app .menu {
+  background-color: var(--surface);
+}
+#app .menu .container {
   display: flex;
   flex-direction: column;
   align-items: center;

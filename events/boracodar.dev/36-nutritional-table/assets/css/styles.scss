@@ -67,11 +67,14 @@ body * {
     }
 
     .menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2.4rem;
+        background-color: var(--surface);
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2.4rem;
+        }
 
         h1 {
             color: var(--text-primary);
