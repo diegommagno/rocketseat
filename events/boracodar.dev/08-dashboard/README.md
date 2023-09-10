@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1210217615683203825/%23boraCodar---Desafio-8). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1210217615683203825). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
