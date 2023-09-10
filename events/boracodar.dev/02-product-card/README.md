@@ -16,6 +16,8 @@
   <a href="#-worked-on">Worked On</a>
 </p>
 
+<br/>
+
 <p align="center">
   <img alt="Project cover." src="./.github/cover.png" width="80%" />
 </p>
