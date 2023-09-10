@@ -93,9 +93,13 @@ a {
   position: absolute;
   top: 20%;
   right: 5%;
+  cursor: pointer;
 }
 #app aside main form .input-wrapper .hide {
   display: none;
+}
+#app aside main form .input-wrapper button {
+  cursor: pointer;
 }
 #app aside main form input {
   width: 100%;

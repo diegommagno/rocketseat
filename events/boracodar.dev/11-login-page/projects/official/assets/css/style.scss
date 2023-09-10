@@ -105,10 +105,16 @@ a {
             position: absolute;
             top: 20%;
             right: 5%;
+
+            cursor: pointer;
           }
 
           .hide {
             display: none;
+          }
+
+          button {
+            cursor: pointer;
           }
         }
 
