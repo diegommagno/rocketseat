@@ -142,6 +142,7 @@ form input::placeholder {
 form button i {
   color: #E1E1E6;
   font-size: 2.4rem;
+  cursor: pointer;
 }
 form input, form button {
   background-color: transparent;
