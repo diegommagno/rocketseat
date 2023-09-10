@@ -26,7 +26,7 @@
 
 ## 📝 Live Preview 
 
-- [Calculator](https://dmm.studio/github/rocketseat/events/boracodar.dev/05-calculator/)
+- [Calculator - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/05-calculator/projects/official/)
 
 <br/>
 
