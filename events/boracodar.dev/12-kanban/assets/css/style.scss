@@ -127,6 +127,8 @@ body {
       button {
         border: none;
         background: transparent;
+        cursor: pointer;
+
       }
     }
 
@@ -155,6 +157,8 @@ body {
 
       border: none;
       border-radius: 5px;
+
+      cursor: pointer;
     }
 
     .filter-wrapper {
