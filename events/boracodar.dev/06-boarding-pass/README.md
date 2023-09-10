@@ -21,7 +21,7 @@ Boarding pass example made with HTML and CSS. <br/>
 
 ## 📝 Live Preview 
 
-- [Boarding Pass](https://diegommagno.com/github/rocketseat/events/boracodar.dev/06-boarding-pass/)
+- [Boarding Pass](https://dmm.studio/github/rocketseat/events/boracodar.dev/06-boarding-pass/)
 
 ## 🎨 Layout
 
