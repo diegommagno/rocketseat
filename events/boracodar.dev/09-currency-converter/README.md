@@ -1,4 +1,4 @@
-<h1 align="center"> Dashboard </h1>
+<h1 align="center"> Currency Converter </h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
