@@ -67,6 +67,9 @@ body * {
   background-color: #00B37E;
   border-radius: 50%;
 }
+#top #close-chat {
+  cursor: pointer;
+}
 
 #messages {
   overflow-y: auto;
