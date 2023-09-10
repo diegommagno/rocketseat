@@ -25,7 +25,7 @@ Boarding pass example made with HTML and CSS. <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1205146101173113980/%23boraCodar---Desafio-6). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1205146101173113980). You will need a [Figma](https://figma.com) account to access it.
 
 ## 🧑🏻‍💻 Technologies
 
