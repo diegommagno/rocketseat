@@ -34,6 +34,10 @@
 
 <br/>
 
+## 🎨 Layout
+
+- You can check the layout [here](https://www.figma.com/community/file/1195050984449538256). You will need a [Figma](https://figma.com) account to access it.
+
 <p align="center">
   <img alt="Project gif." src="./.github/preview-cover.gif" width="80%" />
 </p>
