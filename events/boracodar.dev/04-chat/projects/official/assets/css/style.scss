@@ -40,40 +40,40 @@ body * {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-#user-info {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-
-  img {
-    width: 4.8rem;
-    height: 4.8rem;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-}
-
-#user-status {
-  .status {
+  #user-info {
     display: flex;
-    align-items: baseline;
-    gap: 0.4rem;
-    
-    margin-top: 0.4rem;
-
-    font-size: 1.2rem;
-    color: #00B37E;
-
-    &::before {
-      content: ''; /* Precisa colocar um conteúdo mesmo que vazio */
-      width: 0.8rem;
-      height: 0.8rem;
-      display: block;
+    align-items: center;
+    gap: 1.6rem;
   
-      background-color: #00B37E;
+    img {
+      width: 4.8rem;
+      height: 4.8rem;
+      object-fit: cover;
       border-radius: 50%;
+    }
+  }
+
+  #user-status {
+    .status {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      
+      margin-top: 0.4rem;
+  
+      font-size: 1.2rem;
+      color: #00B37E;
+  
+      &::before {
+        content: ''; /* Precisa colocar um conteúdo mesmo que vazio */
+        width: 0.8rem;
+        height: 0.8rem;
+        display: block;
+    
+        background-color: #00B37E;
+        border-radius: 50%;
+      }
     }
   }
 }
