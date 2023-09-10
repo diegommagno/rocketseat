@@ -52,5 +52,5 @@
 
 ## 🎓 Worked on
 
-- addEventListener
-- Flex box
+- CSS: `flex`, `rem`
+- JS: `addEventListener`
