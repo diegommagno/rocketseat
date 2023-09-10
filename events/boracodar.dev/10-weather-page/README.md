@@ -33,7 +33,7 @@ Weather page made with HTML and SCSS. <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1215291914714743267/%23boraCodar---Desafio-10). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1215291914714743267). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
