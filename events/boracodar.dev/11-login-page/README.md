@@ -18,6 +18,7 @@
 ## 📝 Live Preview 
 
 - [Login Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Login Page - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page/projects/official/)
 
 <br/>
 
