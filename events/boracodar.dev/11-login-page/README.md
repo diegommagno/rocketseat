@@ -1,6 +1,12 @@
 <h1 align="center"> Login Page </h1>
 
 <p align="center">
+  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+  <br/>
+  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
