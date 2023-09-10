@@ -1,4 +1,4 @@
-<h1 align="center"> Site para encontrar seu bloco no carnaval </h1>
+<h1 align="center"> Carnival Blocks </h1>
 
 <p align="center">
 Page to check Carnival related activites. <br/>
@@ -21,7 +21,7 @@ Page to check Carnival related activites. <br/>
 
 ## 📝 Live Preview 
 
-- [Link](https://dmm.studio/github/rocketseat/events/boracodar.dev/07-bloco-de-carnaval/)
+- [Carnival Blocks](https://dmm.studio/github/rocketseat/events/boracodar.dev/07-bloco-de-carnaval/)
 
 ## 🎨 Layout
 
