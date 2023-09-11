@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Credit Card Details](https://dmm.studio/github/rocketseat/events/boracodar.dev/13-credit-card-form)
+- [Credit Card Form](https://dmm.studio/github/rocketseat/events/boracodar.dev/13-credit-card-form)
 
 <br/>
 
@@ -29,7 +29,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1222904930776225825/%23boraCodar---Desafio-13). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1222904930776225825). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
