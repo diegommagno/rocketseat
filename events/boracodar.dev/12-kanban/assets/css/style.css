@@ -76,6 +76,7 @@ body {
   padding: 4.8rem 3.2rem 0;
   border-radius: 32px 0px 0px 0px;
   overflow: hidden;
+  height: 99.5vh;
 }
 .board .container {
   display: flex;
