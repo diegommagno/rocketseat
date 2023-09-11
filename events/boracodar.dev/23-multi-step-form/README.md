@@ -40,4 +40,5 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid`, `rem`, `form`, `addEventListener`, `js-confetti library`, `setTimeout`
+- CSS: `flex`, `grid`, `rem`, `form`
+- JS: `addEventListener`, `js-confetti library`, `setTimeout`
