@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --grey-900: #0F172A;
+  --grey-800: #1E293B;
+  --grey-700: #334155;
+  --grey-600: #475569;
+  --grey-500: #64748B;
+  --grey-400: #94A3B8;
+  --grey-300: #CBD5E1;
+  --grey-200: #E2E8F0;
+  --grey-100: #F1F5F9;
+  --grey-50: #F8FAFC;
+  --green-100: #04D361;
+  --green-200: #1B873F;
+  --purple-200: #7C3AED;
+  --purple-100: #996DFF;
+  --white: #FFFFFF;
+  --orange: #FBA94C;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--grey-100);
+  padding: 8rem 2rem;
+}
+
+.essencials .plan-features, .ultimate .plan-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.essencials .plan-features .divider, .ultimate .plan-features .divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--grey-200);
+  margin-top: 1.6rem;
+}
+.essencials .plan-features .wrapper, .ultimate .plan-features .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2.4rem;
+  letter-spacing: 0.06em;
+}
+.essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.essencials, .enterprise, .ultimate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2.4rem;
+  background-color: var(--white);
+  border: 1px solid #E2E8F0;
+  border-radius: 1rem;
+}
+.essencials:hover, .enterprise:hover, .ultimate:hover {
+  border: 1px solid var(--purple-100);
+}
+.essencials .header, .enterprise .header, .ultimate .header {
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 0.06em;
+  color: var(--purple-200);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.essencials .plan-info, .enterprise .plan-info, .ultimate .plan-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.essencials .plan-info .name, .enterprise .plan-info .name, .ultimate .plan-info .name {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.7rem;
+  color: var(--grey-800);
+}
+.essencials .plan-info .price, .enterprise .plan-info .price, .ultimate .plan-info .price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.8rem;
+}
+.essencials .plan-info .price .amount, .enterprise .plan-info .price .amount, .ultimate .plan-info .price .amount {
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: var(--grey-800);
+}
+.essencials button, .enterprise button, .ultimate button {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  line-height: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.7rem;
+  background-color: var(--white);
+  border: 1px solid #1E293B;
+  border-radius: 4px;
+  margin-top: 1.6rem;
+  cursor: pointer;
+}
+.essencials button:hover, .enterprise button:hover, .ultimate button:hover {
+  background-color: var(--grey-800);
+  color: var(--white);
+}
+
+.enterprise {
+  margin-top: 2.4rem;
+}
+.enterprise .plan-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.enterprise .plan-info .name {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.9rem;
+  color: var(--grey-800);
+}
+.enterprise .plan-info .price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.8rem;
+}
+.enterprise .plan-info .price .amount {
+  font-weight: 700;
+  line-height: 2.7rem;
+  color: var(--grey-800);
+}
+.enterprise button {
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+.enterprise .plan-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.enterprise .plan-features .divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--grey-200);
+}
+.enterprise .plan-features .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 2.4rem;
+  letter-spacing: 0.06em;
+}
+
+.ultimate {
+  padding: 4rem 2.4rem 2.4rem 2.4rem;
+  margin-top: 4em;
+  background-color: var(--grey-900);
+  position: relative;
+}
+.ultimate .best-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5.7rem;
+  left: 33%;
+  background-color: var(--orange);
+  padding: 8px 16px;
+  margin-bottom: 2.3rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transform: translateY(4rem);
+}
+.ultimate .best-value span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--grey-900);
+}
+.ultimate .header {
+  color: var(--purple-100);
+}
+.ultimate .plan-info .name {
+  color: var(--white);
+}
+.ultimate .plan-info .price .currency, .ultimate .plan-info .price .amount {
+  color: var(--white);
+}
+.ultimate button {
+  background-color: var(--purple-100);
+  color: var(--white);
+  border-color: var(--purple-100);
+}
+.ultimate button:hover {
+  background-color: var(--purple-200);
+  border-color: var(--purple-200);
+}
+.ultimate .plan-features .divider {
+  background-color: var(--grey-700);
+}
+.ultimate .plan-features .wrapper {
+  color: var(--grey-300);
+}
+.ultimate .plan-features .wrapper svg:nth-child(2) path {
+  stroke: var(--grey-500);
+}
+
+@media (min-width: 768px) {
+  #app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 3.2rem;
+    background-color: var(--grey-100);
+    padding: 8rem 2rem;
+  }
+  button {
+    font-family: "Titillium Web";
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 1.6rem 2.4rem;
+    font-size: 1.7rem;
+    background-color: var(--white);
+    border: 1px solid #1E293B;
+    border-radius: 4px;
+    margin-top: 3.2rem;
+  }
+  button:hover {
+    background-color: var(--grey-800);
+    color: var(--white);
+  }
+  .essencials, .enterprise, .ultimate {
+    width: 100%;
+    height: 45rem;
+    max-width: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 4.8rem 3.2rem;
+  }
+  .essencials .header, .enterprise .header, .ultimate .header {
+    font-size: 1.4rem;
+  }
+  .essencials .plan-info .name, .enterprise .plan-info .name, .ultimate .plan-info .name {
+    font-size: 3.2rem;
+    line-height: 4.9rem;
+  }
+  .essencials .plan-info .price .currency, .enterprise .plan-info .price .currency, .ultimate .plan-info .price .currency {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+  .essencials .plan-info .price .amount, .enterprise .plan-info .price .amount, .ultimate .plan-info .price .amount {
+    font-size: 2.4rem;
+    line-height: 3.7rem;
+  }
+  .essencials .plan-features .wrapper .feature, .ultimate .plan-features .wrapper .feature {
+    font-size: 1.6rem;
+  }
+  .enterprise {
+    margin-top: 0rem;
+  }
+  .enterprise .plan-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .enterprise .plan-info .name {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.9rem;
+    color: var(--grey-800);
+  }
+  .enterprise .plan-info .price {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.8rem;
+  }
+  .enterprise .plan-info .price .amount {
+    font-weight: 700;
+    line-height: 2.7rem;
+    color: var(--grey-800);
+  }
+  .enterprise .plan-features .wrapper .feature {
+    font-size: 1.6rem;
+  }
+  .ultimate {
+    margin-top: 0rem;
+  }
+  .ultimate .plan-features .wrapper .feature {
+    font-size: 1.6rem;
+  }
+}/*# sourceMappingURL=style.css.map */
