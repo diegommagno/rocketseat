@@ -1,6 +1,10 @@
 <h1 align="center">Nutritional Table</h1>
 
 <p align="center">
+  The challenge is to create a mobile screen displaying the nutritional information of a meal.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
