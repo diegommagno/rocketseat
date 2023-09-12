@@ -1,4 +1,4 @@
-<h1 align="center">Shorts Summary<h1>
+<h1 align="center">Shorts Summary</h1>
 
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ## 📝 Live Preview 
 
-- [Shorts Summary](https://dmm.studio/github/rocketseat/events/boracodar.dev/36-nutritional-table)
+- [Shorts Summary](https://dmm.studio/github/rocketseat/events/next-level-week/2023/nlw-ai/explorer/foundations)
 
 <br/>
 
