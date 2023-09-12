@@ -1,6 +1,10 @@
 <h1 align="center">Shorts Summary</h1>
 
 <p align="center">
+  "Shorts Summary" is a web application for creating summaries of YouTube short videos using Artificial Intelligence to transcribe the video's content and generate a summary. 
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
