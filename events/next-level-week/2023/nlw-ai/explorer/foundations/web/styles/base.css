@@ -14,3 +14,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+body, button, input {
+    font-family: Roboto, sans-serif;
+}
