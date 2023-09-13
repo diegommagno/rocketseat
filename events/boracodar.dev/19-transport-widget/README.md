@@ -1,6 +1,7 @@
 <h1 align="center"> Transport Widget </h1>
 
 <p align="center">
+The widget is a component with information about your driver in a transportation app.
 </p>
 
 <p align="center">
