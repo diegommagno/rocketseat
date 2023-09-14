@@ -49,6 +49,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2.7rem;
+  padding: 0rem 1.5rem;
 }
 #screen .navigation-bar span:nth-child(1) {
   color: var(--amethyst);
@@ -61,4 +63,43 @@ body {
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.4rem;
+  background-color: var(--opal-12);
+  padding: 8px 17px 8px 9.5px;
+  border-radius: 15px;
+}
+#screen .carousel .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#screen .carousel .wrapper img:nth-child(2) {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+#screen .carousel .text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(4px);
+}
+#screen .carousel .text span:nth-child(1) {
+  color: var(--opal, #FFF);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel .text span:nth-child(2) {
+  color: var(--amethyst, #CDA5F8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 121.875% */
 }/*# sourceMappingURL=styles.css.map */
