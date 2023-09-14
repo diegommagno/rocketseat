@@ -1,7 +1,7 @@
 <h1 align="center"> Boarding Pass </h1>
 
 <p align="center">
-Boarding pass example made with HTML and CSS. <br/>
+The boarding pass is a component that contains all the information about a flight. 
 </p>
 
 <p align="center">
