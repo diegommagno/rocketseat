@@ -43,4 +43,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`
+- CSS: `flex`, `rem`, `transform: translate`, `nth-child`, `overflow`
