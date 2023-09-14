@@ -44,6 +44,7 @@ body {
   width: 20.5rem;
   height: 25rem;
   transform: translate(-6px, 20px);
+  overflow: hidden;
 }
 #screen .navigation-bar {
   display: flex;
@@ -96,6 +97,48 @@ body {
   line-height: 19.5px; /* 114.706% */
 }
 #screen .carousel .text span:nth-child(2) {
+  color: var(--amethyst, #CDA5F8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 121.875% */
+}
+#screen .carousel-dimmed {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-bottom: 1.4rem;
+  background-color: var(--opal-12);
+  padding: 21px 16px 8px 19px;
+  border-radius: 15px;
+  opacity: 0.6;
+  transform: translate(13px, -7px);
+}
+#screen .carousel-dimmed .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
+#screen .carousel-dimmed .wrapper img:nth-child(2) {
+  cursor: pointer;
+}
+#screen .carousel-dimmed .text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(4px);
+}
+#screen .carousel-dimmed .text span:nth-child(1) {
+  color: var(--opal, #FFF);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel-dimmed .text span:nth-child(2) {
   color: var(--amethyst, #CDA5F8);
   font-family: Inter;
   font-size: 16px;
