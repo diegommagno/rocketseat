@@ -35,4 +35,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `grid`
+- CSS: `flex-box`, `grid`, `clamp`, `@media`
