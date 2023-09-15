@@ -81,12 +81,12 @@ ul {
     max-width: 52.5rem;
   }
   h1, h2 {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: clamp(2.8rem, 2vw + 1rem, 4rem);
+    line-height: clamp(3.6rem, 2vw + 1rem, 5rem);
   }
   p, li, strong {
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+    line-height: clamp(1.8rem, 1vw + 1rem, 2.5rem);
   }
   button {
     padding: 1rem 2rem;
