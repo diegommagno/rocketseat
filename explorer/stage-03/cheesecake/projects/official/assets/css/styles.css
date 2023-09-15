@@ -64,4 +64,19 @@ ul, ol {
 
 ul {
   margin-bottom: 2.4rem;
+}
+
+@media (min-width: 1120px) {
+  main {
+    flex-direction: row;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    gap: 16rem;
+  }
+  .recipe {
+    max-width: 43.5rem;
+  }
+  .ingredients {
+    max-width: 52.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
