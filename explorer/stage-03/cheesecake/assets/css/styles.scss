@@ -78,3 +78,37 @@ ul, ol {
 ul {
     margin-bottom: 2.4rem;
 }
+
+@media (min-width: 1120px) {
+    main {
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+
+        padding: 9rem 6rem;
+    }
+
+    .recipe {
+        max-width: 43.5rem;
+    }
+    
+    .ingredients { 
+        max-width: 52.5rem;
+    }
+
+    h1, h2 {
+        font-size: clamp(2.8rem, 2vw + 1rem, 4rem);
+        line-height: clamp(3.6rem, 2vw + 1rem, 5rem);
+    }
+
+    p, li, strong {
+        font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+        line-height: clamp(1.8rem, 1vw + 1rem, 2.5rem);
+    }
+
+    button {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+}
