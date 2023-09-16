@@ -26,7 +26,8 @@
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-desktop.png" width="80%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-mobile.png" width="40%" />
 </p>
 
 <br/>
