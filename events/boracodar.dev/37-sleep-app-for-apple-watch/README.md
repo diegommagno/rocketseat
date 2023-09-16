@@ -1,7 +1,7 @@
 <h1 align="center"> Sleep App for Apple Watch </h1>
 
 <p align="center">
-  The challenge is to create a mobile screen displaying the nutritional information of a meal.
+  The challenge is to code a Sleep app for an Apple Watch that displays a sleep history, including sleep type and date.
 </p>
 
 <p align="center">
