@@ -55,6 +55,14 @@ button {
     border-radius: .6rem;
     
     cursor: pointer;
+
+    transition: .3s;
+
+    &:hover {
+        background-color: #963324;
+    }
+
+
 }
 
 h1, h2 {

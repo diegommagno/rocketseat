@@ -46,6 +46,10 @@ button {
   padding: 0.8rem 1.2rem;
   border-radius: 0.6rem;
   cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #963324;
 }
 
 h1, h2 {
