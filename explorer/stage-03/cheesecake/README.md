@@ -14,7 +14,7 @@
 <br/>
 
 <p align="center">
-  <img alt="" src=".github/preview-cover.png" width="80%" />
+  <img alt="" src=".github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -22,6 +22,14 @@
 ## 📝 Live Preview 
 
 - [Cheesecake](https://dmm.studio/github/rocketseat/explorer/stage-03/cheesecake)
+
+<br/>
+
+<p align="center">
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+</p>
+
+<br/>
 
 ## 🎨 Layout
 
