@@ -71,6 +71,9 @@ ul {
 }
 
 @media (min-width: 1120px) {
+  body {
+    height: 100vh;
+  }
   main {
     flex-direction: row;
     max-width: -moz-fit-content;
