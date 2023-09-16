@@ -20,9 +20,9 @@ body {
 
     background-image: url('../img/old-paper-texture.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%; /* Use 100% for both width and height */
     background-position: center;
-}
+    }
 
 main {
     max-width: 32rem;
