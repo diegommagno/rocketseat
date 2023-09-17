@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Shorts Summary](https://dmm.studio/github/rocketseat/events/next-level-week/2023/nlw-ai/explorer/foundations)
+- [Shorts Summary](https://dmm.studio/github/rocketseat/events/next-level-week/2023/nlw-ai/explorer/foundations) 🚧 Fixing the link - Sunday 🚧
 
 <br/>
 
