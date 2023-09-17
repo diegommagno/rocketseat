@@ -26,3 +26,25 @@
     background-color: #202024;
 }
 
+#form > button {
+    height: 48px;
+    width: 48px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #8257E5;  
+
+    cursor: pointer;
+    
+    transition: background-color 0.2s;
+}
+
+#form > button:hover {
+    background-color: #633BBc;
+}
+
+#form > button i {
+    font-size: 24px;
+    color: #FFFFFF;
+}
