@@ -14,7 +14,7 @@ The boarding pass is a component that contains all the flight information. It ca
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a boarding pass." src="./.github/event-cover.png" width="80%" />
+  <img alt="Project photo showing a boarding pass." src="./.github/event-cover-2.png" width="100%" />
 </p>
 
 <br/>
