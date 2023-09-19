@@ -20,8 +20,8 @@ Landing page for a workouts website. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-02/train-me/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-02/train-me/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/en/)
+- [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-02/train-me/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/pt-br)
+- Update: [English](https://dmm.studio/github/rocketseat/explorer/stage-02/train-me/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/en/)
 
 
 ## 🧑🏻‍💻 Technologies
