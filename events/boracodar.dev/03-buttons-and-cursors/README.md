@@ -16,7 +16,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/cover.png" width="90%" />
+  <img alt="Project photo showing a screen with different buttons and actions." src=".github/cover-2.png" width="90%" />
 </p>
 
 <br/>
@@ -47,4 +47,4 @@
 ## 🎓 Worked on
 
 - Button states: `::hover`, `::focus`, `::disabled`, `.loading`, `.movable`
-- CSS: `flex and grid`, `padding-inline`, `padding-block`, `@keyframes`
+- CSS: `flex`, `grid`, `padding-inline`, `padding-block`, `@keyframes`
