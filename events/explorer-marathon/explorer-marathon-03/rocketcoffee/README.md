@@ -20,8 +20,8 @@
 
 ## 📝 Live Preview 
 
-- [RocketCoffee - PT/BR](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br)
-- [RocketCoffee - EN](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
+- [RocketCoffee - PT/BR](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/pt-br)
+- [RocketCoffee - EN](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-03/rocketcoffee/en)
 
 ## 🎨 Layout
 
