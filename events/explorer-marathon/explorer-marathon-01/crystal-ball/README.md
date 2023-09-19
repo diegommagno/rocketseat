@@ -20,9 +20,9 @@
 
 ## 📝 Live Preview 
 
-- [Crystal Ball - PT/BR](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br)
-- [Crystal Ball - EN](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
-- [Crystal Ball - EN - Wizarding World theme](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
+- [Crystal Ball - PT/BR](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br)
+- [Crystal Ball - EN](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
+- [Crystal Ball - EN - Wizarding World theme](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
 ## 🧑🏻‍💻 Technologies
 
