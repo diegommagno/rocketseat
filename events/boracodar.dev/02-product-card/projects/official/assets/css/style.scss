@@ -19,7 +19,7 @@ body {
   place-items: center;
 }
 
-body * { /* Pegue todos os elemtnso dentro do body e adicione essas propriedades */
+body * { /* Pegue todos os elementos dentro do body e adicione essas propriedades */
   color: var(--text-color);
   font-family: 'Lato', sans-serif;
   line-height: 100%;
@@ -95,4 +95,11 @@ p {
   background: transparent;
 
   margin-top: 20px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+  }
 }
