@@ -27,7 +27,7 @@ h1, h2, h3, .price {
 .container {
   background-color: #FFEDD5;
   margin-top: 4%;
-  width: 55%;
+  width: 65%;
 
   margin-inline: auto;
   border-radius: 30px;
@@ -108,4 +108,22 @@ li .details {
   line-height: 21px;
 
   color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
 }
