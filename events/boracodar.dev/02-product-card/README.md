@@ -44,10 +44,10 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- CSS
+- SCSS, CSS
 - JavaScript
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`
+- CSS: `flex`, `grid` `rem`, `color variables`
 - JS: `addEventListener`
