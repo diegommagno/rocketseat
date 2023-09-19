@@ -23,6 +23,7 @@
 ## 📝 Live Preview 
 
 - [Events Platform - PT/BR](https://ignite-lab-umber-five.vercel.app/)
+- The login can be made with any email to access the application.
 
 ## 🎨 Layout
 
