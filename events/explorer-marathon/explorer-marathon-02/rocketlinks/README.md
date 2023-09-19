@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [RocketLinks](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-02/rocketlinks/)
+- [RocketLinks](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-02/rocketlinks/)
 
 ## 🎨 Layout
 
