@@ -20,7 +20,7 @@ Landing page for a cybersecurity information website. <br/>
 
 ## 📝 Live Preview 
 
-- [Rocket.sect](https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/)
+- [Rocket.sect](https://dmm.studio/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/)
 
 
 ## 🧑🏻‍💻 Technologies
