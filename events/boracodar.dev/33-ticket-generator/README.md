@@ -1,6 +1,10 @@
 <h1 align="center"> Ticket Generator </h1>
 
 <p align="center">
+  The challenge involves building a webpage that generates customized tickets based on a public GitHub profile.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
