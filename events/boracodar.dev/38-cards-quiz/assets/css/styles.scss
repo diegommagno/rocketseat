@@ -34,6 +34,10 @@ body {
 }
 
 #app { 
+    display: flex;
+    flex-direction: column;
+    gap: 6.9rem;
+
     width: 100.6rem;
     height: 78.6rem;
 
@@ -80,6 +84,18 @@ body {
             font-size: 2rem;
             font-weight: 700;
             line-height: 110%; /* 22px */
+
+            cursor: default;
         }
     }
+}
+
+h2 {
+    color: var(--colors-base-grey-1, #D9D9D9);
+    text-align: center;
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
 }
