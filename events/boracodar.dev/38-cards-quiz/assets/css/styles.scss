@@ -99,3 +99,73 @@ h2 {
     font-weight: 700;
     line-height: 120%; /* 28.8px */
 }
+
+
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    gap: 4.6rem;
+
+    .card {
+        width: 25rem;
+        height: 30rem;
+
+        padding: 4.6rem 3.2rem;
+
+        border-radius: 8px;
+        border-top: 3.194px solid var(--colors-base-grey-3, #252C3A);
+        border-right: 3.194px solid var(--colors-base-grey-3, #252C3A);
+        border-bottom: 6.387px solid var(--colors-base-grey-3, #252C3A);
+        border-left: 3.194px solid var(--colors-base-grey-3, #252C3A);
+        background: var(--colors-base-grey-4, #1D2330);
+
+        cursor: pointer;
+
+        position: relative;
+
+        .feedback {
+            position: absolute;
+            top: 1.6rem;
+            right: 1.6rem;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2.4rem;
+
+            span {
+                overflow: hidden;
+                color: var(--grey-1);
+                text-align: center;
+                text-overflow: ellipsis;
+                font-family: Sora;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 110%; /* 17.6px */
+            }
+        }
+    }
+
+    .card:nth-child(2) {
+        border-radius: 8px;
+        border-top: 3.194px solid var(--colors-green-light, #ABF770);
+        border-right: 3.194px solid var(--colors-green-light, #ABF770);
+        border-bottom: 6.387px solid var(--colors-green-light, #ABF770);
+        border-left: 3.194px solid var(--colors-green-light, #ABF770);
+        background: var(--colors-base-grey-6, #161A24);
+    }
+
+    .card:nth-child(3) {
+        border-radius: 8px;
+        border-top: 3.194px solid var(--colors-red-light, #F77070);
+        border-right: 3.194px solid var(--colors-red-light, #F77070);
+        border-bottom: 6.387px solid var(--colors-red-light, #F77070);
+        border-left: 3.194px solid var(--colors-red-light, #F77070);
+        background: var(--colors-base-grey-6, #161A24);
+    }
+}
