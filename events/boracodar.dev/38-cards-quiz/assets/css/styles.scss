@@ -44,7 +44,8 @@ body {
     width: 100.6rem;
     height: 78.6rem;
 
-    padding: 6.2rem 11rem;
+    padding-top: 6.2rem;
+    padding-inline: 11rem;
 
     border-radius: 8px;
     background: var(--colors-base-grey-6, #161A24);
@@ -102,8 +103,6 @@ h2 {
     font-weight: 700;
     line-height: 120%; /* 28.8px */
 }
-
-
 
 #cards {
     display: flex;
@@ -192,5 +191,9 @@ h2 {
             font-size: 1.2rem;
             letter-spacing: 3.6px;
         }
+    }
+
+    .skip {
+        cursor: pointer;
     }
 }
