@@ -59,11 +59,10 @@ body {
     .logo {
         color: var(--grey-1, #D9D9D9);
         font-size: 2.4rem;
-        line-height: 110%; /* 26.4px */
+        line-height: 110%;
 
         span:first-child {
             font-weight: 800;
-            line-height: 110%;
         }
     
         span:nth-child(2) {
