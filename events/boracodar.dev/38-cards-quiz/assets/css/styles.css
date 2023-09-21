@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --onyx: rgba(255, 255, 255, 0.12);
+  --opal: #FFF;
+  --opal-12: rgba(255, 255, 255, 0.12);
+  --amethyst: #CDA5F8;
+  --amethyst-24: rgba(205, 165, 248, 0.24);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  background-color: #DCCDEA;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  background-image: url(../img/apple-watch-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 35.5rem;
+  height: 47rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#screen {
+  width: 20.5rem;
+  height: 25rem;
+  transform: translate(-6px, 20px);
+  overflow: hidden;
+}
+#screen .navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  padding: 0rem 1rem;
+}
+#screen .navigation-bar span:nth-child(1) {
+  color: var(--amethyst);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 30px; /* 176.471% */
+}
+#screen .navigation-bar span:nth-child(2) {
+  color: var(--opal, #FFF);
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.4rem;
+  background-color: var(--opal-12);
+  padding: 8px 17px 8px 9.5px;
+  border-radius: 15px;
+}
+#screen .carousel .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#screen .carousel .wrapper img:nth-child(2) {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+#screen .carousel .text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(4px);
+}
+#screen .carousel .text span:nth-child(1) {
+  color: var(--opal, #FFF);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel .text span:nth-child(2) {
+  color: var(--amethyst, #CDA5F8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 121.875% */
+}
+#screen .carousel-dimmed {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-bottom: 1.4rem;
+  background-color: var(--opal-12);
+  padding: 21px 16px 8px 19px;
+  border-radius: 15px;
+  opacity: 0.6;
+  transform: translate(13px, -7px);
+}
+#screen .carousel-dimmed .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
+#screen .carousel-dimmed .wrapper img:nth-child(2) {
+  cursor: pointer;
+}
+#screen .carousel-dimmed .text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(4px);
+}
+#screen .carousel-dimmed .text span:nth-child(1) {
+  color: var(--opal, #FFF);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 114.706% */
+}
+#screen .carousel-dimmed .text span:nth-child(2) {
+  color: var(--amethyst, #CDA5F8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.5px; /* 121.875% */
+}/*# sourceMappingURL=styles.css.map */
