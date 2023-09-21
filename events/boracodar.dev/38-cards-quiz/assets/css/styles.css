@@ -23,4 +23,50 @@
 body {
   font-family: "Sora", sans-serif;
   font-size: 1.6rem;
+  background: linear-gradient(129deg, #996DFF 8.18%, #633BBC 95.51%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 100.6rem;
+  height: 78.6rem;
+  padding: 6.2rem 11rem;
+  border-radius: 8px;
+  background: var(--colors-base-grey-6, #161A24);
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#header .logo {
+  color: var(--grey-1, #D9D9D9);
+  font-size: 2.4rem;
+  line-height: 110%; /* 26.4px */
+}
+#header .logo span:first-child {
+  font-weight: 800;
+  line-height: 110%;
+}
+#header .logo span:nth-child(2) {
+  font-weight: 400;
+}
+#header .score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--green-light);
+  background: var(--grey-4);
+}
+#header .score span {
+  color: var(--green-light);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 110%; /* 22px */
 }/*# sourceMappingURL=styles.css.map */
