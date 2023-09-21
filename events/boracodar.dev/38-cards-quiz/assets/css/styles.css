@@ -141,4 +141,21 @@ h2 {
   border-bottom: 6.387px solid var(--colors-red-light, #F77070);
   border-left: 3.194px solid var(--colors-red-light, #F77070);
   background: var(--colors-base-grey-6, #161A24);
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .wrapper span {
+  color: var(--grey-1);
+  font-weight: 700;
+  line-height: 110%;
+}
+#footer .wrapper span:nth-child(1) {
+  font-size: 2rem;
+}
+#footer .wrapper span:nth-child(2) {
+  font-size: 1.2rem;
+  letter-spacing: 3.6px;
 }/*# sourceMappingURL=styles.css.map */

@@ -169,3 +169,25 @@ h2 {
         background: var(--colors-base-grey-6, #161A24);
     }
 }
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    
+    .wrapper {
+        span {
+            color: var(--grey-1);
+            font-weight: 700;
+            line-height: 110%;
+        }
+    
+        span:nth-child(1) {
+            font-size: 2rem;
+        }
+    
+        span:nth-child(2) {
+            font-size: 1.2rem;
+            letter-spacing: 3.6px;
+        }
+    }
+}
