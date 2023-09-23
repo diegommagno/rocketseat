@@ -1,6 +1,7 @@
 <h1 align="center"> Character Card </h1>
 
 <p align="center">
+  The project involves a character card component featuring data from a fictional character, with a Star Wars theme in honor of May the 4th.
 </p>
 
 <p align="center">
