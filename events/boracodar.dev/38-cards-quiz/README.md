@@ -1,7 +1,7 @@
 <h1 align="center"> Cards Quiz </h1>
 
 <p align="center">
-  XXXXX
+  The challenge is to develop a page for a card-based quiz with images, along with a score summary.
 </p>
 
 <p align="center">
