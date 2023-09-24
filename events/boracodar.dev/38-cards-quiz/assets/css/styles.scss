@@ -182,13 +182,15 @@ h2 {
             line-height: 110%;
         }
     
-        span:nth-child(1) {
-            font-size: 2rem;
-        }
-    
-        span:nth-child(2) {
-            font-size: 1.2rem;
-            letter-spacing: 3.6px;
+        span {
+            &:nth-child(1) {
+                font-size: 2rem;
+            }
+
+            &:nth-child(2) {
+                font-size: 1.2rem;
+                letter-spacing: 3.6px;
+            }
         }
     }
 
