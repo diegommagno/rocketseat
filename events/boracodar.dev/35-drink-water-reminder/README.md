@@ -1,6 +1,11 @@
 <h1 align="center">Drink Water Reminder</h1>
 
 <p align="center">
+  The task is to design a reminder for either staying hydrated by drinking water or taking breaks to stretch – the choice is yours.
+</p>
+
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
