@@ -1,7 +1,7 @@
 <h1 align="center"> Carnival Blocks </h1>
 
 <p align="center">
-Page to check Carnival related activites. <br/>
+The Carnival website is a web page that features a search function for finding carnival blocks. <br/>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@ Page to check Carnival related activites. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a list of buttons with links." src=".github/project-cover.png" width="80%" />
+  <img alt="Project photo showing a list of buttons with links." src=".github/cover.png" width="80%" />
 </p>
 
 <br/>
