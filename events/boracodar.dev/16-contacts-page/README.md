@@ -1,6 +1,7 @@
 <h1 align="center"> Contacts Page </h1>
 
 <p align="center">
+  The project consists of a mobile application featuring a contact list page.
 </p>
 
 <p align="center">
@@ -13,7 +14,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
