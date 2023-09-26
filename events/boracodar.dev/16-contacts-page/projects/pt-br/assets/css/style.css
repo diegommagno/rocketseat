@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --blue-900: #16151E;
+  --blue-800: #1A1924;
+  --blue-700: #282843;
+  --blue-500: #24243D;
+  --blue-200: #0088B3;
+  --green: #07847E;
+  --purple-500: #633BBC;
+  --purple-100: #8C8CBA;
+  --purple-50: #9A00B3;
+  --white: #E1E1E6;
+  --yellow: #B38C00;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-width: 43rem;
+  margin: 0 auto;
+}
+
+.contacts-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  background-color: var(--blue-900);
+  width: 100%;
+  padding: 4rem;
+}
+.contacts-menu .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.contacts-menu .menu h2 {
+  color: var(--white);
+}
+.contacts-menu .menu .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.contacts-menu .menu .wrapper button {
+  background-color: var(--blue-900);
+  border: none;
+  cursor: pointer;
+}
+.contacts-menu .search {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+.contacts-menu .search::before {
+  content: url("../img/magnifier.svg");
+  position: absolute;
+  left: 2.4rem;
+  top: 1.3rem;
+}
+.contacts-menu .search input {
+  width: 100%;
+  height: 4rem;
+  background-color: var(--blue-700);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 4.5rem;
+}
+.contacts-menu .search input::-moz-placeholder {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--white);
+}
+.contacts-menu .search input::placeholder {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--white);
+}
+.contacts-menu .search input:focus {
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+  height: 100%;
+  padding: 4.8rem 4rem;
+  background-color: var(--blue-800);
+  color: var(--white);
+}
+.list .letter-a, .list .letter-b, .list .letter-c, .list .letter-d, .list .letter-e, .list .letter-f, .list .letter-g, .list .letter-h, .list .letter-i, .list .letter-j, .list .letter-k, .list .letter-l, .list .letter-m, .list .letter-n, .list .letter-o, .list .letter-p, .list .letter-q, .list .letter-r, .list .letter-s, .list .letter-t, .list .letter-u, .list .letter-v, .list .letter-w, .list .letter-x, .list .letter-y, .list .letter-z {
+  display: flex;
+  align-items: flex-center;
+  gap: 5.2rem;
+}
+.list .letter-a .contacts, .list .letter-b .contacts, .list .letter-c .contacts, .list .letter-d .contacts, .list .letter-e .contacts, .list .letter-f .contacts, .list .letter-g .contacts, .list .letter-h .contacts, .list .letter-i .contacts, .list .letter-j .contacts, .list .letter-k .contacts, .list .letter-l .contacts, .list .letter-m .contacts, .list .letter-n .contacts, .list .letter-o .contacts, .list .letter-p .contacts, .list .letter-q .contacts, .list .letter-r .contacts, .list .letter-s .contacts, .list .letter-t .contacts, .list .letter-u .contacts, .list .letter-v .contacts, .list .letter-w .contacts, .list .letter-x .contacts, .list .letter-y .contacts, .list .letter-z .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.list .letter-a .contacts .contact, .list .letter-b .contacts .contact, .list .letter-c .contacts .contact, .list .letter-d .contacts .contact, .list .letter-e .contacts .contact, .list .letter-f .contacts .contact, .list .letter-g .contacts .contact, .list .letter-h .contacts .contact, .list .letter-i .contacts .contact, .list .letter-j .contacts .contact, .list .letter-k .contacts .contact, .list .letter-l .contacts .contact, .list .letter-m .contacts .contact, .list .letter-n .contacts .contact, .list .letter-o .contacts .contact, .list .letter-p .contacts .contact, .list .letter-q .contacts .contact, .list .letter-r .contacts .contact, .list .letter-s .contacts .contact, .list .letter-t .contacts .contact, .list .letter-u .contacts .contact, .list .letter-v .contacts .contact, .list .letter-w .contacts .contact, .list .letter-x .contacts .contact, .list .letter-y .contacts .contact, .list .letter-z .contacts .contact {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list .letter-a .contacts .contact .info, .list .letter-b .contacts .contact .info, .list .letter-c .contacts .contact .info, .list .letter-d .contacts .contact .info, .list .letter-e .contacts .contact .info, .list .letter-f .contacts .contact .info, .list .letter-g .contacts .contact .info, .list .letter-h .contacts .contact .info, .list .letter-i .contacts .contact .info, .list .letter-j .contacts .contact .info, .list .letter-k .contacts .contact .info, .list .letter-l .contacts .contact .info, .list .letter-m .contacts .contact .info, .list .letter-n .contacts .contact .info, .list .letter-o .contacts .contact .info, .list .letter-p .contacts .contact .info, .list .letter-q .contacts .contact .info, .list .letter-r .contacts .contact .info, .list .letter-s .contacts .contact .info, .list .letter-t .contacts .contact .info, .list .letter-u .contacts .contact .info, .list .letter-v .contacts .contact .info, .list .letter-w .contacts .contact .info, .list .letter-x .contacts .contact .info, .list .letter-y .contacts .contact .info, .list .letter-z .contacts .contact .info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.list .letter-a .contacts .contact .info .name, .list .letter-b .contacts .contact .info .name, .list .letter-c .contacts .contact .info .name, .list .letter-d .contacts .contact .info .name, .list .letter-e .contacts .contact .info .name, .list .letter-f .contacts .contact .info .name, .list .letter-g .contacts .contact .info .name, .list .letter-h .contacts .contact .info .name, .list .letter-i .contacts .contact .info .name, .list .letter-j .contacts .contact .info .name, .list .letter-k .contacts .contact .info .name, .list .letter-l .contacts .contact .info .name, .list .letter-m .contacts .contact .info .name, .list .letter-n .contacts .contact .info .name, .list .letter-o .contacts .contact .info .name, .list .letter-p .contacts .contact .info .name, .list .letter-q .contacts .contact .info .name, .list .letter-r .contacts .contact .info .name, .list .letter-s .contacts .contact .info .name, .list .letter-t .contacts .contact .info .name, .list .letter-u .contacts .contact .info .name, .list .letter-v .contacts .contact .info .name, .list .letter-w .contacts .contact .info .name, .list .letter-x .contacts .contact .info .name, .list .letter-y .contacts .contact .info .name, .list .letter-z .contacts .contact .info .name {
+  font-weight: 700;
+  line-height: 2rem;
+}
+.list .letter-a .contacts .contact .info .phone-number, .list .letter-b .contacts .contact .info .phone-number, .list .letter-c .contacts .contact .info .phone-number, .list .letter-d .contacts .contact .info .phone-number, .list .letter-e .contacts .contact .info .phone-number, .list .letter-f .contacts .contact .info .phone-number, .list .letter-g .contacts .contact .info .phone-number, .list .letter-h .contacts .contact .info .phone-number, .list .letter-i .contacts .contact .info .phone-number, .list .letter-j .contacts .contact .info .phone-number, .list .letter-k .contacts .contact .info .phone-number, .list .letter-l .contacts .contact .info .phone-number, .list .letter-m .contacts .contact .info .phone-number, .list .letter-n .contacts .contact .info .phone-number, .list .letter-o .contacts .contact .info .phone-number, .list .letter-p .contacts .contact .info .phone-number, .list .letter-q .contacts .contact .info .phone-number, .list .letter-r .contacts .contact .info .phone-number, .list .letter-s .contacts .contact .info .phone-number, .list .letter-t .contacts .contact .info .phone-number, .list .letter-u .contacts .contact .info .phone-number, .list .letter-v .contacts .contact .info .phone-number, .list .letter-w .contacts .contact .info .phone-number, .list .letter-x .contacts .contact .info .phone-number, .list .letter-y .contacts .contact .info .phone-number, .list .letter-z .contacts .contact .info .phone-number {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--purple-100);
+}
+
+@media (min-width: 450px) {
+  #app {
+    margin-top: 2rem;
+  }
+  .contacts-menu {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .list {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
