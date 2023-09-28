@@ -1,7 +1,7 @@
 <h1 align="center"> Product Review </h1>
 
 <p align="center">
-  XXXXX
+  The task involves creating a product review component.
 </p>
 
 <p align="center">
