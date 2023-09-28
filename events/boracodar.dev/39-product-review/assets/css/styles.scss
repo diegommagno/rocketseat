@@ -8,6 +8,24 @@
 
 :root {
     font-size: 62.5%;
+
+    /* Base */
+    --grey-100: #FAFAFA;
+    --grey-200: #E3E1E4;
+    --grey-300: #75747A;
+    --grey-400: #2F2F33;
+    --grey-500: #0C0C0D;
+
+    /* Brand */
+    --purple: #685ED9;
+    --purple-dark: #4439C7;
+    --gradient-light: linear-gradient(77deg, #4453B2 -0.41%, #502C9E 98.95%);
+    --gradient-dark: linear-gradient(180deg, #0F0A31 0%, #3F347E 100%);
+
+    /* Rating */
+    --yellow: #F5D9AD;
+    --yellow-light: #FAF2E7;
+    --gradient-yellow: linear-gradient(108deg, #F9D399 9.14%, #D4983E 93.12%);
 }
 
 body {
