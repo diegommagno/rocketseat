@@ -1,6 +1,10 @@
 <h1 align="center"> Upload Component </h1>
 
 <p align="center">
+The file upload component facilitates the process of sending files and can be integrated into both web and mobile applications. 
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
