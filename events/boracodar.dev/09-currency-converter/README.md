@@ -1,5 +1,10 @@
 <h1 align="center"> Currency Converter </h1>
 
+
+<p align="center">
+  The currency converter component allows you to check the exchange rates of international currencies and can be integrated into both web and mobile applications.
+</p>
+
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
