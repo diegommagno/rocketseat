@@ -14,7 +14,7 @@ Page showing different plans and prices. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Event cover." src=".github/cover.png" width="80%" />
+  <img alt="Event cover." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
