@@ -1,7 +1,7 @@
 <h1 align="center"> Pricing Table </h1>
 
 <p align="center">
-Page showing different plans and prices. <br/>
+  The pricing table is a component that presents information and pricing details for digital products.
 </p>
 
 <p align="center">
