@@ -31,6 +31,8 @@ body {
   height: 100vh;
   width: 100%;
   background: var(--gradient-dark);
+  display: grid;
+  place-content: center;
 }
 
 #app {
@@ -42,6 +44,15 @@ body {
   width: 37.6rem;
 }
 
+#header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px 13.5rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+  background: var(--gradient-light);
+}
 #header img {
   width: 14rem;
   height: 23.2rem;
