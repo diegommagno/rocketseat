@@ -31,4 +31,18 @@ body {
   height: 100vh;
   width: 100%;
   background: var(--gradient-dark);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 41rem;
+  width: 37.6rem;
+}
+
+#header img {
+  width: 14rem;
+  height: 23.2rem;
 }/*# sourceMappingURL=styles.css.map */
