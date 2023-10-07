@@ -20,3 +20,36 @@ body {
     font-family: 'Sora', sans-serif;
     font-size: 1.6rem;
 }
+
+/* AI Code */
+/* Apply a background color to the entire background */
+.half-background {
+    background: var(--black);
+    height: 100vh;
+    position: relative;
+}
+
+/* Apply a white background to the left 50% */
+.half-background::before {
+    content: '';
+    background: transparent; /* You can change this to any color you prefer */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Apply the background image to the right 50% */
+.half-background::after {
+    content: '';
+    background: url(../img/bg.png) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    z-index: 0; /* Change this to 1 if the image needs to be above content */
+}
