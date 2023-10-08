@@ -57,6 +57,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  max-width: 48.2rem;
+  margin-bottom: 16rem;
 }
 .container:nth-child(1) .header {
   display: flex;
@@ -80,6 +82,10 @@ body {
   font-size: 2rem;
   line-height: 28px; /* 140% */
 }
+.container:nth-child(1) .wrapper {
+  display: flex;
+  gap: 8px;
+}
 .container:nth-child(1) .wrapper input {
   display: flex;
   width: 291px;
@@ -96,6 +102,25 @@ body {
 }
 .container:nth-child(1) .wrapper input::placeholder {
   color: var(--grey-200);
+}
+.container:nth-child(1) .wrapper button {
+  display: flex;
+  padding: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 4px;
+  background: var(--Linear-purple, linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%));
+  color: var(--colors-neutral-black, #000);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .card .title {
