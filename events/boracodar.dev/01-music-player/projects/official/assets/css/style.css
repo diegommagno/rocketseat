@@ -90,6 +90,9 @@ body * {
   justify-content: space-between;
   margin-top: 2.8rem;
 }
+.controls img {
+  cursor: pointer;
+}
 
 .horizontal .controls {
   padding-inline: 5.8rem;

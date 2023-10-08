@@ -101,6 +101,10 @@ body * {
   justify-content: space-between;
   
   margin-top: 2.8rem;
+
+  img {
+    cursor: pointer;
+  }
 }
 
 .horizontal .controls {
