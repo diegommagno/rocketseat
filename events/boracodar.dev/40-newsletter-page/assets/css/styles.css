@@ -50,4 +50,11 @@ body {
   width: 50%;
   height: 100%;
   z-index: 0; /* Change this to 1 if the image needs to be above content */
+}
+
+.card .title {
+  color: var(--white);
+}
+.card .content {
+  color: var(--grey);
 }/*# sourceMappingURL=styles.css.map */

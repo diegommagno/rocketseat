@@ -53,3 +53,13 @@ body {
     height: 100%;
     z-index: 0; /* Change this to 1 if the image needs to be above content */
 }
+
+.card {
+    .title {
+        color: var(--white);
+    }
+
+    .content {
+        color: var(--grey);
+    }
+}
