@@ -138,12 +138,25 @@ body {
     }
 }
 
-.card {
-    .title {
-        color: var(--white);
-    }
+.container:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
 
-    .content {
-        color: var(--grey-200);
+    .card {
+        max-width: 27.4rem;
+
+        img {
+            margin-bottom: 1rem;
+        }
+
+        .title {
+            color: var(--white);
+            margin-bottom: 0.8rem;
+        }
+    
+        .content {
+            color: var(--grey-200);
+        }
     }
 }

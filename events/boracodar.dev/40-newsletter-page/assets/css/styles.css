@@ -119,9 +119,21 @@ body {
   cursor: pointer;
 }
 
-.card .title {
-  color: var(--white);
+.container:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
 }
-.card .content {
+.container:nth-child(2) .card {
+  max-width: 27.4rem;
+}
+.container:nth-child(2) .card img {
+  margin-bottom: 1rem;
+}
+.container:nth-child(2) .card .title {
+  color: var(--white);
+  margin-bottom: 0.8rem;
+}
+.container:nth-child(2) .card .content {
   color: var(--grey-200);
 }/*# sourceMappingURL=styles.css.map */
