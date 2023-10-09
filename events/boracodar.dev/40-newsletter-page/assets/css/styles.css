@@ -20,15 +20,15 @@ body {
   font-size: 1.6rem;
 }
 
-/* AI Code */
-/* Apply a background color to the entire background */
 .half-background {
+  /* AI Code */
+  /* Apply a background color to the entire background */
   background: var(--black);
   height: 100vh;
   position: relative;
+  /* Apply a white background to the left 50% */
+  /* Apply the background image to the right 50% */
 }
-
-/* Apply a white background to the left 50% */
 .half-background::before {
   content: "";
   background: transparent; /* You can change this to any color you prefer */
@@ -39,8 +39,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
-/* Apply the background image to the right 50% */
 .half-background::after {
   content: "";
   background: url(../img/bg.png) center center no-repeat;
@@ -51,6 +49,11 @@ body {
   width: 50%;
   height: 100%;
   z-index: 0; /* Change this to 1 if the image needs to be above content */
+}
+
+#app {
+  padding-top: 16rem;
+  padding-left: 11.2rem;
 }
 
 .container:nth-child(1) {
