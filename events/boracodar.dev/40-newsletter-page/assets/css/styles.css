@@ -18,6 +18,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+  background: var(--black);
 }
 
 .half-background {
@@ -54,6 +55,7 @@ body {
 #app {
   padding-top: 16rem;
   padding-left: 11.2rem;
+  padding-bottom: 8rem;
 }
 
 .container:nth-child(1) {
@@ -120,7 +122,7 @@ body {
   transition: background 0.5s;
 }
 .container:nth-child(1) .wrapper button:hover {
-  background: linear-gradient(90deg, #996DFF 0%, #C7AFFF 85%);
+  background: linear-gradient(90deg, #996DFF 0%, #996DFF 15%, #C7AFFF 85%);
 }
 
 .container:nth-child(2) {
