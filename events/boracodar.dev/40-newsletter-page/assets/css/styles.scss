@@ -134,6 +134,12 @@ body {
             text-transform: uppercase;
 
             cursor: pointer;
+
+            transition: background 0.5s;
+
+            &:hover {
+                background: linear-gradient(90deg, #996DFF 0%, #C7AFFF 85%);
+            }
         }
     }
 }
