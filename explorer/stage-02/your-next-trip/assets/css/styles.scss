@@ -8,14 +8,6 @@
 
 :root {
     font-size: 62.5%;
-
-    --purple-linear: linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%);
-
-    --black: #09090A;
-    --white: #FFFFFF;
-
-    --grey-200: #C4C4CC;
-    --grey-800: #202024;
 }
 
 body {
@@ -23,4 +15,32 @@ body {
     font-size: 1.6rem;
 
     background: var(--black);
+
+    height: 100vh;
+    width: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin-top: 6rem;
+    margin-bottom: 3.2rem;
+}
+
+h2 {
+    margin-bottom: 1.6rem;
+}
+
+p {
+    margin-bottom: 3.2rem;
+}
+
+.divider {
+    margin-top: 6.4rem;
+    margin-bottom: 1.6rem;
 }
