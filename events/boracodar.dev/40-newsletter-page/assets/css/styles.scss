@@ -70,14 +70,6 @@ body {
         flex-direction: column;
         gap: 1.6rem;
         
-        span {
-            /* Can't use directly a linear gradient as a variable to apply color to a span */
-            background: var(--purple-linear);
-            -webkit-background-clip: text; /* For older browsers */
-            background-clip: text;
-            color: transparent;
-        }
-
         h2 {
             color: var(--white);
 

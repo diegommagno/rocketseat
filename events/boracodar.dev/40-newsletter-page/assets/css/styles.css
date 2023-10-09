@@ -65,13 +65,6 @@ body {
   flex-direction: column;
   gap: 1.6rem;
 }
-.container:nth-child(1) .header span {
-  /* Can't use directly a linear gradient as a variable to apply color to a span */
-  background: var(--purple-linear);
-  -webkit-background-clip: text; /* For older browsers */
-  background-clip: text;
-  color: transparent;
-}
 .container:nth-child(1) .header h2 {
   color: var(--white);
   font-size: 4.8rem;
