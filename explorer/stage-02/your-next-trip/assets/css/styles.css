@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --purple-linear: linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%);
+  --black: #09090A;
+  --white: #FFFFFF;
+  --grey-200: #C4C4CC;
+  --grey-800: #202024;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background: var(--black);
+}/*# sourceMappingURL=styles.css.map */
