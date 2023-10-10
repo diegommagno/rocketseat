@@ -32,13 +32,77 @@ img {
 
 h2 {
   margin-bottom: 1.6rem;
+  color: #3F3D56;
+  text-align: center;
+  font-family: Dosis;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+h2 span {
+  color: #EE24FF;
+  font-family: Dosis;
+  font-size: 3.2rem;
 }
 
 p {
+  color: #828282;
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  line-height: 22px; /* 146.667% */
+  text-align: center;
   margin-bottom: 3.2rem;
+}
+p span {
+  color: #828282;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+p span:nth-child(1) {
+  color: #3F3D56;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+span {
+  color: #828282;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .divider {
   margin-top: 6.4rem;
   margin-bottom: 1.6rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+}
+.navigation span {
+  color: #3F3D56;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.682%; /* 22.152px */
+  cursor: pointer;
+}
+
+#footer {
+  width: 100vw; /* Set the width to 100% of the parent container */
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
