@@ -1,6 +1,10 @@
 <h1 align="center"> AI SQL App Translation </h1>
 
 <p align="center">
+  The challenge is to develop an SQL translation app that can take a schema and respond to natural language questions with AI-generated queries.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
