@@ -13,24 +13,15 @@
 
 <br/>
 
-## 📝 Live Preview 
+## 📝 Live Preview & Layout
 
 - [Your Next Trip](https://dmm.studio/github/rocketseat/explorer/stage-02/your-next-trip)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
-</p>
-
-<br/>
-
-## 🎨 Layout
-
-<p align="center">
   <img alt="Project cover." src=".github/cover.png" width="80%" />
 </p>
-
 
 ## 🧑🏻‍💻 Technologies
 
