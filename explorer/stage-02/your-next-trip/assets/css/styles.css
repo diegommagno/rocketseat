@@ -51,7 +51,6 @@ p {
   margin-bottom: 3.2rem;
   width: 54rem;
   height: 10.7rem;
-  flex-shrink: 0;
 }
 p span {
   color: #828282;
