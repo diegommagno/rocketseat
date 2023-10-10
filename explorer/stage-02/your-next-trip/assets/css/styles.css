@@ -14,8 +14,6 @@ body {
   font-family: "Open sans", sans-serif;
   font-size: 1.5rem;
   background: var(--black);
-  height: 100vh;
-  width: 100%;
 }
 
 #app {
@@ -23,6 +21,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
 img {
@@ -90,6 +90,6 @@ span {
 }
 
 #footer {
-  width: 100vw; /* Set the width to 100% of the parent container */
-  height: auto;
+  display: flex;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
