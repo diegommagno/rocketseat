@@ -57,6 +57,10 @@ p {
 
     margin-bottom: 3.2rem;
 
+    width: 540px;
+    height: 107px;
+    flex-shrink: 0;
+
     span {
         color: #828282;
         font-family: Open Sans;
@@ -64,8 +68,17 @@ p {
         font-style: normal;
         font-weight: 700;
         line-height: 22px;
+            
+        &:first-child {
+            color: #3F3D56;
+            font-family: Open Sans;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+        }
 
-        &:nth-child(1) {
+        &:last-child {
             color: #3F3D56;
             font-family: Open Sans;
             font-size: 15px;
