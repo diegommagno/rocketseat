@@ -1,6 +1,10 @@
 <h1 align="center">AI YouTube Transcription</h1>
 
 <p align="center">
+  The task is to develop a YouTube video transcription page that utilizes AI for automatic transcription.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
