@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [NLW Copa Card](https://diegommagno.com/github/rocketseat/events/2022/nlw-copa/card/pt-br)
+- [NLW Copa Card](https://dmm.studio/github/rocketseat/events/next-level-week/2022/nlw-copa/card/pt-br)
 
 ## 🧑🏻‍💻 Technologies
 
