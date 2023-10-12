@@ -21,8 +21,10 @@
 
 ## 📝 Live Preview 
 
-- [NLW Copa Explorer - PT/BR](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/pt-br) - viewing now
-- [NLW Copa Explorer - EN](https://diegommagno.com/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer/en)
+
+
+- [NLW Copa Explorer - PT/BR](https://dmm.studio/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/pt-br) - viewing now
+- [NLW Copa Explorer - EN](https://dmm.studio/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/en) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer/en)
 
 <p align="center">
   <img alt="2022 World Cup game dates and countries playing." src="../../.github/nlw-copa-pt-br.png" width="80%" />
