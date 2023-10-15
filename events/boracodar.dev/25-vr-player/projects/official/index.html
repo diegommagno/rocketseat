@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  
+  <title>VR Player</title>
 
-  <title>Player de VR</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
 </head>
 <body>
-  
+  <div id="app">
+    <div class="container">
+     <div class="main-ui">
+      <div class="side-menu">
+        <div class="wrapper">
+          <div class="menu-item">
+            <ion-icon name="play-circle-outline"></ion-icon>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="accessibility-outline"></ion-icon>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="albums-outline"></ion-icon>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="search-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="nav-bar">
+          <div class="wrapper">
+            <i class="ai-panel-left"></i>
+            <ion-icon name="chevron-back-outline"></ion-icon>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+          <div class="wrapper">
+            <ion-icon name="text-outline"></ion-icon>
+            <div class="link">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <span>rocketseat.com.br</span>
+            </div>
+            <ion-icon name="refresh-outline"></ion-icon>
+          </div>
+          <div class="wrapper">
+            <ion-icon name="share-outline"></ion-icon>
+            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="copy-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="screen">
+          <video src="./assets/img/boracodar.mp4" width="960" height="540" autoplay loop muted></video>
+        </div>
+     </div>
+    </div>
+  </div>
 </body>
 </html>
