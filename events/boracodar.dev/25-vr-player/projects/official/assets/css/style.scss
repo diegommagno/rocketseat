@@ -22,137 +22,17 @@ body {
   font-size: 1.6rem;
   color: var(--white);
 
-  background: lightgray url("../img/bg.png") 50% / cover no-repeat;
+  background: lightgray url("../img/") 50% / cover no-repeat;
 }
 
 body * {
   font-family: 'Inter', sans-serif;
 }
 
-#app {
-  width: 100vw;
-  height: 100vh;
-
+.side-menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.60) 100%);
-}
-
-.container {
-
-  .main-ui {
-    display: flex;
-    gap: 2.4rem;
-
-    .side-menu {
-      display: flex;
-      align-items: center;
-
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.2rem;
-
-        padding: 1.2rem;
-
-        background: rgba(255, 255, 255, 0.10);
-        box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
-        backdrop-filter: blur(16px);
-        border-radius: 8rem;
-
-        ion-icon {
-          padding: 8px;
-          font-size: 2.4rem;
-          cursor: pointer;
-        }
-
-        .menu-item:nth-child(1) {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          border-radius: 8rem;
-          background: rgba(255, 255, 255, 0.20);
-        }
-      }
-
-    }
-
-    .main-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 3.2rem;
-
-      .nav-bar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 2.4rem;
-
-        width: 85%;
-
-        padding: 0.8rem 1.2rem;
-
-        background: rgba(255, 255, 255, 0.10);
-        box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
-        backdrop-filter: blur(16px);
-        border-radius: 8rem;
-
-        .wrapper {
-          display: flex;
-          gap: 1.6rem;
-
-          i {
-            padding: 6px 8px;
-            font-size: 2.4rem;
-
-            background: rgba(255, 255, 255, 0.20);
-            border-radius: 8rem;
-          }
-
-          ion-icon {
-            padding: 8px;
-          }
-
-          i, ion-icon {
-            font-size: 2.4rem;
-            cursor: pointer;
-          }
-        }
-
-        .wrapper:nth-child(2) {
-          display: flex;
-          justify-content: space-between;
-
-          width: 100%;
-
-          padding: 1.2rem;
-
-          background: rgba(0, 0, 0, 0.10);
-          box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.20) inset;
-          border-radius: 8rem;
-
-          .link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-          }
-        }
-      }
-
-      .screen {
-        video {
-          border-radius: 3.2rem;
-          box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05);
-        }
-      }
-    }
-  }
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
