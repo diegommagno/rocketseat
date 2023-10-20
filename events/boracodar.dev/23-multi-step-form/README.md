@@ -1,6 +1,10 @@
 <h1 align="center"> Multi Step Form </h1>
 
 <p align="center">
+  The challenge is to create a multi-step form component. This type of component can be used for lengthy forms or complex processes to enhance user usability and experience.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
