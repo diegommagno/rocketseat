@@ -36,6 +36,16 @@ body * {
   font-family: 'Inter', sans-serif;
 }
 
+#app {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content max-content max-content;
+  grid-template-areas: 
+  'aside header'
+  'aside main'
+  'aside footer'
+}
+
 .side-menu {
   display: flex;
   padding: 0.75rem;
