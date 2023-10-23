@@ -39,6 +39,22 @@ body * {
   grid-template-areas: "aside header" "aside main" "aside footer";
 }
 
+aside {
+  grid-area: aside;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
 .side-menu {
   display: flex;
   padding: 0.75rem;
