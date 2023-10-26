@@ -1,6 +1,7 @@
 <h1 align="center"> Date Picker </h1>
 
 <p align="center">
+  The date picker is a component for selecting dates and periods, suitable for use in both web and mobile applications.
 </p>
 
 <p align="center">
