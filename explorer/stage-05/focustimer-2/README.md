@@ -21,8 +21,8 @@ Cronometer made with HTML, CSS and JavaScript. <br/>
 
 ## 📝 Live Preview 
 
-- [FocusTimer](https://diegommagno.com/github/rocketseat/explorer/stage-05/focustimer/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
-- Update: [FocusTimer 2.0](https://diegommagno.com/github/rocketseat/explorer/stage-05/focustimer-2/) - viewing now
+- [FocusTimer](https://dmm.studio/github/rocketseat/explorer/stage-05/focustimer/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer)
+- Update: [FocusTimer 2.0](https://dmm.studio/github/rocketseat/explorer/stage-05/focustimer-2/) - viewing now
 
 
 ## 🎨 Layout
