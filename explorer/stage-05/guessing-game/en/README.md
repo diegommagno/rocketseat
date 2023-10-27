@@ -19,8 +19,8 @@ A Guessing Game using JavaScript. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-05/guessing-game/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/guessing-game/pt-br)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-05/guessing-game/en) - viewing now
+- [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-05/guessing-game/pt-br) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/guessing-game/pt-br)
+- Update: [English](https://dmm.studio/github/rocketseat/explorer/stage-05/guessing-game/en) - viewing now
 
 ## 🧑🏻‍💻 Technologies
 
