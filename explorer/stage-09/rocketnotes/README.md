@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Rocketnotes](https://diegommagno.com/github/rocketseat/explorer/stage-09/rocketnotes)
+- [Rocketnotes](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketnotes)
 
 <br/>
 
