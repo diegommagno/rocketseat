@@ -1,7 +1,7 @@
 <h1 align="center"> FocusTimer 2.0 </h1>
 
 <p align="center">
-Cronometer made with HTML, CSS and JavaScript. <br/>
+An interactive Cronometer crafted using HTML, CSS, and JavaScript.
 </p>
 
 <p align="center">
