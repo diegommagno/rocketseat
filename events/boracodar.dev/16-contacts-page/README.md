@@ -1,6 +1,10 @@
 <h1 align="center"> Contacts Page </h1>
 
 <p align="center">
+  The project is about creating a mobile application page with a contact list.
+</p>
+
+<p align="center">
   The project consists of a mobile application featuring a contact list page.
 </p>
 
