@@ -19,7 +19,7 @@ A single page application using the GitHub API to display favorite selected user
 <br/>
 
 ## 📝 Live Preview 
-- [GitHub Favorites](https://diegommagno.com/github/rocketseat/explorer/stage-06/github-favorites/)
+- [GitHub Favorites](https://dmm.studio/github/rocketseat/explorer/stage-06/github-favorites/)
 
 ## 🧑🏻‍💻 Technologies
 
