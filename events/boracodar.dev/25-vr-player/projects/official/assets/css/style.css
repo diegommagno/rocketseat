@@ -67,17 +67,18 @@ footer {
   -webkit-backdrop-filter: blur(16px);
           backdrop-filter: blur(16px);
 }
-.side-menu .ion-icon {
+.side-menu ion-icon {
   display: flex;
-  padding: 0.5rem;
   align-items: flex-start;
   width: 1.5rem;
   height: 1.5rem;
+  padding: 0.5rem;
   color: var(--white);
   opacity: 0.8;
   border-radius: 5rem;
+  cursor: pointer;
 }
-.side-menu .ion-icon:hover {
+.side-menu ion-icon:hover {
   background: rgba(255, 255, 255, 0.2);
   opacity: 1;
 }
