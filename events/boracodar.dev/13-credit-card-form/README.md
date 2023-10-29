@@ -1,6 +1,10 @@
 <h1 align="center"> Credit Card Form </h1>
 
 <p align="center">
+  This component is dedicated to capturing credit card information and can be seamlessly integrated into both web and mobile applications.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
