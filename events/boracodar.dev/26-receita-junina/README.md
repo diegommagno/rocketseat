@@ -1,7 +1,9 @@
 <h1 align="center"> Receita Junina </h1>
+
 <p align="center">
 The task is to code a page for a typical 'Festa Junina' recipe. 'Festa Junina' is a traditional Brazilian celebration held in June, featuring folk music, dance, and traditional foods, often associated with honoring various saints.
 </p>
+
 <p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

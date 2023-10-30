@@ -1,6 +1,10 @@
 <h1 align="center"> Dashboard </h1>
 
 <p align="center">
+  The dashboard is a web page designed for metric visualization.
+</p>
+
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
