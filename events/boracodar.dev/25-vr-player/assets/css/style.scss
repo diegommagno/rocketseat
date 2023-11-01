@@ -68,6 +68,19 @@ body * {
           padding: 8px;
           font-size: 2.4rem;
           cursor: pointer;
+
+          color: var(--white);
+          opacity: 0.8;
+
+          border-radius: 5rem;
+
+          cursor: pointer;
+
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.20);
+            opacity: 1;
+          }
         }
 
         .menu-item:nth-child(1) {

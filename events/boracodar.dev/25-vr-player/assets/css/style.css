@@ -60,6 +60,14 @@ body * {
   padding: 8px;
   font-size: 2.4rem;
   cursor: pointer;
+  color: var(--white);
+  opacity: 0.8;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.container .main-ui .side-menu .wrapper ion-icon:hover {
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
 }
 .container .main-ui .side-menu .wrapper .menu-item:nth-child(1) {
   display: flex;
