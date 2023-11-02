@@ -100,7 +100,7 @@ footer {
   align-items: flex-start;
   gap: 1rem;
 }
-.nav-bar .actions .ion-icons {
+.nav-bar .actions .ion-icon {
   display: flex;
   padding: 0.5rem;
   align-items: center;
