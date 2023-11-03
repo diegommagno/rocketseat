@@ -114,7 +114,22 @@ footer {
     align-items: flex-start;
     gap: 1rem;
 
-    .ion-icon {
+    i.ai-panel-left {
+      font-size: 1.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: var(--white);
+      opacity: 0.8;
+            
+      border-radius: 5rem;
+    }
+
+    ion-icon {
       display: flex;
       padding: 0.5rem;
       align-items: center;
@@ -125,6 +140,17 @@ footer {
 
       color: var(--white);
       opacity: 0.8;
+
+      border-radius: 5rem;
+    }
+
+    i.ai-panel-left, ion-icon {
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.20);
+        opacity: 1;
+      }
     }
   }
 
@@ -146,7 +172,7 @@ footer {
     font-weight: 400;
     line-height: 1.5rem; /* 160% */
 
-    .ion-icon {
+    ion-icon {
       width: 1.5rem;
       height: 1.5rem;
       flex-shrink: 0;
