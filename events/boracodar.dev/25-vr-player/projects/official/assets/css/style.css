@@ -26,6 +26,7 @@ body {
   display: grid;
   place-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 body * {
@@ -201,4 +202,18 @@ footer {
   background: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
+}
+
+#app {
+  animation: appear 400ms 500ms backwards;
+}
+
+@keyframes appear {
+  from {
+    scale: 2;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */

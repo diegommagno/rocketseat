@@ -30,6 +30,8 @@ body {
   display: grid;
   place-content: center;
   height: 100vh;
+
+  overflow: hidden;
 }
 
 body * {
@@ -241,5 +243,20 @@ footer {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(2px);
+  }
+}
+
+#app {
+  animation: appear 400ms 500ms backwards;
+}
+
+@keyframes appear {
+  from {
+    scale: 2;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
