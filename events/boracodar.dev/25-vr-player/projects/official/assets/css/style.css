@@ -157,6 +157,16 @@ footer {
   flex-shrink: 0;
   opacity: 0.8;
 }
+.nav-bar .address-bar .rocket {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.nav-bar .address-bar .rocket ion-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -2px;
+}
 
 .screen {
   width: 60rem;
