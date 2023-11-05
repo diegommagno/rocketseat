@@ -216,27 +216,30 @@ footer {
     
     border-radius: inherit;
   }
+}
 
-  .interaction {
-    align-items: center;
-    display: flex;
-    gap: 1rem;
+.interaction {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
 
-    .ellipse {
-      width: 0.5rem;
-      height: 0.5rem;
+  justify-self: center;
+  
+  .ellipse {
+    width: 0.5rem;
+    height: 0.5rem;
 
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.6);
-      backdrop-filter: blur(2px);
-    }
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+  }
 
-    .rectangle {
-      width: 5.375rem;
-      height: 0.5rem;
-      fill: rgba(255, 255, 255, 0.6);
-      backdrop-filter: blur(2px);
-      border-radius: 8px;
-    }
+  .rectangle {
+    width: 5.375rem;
+    height: 0.5rem;
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
   }
 }

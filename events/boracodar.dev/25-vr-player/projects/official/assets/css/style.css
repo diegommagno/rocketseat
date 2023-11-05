@@ -179,12 +179,14 @@ footer {
   height: 100%;
   border-radius: inherit;
 }
-.screen .interaction {
+
+.interaction {
   align-items: center;
   display: flex;
   gap: 1rem;
+  justify-self: center;
 }
-.screen .interaction .ellipse {
+.interaction .ellipse {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 8px;
@@ -192,11 +194,11 @@ footer {
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
 }
-.screen .interaction .rectangle {
+.interaction .rectangle {
   width: 5.375rem;
   height: 0.5rem;
-  fill: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
