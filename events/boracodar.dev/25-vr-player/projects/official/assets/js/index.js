@@ -35,10 +35,12 @@ window.onYouTubeIframeAPIReady = function() {
 function videoStateChange(event) {
     switch(event.data) {
         case YT.PlayerState.PLAYING:
+            if(!ambientLight) return
             ambientLight.seekTo(event.target.getCurrentTime())
             ambientLight.playVideo()
             break
         case YT.PlayerState.PAUSE:
+            if(!ambientLight) return
             ambientLight.seekTo(event.target.getCurrentTime())
             ambientLight.pauseVideo()
             break
