@@ -5,19 +5,19 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 let video 
-let ambientLight
+let ambilight
 let animationHasEnded = false
 const videoId = 'qC0vDKVPCrw'
 
 /* function for the iframe to load later, otherwise it's too much to load */
 
-function createAmbientLight() {
+function createAmbilight() {
     if(!animationHasEnded) return
 
-    ambientLight = new YT.Player('ambient-light', {
+    Ambilight = new YT.Player('ambient-light', {
         videoId,
         events: {
-            onReady: ambientLightReady,
+            onReady: AmbilightReady,
             onStateChange: ambientStateChange,
         },
     })
@@ -35,16 +35,29 @@ window.onYouTubeIframeAPIReady = function() {
 function videoStateChange(event) {
     switch(event.data) {
         case YT.PlayerState.PLAYING:
-            if(!ambientLight) return
-            ambientLight.seekTo(event.target.getCurrentTime())
-            ambientLight.playVideo()
+            if(!Ambilight) return
+            Ambilight.seekTo(event.target.getCurrentTime())
+            Ambilight.playVideo()
             break
         case YT.PlayerState.PAUSE:
-            if(!ambientLight) return
-            ambientLight.seekTo(event.target.getCurrentTime())
-            ambientLight.pauseVideo()
+            if(!Ambilight) return
+            Ambilight.seekTo(event.target.getCurrentTime())
+            Ambilight.pauseVideo()
             break
     }
 }
-function ambientLightReady(event) {}
+
+function AmbilightReady(event) {
+    event.target.mute()
+}
+
 function ambientStateReady(event) {}
+
+/* Quando a animacao acabar, roda esse pedaco de codigo. Se ela nao tiver o nome appear, nao faz nada */
+const app = document.querySelector('#app')
+app.addEventListener('animationend', e => {
+    if(e.animationName !== 'appear') return
+
+    animationHasEnded = true
+    createAmbilight()
+})
