@@ -190,6 +190,16 @@ footer {
   height: 100%;
   border-radius: inherit;
 }
+.screen #ambilight {
+  position: absolute;
+  z-index: -1;
+  inset: 0; /* same as top, left, right, bottom: 0*/
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  pointer-events: none;
+  scale: 1.2;
+}
 
 .interaction {
   align-items: center;
