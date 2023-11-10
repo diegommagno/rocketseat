@@ -14,7 +14,7 @@ const videoId = 'qC0vDKVPCrw'
 function createAmbilight() {
     if(!animationHasEnded) return
 
-    Ambilight = new YT.Player('ambient-light', {
+    Ambilight = new YT.Player('ambilight', {
         videoId,
         events: {
             onReady: AmbilightReady,
