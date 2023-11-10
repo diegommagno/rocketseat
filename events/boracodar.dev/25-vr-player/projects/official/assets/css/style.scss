@@ -240,6 +240,7 @@ footer {
     border-radius: inherit;
     pointer-events: none;
     scale: 1.2;
+    filter: blur(100px) opacity(0.5) saturate(300%);
   }
 }
 
