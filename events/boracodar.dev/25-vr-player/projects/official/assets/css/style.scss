@@ -32,6 +32,8 @@ body {
   height: 100vh;
 
   overflow: hidden;
+
+  backdrop-filter: brightness(0.5);
 }
 
 body * {
