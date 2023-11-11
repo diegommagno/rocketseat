@@ -55,7 +55,7 @@ function AmbilightReady(event) {
     improvedAmbilight(event)
 }
 
-function ambientStateReady(event) {}
+function ambientStateChange(event) {}
 
 /* Quando a animacao acabar, roda esse pedaco de codigo. Se ela nao tiver o nome appear, nao faz nada */
 const app = document.querySelector('#app')
