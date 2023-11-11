@@ -47,8 +47,12 @@ function videoStateChange(event) {
     }
 }
 
-function AmbilightReady(event) {
+function improvedAmbilight(event) {
     event.target.mute()
+}
+
+function AmbilightReady(event) {
+    improvedAmbilight(event)
 }
 
 function ambientStateReady(event) {}
