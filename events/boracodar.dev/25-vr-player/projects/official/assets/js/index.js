@@ -14,10 +14,10 @@ const videoId = 'qC0vDKVPCrw'
 function createAmbilight() {
     if(!animationHasEnded) return
 
-    Ambilight = new YT.Player('ambilight', {
+    ambilight = new YT.Player('ambilight', {
         videoId,
         events: {
-            onReady: AmbilightReady,
+            onReady: ambilightReady,
             onStateChange: ambientStateChange,
         },
     })
@@ -35,14 +35,14 @@ window.onYouTubeIframeAPIReady = function() {
 function videoStateChange(event) {
     switch(event.data) {
         case YT.PlayerState.PLAYING:
-            if(!Ambilight) return
-            Ambilight.seekTo(event.target.getCurrentTime())
-            Ambilight.playVideo()
+            if(!ambilight) return
+            ambilight.seekTo(event.target.getCurrentTime())
+            ambilight.playVideo()
             break
         case YT.PlayerState.PAUSE:
-            if(!Ambilight) return
-            Ambilight.seekTo(event.target.getCurrentTime())
-            Ambilight.pauseVideo()
+            if(!ambilight) return
+            ambilight.seekTo(event.target.getCurrentTime())
+            ambilight.pauseVideo()
             break
     }
 }
@@ -51,11 +51,17 @@ function improvedAmbilight(event) {
     event.target.mute()
 }
 
-function AmbilightReady(event) {
+function ambilightReady(event) {
     improvedAmbilight(event)
 }
 
-function ambientStateChange(event) {}
+function ambientStateChange(event) {
+    switch(event.data) {
+        case YT.PlayerState.BUFFERING:
+            case YT.PlayerState.PLAYING:
+                improvedAmbilight(event)
+    }
+}
 
 /* Quando a animacao acabar, roda esse pedaco de codigo. Se ela nao tiver o nome appear, nao faz nada */
 const app = document.querySelector('#app')
