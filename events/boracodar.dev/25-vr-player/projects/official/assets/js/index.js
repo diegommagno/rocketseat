@@ -39,7 +39,7 @@ function videoStateChange(event) {
             ambilight.seekTo(event.target.getCurrentTime())
             ambilight.playVideo()
             break
-        case YT.PlayerState.PAUSE:
+        case YT.PlayerState.PAUSED:
             if(!ambilight) return
             ambilight.seekTo(event.target.getCurrentTime())
             ambilight.pauseVideo()
