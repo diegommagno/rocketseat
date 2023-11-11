@@ -73,6 +73,7 @@ function ambientStateChange(event) {
         case YT.PlayerState.BUFFERING:
             case YT.PlayerState.PLAYING:
                 improvedAmbilight(event)
+        break
     }
 }
 
