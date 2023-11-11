@@ -49,6 +49,19 @@ function videoStateChange(event) {
 
 function improvedAmbilight(event) {
     event.target.mute()
+
+    const qualityLevels = event.target.getAvailableQualityLevels()
+    
+    if(qualityLevels && qualityLevels.length && qualityLevels.length > 0) {
+        qualityLevels.reverse()
+        console.log(qualityLevels)
+    }
+
+    const lowestQuality = 
+    qualityLevels[qualityLevels.findIndex(q => q !== 'auto')]
+    /* q => q !== 'auto' means if the quality is different from the automatic, continue and get the index */
+
+    event.target.setPlaybackQuality(lowestQuality)
 }
 
 function ambilightReady(event) {
