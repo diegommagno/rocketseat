@@ -61,6 +61,7 @@
 - [33 - Ticket Generator](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/33-ticket-generator)
 - [34 - Shopping List](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/34-shopping-list)
 - [35 - Drink Water Reminder](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/35-drink-water-reminder)
+- [36 - Nutritional Table](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/36-nutritional-table)
 
 ##### Explorer Marathon
 - [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
