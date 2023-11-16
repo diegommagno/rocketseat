@@ -63,6 +63,7 @@
 - [35 - Drink Water Reminder](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/35-drink-water-reminder)
 - [36 - Nutritional Table](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/36-nutritional-table)
 - [37 - Sleep app for Apple Watch](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/37-sleep-app-for-apple-watch)
+- [38 - Cards Quiz](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/38-cards-quiz)
 
 
 ##### Explorer Marathon
