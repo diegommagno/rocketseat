@@ -65,6 +65,7 @@
 - [37 - Sleep app for Apple Watch](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/37-sleep-app-for-apple-watch)
 - [38 - Cards Quiz](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/38-cards-quiz)
 - [39 - Product Review](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/39-product-review)
+- [40 - Newsletter Page](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/40-newsletter-page)
 
 
 ##### Explorer Marathon
