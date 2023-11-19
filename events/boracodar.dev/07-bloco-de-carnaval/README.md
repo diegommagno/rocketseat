@@ -30,8 +30,8 @@ The Carnival website is a web page that features a search function for finding c
 
 ## 🧑🏻‍💻 Technologies
 
-- HTML e CSS
-- Git e Github
+- HTML
+- SCSS
 - Figma
 - Phosphor Icons
 
@@ -40,4 +40,4 @@ The Carnival website is a web page that features a search function for finding c
 - Customised Input, Select and Button
 - Using customised fonts and icons
 - HTML: `form`,`header`,`main`,`section`,`select`,`img`,
-- CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex e grid`, `@media`, `responsividade`
+- CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex`, `grid`, `@media`, `responsive design`
