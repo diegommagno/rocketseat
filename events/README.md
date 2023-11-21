@@ -20,7 +20,7 @@
 - [DevLinks](https://github.com/diegommagno/rocketseat/tree/main/events/devlinks)
 
 ##### Next Level Week
-- [NLW Spacetime](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
+- [NLW Spacetime - Time Capsule](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
 - [NLW World Cup - Games Calendar](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/explorer)
 - [NLW World Cup - Card](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-copa/card/pt-br)
 - [NLW eSports Explorer - Games](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
