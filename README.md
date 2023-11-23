@@ -10,7 +10,6 @@ Repository with a collection of projects I've mastered and can confidently repro
 </p>
 
 <br/>
-<br/>
 
 ## :rocket: Courses repos
 Courses taken at Rocketseat. Inside each repo are the projects for that course.
@@ -23,7 +22,7 @@ Courses taken at Rocketseat. Inside each repo are the projects for that course.
 <br/>
 Events projects
 
-<br/><br/>
+<br/>
 
 <!-- <a href="./discover">
   <img alt="Discover logo" src="./.github/discover-logo.png" style="width: 23%;">
@@ -39,7 +38,7 @@ Starter course: HTML, CSS, JavaScript.
   <br/>
   Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
 
-  <br/><br/>
+  <br/>
 
   <a href="./ignite">
   <img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
@@ -47,17 +46,13 @@ Starter course: HTML, CSS, JavaScript.
   <br/>
   Advanced course: React.js, React Native, Node.js, TailwindCSS.
   
-  <br/><br/>
+  <br/>
 
 ## :star: Featured Projects
-
-<br/>
 
 ### Level 3 Projects - React
 - [Event Platform](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform)
 - [Rocket Notes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketnotes)
-
-<br/>
 
 ### Level 2 Projects - HTML + CSS + JavaScript
 
@@ -65,8 +60,6 @@ Starter course: HTML, CSS, JavaScript.
 - [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
 - [NLW eSports Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
 - [NLW Spacetime Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
-
-<br/>
 
 ### Level 1 Projects - HTML + CSS
 
@@ -82,7 +75,6 @@ Starter course: HTML, CSS, JavaScript.
 - [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
 - [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
 
-<br/><br/>
 
 ## 📘 License
 
