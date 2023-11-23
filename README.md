@@ -25,13 +25,13 @@ Events projects
 
 <br/><br/>
 
-<a href="./discover">
+<!-- <a href="./discover">
   <img alt="Discover logo" src="./.github/discover-logo.png" style="width: 23%;">
 </a>
 <br/>
 Starter course: HTML, CSS, JavaScript.
 
-<br/><br/>
+<br/><br/> -->
 
 <a href="./explorer">
   <img alt="Explorer logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
