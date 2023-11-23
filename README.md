@@ -22,7 +22,7 @@ Courses taken at Rocketseat. Inside each repo are the projects for that course.
 <br/>
 Events projects
 
-<br/>
+<br/><br/>
 
 <!-- <a href="./discover">
   <img alt="Discover logo" src="./.github/discover-logo.png" style="width: 23%;">
@@ -33,20 +33,20 @@ Starter course: HTML, CSS, JavaScript.
 <br/><br/> -->
 
 <a href="./explorer">
-  <img alt="Explorer logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
-  </a>
-  <br/>
-  Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
+<img alt="Explorer logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
+</a>
+<br/>
+Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
 
-  <br/>
+<br/><br/>
 
-  <a href="./ignite">
-  <img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
-  </a> 
-  <br/>
-  Advanced course: React.js, React Native, Node.js, TailwindCSS.
+<a href="./ignite">
+<img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
+</a> 
+<br/>
+Advanced course: React.js, React Native, Node.js, TailwindCSS.
   
-  <br/>
+<br/><br/>
 
 ## :star: Featured Projects
 
