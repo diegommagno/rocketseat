@@ -31,7 +31,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="60%" />
+  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="40%" />
 </p>
 
 <br/>
