@@ -14,7 +14,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -22,6 +22,7 @@
 ## 📝 Live Preview 
 
 - [RocketMovies](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketmovies)
+- [RocketMovies - PT/BR (Main repo)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketmovies)
 
 <br/>
 
