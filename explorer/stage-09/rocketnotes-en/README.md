@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Rocket Notes](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketnotes)
+- [Rocket Notes](https://explorer-rocketnotes.vercel.app/)
 
 <br/>
 
