@@ -1,4 +1,4 @@
-<h1 align="center"> Rocketnotes </h1>
+<h1 align="center"> Rocket Notes </h1>
 
 <p align="center">
   <br/>
@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Rocketnotes](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketnotes)
+- [Rocket Notes](https://explorer-rocketnotes.vercel.app/)
 
 <br/>
 

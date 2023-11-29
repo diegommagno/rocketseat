@@ -22,6 +22,7 @@
 ## 📝 Live Preview 
 
 - [RocketMovies](https://explorer-rocketmovies-three.vercel.app/)
+- [RocketMovies - PT/BR (Main repo)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketmovies)
 
 <br/>
 
@@ -35,7 +36,7 @@
 
 - HTML
 - CSS
-- React
+- React.js
 
 ## 🎓 Worked on
 
