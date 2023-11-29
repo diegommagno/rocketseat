@@ -11,25 +11,25 @@ export function SignIn() {
     <Container>
       <Form>
         <h1>Rocket Notes</h1>
-        <p>Aplicação para salvar e gerenciar seus links úteis.</p>
+        <p>Application to save and manage your useful links.</p>
 
-        <h2>Faça seu login</h2>
+        <h2>Log In</h2>
 
         <Input 
-          placeholder="E-mail"
+          placeholder="Email"
           type="email"
           icon={FiMail}
         />
         <Input 
-          placeholder="Senha"
+          placeholder="Password"
           type="password"
           icon={FiLock}
         />
         
-        <Button title="Entrar" />
+        <Button title="Enter" />
 
         <Link to="/register">
-          Criar conta
+          Create account
         </Link>
       </Form>
 
