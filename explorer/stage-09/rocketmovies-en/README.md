@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [RocketMovies](https://dmm.studio/github/rocketseat/explorer/stage-09/rocketmovies)
+- [RocketMovies](https://explorer-rocketmovies-three.vercel.app/)
 
 <br/>
 
