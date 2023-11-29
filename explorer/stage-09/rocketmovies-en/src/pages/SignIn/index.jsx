@@ -11,9 +11,9 @@ export function SignIn() {
     <Container>
       <Form>
         <h1>RocketMovies</h1>
-        <p>Aplicação para acompanhar tudo que assistir.</p>
+        <p>Application to track everything you watch.</p>
 
-        <h2>Faça seu login</h2>
+        <h2>Log in</h2>
 
         <Input
           placeholder="E-mail"
@@ -22,15 +22,15 @@ export function SignIn() {
         />
         
         <Input
-          placeholder="Senha"
+          placeholder="Password"
           type="password"
           icon={FiLock}
         />
 
-        <Button title="Entrar" />
+        <Button title="Enter" />
 
         <Link to="/sign-up">
-          Criar conta
+          Create account
         </Link>
         
       </Form>

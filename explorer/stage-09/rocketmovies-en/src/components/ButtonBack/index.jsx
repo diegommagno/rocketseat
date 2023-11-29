@@ -8,7 +8,7 @@ export function ButtonBack({ ...rest}) {
       {...rest}
     >
       <FiArrowLeft />
-      Voltar
+      Back
     </Container>
   );
 }

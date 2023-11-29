@@ -17,11 +17,11 @@ export function Header() {
       </Search>
 
       <Profile to="/profile">
-        <img src="https://github.com/diegommagno.png" alt="Foto do Usuário" />
+        <img src="https://github.com/diegommagno.png" alt="User photo" />
 
         <div>
           <strong>Diego Magno</strong>
-          <span>Sair</span>
+          <span>Log Out</span>
         </div>
       </Profile>
     </Container>

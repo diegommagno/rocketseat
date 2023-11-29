@@ -11,33 +11,33 @@ export function SignUp() {
     <Container>
       <Form>
         <h1>RocketMovies</h1>
-        <p>Aplicação para acompanhar tudo que assistir.</p>
+        <p>Application to track everything you watch.</p>
 
-        <h2>Crie sua conta</h2>
+        <h2>Create your account</h2>
 
         <Input
-          placeholder="Nome"
+          placeholder="Name"
           type="text"
           icon={FiUser}
         />
 
         <Input
-          placeholder="E-mail"
+          placeholder="Email"
           type="text"
           icon={FiMail}
         />
         
         <Input
-          placeholder="Senha"
+          placeholder="Password"
           type="password"
           icon={FiLock}
         />
 
-        <Button title="Cadastrar" />
+        <Button title="Sign Up" />
 
           <Link to="/">
             <FiArrowLeft />
-            Voltar para o login
+            Back to Login
           </Link>
       </Form>
 

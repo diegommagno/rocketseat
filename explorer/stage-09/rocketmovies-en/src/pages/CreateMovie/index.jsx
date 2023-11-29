@@ -22,12 +22,12 @@ export function CreateMovie() {
 
         <Form>
           <header>
-            <h1>Novo filme</h1>
+            <h1>New movie</h1>
           </header>
 
           <div>
-            <Input placeholder="Título" />
-            <Input placeholder="Sua nota (de 0 a 5)" />
+            <Input placeholder="Title" />
+            <Input placeholder="Your rating (from 0 to 5)" />
           </div>
 
           <Textarea placeholder="Observações" />
