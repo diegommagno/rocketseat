@@ -14,7 +14,7 @@ The widget is a component with information about your driver in a transportation
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
