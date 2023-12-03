@@ -14,7 +14,7 @@ Kanban is a visual workflow management methodology that aims to increase the eff
 <br/>
 
 <p align="center">
-  <img alt="Event cover and photos of each developed landing page." src=".github/cover.png" width="80%" />
+  <img alt="Event cover and photos of each developed landing page." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
