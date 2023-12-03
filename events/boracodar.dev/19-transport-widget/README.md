@@ -21,7 +21,7 @@ The widget is a component with information about your driver in a transportation
 
 ## 📝 Live Preview 
 
-- [Transport Widget](https:/dmm.studio/github/rocketseat/events/boracodar.dev/19-transport-widget)
+- [Transport Widget](https:/dmm.studio/github/rocketseat/events/boracodar.dev/19-transport-widget/)
 
 <br/>
 
