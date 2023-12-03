@@ -1,7 +1,7 @@
 <h1 align="center"> Hover Gallery </h1>
 
 <p align="center">
-  This project provides a unique and captivating experience for abstract art enthusiasts.
+  An interactive page of abstract art that displays additional information on hover. The page was designed for web applications.
 </p>
 
 <p align="center">
