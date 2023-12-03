@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Pricing Table](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Pricing Table](https://dmm.studio/github/rocketseat/events/boracodar.dev/15-pricing-table)
 
 <br/>
 
