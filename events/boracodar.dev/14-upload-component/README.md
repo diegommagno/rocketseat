@@ -14,7 +14,7 @@ The file upload component facilitates the process of sending files and can be in
 <br/>
 
 <p align="center">
-  <img alt="Event cover and photos of each developed landing page." src=".github/cover.png" width="80%" />
+  <img alt="Event cover and photos of each developed landing page." src=".github/cover-2.png" width="80%" />
 </p>
 
 <br/>
