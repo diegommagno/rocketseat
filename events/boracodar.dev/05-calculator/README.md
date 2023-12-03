@@ -1,7 +1,7 @@
 <h1 align="center"> Calculator </h1>
 
 <p align="center">
-  Functional calculator with clean design.
+  Calculator with clean design.
   <br/>
   <br/>
   These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
