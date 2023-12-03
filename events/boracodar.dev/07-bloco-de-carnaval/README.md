@@ -1,7 +1,7 @@
 <h1 align="center"> Carnival Blocks </h1>
 
 <p align="center">
-The Carnival website is a web page that features a search function for finding carnival blocks. <br/>
+Page featuring recommended carnival blocks with a filter option.
 </p>
 
 <p align="center">
