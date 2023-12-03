@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Light Adjustments](https://dmm.studio/github/rocketseat/events/boracodar.dev/24-light-adjustments/)
+- [Light Adjustments](https://dmm.studio/github/rocketseat/events/boracodar.dev/24-light-adjustments/projects/official)
 
 <br/>
 
