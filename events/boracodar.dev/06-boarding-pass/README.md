@@ -1,7 +1,7 @@
 <h1 align="center"> Boarding Pass </h1>
 
 <p align="center">
-The boarding pass is a component that contains all the flight information. It can be used in web or mobile applications.
+Component containing all flight information for web or mobile applications.
 </p>
 
 <p align="center">
