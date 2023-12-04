@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+  <title>Ticket Generator</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <div class="ticket-generation">
+      <h1>Create your ticket and share it with the world</h1>
+
+      <div class="wrapper">
+        <span>Enter your GitHub username</span>
+
+        <div class="input-wrapper">
+          <img src="./assets/img/logo-github.svg" alt="GitHub logo">
+          <input type="text" id="username" placeholder="Username" />
+        </div>
+
+        <div class="ticket-success hide">
+          <div class="wrapper">
+            <img src="./assets/img/confirmed.svg" alt="Confirmed">
+            <span>Ticket successfully created.</span>  
+          </div>
+        </div>
+
+        <button onclick="newTicket()">
+          Create my ticket
+        </button>
+      </div>
+    </div>
+
+    <div class="ticket">
+      <img src="./assets/img/img-cover.svg" alt="">
+
+     <div class="wrapper">
+      <div class="ticket-header">
+        <div id="img-avatar"></div>
+        <span class="level">Crew Member</span>
+        <span class="name">Your Name Here</span>
+      </div>
+
+      <div class="ticket-body">
+        <div class="event-name">
+          <span>Event</span>
+          <span>AI for Devs</span>
+        </div>
+        <div class="date">
+          <span>Date</span>
+          <span>Aug 14 — 16, 2023</span>
+        </div>
+        <div class="hour">
+          <span>Time</span>
+          <span>Live — 7:00 PM</span>
+        </div>
+      </div>
+
+      <img src="./assets/img/lines.svg" alt="Lines">
+     </div>
+    </div>
+  </div>
+</body>
+</html>
