@@ -21,12 +21,12 @@
 
 ## 📝 Live Preview 
 
-- [Sleep App for Apple Watch](https://dmm.studio/github/rocketseat/events/boracodar.dev/37-sleep-app-for-the-apple-watch)
+- [Sleep App for Apple Watch](https://dmm.studio/github/rocketseat/events/boracodar.dev/37-sleep-app-for-apple-watch/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="70%" />
 </p>
 
 <br/>
