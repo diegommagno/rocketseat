@@ -1,7 +1,7 @@
 <h1 align="center"> Newsletter Page </h1>
 
 <p align="center">
-  The challenge is to develop a newsletter subscription page focused on providing setup inspiration.
+  Newsletter subscription page focused on providing computer setup inspiration.
 </p>
 
 <p align="center">
