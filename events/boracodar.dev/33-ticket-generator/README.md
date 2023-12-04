@@ -21,7 +21,8 @@
 
 ## 📝 Live Preview 
 
-- [Ticket Generator](https://dmm.studio/github/rocketseat/events/boracodar.dev/33-ticket-generator)
+- [Ticket Generator - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/33-ticket-generator)
+- [Ticket Generator - EN](http://127.0.0.1:5502/events/boracodar.dev/33-ticket-generator/projects/en/)
 
 <br/>
 
