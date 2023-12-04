@@ -21,7 +21,8 @@
 
 ## 📝 Live Preview 
 
-- [AI Movie Suggestions](https://dmm.studio/github/rocketseat/events/boracodar.dev/30-ai-movie-suggestions)
+- [AI Movie Suggestions - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/30-ai-movie-suggestions)
+- [AI Movie Suggestions - EN](https://dmm.studio/github/rocketseat/events/boracodar.dev/30-ai-movie-suggestions/projects/en/)
 
 <br/>
 
