@@ -20,7 +20,7 @@ Making a mobile first website. <br/>
 
 ## 📝 Live Preview 
 
-- [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/portfolio-cards) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/portfolio-cards)
+- [English](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/portfolio-cards) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/portfolio-cards)
 
 
 ## 🧑🏻‍💻 Technologies
