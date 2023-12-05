@@ -1,7 +1,7 @@
-<h1 align="center"> Calculadora de IMC </h1>
+<h1 align="center"> BMI Calculator </h1>
 
 <p align="center">
-Aplicação para calcular o IMC. <br/>
+Application to calculate BMI
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ Aplicação para calcular o IMC. <br/>
 
 ## 📝 Live Preview 
 
-- [Calculadora de IMC](https://diegommagno.com/github/rocketseat/explorer/stage-05/calculadora-de-imc)
+- [BMI Calculator](https://dmm.studio/github/rocketseat/explorer/stage-05/calculadora-de-imc)
 
 ## 🧑🏻‍💻 Technologies
 
