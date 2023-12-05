@@ -20,7 +20,7 @@ Form template giving feedback on your mentorship. <br/>
 
 ## 📝 Live Preview 
 
-- [Mentorship Feedback Form](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-feedback-form/)
+- [Mentorship Feedback Form](https://dmm.studio/github/rocketseat/explorer/stage-03/mentorship-feedback-form/)
 
 
 ## 🎨 Layout
