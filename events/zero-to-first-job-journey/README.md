@@ -21,9 +21,9 @@ This was an introduction to programming event with three different landing page 
 
 ## 📝 Live Preview 
 
-- [Horror Game of the Year](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
-- [Travel Expert](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/travel-expert)
-- [Healthy Recipes](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/healthy-recipes)
+- [Horror Game of the Year](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Travel Expert](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/travel-expert)
+- [Healthy Recipes](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/healthy-recipes)
 
 <br/>
 
