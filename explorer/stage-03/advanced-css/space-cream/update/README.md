@@ -22,10 +22,9 @@ Making a mobile first website with desktop version. <br/>
 
 ## 📝 Live Preview 
 
-- [Default version](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
-- Update: [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/pt-br/)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/en/)
-
+- [Default version](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/space-cream/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
+- Update: [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/pt-br/)
+- Update: [English](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/en/)
 
 ## 🧑🏻‍💻 Technologies
 

@@ -20,8 +20,8 @@ Making a mobile first website. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/pt-br/)
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/en/)
+- [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/space-cream/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/pt-br/)
+- Update: [English](https://dmm.studio/github/rocketseat/explorer/stage-03/advanced-css/space-cream/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/en/)
 
 
 ## 🧑🏻‍💻 Technologies
