@@ -9,7 +9,7 @@ export function notANumber(value) {
 }
 
 export function displayResultMessage(result) {
-  const message = `Seu IMC é de ${result}.`
+  const message = `Your BMI is ${result}.`
   Modal.message.innerText = message
   Modal.open()
 }
