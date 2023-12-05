@@ -20,8 +20,8 @@ Form template for booking a mentorship. <br/>
 
 ## 📝 Live Preview 
 
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/pt-br) - viewing now
-- Update: [English](https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/en)
+- [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-03/mentorship-form/pt-br/) - viewing now
+- Update: [English](https://dmm.studio/github/rocketseat/explorer/stage-03/mentorship-form/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/en)
 
 
 ## 🧑🏻‍💻 Technologies
