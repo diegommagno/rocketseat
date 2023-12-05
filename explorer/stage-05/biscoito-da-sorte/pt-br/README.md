@@ -20,8 +20,8 @@ A single page application for a Fortune Cookie. <br/>
 <br/>
 
 ## 📝 Live Preview 
-- [English](https://diegommagno.com/github/rocketseat/explorer/stage-05/biscoito-da-sorte/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/biscoito-da-sorte/)
-- [Brazilian Portuguese](https://diegommagno.com/github/rocketseat/explorer/stage-05/biscoito-da-sorte/pt-br) - viewing now
+- [English](https://dmm.studio/github/rocketseat/explorer/stage-05/biscoito-da-sorte/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/biscoito-da-sorte/)
+- [Brazilian Portuguese](https://dmm.studio/github/rocketseat/explorer/stage-05/biscoito-da-sorte/pt-br) - viewing now
 
 
 ## 🎨 Layout
