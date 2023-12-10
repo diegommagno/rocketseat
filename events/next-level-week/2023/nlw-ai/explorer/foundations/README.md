@@ -39,7 +39,6 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- SCSS
 - JavaScript
 
 ## 🎓 Worked on
