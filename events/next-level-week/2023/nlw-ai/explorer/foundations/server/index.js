@@ -1,10 +1,13 @@
 import cors from "cors"; // Import this library from to inside the project.
 import express from "express";
 
+import { download } from "./download.js"; // Import the function from the download.js file.
+
 const app = express(); // Initiate the application. Pega o express e coloca ele dentro da constant app para poder usar ela.
 app.use(cors()); // Use the cors library.
 
 app.get("/summary/:id", (request, response) => {
+    download(request.params.id); // Provide the download function with the video id.
     response.send("Video ID:" + request.params.id)
 }); // Request tem todas as informações da requisição que foi feita para o servidor. Response vai ser usado para devolver uma resposta para quem fez a requisição.
 
