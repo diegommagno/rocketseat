@@ -1,4 +1,4 @@
-import cors from "cors"; // Import this library from to inside the project.
+import cors from "cors"; // Import these libraries to the project.
 import express from "express";
 
 import { download } from "./download.js"; // Import the function from the download.js file.
