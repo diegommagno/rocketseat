@@ -1,0 +1,1 @@
+export const summaryExample = 'JS é uma linguagem voltada para desenvolvimento web.'
