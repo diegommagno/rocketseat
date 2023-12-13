@@ -18,7 +18,15 @@ form.addEventListener('submit', async (e) => {
 
     content.innerHTML = 'Obtaining text from audio...'
 
+    // First request - Passamos o ID do vídeo e ele retorna a transcrição do áudio.
     const transcription = await server.get("/summary/" + videoID)
 
-    content.innerHTML =  transcription.data.result
+    content.innerHTML = 'Transcribing audio to text...'
+
+    // Second request - Enviando no corpo do request através do text enviando o resultado da transcrição.
+    const summary = await server.post("/summary/", {
+        text: transcription.data.result,
+    })
+
+    content.innerHTML = summary.data.result
 });

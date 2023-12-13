@@ -16,7 +16,7 @@ app.get("/summary/:id", async (request, response) => {
     return response.json({ result }); // Return a JSON response.
 }); // Request tem todas as informações da requisição que foi feita para o servidor. Response vai ser usado para devolver uma resposta para quem fez a requisição.
 
-app.post("/summary", async (request, response) => {
+app.post("/summary/", async (request, response) => {
     const result = await summarize(request.body.text)
     return response.json({ result }); // Return a JSON response
 })
