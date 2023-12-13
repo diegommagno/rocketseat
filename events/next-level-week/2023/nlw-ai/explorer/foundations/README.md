@@ -41,6 +41,8 @@
 - HTML
 - CSS
 - JavaScript
+- Vite
+- NodeJS
 
 ## 🎓 Worked on
 
