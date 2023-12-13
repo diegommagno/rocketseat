@@ -39,8 +39,16 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
+- CSS
 - JavaScript
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `rem`
+- CSS: `flex-box`
+- Install and use dependencies like Axios, Express, ytdl-core.
+- Create the script "server" to start the server with a simpler command and watching for changes.
+- Start the application with express.
+- Create routes.
+- Use HTTPS methods, resource, params.
+- Throw an error if the video is not a short using throw new Error.
+- Use .pipe to save the video in a specific location (tmp folder).
