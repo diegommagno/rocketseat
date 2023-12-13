@@ -6,6 +6,7 @@ const content = document.querySelector('#content');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    content.classList.add('placeholder')
 
     const videoURL = input.value;
 
@@ -29,4 +30,5 @@ form.addEventListener('submit', async (e) => {
     })
 
     content.innerHTML = summary.data.result
+    content.classList.remove('placeholder')
 });
