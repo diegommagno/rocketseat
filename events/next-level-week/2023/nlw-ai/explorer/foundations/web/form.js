@@ -17,7 +17,7 @@ form.addEventListener('submit', async (e) => {
     const params = videoURL.split('shorts/')[1];
     const videoID = params.split('?si')[0]; // const [videoID] = params.split('?si') would also work.
 
-    content.innerHTML = 'Obtaining text from audio...'
+    content.innerHTML = 'Obtaining text from audio... Please note, this process may take a few minutes.'
 
     // First request - Passamos o ID do vídeo e ele retorna a transcrição do áudio.
     const transcription = await server.get("/summary/" + videoID)
@@ -25,10 +25,10 @@ form.addEventListener('submit', async (e) => {
     content.innerHTML = 'Transcribing audio to text...'
 
     // Second request - Enviando no corpo do request através do text enviando o resultado da transcrição.
-    const summary = await server.post("/summary/", {
-        text: transcription.data.result,
-    })
+    // const summary = await server.post("/summary/", {
+    //     text: transcription.data.result,
+    // })
 
-    content.innerHTML = summary.data.result
+    content.innerHTML = transcription.data.result
     content.classList.remove('placeholder')
 });
