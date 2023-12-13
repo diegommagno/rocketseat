@@ -15,12 +15,12 @@ export async function transcribe(audio) {
         const transcription = await transcribe(audio, {
             chunk_length_s: 30, 
             stride_length_s: 5,
-            languages: "portuguese",
+            language: "english",
             task: "transcribe",
         })
 
         console.log("Audio file transcribed.");
-        return transcription?.text.replace("[Música]", "")
+        return transcription?.text.replace("[Music]", "")
     } catch (error) {
         throw new Error(error)
     }
