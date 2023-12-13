@@ -6,7 +6,7 @@ import { download } from "./download.js"; // Import the function from the downlo
 import { transcribe } from "./transcribe.js";
 import { summarize } from "./summarize.js";
 
-const app = express(); // Initiate the application. Pega o express e coloca ele dentro da constant app para poder usar ela.
+const app = express(); // Initiate the application. Store express() inside the const to use it.
 app.use(express.json()); // Use the JSON library, otherwise it can't understand it will also receive content in the JSON format.
 app.use(cors()); // Use the cors library.
 
@@ -22,7 +22,7 @@ app.get("/summary/:id", async (request, response) => {
         return response.json({ error: error.message })
     }
 
-}); // Request tem todas as informações da requisição que foi feita para o servidor. Response vai ser usado para devolver uma resposta para quem fez a requisição.
+}); // Request has all the information from the request that was made to the server. Response will be used to return a response for who made the request.
 
 app.post("/summary/", async (request, response) => {
     try {
@@ -34,4 +34,5 @@ app.post("/summary/", async (request, response) => {
     }
 })
 
-app.listen(3333, () => console.log("Server is running on port 3333.")); // Listen to the port 3333. Express é o porteiro. Ele que vai receber as requisições e devolver as respostas. O node é o motor que vai fazer o processamento das requisições e respostas. Digitar node --watch server/index.js para rodar o servidor, --watch é para que sempre que haja uma alteração no código, ele reiniciar o servidor para usar o novo código do projeto.
+app.listen(3333, () => console.log("Server is running on port 3333.")); // Listen to the port 3333. Express is the doorman. He will receive the requests and return the responses. Node is the engine that will process the requests and responses. 
+// Type node --watch server/index.js to start the server, --watch is to always update the server once something is changed in the code.
