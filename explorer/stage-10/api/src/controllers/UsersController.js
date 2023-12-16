@@ -23,10 +23,10 @@ class UsersController {
 
   async update(request, response) {
     const { name, email, password, old_password } = request.body;
-    const { id } = request.params;
+    const user_id = request.user.id; /* Pegando o id do usuário autenticado, que está no request.user.id, que foi passado pelo middleware ensureAuthenticated. */
 
     const database = await sqliteConnection(); /* Fazer a conexão com o database */
-    const user = await database.get("SELECT * FROM users WHERE id = (?)", [id]); /* Testar se encontra o usuário do id passado para o params */
+    const user = await database.get("SELECT * FROM users WHERE id = (?)", [user_id]); /* Testar se encontra o usuário do id passado para o params */
     /* Aqui, caso o usuário seja encontrado, user vai receber todas as informações de cada coluna da tabela, podendo acessar com usar.id, user.name, etc */
 
     /* Se o usuário não existe, executar uma exceção com o AppError */
@@ -63,7 +63,7 @@ class UsersController {
       UPDATE users SET 
       name = ?, email = ?, password = ?, updated_at = DATETIME('now')
       WHERE id = ?`,
-      [user.name, user.email, user.password, id]
+      [user.name, user.email, user.password, user_id]
     );
     
     return response.json();
