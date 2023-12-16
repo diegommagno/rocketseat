@@ -32,7 +32,7 @@ class NotesController {
 
     await knex("tags").insert(tagsInsert); /* insere as informações no banco de dados, na tabela tags */
 
-    response.json(); /* retorna informações de dentro do response feita no Insomnia */
+    return response.json(); /* retorna informações de dentro do response feita no Insomnia */
 
   }
 
