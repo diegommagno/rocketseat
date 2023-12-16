@@ -7,3 +7,5 @@ class SessionsController {
 }
 
 module.exports = SessionsController;
+
+// Creating a session for the user, that is why the create method is being used.
