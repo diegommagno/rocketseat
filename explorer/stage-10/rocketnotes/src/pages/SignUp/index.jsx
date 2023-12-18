@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiMail, FiLock, FiUser } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { api } from '../../services/api';
 
@@ -12,7 +12,9 @@ import { Container, Form, Background } from './styles';
 export function SignUp() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [password, setPassowrd] = useState("");
+  const [password, setPassword] = useState("");
+
+  const navigate = useNavigate();
 
   function handleSignUp() {
     if(!name || !email || !password) {
@@ -22,6 +24,7 @@ export function SignUp() {
     api.post("/users", { name, email, password })
     .then(() => {
       alert("Usuário cadastrado com sucesso!")
+      navigate("/")
     })
     .catch(error => {
       if(error.response) {
@@ -59,7 +62,7 @@ export function SignUp() {
           placeholder="Password"
           type="password"
           icon={FiLock}
-          onChange={e => setPassowrd(e.target.value)}
+          onChange={e => setPassword(e.target.value)}
         />
         
         <Button title="Sign Up" onClick={handleSignUp}/>
