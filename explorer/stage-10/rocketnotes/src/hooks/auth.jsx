@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react'; // useContext to use the Context API.
 import PropTypes from 'prop-types';
 
-const AuthContext = createContext({});
+export const AuthContext = createContext({});
 
 function AuthProvider({ children }) {
     return (
