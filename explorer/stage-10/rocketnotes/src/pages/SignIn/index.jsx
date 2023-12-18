@@ -1,12 +1,19 @@
-import { Container, Form, Background } from './styles';
-
-import { Link } from 'react-router-dom';
+import { useContext } from 'react'; // This allows us to use the Context API.
 import { FiMail, FiLock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
+import { MyContext } from '../../myContext';
 
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 
+import { Container, Form, Background } from './styles';
+
 export function SignIn() {
+
+  const data = useContext(MyContext);
+  console.log("Meu contexto: ", data)
+
   return (
     <Container>
       <Form>
