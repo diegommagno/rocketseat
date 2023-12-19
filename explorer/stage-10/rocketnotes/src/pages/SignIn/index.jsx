@@ -1,3 +1,4 @@
+import { useState } from 'react'; // Imported to create states and store information the user will type in email and password.
 import { FiMail, FiLock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
@@ -9,9 +10,14 @@ import { Button } from '../../components/Button';
 import { Container, Form, Background } from './styles';
 
 export function SignIn() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  const data = useAuth();
-  console.log("Meu contexto: ", data)
+  const { signIn } = useAuth();
+  
+  function handleSignIn() {
+    signIn({ email, password });
+  }
 
   return (
     <Container>
@@ -25,14 +31,16 @@ export function SignIn() {
           placeholder="Email"
           type="email"
           icon={FiMail}
+          onChange={e => setEmail(e.target.value)}
         />
         <Input 
           placeholder="Password"
           type="password"
           icon={FiLock}
+          onChange={e => setPassword(e.target.value)}
         />
         
-        <Button title="Enter" />
+        <Button title="Enter" onClick={handleSignIn}/>
 
         <Link to="/register">
           Create account
