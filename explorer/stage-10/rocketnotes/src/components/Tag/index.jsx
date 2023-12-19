@@ -10,5 +10,5 @@ export function Tag({ title }) {
 }
 
 Tag.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };

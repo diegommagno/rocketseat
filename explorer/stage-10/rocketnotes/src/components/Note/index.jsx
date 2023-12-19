@@ -21,12 +21,12 @@ export function Note({ data, ...rest }) {
 
 Note.propTypes = {
   data: PropsTypes.shape({
-    title: PropsTypes.string.isRequired,
+    title: PropsTypes.string,
     tags: PropsTypes.arrayOf(
       PropsTypes.shape({
-        id: PropsTypes.string.isRequired,
-        name: PropsTypes.string.isRequired,
+        id: PropsTypes.string,
+        name: PropsTypes.string,
       })
     )
-  }).isRequired,
+  }),
 }

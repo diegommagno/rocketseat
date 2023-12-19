@@ -10,5 +10,5 @@ export function Textarea({ value, ...rest }) {
 }
 
 Textarea.propTypes = {
-  value: PropTypes.string.isRequired,
+  value: PropTypes.string,
 };

@@ -1,4 +1,4 @@
-import PropsTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { FiPlus, FiX } from 'react-icons/fi'
 import { Container } from './styles';
 
@@ -24,7 +24,7 @@ export function NoteItem({ isNew, value, onClick, ...rest}) {
 }
 
 NoteItem.propTypes = {
-  isNew: PropsTypes.bool.isRequired,
-  value: PropsTypes.string.isRequired,
-  onClick: PropsTypes.func.isRequired,
-}
+  isNew: PropTypes.bool,
+  value: PropTypes.string,
+  onClick: PropTypes.func,
+};
