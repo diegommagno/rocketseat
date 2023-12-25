@@ -52,13 +52,14 @@ Advanced course: React.js, React Native, Node.js, TailwindCSS.
 
 ### Level 3 Projects - React
 - [Event Platform](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform)
-- [Rocketnotes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketnotes)
+- [Rocket Notes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketnotes)
 - [Rocket Movies](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketmovies)
 
 ### Level 2 Projects - HTML + CSS + JavaScript
 
 - [AI Movie Suggestions (Using an API)](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/30-ai-movie-suggestions)
 - [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
+- [FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2)
 - [NLW eSports Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
 - [NLW Spacetime Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
 
