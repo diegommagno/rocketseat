@@ -52,7 +52,8 @@ Advanced course: React.js, React Native, Node.js, TailwindCSS.
 
 ### Level 3 Projects - React
 - [Event Platform](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform)
-- [Rocket Notes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketnotes)
+- [Rocketnotes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketnotes)
+- [Rocket Movies](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketmovies)
 
 ### Level 2 Projects - HTML + CSS + JavaScript
 
