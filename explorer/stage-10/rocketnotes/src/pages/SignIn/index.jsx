@@ -1,4 +1,4 @@
-import { useState } from 'react'; // Imported to create states and store information the user will type in email and password.
+import { useState, useEffect, useCallback } from 'react'; // Imported to create states and store information the user will type in email and password.
 import { FiMail, FiLock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
@@ -15,9 +15,28 @@ export function SignIn() {
 
   const { signIn } = useAuth();
   
-  function handleSignIn() {
-    signIn({ email, password });
-  }
+    // Memoized handleSignIn using useCallback
+    const handleSignIn = useCallback(() => {
+      signIn({ email, password });
+    }, [signIn, email, password]);
+  
+    // Function to handle keydown event
+    const handleKeyDown = useCallback((event) => {
+      if (event.key === 'Enter') {
+        handleSignIn();
+      }
+    }, [handleSignIn]);
+  
+    useEffect(() => {
+      // Adding event listener when the component mounts
+      document.addEventListener('keydown', handleKeyDown);
+  
+      // Cleaning up the event listener when the component unmounts
+      return () => {
+        document.removeEventListener('keydown', handleKeyDown);
+      };
+    }, [handleSignIn, handleKeyDown]);
+
 
   return (
     <Container>
