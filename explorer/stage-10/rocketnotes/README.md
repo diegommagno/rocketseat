@@ -36,6 +36,9 @@
 - HTML
 - CSS
 - React
+- Node
+- Express
+- Knex.js
 
 ## 🎓 Worked on
 
