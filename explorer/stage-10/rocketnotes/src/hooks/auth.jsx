@@ -20,7 +20,7 @@ function AuthProvider({ children }) {
             localStorage.setItem("@rocketnotes:user", JSON.stringify(user)); // LocalStorage needs a key and a value, using the app name as key makes it easy to understand, value in this case is user. User is an object, so we need to convert it to a string.
             localStorage.setItem("@rocketnotes:token", token);
 
-            api.defaults.headers.authorization = `Bearer ${token}`; // Estou inserindo um token do estilo bearer em todas as requisições que o usuário vai fazer a partir de agora.
+            api.defaults.headers.common['Authorization'] = `Bearer ${token}`; // Estou inserindo um token do estilo bearer em todas as requisições que o usuário vai fazer a partir de agora.
             setData({ user, token });
 
         } catch (error) {
@@ -44,7 +44,7 @@ function AuthProvider({ children }) {
 
             // If user and token exists
             if(token && user) {
-                api.defaults.headers.authorization = `Bearer ${token}`; // Estou inserindo um token do estilo bearer em todas as requisições que o usuário vai fazer a partir de agora.
+                api.defaults.headers.common['Authorization'] = `Bearer ${token}`; // Estou inserindo um token do estilo bearer em todas as requisições que o usuário vai fazer a partir de agora.
                 setData({
                     token,
                     user: JSON.parse(user), // Convert user back to an object
