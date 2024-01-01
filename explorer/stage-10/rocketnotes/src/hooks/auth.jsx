@@ -39,21 +39,20 @@ function AuthProvider({ children }) {
         }
 
         async function updateProfile({ user }) {
+            // Preciso receber os dados do user e vou receber atraves do objeto user
             try {
-                const response = await api.post("/sessions", { email, password});
-                const { user, token } = response.data;
-    
-                localStorage.setItem("@rocketnotes:user", JSON.stringify(user)); // LocalStorage needs a key and a value, using the app name as key makes it easy to understand, value in this case is user. User is an object, so we need to convert it to a string.
-                localStorage.setItem("@rocketnotes:token", token);
-    
-                api.defaults.headers.common['Authorization'] = `Bearer ${token}`; // Estou inserindo um token do estilo bearer em todas as requisições que o usuário vai fazer a partir de agora.
-                setData({ user, token });
-    
+                
+                await api.put("/users", user);
+                localStorage.setItem("@rocketnotes:user", JSON.stringify(user));
+
+                setData({ user, token: data.token });
+                alert("Profile updated successfully.")
+
             } catch (error) {
                 if(error.response) {
                     alert(error.response.data.message);
                 } else {
-                    alert("It was not possible to sign in. Please try again.");
+                    alert("It was not possible to update your profile. Please try again.");
                 }
               }
         }
@@ -75,8 +74,9 @@ function AuthProvider({ children }) {
     return (
         <AuthContext.Provider value={{ 
                 signIn, 
+                signOut,
+                updateProfile,
                 user: data.user,
-                signOut 
             }}>
             {children}
         </AuthContext.Provider>
