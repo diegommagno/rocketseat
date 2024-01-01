@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
 
+import { api } from '../../services/api';
+
+import avatarPlaceHolder from '../../assets/images/avatar-placeholder.svg';
+
 import { Input } from './../../components/Input';
 import { Button } from './../../components/Button';
 
@@ -16,6 +20,11 @@ export function Profile() {
   const [passwordOld, setPasswordOld] = useState();
   const [passwordNew, setPasswordNew] = useState();
 
+  const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceHolder;
+
+  const [avatar, setAvatar] = useState(avatarUrl); // If the user already has an avatar, it will be added here. State that shows the avatar.
+  const [avatarFile, setAvatarFile] = useState(null); // Used to load the new avatar image uploaded by the user. State that updates the avatar.
+  
   async function handleUpdate() {
     const user = {
       name,
@@ -24,7 +33,16 @@ export function Profile() {
       old_password: passwordOld,
     }
 
-    await updateProfile({ user });
+    await updateProfile({ user, avatarFile });
+  }
+
+  function handleAvatarUpdate(event) {
+    const file = event.target.files[0]; // Get the avatar file.
+    
+    setAvatarFile(file); // Set the avatar file to the state.
+
+    const imagePreview = URL.createObjectURL(file);
+    setAvatar(imagePreview);
   }
 
   return (
@@ -37,12 +55,19 @@ export function Profile() {
 
       <Form>
         <Avatar>
-          <img src="https://github.com/diegommagno.png" alt="Foto do usuário" />
+          <img 
+            src={avatar}
+            alt="Foto do usuário" 
+          />
           
           <label htmlFor="Avatar">
             <FiCamera />
 
-            <input id="Avatar" type="file" />
+            <input 
+              id="Avatar" 
+              type="file" 
+              onChange={handleAvatarUpdate}
+            />
           </label>
         </Avatar>
 

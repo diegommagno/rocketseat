@@ -38,10 +38,18 @@ function AuthProvider({ children }) {
             setData({}); // Clear data
         }
 
-        async function updateProfile({ user }) {
+        async function updateProfile({ user, avatarFile }) {
             // Preciso receber os dados do user e vou receber atraves do objeto user
             try {
-                
+                if(avatarFile) {
+                    const fileUploadForm = new FormData();
+                    fileUploadForm.append("avatar", avatarFile);
+
+                    const response = await api.patch("/users/avatar", fileUploadForm);
+                    user.avatar = response.data.avatar;
+
+                }
+
                 await api.put("/users", user);
                 localStorage.setItem("@rocketnotes:user", JSON.stringify(user));
 
