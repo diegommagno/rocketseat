@@ -22,6 +22,9 @@ export function New() {
     setNewLink(''); // Limpa o state de novo link.
   }
 
+  function handleRemoveLink(deleted) {
+    setLinks(prevState => prevState.filter(link => link !== deleted)); // Pegar todos os links que são diferentes do link que foi deletado.
+  }
 
   return (
     <Container>
@@ -45,7 +48,7 @@ export function New() {
                 <NoteItem 
                   key={String(index)}
                   value={link}
-                  onClick={() => {}}
+                  onClick={() => handleRemoveLink(link)} // escreve assim porque tem parametro.
                 />
               ))
             }
