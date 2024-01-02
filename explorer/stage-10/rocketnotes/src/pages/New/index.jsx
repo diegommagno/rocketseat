@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import { Container, Form } from './styles';
 
 import { Link } from 'react-router-dom';
@@ -10,6 +12,17 @@ import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 
 export function New() {
+  const [links, setLinks] = useState([]); // This state stores all links added by the user.
+  const [newLink, setNewLink] = useState(''); // This state stores the new link added by the user.
+
+  function handleAddLink() {
+
+    // Acessar o conteudo anterior. Usa o spread operator (...) para copiar o conteudo anterior e adicionar o novo link.
+    setLinks(prevState => [...prevState, newLink]); // Precisa ser feito assim para poder pegar os links antigos e add o novo link.
+    setNewLink(''); // Limpa o state de novo link.
+  }
+
+
   return (
     <Container>
       <Header />
@@ -26,8 +39,24 @@ export function New() {
           <Textarea placeholder="Observações" />
 
           <Section title="Links Úteis">
-            <NoteItem value="https://rocketseat.com.br"/>
-            <NoteItem isNew placeholder="Novo link" />
+            {
+              links.map((link, index) => (
+                // Todo component de uma lista precisa de uma key e o map retorna um index, então é só usar o index como key.
+                <NoteItem 
+                  key={String(index)}
+                  value={link}
+                  onClick={() => {}}
+                />
+              ))
+            }
+
+            <NoteItem 
+              isNew 
+              placeholder="Novo link" 
+              value={newLink}
+              onChange={e => setNewLink(e.target.value)}
+              onClick={handleAddLink}
+            />
           </Section>
 
           <Section title="Marcadores">
