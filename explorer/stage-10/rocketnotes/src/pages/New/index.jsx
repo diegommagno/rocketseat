@@ -24,8 +24,8 @@ export function New() {
     setNewLink(''); // Limpa o state de novo link.
   }
 
-  function handleRemoveLink(deleted) {
-    setLinks(prevState => prevState.filter(link => link !== deleted)); // Pegar todos os links que são diferentes do link que foi deletado.
+  function handleRemoveLink(tagDeleted) {
+    setLinks(prevState => prevState.filter(link => link !== tagDeleted)); // Pegar todos os links que são diferentes do link que foi deletado.
   }
 
   function handleAddTag() {
