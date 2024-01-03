@@ -15,8 +15,10 @@ export function New() {
   const [links, setLinks] = useState([]); // This state stores all links added by the user.
   const [newLink, setNewLink] = useState(''); // This state stores the new link added by the user.
 
-  function handleAddLink() {
+  const [tags, setTags] = useState([]); // This state stores all tags added by the user.
+  const [newTag, setNewTag] = useState(''); // This state stores the new tag added by the user.
 
+  function handleAddLink() {
     // Acessar o conteudo anterior. Usa o spread operator (...) para copiar o conteudo anterior e adicionar o novo link.
     setLinks(prevState => [...prevState, newLink]); // Precisa ser feito assim para poder pegar os links antigos e add o novo link.
     setNewLink(''); // Limpa o state de novo link.
@@ -24,6 +26,11 @@ export function New() {
 
   function handleRemoveLink(deleted) {
     setLinks(prevState => prevState.filter(link => link !== deleted)); // Pegar todos os links que são diferentes do link que foi deletado.
+  }
+
+  function handleAddTag() {
+    setTags(prevState => [...prevState, newTag]); // Pega tudo o que tinha antes e adiciona a nova tag.
+    setNewTag(''); // Limpa o state de novo link.
   }
 
   return (
@@ -64,8 +71,23 @@ export function New() {
 
           <Section title="Marcadores">
             <div className="tags">
-              <NoteItem value="React"/>
-              <NoteItem isNew placeholder="Nova tag" />
+              {
+                tags.map((tag, index) => (
+                  <NoteItem 
+                    key={String(index)}
+                    value={tag}
+                    onClick={() => { }}
+                  />
+                ))
+              }
+
+              <NoteItem 
+                isNew 
+                placeholder="Nova tag"
+                onChange={e => setNewTag(e.target.value)}
+                value={newTag}
+                onClick={handleAddTag}
+              />
             </div>
           </Section>
 
