@@ -46,6 +46,18 @@ export function New() {
   }
 
   async function handleNewNote() {
+    if(!title) {
+      return alert("You left the title of the note blank. Please, add a title to continue.");
+    }
+
+    if(newLink) {
+      return alert("You left a link without adding it. Please, add it or remove it to continue.");
+    }
+
+    if(newTag) {
+      return alert("You left a tag without adding it. Please, add it or remove it to continue.");
+    }
+
     await api.post("/notes", {
       title,
       description,
