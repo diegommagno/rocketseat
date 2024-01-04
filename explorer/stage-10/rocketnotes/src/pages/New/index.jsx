@@ -24,13 +24,17 @@ export function New() {
     setNewLink(''); // Limpa o state de novo link.
   }
 
-  function handleRemoveLink(tagDeleted) {
-    setLinks(prevState => prevState.filter(link => link !== tagDeleted)); // Pegar todos os links que são diferentes do link que foi deletado.
+  function handleRemoveLink(deleted) {
+    setLinks(prevState => prevState.filter(link => link !== deleted)); // Pegar todos os links que são diferentes do link que foi deletado.
   }
 
   function handleAddTag() {
     setTags(prevState => [...prevState, newTag]); // Pega tudo o que tinha antes e adiciona a nova tag.
     setNewTag(''); // Limpa o state de novo link.
+  }
+
+  function handleRemoveTag(deleted) {
+    setTags(prevState => prevState.filter(tag => tag !== deleted));
   }
 
   return (
@@ -76,7 +80,7 @@ export function New() {
                   <NoteItem 
                     key={String(index)}
                     value={tag}
-                    onClick={() => { }}
+                    onClick={() => handleRemoveTag(tag)}
                   />
                 ))
               }
