@@ -14,6 +14,19 @@ import { Note } from '../../components/Note';
 
 export function Home() {
   const [tags, setTags] = useState([]);
+  const [tagsSelected, setTagsSelected] = useState([]);
+
+  function handleTagSelected(tagName) {
+    const alreadySelected = tagsSelected.includes(tagName); // Verifica se a tag já está selecionada. Retorna false se não estava selecionada e true se já estava selecionada.
+
+    // Caso ela não esteja selecionada, somente seleciona adicionando ela no setTagsSelected.
+    if(alreadySelected) {
+      const filteredTags = tagsSelected.filter(tag => tag !== tagName); // Retorna todas as tags que são diferentes da tag que foi selecionada.
+      setTagsSelected(filteredTags);
+    } else {
+      setTagsSelected(prevState => [...prevState, tagName]);
+    }
+  }
 
   useEffect(() => {
     async function fetchTags() {
@@ -35,8 +48,9 @@ export function Home() {
       <Menu>
         <li>
           <ButtonText 
-            title="Todos" 
-            isActive
+            title="Todos"
+            onClick={() => handleTagSelected("all")} 
+            isActive={tagsSelected.length === 0} // Pega o tagsSelected e se o tamnho dele for 0, isso sera verdadeiro e isActive funciona.
           />
         </li>
 
@@ -45,6 +59,8 @@ export function Home() {
             <li key={String(tag.id)}>
               <ButtonText 
                 title={tag.name} 
+                onClick={() => handleTagSelected(tag.name)}
+                isActive={tagsSelected.includes(tag.name)} // Returns true if the array contains the element, and false if not.
               />
             </li>
           ))
