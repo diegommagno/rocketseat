@@ -19,10 +19,14 @@ export function Home() {
   const [notes, setNotes] = useState([]);
 
   function handleTagSelected(tagName) {
+    if (tagName === "all") {
+      return setTagsSelected([]);
+    }
+
     const alreadySelected = tagsSelected.includes(tagName); // Verifica se a tag já está selecionada. Retorna false se não estava selecionada e true se já estava selecionada.
 
     // Caso ela não esteja selecionada, somente seleciona adicionando ela no setTagsSelected.
-    if(alreadySelected) {
+    if (alreadySelected) {
       const filteredTags = tagsSelected.filter(tag => tag !== tagName); // Retorna todas as tags que são diferentes da tag que foi selecionada.
       setTagsSelected(filteredTags);
     } else {
