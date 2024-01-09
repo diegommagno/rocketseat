@@ -11,6 +11,8 @@ export const Container = styled.button`
   padding: 22px;
   margin-bottom: 16px;
 
+  cursor: pointer;
+
   > h1 {
     flex: 1; /* Para ele ocupar o máximo de espaço disponível para ele */
     text-align: left;
