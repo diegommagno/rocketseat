@@ -2,12 +2,11 @@ import { useState } from 'react';
 
 import { Container, Form } from './styles';
 
-import { Link } from 'react-router-dom';
-
 import { Textarea } from '../../components/Textarea';
 import { NoteItem } from '../../components/NoteItem';
 import { Section } from '../../components/Section';
 import { Button } from '../../components/Button';
+import { ButtonText } from '../../components/ButtonText';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
 
@@ -25,6 +24,10 @@ export function New() {
   const [newTag, setNewTag] = useState(''); // This state stores the new tag added by the user.
 
   const navigate = useNavigate();
+
+  function handleBack() {
+    navigate(-1);
+  }
 
   function handleAddLink() {
     // Acessar o conteudo anterior. Usa o spread operator (...) para copiar o conteudo anterior e adicionar o novo link.
@@ -66,7 +69,7 @@ export function New() {
     });
 
     alert("New note created!");
-    navigate("/"); // Using useNavigate from react, redirect the user to the home screen after creating a note.
+    navigate(-1); // Using useNavigate from react, redirect the user to the home screen after creating a note.
   }
 
   return (
@@ -77,8 +80,10 @@ export function New() {
         <Form>
           <header>
             <h1>Criar nota</h1>
-
-            <Link to="/">Voltar</Link>
+            <ButtonText 
+              title="Voltar"
+              onClick={handleBack}
+            />
           </header>
 
           <Input 

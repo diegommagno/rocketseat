@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from 'react-icons/fi';
 import { Container, Form, Avatar } from './styles';
 
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../../hooks/auth';
 
@@ -25,6 +25,12 @@ export function Profile() {
   const [avatar, setAvatar] = useState(avatarUrl); // If the user already has an avatar, it will be added here. State that shows the avatar.
   const [avatarFile, setAvatarFile] = useState(null); // Used to load the new avatar image uploaded by the user. State that updates the avatar.
   
+  const navigate = useNavigate();
+
+  function handleBack() {
+    navigate(-1);
+  }
+
   async function handleUpdate() {
     const user = {
       name,
@@ -48,9 +54,9 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <Link to="/">
-          <FiArrowLeft />
-        </Link>
+        <button type="button" onClick={handleBack}>
+          <FiArrowLeft size={24} />
+        </button>
       </header>
 
       <Form>

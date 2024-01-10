@@ -19,7 +19,7 @@ export function Details() {
    const navigate = useNavigate();
 
    function handleBack() {
-      navigate("/");
+      navigate(-1);
    }
 
    async function handleRemove() {
@@ -27,7 +27,7 @@ export function Details() {
 
       if(confirm) {
          await api.delete(`/notes/${params.id}`); // Get note id from url params.
-         navigate("/");
+         navigate(-1);
       }
    }
 
