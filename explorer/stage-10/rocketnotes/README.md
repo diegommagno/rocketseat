@@ -34,7 +34,7 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- CSS
+- CSS-in-JS
 - React
 - Node
 - Express
@@ -43,4 +43,4 @@
 ## 🎓 Worked on
 
 - CSS: `flex and grid`, `rem`, `tokens`, `align-self`, `responsive`
-- React: `folder structure`, `components`, `GlobalStyles`, `ThemeProvider`, `importing components`
+- React: `folder structure`, `components`, `GlobalStyles`, `ThemeProvider`, `importing components`, `API RESTful`
