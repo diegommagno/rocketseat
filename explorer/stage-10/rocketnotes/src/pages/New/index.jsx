@@ -79,23 +79,24 @@ export function New() {
       <main>
         <Form>
           <header>
-            <h1>Criar nota</h1>
+            <h1>Create note</h1>
             <ButtonText 
-              title="Voltar"
+              title="Back
+              "
               onClick={handleBack}
             />
           </header>
 
           <Input 
-            placeholder="Título" 
+            placeholder="Title" 
             onChange={e => setTitle(e.target.value)}
           />
           <Textarea 
-            placeholder="Observações" 
+            placeholder="Description" 
             onChange={e => setDescription(e.target.value)}
           />
 
-          <Section title="Links Úteis">
+          <Section title="Useful Links">
             {
               links.map((link, index) => (
                 // Todo component de uma lista precisa de uma key e o map retorna um index, então é só usar o index como key.
@@ -109,14 +110,14 @@ export function New() {
 
             <NoteItem 
               isNew 
-              placeholder="Novo link" 
+              placeholder="New link" 
               value={newLink}
               onChange={e => setNewLink(e.target.value)}
               onClick={handleAddLink}
             />
           </Section>
 
-          <Section title="Marcadores">
+          <Section title="Tags">
             <div className="tags">
               {
                 tags.map((tag, index) => (
@@ -130,7 +131,7 @@ export function New() {
 
               <NoteItem 
                 isNew 
-                placeholder="Nova tag"
+                placeholder="New tag"
                 onChange={e => setNewTag(e.target.value)}
                 value={newTag}
                 onClick={handleAddTag}
@@ -139,7 +140,7 @@ export function New() {
           </Section>
 
           <Button 
-            title="Salvar" 
+            title="Save" 
             onClick={handleNewNote}
           />
         </Form>
