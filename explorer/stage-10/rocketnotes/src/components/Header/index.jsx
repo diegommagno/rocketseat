@@ -20,7 +20,7 @@ export function Header() {
                     alt={user.name}
                 />
                 <div>
-                    <span>Bem-vindo,</span>
+                    <span>Welcome,</span>
                     <strong>{user.name}</strong>
                 </div>
             </Profile>
