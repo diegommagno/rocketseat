@@ -65,7 +65,7 @@ export function Profile() {
         <Avatar>
           <img 
             src={avatar}
-            alt="Foto do usuário" 
+            alt="User Photo" 
           />
           
           <label htmlFor="Avatar">
@@ -80,33 +80,33 @@ export function Profile() {
         </Avatar>
 
         <Input 
-          placeholder="Nome"
+          placeholder="Name"
           type="text"
           icon={FiUser}
           value={name}
           onChange={e => setName(e.target.value)}
         />
         <Input 
-          placeholder="E-mail"
+          placeholder="Email"
           type="text"
           icon={FiMail}
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
         <Input 
-          placeholder="Senha atual"
+          placeholder="Current password"
           type="password"
           icon={FiLock}
           onChange={e => setPasswordOld(e.target.value)}
         />
         <Input 
-          placeholder="Nova senha"
+          placeholder="New password"
           type="password"
           icon={FiLock}
           onChange={e => setPasswordNew(e.target.value)}
         />
 
-        <Button title="Salvar" onClick={handleUpdate}/>
+        <Button title="Save" onClick={handleUpdate}/>
       </Form>
     </Container>
   )

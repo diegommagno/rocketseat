@@ -64,7 +64,7 @@ export function Home() {
   return (
     <Container>
       <Brand>
-        <h1>Rocketnotes</h1>
+        <h1>Rocket Notes</h1>
       </Brand>
 
       <Header />
@@ -72,7 +72,7 @@ export function Home() {
       <Menu>
         <li>
           <ButtonText 
-            title="Todos"
+            title="All"
             onClick={() => handleTagSelected("all")} 
             isActive={tagsSelected.length === 0} // Pega o tagsSelected e se o tamnho dele for 0, isso sera verdadeiro e isActive funciona.
           />
@@ -93,14 +93,14 @@ export function Home() {
 
       <Search>
         <Input 
-          placeholder="Pesquisar pelo título" 
+          placeholder="Search by title" 
           onChange={(e) => setSearch(e.target.value)}
           icon={FiSearch}
         />
       </Search>
 
       <Content>
-        <Section title="Minhas notas">
+        <Section title="Notes">
           {
             notes.map(note => (
               <Note 
@@ -115,7 +115,7 @@ export function Home() {
 
       <NewNote to="/new">
         <FiPlus />
-        Criar nota        
+        Create note       
       </NewNote>
     </Container>
   );
