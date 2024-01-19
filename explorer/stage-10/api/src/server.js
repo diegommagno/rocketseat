@@ -1,4 +1,6 @@
 require("express-async-errors");
+require("dotenv/config"); // Importa para termos acesso as variáveis de ambiente.
+
 const migrationsRun = require("./database/sqlite/migrations");
 const AppError = require("./utils/AppError");
 const uploadConfig = require("./configs/upload");
@@ -34,5 +36,5 @@ app.use(( error, request, response,next ) => {
 
 });
 
-const PORT = 3333; /* porta padrão onde ele vai trabalhar. Diz para o express em qual endereço ele vai trabalhar (qual restaurante o garçom vai trabalhar e ouvir pedidos, fica aguardando mudanças) */
+const PORT = process.env.PORT || 3333; /* porta padrão onde ele vai trabalhar. Diz para o express em qual endereço ele vai trabalhar (qual restaurante o garçom vai trabalhar e ouvir pedidos, fica aguardando mudanças) */
 app.listen(PORT, () => {console.log(`Server is running on Port ${PORT}`)}); /* chamando o servidor na porta 3333, garçom, fique ouvindo por mudanças aqui. */
