@@ -21,7 +21,7 @@
 ## 📝 Live Preview 
 
 - [Rocket Notes](https://explorer-rocketnotes.vercel.app/)
-- [Rocket Notes - PT/BR (Main repo)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketnotes)
+- [Back-end repo](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/api)
 
 #### Steps
 - Create your own account and log in.
