@@ -23,6 +23,10 @@
 - [Rocket Notes](https://explorer-rocketnotes.vercel.app/)
 - [Rocket Notes - PT/BR (Main repo)](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-09/rocketnotes)
 
+#### Steps
+- Create your own account and log in.
+- Please note it may take a few minutes to start the server in the first log in as the project is using [Render](https://render.com/) services.
+
 <br/>
 
 <p align="center">
@@ -44,3 +48,4 @@
 
 - CSS: `flex and grid`, `rem`, `tokens`, `align-self`, `responsive`
 - React: `folder structure`, `components`, `GlobalStyles`, `ThemeProvider`, `importing components`, `API RESTful`
+- Deploy: front-end using Vercel and back-end using [Render](https://render.com/).
