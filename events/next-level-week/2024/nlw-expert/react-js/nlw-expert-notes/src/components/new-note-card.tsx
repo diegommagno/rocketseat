@@ -1,6 +1,7 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import { X } from 'lucide-react'
 import { useState, ChangeEvent, FormEvent } from 'react'
+import { toast } from 'sonner'
 
 export function NewNoteCard() {
     const [shouldShowOnBoarding, setShouldShowOnBoarding] = useState(true)
@@ -23,6 +24,8 @@ export function NewNoteCard() {
         event.preventDefault()
 
         console.log(content)
+
+        toast.success('Note created successfully')
     }
 
     return (
@@ -68,7 +71,7 @@ export function NewNoteCard() {
                             type="submit"
                             className="w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500"
                         >
-                            Salvar nota
+                            Create note
                         </button>
                     </form>
                 </Dialog.Content>
