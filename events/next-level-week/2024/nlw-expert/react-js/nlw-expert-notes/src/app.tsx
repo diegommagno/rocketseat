@@ -10,7 +10,16 @@ interface Note {
 }
 
 export function App() {
-  const [notes, setNotes] = useState<Note[]>([]) // Falo para o react que esse array vai ser um array de objetos com o formato descrito dentro de Note
+  const [notes, setNotes] = useState<Note[]>(() => {
+    const notesOnStorage = localStorage.getItem('notes');	// Vou ver se no localStorage tenho um item chamado notes
+
+    if (notesOnStorage) {
+      return JSON.parse(notesOnStorage) // Se tiver, retorno o que está no localStorage
+    }
+
+    return []
+  }) // Falo para o react que esse array vai ser um array de objetos com o formato descrito dentro de Note.
+  // Isso era um [], agora é uma função retornando um array para não sempre iniciar vazio, e sim utilizar o que está no localStorage se não for vazio.
 
   function onNoteCreated(content: string) {
     const newNote = {
@@ -19,7 +28,11 @@ export function App() {
       content,
     }
 
-    setNotes([newNote, ...notes])
+    const notesArray = [newNote, ...notes]
+
+    setNotes(notesArray)
+
+    localStorage.setItem('notes', JSON.stringify(notesArray)) // Converter o array em texto porque o localStorage não aceita arrays
   }
 
   return (
