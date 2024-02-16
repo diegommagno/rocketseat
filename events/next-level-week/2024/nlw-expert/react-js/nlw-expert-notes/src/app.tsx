@@ -53,7 +53,7 @@ export function App() {
       <form className='w-full'>
         <input 
           type="text" 
-          placeholder='Busque em suas notas...' 
+          placeholder='Search in your notes...' 
           className='w-full bg-transparent text-3xl font-semibold tracking-tight outline-none placeholder: text-slate-500'
           onChange={handleSearch}
         />
