@@ -40,6 +40,10 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
         setIsRecording(true)
     }
 
+    function handleStopRecording() {
+        setIsRecording(false)
+    }
+
     return (
         <Dialog.Root>
             <Dialog.Trigger className="rounded-md flex flex-col bg-slate-700 text-left p-5 gap-3 outline-none hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400">
@@ -60,7 +64,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                         <X className="size-5"/>
                     </Dialog.Close>
 
-                    <form onSubmit={handleSaveNote} className="flex-1 flex flex-col">
+                    <form className="flex-1 flex flex-col">
                         <div className="flex flex-1 flex-col gap-3 p-5">
                             <span className="text-sm font-medium text-slate-300">
                                 Add note
@@ -82,14 +86,17 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
                         {isRecording ? (
                             <button 
-                                type="submit"
-                                className="w-full bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none font-medium hover:text-slate-100"
+                                type="button"
+                                onClick={handleStopRecording}
+                                className="w-full flex items-center justify-center gap-2 bg-slate-900 py-4 text-center text-sm text-slate-300 outline-none font-medium hover:text-slate-100"
                                 >
+                                    <div className="size-3 rounded-full bg-red-500 animate-pulse" />
                                     Recording! (click to stop)
                             </button>
                         ) : (
                             <button 
-                                type="submit"
+                                type="button"
+                                onClick={handleSaveNote}
                                 className="w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500"
                             >
                                 Create note
