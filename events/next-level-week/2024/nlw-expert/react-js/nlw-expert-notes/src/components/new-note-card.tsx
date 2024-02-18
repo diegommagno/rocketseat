@@ -28,6 +28,10 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     function handleSaveNote(event: FormEvent) {
         event.preventDefault()
 
+        if (content === '') {
+            return
+        }
+
         onNoteCreated(content)
 
         setContent('')
@@ -38,6 +42,34 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     function handleStartRecording() {
         setIsRecording(true)
+
+        const isSpeechRecognitionAPIAvailable = 'SpeechRecognition' in window
+            || 'webkitSpeechRecognition' in window // Dentro do window, verifica se existe a propriedade SpeechRecognition ou webkitSpeechRecognition, caso tenha uma dessas duas, retorna true
+    
+        if (!isSpeechRecognitionAPIAvailable) {
+            alert('Speech recognition is not available in your browser')
+            return
+        }
+
+        const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
+
+        const speechRecognition = new SpeechRecognitionAPI()
+
+        speechRecognition.lang = 'en-US'
+        speechRecognition.continuous = true // Quer dizer que ele não vai parar de gravar até que eu manualmente faça ele parar. Caso não colocar isso, quando parar de falar ele para a gravação.
+        speechRecognition.maxAlternatives = 1 // Quantas alternativas de transcrição ele vai retornar. No caso, só 1.
+        speechRecognition.interimResults = true // Vai trazendo o que eu falo enquanto falo
+
+        speechRecognition.onresult = (e) => {
+            // Função que é chamada toda vez que ele reconhece algo
+            console.log(e.results);
+        }
+
+        speechRecognition.onerror = (e) => {
+            console.error(e)
+        }
+
+        speechRecognition.start();
     }
 
     function handleStopRecording() {
