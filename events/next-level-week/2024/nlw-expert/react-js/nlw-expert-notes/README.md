@@ -42,5 +42,11 @@
 - JavaScript
 - Vite
 - NodeJS
+- Radix UI
 
 ## 🎓 Worked on
+
+- Using date-fns
+- Used icon pack lucide-react
+- Used Sonner to indicate that the note was added
+- crypto.randomUUID() to generate a unique string id for every note (used instead of Math.random())
