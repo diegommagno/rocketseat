@@ -7,6 +7,8 @@ interface NewNoteCardProps {
     onNoteCreated: (content: string) => void
 }
 
+let speechRecognition: SpeechRecognition | null = null
+
 export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     const [shouldShowOnBoarding, setShouldShowOnBoarding] = useState(true)
     const [isRecording, setIsRecording] = useState(false)
@@ -15,7 +17,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     function handleStartEditor() {
         setShouldShowOnBoarding(false)
     }
-
 
     function handleContentChanged(event: ChangeEvent<HTMLTextAreaElement>) {
         setContent(event.target.value) // Sempre que o usuário digitar algo, o conteúdo será atualizado para o que foi digitado
@@ -41,8 +42,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     }
 
     function handleStartRecording() {
-        setIsRecording(true)
-
         const isSpeechRecognitionAPIAvailable = 'SpeechRecognition' in window
             || 'webkitSpeechRecognition' in window // Dentro do window, verifica se existe a propriedade SpeechRecognition ou webkitSpeechRecognition, caso tenha uma dessas duas, retorna true
     
@@ -51,22 +50,33 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
             return
         }
 
+        setIsRecording(true)
+        setShouldShowOnBoarding(false)
+
         const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
 
-        const speechRecognition = new SpeechRecognitionAPI()
+        speechRecognition = new SpeechRecognitionAPI()
 
-        speechRecognition.lang = 'en-US'
-        speechRecognition.continuous = true // Quer dizer que ele não vai parar de gravar até que eu manualmente faça ele parar. Caso não colocar isso, quando parar de falar ele para a gravação.
-        speechRecognition.maxAlternatives = 1 // Quantas alternativas de transcrição ele vai retornar. No caso, só 1.
-        speechRecognition.interimResults = true // Vai trazendo o que eu falo enquanto falo
+        speechRecognition.lang = 'pt-BR'
+        speechRecognition.continuous = true 
+        speechRecognition.maxAlternatives = 1 
+        speechRecognition.interimResults = true 
 
-        speechRecognition.onresult = (e) => {
+        // continuous - Quer dizer que ele não vai parar de gravar até que eu manualmente faça ele parar. Caso não colocar isso, quando parar de falar ele para a gravação.
+        // maxAlternatives = 1 - Quantas alternativas de transcrição ele vai retornar. No caso, só 1.
+        // interimResults = true - Vai trazendo o que eu falo enquanto falo
+        
+        speechRecognition.onresult = (event) => {
             // Função que é chamada toda vez que ele reconhece algo
-            console.log(e.results);
+            const transcription = Array.from(event.results).reduce((text, result) => {
+                return text.concat(result[0].transcript)
+
+                setContent(transcription)
+            }, '')
         }
 
-        speechRecognition.onerror = (e) => {
-            console.error(e)
+        speechRecognition.onerror = (event) => {
+            console.error(event)
         }
 
         speechRecognition.start();
@@ -74,6 +84,10 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     function handleStopRecording() {
         setIsRecording(false)
+        
+        if(speechRecognition !== null) {
+            speechRecognition.stop()
+        }
     }
 
     return (
