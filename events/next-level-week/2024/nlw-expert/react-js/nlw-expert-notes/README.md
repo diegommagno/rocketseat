@@ -25,9 +25,11 @@
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
 </p>
-
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-2.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-3.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-4.png" width="50%" />
 <br/>
 
 ## 🎨 Layout
@@ -38,7 +40,7 @@
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- CSS
+- Tailwind CSS
 - JavaScript
 - Vite
 - NodeJS
@@ -50,3 +52,4 @@
 - Used icon pack lucide-react
 - Used Sonner to indicate that the note was added
 - crypto.randomUUID() to generate a unique string id for every note (used instead of Math.random())
+- Tailwind CSS for styling and responsiveness
