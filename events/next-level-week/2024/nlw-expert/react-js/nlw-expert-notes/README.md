@@ -20,7 +20,7 @@
 
 ## 📝 Live Preview 
 
-- [NLW Expert Notes](https://events-nlw-ai-foundation.vercel.app/)
+- [NLW Expert Notes](https://nlw-expert-notes-liard-xi.vercel.app/)
 
 <br/>
 
@@ -34,7 +34,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1282823495335498952). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/community/file/1336456128647909148/nlw-expert-notes). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
