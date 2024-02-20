@@ -8,12 +8,14 @@ import { X } from 'lucide-react'
 
 interface NoteCardProps { 
     note: {
+        id: string
         date: Date
         content: string
     }
+    onNoteDeleted: (id: string) => void
 }
 
-export function NoteCard({ note }: NoteCardProps) {
+export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
     return (
         <Dialog.Root>
             {/* Dialog.Trigger abre o modal */}
@@ -48,6 +50,7 @@ export function NoteCard({ note }: NoteCardProps) {
 
                     <button 
                         type="button"
+                        onClick={() => onNoteDeleted(note.id)}
                         className="w-full bg-slate-800 py-4 text-center text-sm text-slate-300 outline-none font-medium group"
                     >
                         Do you want to <span className="text-red-400 group-hover:underline">delete this note</span>?
