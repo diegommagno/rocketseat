@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">NLW Expert Notes</h1>
 
-## Getting Started
+<p align="center">
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-worked-on">Worked On</a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img alt="Project cover." src=".github/cover.png" width="80%" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br/>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📝 Live Preview 
 
-## Learn More
+- [NLW Expert Notes](https://nlw-expert-notes-liard-xi.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="center">
+</p>
+  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-2.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-3.png" width="50%" />
+  <img alt="Landing page created during the event." src=".github/preview-cover-4.png" width="50%" />
+<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🎨 Layout
 
-## Deploy on Vercel
+- You can check the layout [here](https://www.figma.com/community/file/1336456128647909148/nlw-expert-notes). You will need a [Figma](https://figma.com) account to access it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🧑🏻‍💻 Technologies
+
+- HTML
+- Tailwind CSS
+- JavaScript
+- Vite
+- NodeJS
+- Radix UI
+
+## 🎓 Worked on
+
+- Using date-fns
+- Used icon pack lucide-react
+- Used Sonner to indicate that the note was added
+- crypto.randomUUID() to generate a unique string id for every note (used instead of Math.random())
+- Tailwind CSS for styling and responsiveness
