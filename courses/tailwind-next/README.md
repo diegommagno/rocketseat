@@ -1,6 +1,7 @@
-<h1 align="center">NLW Expert Notes</h1>
+<h1 align="center">Tailwind Dashboard</h1>
 
 <p align="center">
+  Development of a dashboard interface using the fundamentals of Tailwind.
 </p>
 
 <p align="center">
@@ -20,36 +21,29 @@
 
 ## 📝 Live Preview 
 
-- [NLW Expert Notes](https://nlw-expert-notes-liard-xi.vercel.app/)
-
-<br/>
-
-<p align="center">
-</p>
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="50%" />
-  <img alt="Landing page created during the event." src=".github/preview-cover-2.png" width="50%" />
-  <img alt="Landing page created during the event." src=".github/preview-cover-3.png" width="50%" />
-  <img alt="Landing page created during the event." src=".github/preview-cover-4.png" width="50%" />
-<br/>
+- [Tailwind Dashboard](https://rocketseat-tailwind-next-sigma.vercel.app/)
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1336456128647909148/nlw-expert-notes). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout [here](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?type=design&node-id=0%3A1&mode=design&t=8MDN59hWLgltXxOj-1). You will need a [Figma](https://figma.com) account to access it.
 
 
 ## 🧑🏻‍💻 Technologies
 
-- HTML
+- ReactJS
 - Tailwind CSS
-- JavaScript
-- Vite
-- NodeJS
 - Radix UI
 
 ## 🎓 Worked on
 
-- Using date-fns
 - Used icon pack lucide-react
-- Used Sonner to indicate that the note was added
-- crypto.randomUUID() to generate a unique string id for every note (used instead of Math.random())
-- Tailwind CSS for styling and responsiveness
+- Framer Motion library
+- useID() react hook
+- forceMount for content to be always available
+- Used tailwind dark mode that uses the user's operation system theme to apply a dark mode to the website.
+- Stylizations
+- Responsiveness with pre-configured breakpoints
+- Tailwind Variants
+- Animations
+- Composition pattern
+- Form creation
