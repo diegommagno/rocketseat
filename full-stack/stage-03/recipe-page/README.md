@@ -1,12 +1,12 @@
 <h1 align="center"> Cupcake Recipe Page </h1>
 
 <p align="center">
-  Introducing a dynamic product card featuring information and an immersive 360° viewing experience.
+  Welcome to the Cupcake Recipe Page! 🍰  
   <br/>
   <br/>
-  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+  This project is part of the <strong>Full-Stack</strong> course from <a href="https://www.rocketseat.com.br">Rocketseat</a>.  
   <br/>
-  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
+  It features a beautifully designed recipe page with step-by-step instructions and ingredients.  
 </p>
 
 <p align="center">
@@ -26,28 +26,27 @@
 
 ## 📝 Live Preview 
 
-- [Recipe Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card)
-- [Product Card - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/02-product-card/projects/official/)
+- [Recipe Page](https://diegommagno.com/github/rocketseat/full-stack/stage-03/recipe-page)
+
+<br/>
+
+<p align="center">
+  <img alt="Project gif" src="./.github/preview-cover.gif" width="80%" />
+</p>
 
 <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1360315130061454535). You will need a [Figma](https://figma.com) account to access it.
+- Check the layout [here](https://www.figma.com/community/file/1360315130061454535). You will need a [Figma](https://figma.com) account to access it.
 
-<p align="center">
-  <img alt="Project gif." src="./.github/preview-cover.gif" width="80%" />
-</p>
 
-<br/>
 
 ## 🧑🏻‍💻 Technologies
 
 - HTML
-- SCSS, CSS
-- JavaScript
+- CSS
 
 ## 🎓 Worked on
 
-- CSS: `flex`, `grid` `rem`, `color variables`
-- JS: `addEventListener`
+- CSS: `margin`, `padding` `:root`, `next sibiling`, `css combinators`
