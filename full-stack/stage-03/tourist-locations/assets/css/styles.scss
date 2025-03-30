@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    /* background */
+    --background-default: #F5F4F0;
+
+    /* border */
+    --border-primary: #D9D9D9;
+
+    /* text */
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    /* accent */
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--background-default);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 8rem 8rem;
+}
+
+h1, h2, h3, .headline {
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 3.6rem;
+    margin-top: 0.8rem;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+img {
+    border-radius: 28px;  /* Adicionar o arredondamento da borda */
+    width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
+}
+
+#busan img {
+    margin:  4.4rem 0 2.4rem;
+}
+
+#busan-destinations {
+    h2 {
+        margin: 0.2rem 0 0.8rem;
+    }
+
+    h3 {
+        margin-bottom: 0.4rem;
+    }
+
+    div:nth-child(1) {
+        img {
+            margin: 6.4rem 0 2rem;
+        }
+    }
+
+    div:nth-child(3), div:nth-child(4) {
+        img {
+            margin: 4.8rem 0 2rem;
+        }
+    }
+}
+
+ul {
+    list-style-position: inside;
+
+    & li::marker {
+        color: var(--text-primary);
+        font-size: 0.7em; /* Adjust the size as needed */
+    }
+}
+
+.headline {
+    color: var(--text-headline);
+    line-height: 2.2rem;
+    text-transform: uppercase;
+}
+
+.secondary {
+    color: var(--text-secondary);
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 4rem 0;
+    background-color: var(--border-primary);
+}
+
+.accent-blue {
+    color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.accent-orange {
+    color: var(--accent-orange);
+    font-weight: 700;
+}
+
+.accent-pink {
+    color: var(--accent-pink);
+    font-weight: 700;
+}
+
+.accent-purple {
+    color: var(--accent-purple);
+    font-weight: 700;
+}
