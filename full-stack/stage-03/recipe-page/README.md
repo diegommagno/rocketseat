@@ -4,7 +4,7 @@
   Welcome to the Cupcake Recipe Page! 🍰  
   <br/>
   <br/>
-  This project is part of the <strong>Full-Stack</strong> course from <a href="https://www.rocketseat.com.br">Rocketseat</a>.  
+  This project is part of the Full-Stack course from <a href="https://www.rocketseat.com.br">Rocketseat</a>.  
   <br/>
   It features a beautifully designed recipe page with step-by-step instructions and ingredients.  
 </p>
@@ -40,8 +40,6 @@
 
 - Check the layout [here](https://www.figma.com/community/file/1360315130061454535). You will need a [Figma](https://figma.com) account to access it.
 
-
-
 ## 🧑🏻‍💻 Technologies
 
 - HTML
@@ -49,4 +47,4 @@
 
 ## 🎓 Worked on
 
-- CSS: `margin`, `padding` `:root`, `next sibiling`, `css combinators`
+- `margin`, `padding` `:root`, `next sibiling`, `css combinators`
