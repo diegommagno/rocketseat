@@ -2,6 +2,8 @@ footer {
     display: flex;
     gap: 2.4rem;
     padding-block: 2.4rem;
+
+    font: 1.4rem/150% var(--font-family);
 }
 
 footer span {
