@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Produto */
+    --brand-color: #EF5F4C;
+  
+    /* Shape */
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: rgba(255, 255, 255, 0.56);
+  
+    /* Text */
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+}
+
+body {
+    color: var(--text-color-primary);
+    background-color: var(--background-color);
+}
