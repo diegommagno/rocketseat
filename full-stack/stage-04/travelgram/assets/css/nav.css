@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 0;
+    padding-block: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+
+    padding-block: 0.8rem;
+}
+
+nav ul li:last-child img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#search-icon a {
+    display: block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url('../icons/MagnifyingGlass.svg') no-repeat center center;
+    background-size: contain;
+}
+  
+#search-icon a:hover {
+    background-image: url('../icons/MagnifyingGlass-hover.svg');
+}
