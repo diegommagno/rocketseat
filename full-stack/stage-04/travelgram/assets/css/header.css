@@ -1,5 +1,7 @@
 header {
     padding-block: 3.2rem;
+    font: var(--text-md);
+
 }
 
 header .container {
@@ -22,10 +24,6 @@ header .container {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 0.8rem;
-}
-
-#profile p {
-    font: var(--text-md);
 }
 
 #info {
