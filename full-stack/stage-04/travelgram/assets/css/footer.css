@@ -1,0 +1,9 @@
+footer {
+    display: flex;
+    gap: 2.4rem;
+    padding-block: 2.4rem;
+}
+
+footer span {
+    margin-right: auto;
+}
