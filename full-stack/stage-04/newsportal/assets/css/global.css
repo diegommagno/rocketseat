@@ -5,6 +5,17 @@
 }
 
 :root {
+    /* Font Family */
+    --font-family: 'Archivo', sans-serif;
+  
+    /* Font Styles */
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
+  
     /* Produto */
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
@@ -16,9 +27,38 @@
     /* Textos */
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
-  }
+  }  
 
 body {
+    font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+    font: inherit
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline-start: auto;
+}
+
+/* utility-first */
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
