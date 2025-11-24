@@ -28,8 +28,10 @@
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
   }  
+  }  
 
 body {
+    font: var(--text);
     font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
