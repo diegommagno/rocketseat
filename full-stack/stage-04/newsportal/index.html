@@ -15,15 +15,31 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
-    <nav>
-      <a href="#" id="logo">
-        <img src="./assets/Logo.svg" alt="Newsportal Logo" />
-      </a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <header class="container">
+      <nav id="primary" class="grid">
+        <div>
+          <img src="assets/icons/List.svg" alt="Menu Icon">
+          <strong>Menu</strong>
+        </div>
+
+        <div>
+          <img src="assets/Logo.svg" alt="TechNews Logo">
+        </div>
+
+        <div>
+          <strong>Search</strong>
+          <img src="assets/icons/MagnifyingGlass.svg" alt="Search Icon">
+        </div>
+      </nav>
+      <nav id="secondary" class="grid grid-flow-col">
+        <a href="#">Artificial Intelligence</a>
+        <a href="#">blockchain</a>
+        <a href="#">Holograms</a>
+        <a href="#">Internet</a>
+        <a href="#">Wearables</a>
+        <a href="#">Augmented Reality</a>
+        <a href="#">Virtual Reality</a>
+      </nav>
+    </header>
   </body>
 </html>
