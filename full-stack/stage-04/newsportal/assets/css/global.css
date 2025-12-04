@@ -52,7 +52,7 @@ h1, h2, h3 {
 .container {
     max-width: 1280px;
     padding-inline: 32px;
-    margin-inline-start: auto;
+    margin-inline: auto;
 }
 
 /* Utility-First CSS */
