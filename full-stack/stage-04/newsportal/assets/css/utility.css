@@ -1,0 +1,17 @@
+/* Utility-First CSS */
+.grid {
+  display: grid;
+}
+
+/*grid-auto-flow: column coloca os itens em linha porque ele cria novas colunas automaticamente, preenchendo o grid horizontalmente antes de criar qualquer nova linha.*/
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+  gap: 16px;
+}
