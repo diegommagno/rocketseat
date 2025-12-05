@@ -28,6 +28,11 @@
 
       padding: 24px;
 
+      /* Aplicar em todos que tem a classe text-lg, no caso apenas os cards pequenos */
+      &:has(.text-lg) {
+        padding: 12px;
+      }
+
       h2 {
         margin-top: 8px;
       }
