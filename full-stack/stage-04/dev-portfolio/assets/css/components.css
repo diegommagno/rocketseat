@@ -1,0 +1,29 @@
+.tech-stack {
+    display: flex;
+    gap: 16px;
+}
+
+.tech-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+}
+
+.tech-label {
+    font-family: var(--font-maven);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400; /* Regular */
+    color: var(--gray-500);
+}
+
+.tech-icon {
+    width: 24px;
+    height: 24px;
+    /* Colocado fill="currentColor" em todos os paths dos SVGs */
+}
