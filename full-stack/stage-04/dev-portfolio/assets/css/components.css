@@ -94,12 +94,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 72px;
-    margin-bottom: 56px;
+    padding-top: 72px;
+    padding-bottom: 56px;
     gap: 8px;
 }
 
-.my-work-section {
+.my-work-section-label {
     font-family: var(--font-inconsolata);
     font-size: 20px;
     line-height: 120%;
@@ -157,6 +157,87 @@
 }
 
 .project-description {
+    font-family: var(--font-maven);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+/*-- Services Component --*/
+.services {
+    margin: 0 auto;
+    background-color: var(--gray-100);
+    padding-bottom: 120px;
+}
+
+.services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    padding-top: 88px;
+    padding-bottom: 57px;
+}
+
+.services-section-label {
+    font-family: var(--font-inconsolata);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.services-title {
+    font-family: var(--font-asap);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+    color: var(--gray-600);
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.service-card {
+    flex: 1;
+    max-width: 320px;
+
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 24px 32px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.service-icon {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon svg {
+    width: 48px;
+    height: 48px;
+}
+
+.service-title {
+    font-family: var(--font-asap);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 700;
+    color: var(--gray-600);
+}
+
+.service-description {
     font-family: var(--font-maven);
     font-size: 14px;
     line-height: 140%;
