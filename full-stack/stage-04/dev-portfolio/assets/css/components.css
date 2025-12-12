@@ -244,3 +244,96 @@
     font-weight: 400;
     color: var(--gray-500);
 }
+
+/*-- Footer Component --*/
+
+.footer {
+    background-image: url("../img/Background_Contacts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-top: 128px;
+    padding-bottom: 200px;
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+    margin-bottom: 48px;
+}
+
+.footer-header span {
+    font-family: var(--font-inconsolata);
+    color: var(--purple);
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.footer-header h2 {
+    font-family: var(--font-asap);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+    color: var(--gray-600);
+}
+
+.footer-header p {
+    font-family: var(--font-maven);
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.footer-links {
+    max-width: 400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 20px;
+    border-radius: 8px;
+    background-color: var(--gray-300);
+
+    text-decoration: none;
+}
+
+.footer-card-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-icon {
+    width: 28px;
+    height: 28px;
+    color: var(--gray-400);
+}
+
+.footer-label {
+    font-family: var(--font-maven);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.footer-arrow {
+    width: 20px;
+    height: 20px;
+    color: var(--blue);
+}
