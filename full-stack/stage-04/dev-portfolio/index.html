@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css">
+
+    <script type="module" src="./assets/js/main.js"></script>
 </head>
+
 <body>
-    <header>
+    <header class="site-header">
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="lang-text">English</span>
+            <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </button>
+
+          <div class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+            <a class="lang-option" href="./fr/index.html" role="menuitem">Français</a>
+            <a class="lang-option" href="./pt/index.html" role="menuitem">Português</a>
+          </div>
+        </div>
+
         <div class="intro">
             <div class="profile-photo">
                 <img class="profile-photo-img" src="http://github.com/diegommagno.png" alt="Profile Photo">
@@ -27,8 +45,9 @@
             <span class="gray-500">Hello World! My name is <span class="red">Diego Magno</span> and I am a</span>
             <h1 class="gray-600">Fullstack Developer</h1>
             <p class="gray-400">
-            I turn needs into real, engaging, and functional applications. 
-            I develop systems through my passion for technology, contributing with innovative and efficient solutions to complex challenges.
+                Transforming needs into real, engaging, and functional applications.
+                <br/>
+                Designing and developing systems driven by a passion for technology, delivering innovative and effective solutions to complex challenges.
             </p>
         </div>
     
@@ -81,7 +100,7 @@
         <section class="my-work">
             <div class="my-work-header">
               <span class="my-work-section-label red">My work</span>
-              <h2 class="my-work-title">See my featured projects</h2>
+              <h2 class="my-work-title">Discover my featured projects</h2>
             </div>
           
             <div class="projects-grid">
@@ -93,7 +112,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Travelgram</h3>
                   <p class="project-description">
-                    Social network where people share records of their travels around the world
+                    Social network where users share memories of their travels around the world
                   </p>
                 </div>
               </article>
@@ -106,7 +125,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Tech News</h3>
                   <p class="project-description">
-                    Homepage of a news portal about the technology field
+                    Homepage of a news portal focused on the technology field
                   </p>
                 </div>
               </article>
@@ -119,7 +138,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Recipe Page</h3>
                   <p class="project-description">
-                    Page with the step-by-step instructions for a cupcake recipe
+                    Page with step-by-step instructions for a cupcake recipe
                   </p>
                 </div>
               </article>
@@ -132,7 +151,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Zingen</h3>
                   <p class="project-description">
-                    Complete and responsive landing page for a karaoke app
+                    Complete and responsive landing page for a karaoke application
                   </p>
                 </div>
               </article>
@@ -145,7 +164,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Refund</h3>
                   <p class="project-description">
-                    A system for requesting and tracking refunds
+                    System for requesting and tracking refunds
                   </p>
                 </div>
               </article>
@@ -158,7 +177,7 @@
                 <div class="project-content">
                   <h3 class="project-title">Travel Page</h3>
                   <p class="project-description">
-                    Page with key information for those who want to travel to Busan
+                    Page containing essential information for those who want to travel to Busan
                   </p>
                 </div>
               </article>
@@ -168,7 +187,7 @@
 
         <section class="services">
             <div class="services-header">
-              <span class="services-section-label red">My services</span>
+              <span class="services-section-label red">My Services</span>
               <h2 class="services-title gray-600">How I can help your business</h2>
             </div>
           
@@ -200,7 +219,7 @@
                     </svg>
                 </div>
                 <h3 class="service-title">DevOps</h3>
-                <p class="service-description">Application management and infrastructure</p>
+                <p class="service-description">Application and infrastructure management</p>
               </article>
             </div>
         </section>
@@ -210,8 +229,8 @@
         <div class="footer-content">
             <div class="footer-header">
                 <span>Contact</span>
-                <h2>Did you like my work?</h2>
-                <p>Get in touch or follow me on my social networks!</p>
+                <h2>Did you like my work ?</h2>
+                <p>Get in touch or follow me on my social networks !</p>
             </div>
       
             <div class="footer-links">
