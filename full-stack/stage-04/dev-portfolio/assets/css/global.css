@@ -24,7 +24,6 @@
     --gray-400: #878EA1;
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
-  
   }  
 
   body {
@@ -32,5 +31,5 @@
     background-color: var(--gray-200);
     color: var(--gray-600);
 
-    height: 100vh;
+    min-height: 100vh;
   }
