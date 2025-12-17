@@ -1,3 +1,85 @@
+/*-- Language Selector Component --*/
+.site-header {
+position: relative;
+}
+
+.lang-selector {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    background: var(--gray-300);
+    cursor: pointer;
+
+    white-space: nowrap;
+
+    transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.lang-btn:hover {
+    background: var(--gray-200);
+}
+
+.lang-btn[aria-expanded="true"] .lang-chevron {
+    transform: rotate(180deg);
+}
+
+.lang-text {
+    font-family: var(--font-maven);
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--gray-500);
+}
+
+.lang-chevron {
+    color: var(--gray-500);
+    transition: transform 180ms ease;
+}
+
+/* Opened Menu */
+.lang-menu {
+    position: absolute;
+    right: 0;
+    margin-top: 4px;
+
+    padding: 8px;
+    border-radius: 12px;
+    background: var(--gray-300);
+
+    width: max-content;
+    display: none;
+}
+
+.lang-menu.open {
+    display: block;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--gray-500);
+}
+
+.lang-option:hover {
+    background: var(--gray-200);
+}
+
 /*-- Profile Photo Component --*/
 .profile-photo {
     position: relative;
@@ -248,7 +330,7 @@
 /*-- Footer Component --*/
 
 .footer {
-    background-image: url("../img/Background_Contacts.jpg");
+    background-image: url("../img/Background_Contacts.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
