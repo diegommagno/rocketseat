@@ -4,11 +4,11 @@
 A clean developer portfolio project focused on layout structure, component organization, and multilingual support using modern HTML, CSS, and JavaScript.
 </p>
 
- <p align="center">
+<p align="center">
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="#-concepts-&-skills">Concepts & Skills</a>
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#-concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
@@ -42,7 +42,7 @@ Access the deployed version of the project.
 - CSS3
 - JavaScript
 
-## 📚 Concepts & Skills
+## 📚 Concepts and Skills
 
 - Modern semantic HTML structure (header, main, section, article, footer) focused on accessibility and SEO
 
