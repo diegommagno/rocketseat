@@ -5,10 +5,10 @@ A clean developer portfolio project focused on layout structure, component organ
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
-  <a href="#-concepts-and-skills">Concepts and Skills</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
@@ -19,7 +19,7 @@ A clean developer portfolio project focused on layout structure, component organ
 
 <br/>
 
-## 🌐 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
 Access the deployed version of the project.
 
 [Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-porfolio)
@@ -32,17 +32,17 @@ Access the deployed version of the project.
 
 <br/>
 
-## 🎨 Layout
+<h3 id="layout">🎨 Layout</h3>
 
 - Check the layout [here](https://www.figma.com/community/file/1387080701963671866). You will need a [Figma](https://figma.com) account to access it.
 
-## ⚙️ Technologies
+<h3 id="technologies">⚙️ Technologies</h3>
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📚 Concepts and Skills
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
 
 - Modern semantic HTML structure (header, main, section, article, footer) focused on accessibility and SEO
 
