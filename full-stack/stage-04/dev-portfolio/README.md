@@ -1,0 +1,73 @@
+<h1 align="center">Dev Portfolio</h1>
+
+<p align="center">
+A clean developer portfolio project focused on layout structure, component organization, and multilingual support using modern HTML, CSS, and JavaScript.
+</p>
+
+ <p align="center">
+  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#-concepts-&-skills">Concepts & Skills</a>
+</p>
+
+<br/>
+
+<p align="center">
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
+</p>
+
+<br/>
+
+## 🌐 Live Preview 
+Access the deployed version of the project.
+
+[Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-porfolio)
+
+<br/>
+
+<p align="center">
+  <img alt="Project gif" src="./.github/preview-cover.png" width="80%" />
+</p>
+
+<br/>
+
+## 🎨 Layout
+
+- Check the layout [here](https://www.figma.com/community/file/1387080701963671866). You will need a [Figma](https://figma.com) account to access it.
+
+## ⚙️ Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 📚 Concepts & Skills
+
+- Modern semantic HTML structure (header, main, section, article, footer) focused on accessibility and SEO
+
+- Scalable CSS architecture with modular files (global.css, utilities.css, components.css)
+
+- Design system via CSS Custom Properties (:root) for colors, typography, spacing, and consistency
+
+- Utility-first approach for colors and text styles to speed up development and maintenance
+
+- Responsive layout strategies using max-width, fluid containers, and centered content
+
+- Flexbox for alignment and component-level layouts (headers, cards, buttons, navigation)
+
+- CSS Grid for the projects gallery
+
+- Native CSS nesting (modern CSS) applied where it improves readability without overengineering
+
+- SVG-first icons and illustrations using currentColor for full theme control
+
+- Accessible interactive components, including:
+
+  - Language switcher with ARIA attributes
+
+  - Keyboard support (Escape to close)
+
+  - Click-outside behavior
+
+- Internationalization-ready project structure (i18n) with separate language routes (/en, /fr, /pt)
