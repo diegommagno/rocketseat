@@ -1,7 +1,7 @@
 <h1 align="center">Dev Portfolio</h1>
 
 <p align="center">
-A clean developer portfolio project focused on layout structure, component organization, and multilingual support using modern HTML, CSS, and JavaScript.
+A clean developer portfolio project focused on layout structure, component organization, and multilingual support using modern HTML, CSS, and JavaScript
 </p>
 
 <p align="center">
