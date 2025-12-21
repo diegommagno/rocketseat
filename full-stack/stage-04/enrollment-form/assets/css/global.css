@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  /* Font Family */
+  --font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 .875rem/1.4 var(--font-family);
+
+  /* Brand */
+  --brand-light: #F67841;
+  --brand-mid: #F3541C;
+  --brand-dark: #E43A12;
+
+  /* Text */
+  --text-primary: #292524;
+  --text-secondary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
+
+  /* Surface */
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #FEE7D6;
+  --surface-disabled: #E7E5E4;
+
+  /* Stroke */
+  --stroke-default: #D6D3D1;
+  --stroke-highlight: #F3541C;
+
+  /* Semantic */
+  --semantic-error: #DC2626;
+
+  /* Supporting */
+  --support-orange: #F9A474;
+  --support-yellow: #FEDF6F;
+  --support-green: #C7D78D;
+  --support-blue: #B8CEDC;
+  --support-violet: #C3B2E7;
+  --support-pink: #F682A5;
+
+  /* Typography scale (optional tokens) */
+  --heading-1: 32px;
+  --heading-2: 24px;
+  --heading-3: 20px;
+  --heading-4: 16px;
+  --line-height-heading: 1.2; /* 120% */
+  --weight-heading: 700; /* bold */
+}
+
+body {
+  min-height: 100vh;
+}
