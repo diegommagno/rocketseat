@@ -33,23 +33,15 @@
   /* Semantic */
   --semantic-error: #DC2626;
 
-  /* Supporting */
+  /* Supporting Colors */
   --support-orange: #F9A474;
   --support-yellow: #FEDF6F;
   --support-green: #C7D78D;
   --support-blue: #B8CEDC;
   --support-violet: #C3B2E7;
   --support-pink: #F682A5;
-
-  /* Typography scale (optional tokens) */
-  --heading-1: 32px;
-  --heading-2: 24px;
-  --heading-3: 20px;
-  --heading-4: 16px;
-  --line-height-heading: 1.2; /* 120% */
-  --weight-heading: 700; /* bold */
 }
 
 body {
-  min-height: 100vh;
+  overflow: hidden;
 }
