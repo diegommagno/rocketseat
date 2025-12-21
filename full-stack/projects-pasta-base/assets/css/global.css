@@ -6,7 +6,7 @@
 
 :root {
   /* Font Family */
-  --font-asap: "Asap", sans-serif;
+  --font-family: "Asap", sans-serif;
 
   /* Main */
   --red: #E3646E;
@@ -25,9 +25,5 @@
 }  
 
 body {
-  font-family: var(--font-maven);
-  background-color: var(--gray-200);
-  color: var(--gray-600);
-
   min-height: 100vh;
 }
