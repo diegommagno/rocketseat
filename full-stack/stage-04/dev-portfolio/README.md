@@ -20,7 +20,8 @@ A clean developer portfolio project focused on layout structure, component organ
 <br/>
 
 <h3 id="live-preview">🌐 Live Preview</h3>
-Access the deployed version of the project.
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
 [Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-porfolio)
 
@@ -33,16 +34,24 @@ Access the deployed version of the project.
 <br/>
 
 <h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- Check the layout [here](https://www.figma.com/community/file/1387080701963671866). You will need a [Figma](https://figma.com) account to access it.
+- View the design layout on [Figma](https://www.figma.com/community/file/1387080701963671866).
+  A Figma account is required to access the file.
+
+<br/>
 
 <h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
 - HTML5
 - CSS3
 - JavaScript
 
+<br/>
+
 <h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
 
 - Modern semantic HTML structure (header, main, section, article, footer) focused on accessibility and SEO
 
