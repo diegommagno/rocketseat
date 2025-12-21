@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 57px;
+  margin: 0 auto;
+
+  background-image: url("../img/Background_Intro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 628px;
+  margin-bottom: 80px;
+
+  span {
+      margin-bottom: 8px;
+
+      font-family: var(--font-inconsolata);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 120%;
+  }
+
+  h1 {
+      margin-bottom: 20px;
+
+      font-family: var(--font-asap);
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 120%;
+  }
+
+  p {
+      text-align: center;
+      
+      font-family: var(--font-maven);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+  };
+}
