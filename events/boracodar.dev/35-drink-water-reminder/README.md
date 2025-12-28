@@ -36,8 +36,8 @@ A clean and minimal reminder interface designed to encourage hydration or short 
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1278710249415753889)
-  A Figma account is required to access the file
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1278710249415753889).
+  A Figma account is required to access the file.
 
 <br/>
 

@@ -36,8 +36,8 @@ A product review component designed to present ratings, feedback, and product de
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1288847927220882977)
-  A Figma account is required to access the file
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1288847927220882977).
+  A Figma account is required to access the file.
 
 <br/>
 

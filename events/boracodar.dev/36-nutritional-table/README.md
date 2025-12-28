@@ -36,8 +36,8 @@ A mobile-focused interface designed to display structured nutritional informatio
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1281253271689247675)
-  A Figma account is required to access the file
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1281253271689247675).
+  A Figma account is required to access the file.
 
 <br/>
 

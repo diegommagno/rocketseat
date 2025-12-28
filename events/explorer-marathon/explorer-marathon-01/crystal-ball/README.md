@@ -1,38 +1,65 @@
-<h1 align="center"> Crystal Ball 🔮 </h1>
+<h1 align="center">Crystal Ball</h1>
 
 <p align="center">
-  Get your answers about the future! Just ask the crystal ball.
+A simple interactive crystal ball that returns random answers based on a user question
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="./.github/crystal-ball-en-2.png" width="75%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<p align="center">
+  <img
+    alt="Crystal Ball interface with a question input and a response area"
+    src="./.github/crystal-ball-en-2.png"
+    width="75%"
+  />
+</p>
 
-- [Crystal Ball - PT/BR](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br)
-- [Crystal Ball - EN](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
-- [Crystal Ball - EN - Wizarding World theme](https://dmm.studio/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed versions of the project.</p>
 
-- HTML
-- CSS
-- JavaScript
+- [Crystal Ball — English](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/)
+- [Crystal Ball — Portuguese (BR)](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/)
+- [Crystal Ball — Wizarding World Theme](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
-## 🎓 Worked On
+<br/>
 
-- CSS Cascade
-- CSS Specificity
-- Box Model
-- Display block vs inline
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)
+
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Basic DOM manipulation using `querySelector`  
+
+- Event handling through inline click interaction  
+
+- Simple conditional logic for input validation  
+
+- Random value selection using `Math.random()`  
+
+- Timed UI updates using `setTimeout`  
+
+- Basic form interaction and button state control  
+
+- Fundamental CSS concepts such as box model, cascade, and specificity  
+
+<br/>
+
+<p align="center">
+This project focuses on practicing JavaScript fundamentals and basic DOM interaction through a playful and lightweight interface.
+</p>

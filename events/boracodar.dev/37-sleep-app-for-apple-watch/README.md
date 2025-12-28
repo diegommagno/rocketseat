@@ -36,8 +36,8 @@ A compact watch-style interface designed to display sleep history with clear vis
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1283783865388732530)
-  A Figma account is required to access the file
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1283783865388732530).
+  A Figma account is required to access the file.
 
 <br/>
 

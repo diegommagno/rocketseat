@@ -1,38 +1,63 @@
-<h1 align="center"> Wizarding World Crystal Ball 🔮 </h1>
+<h1 align="center">Wizarding World Crystal Ball</h1>
 
 <p align="center">
-  Get your answers about the future! Just ask the crystal ball.
+A themed variation of a simple crystal ball app that returns random answers based on a user question
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="./.github/ww-crystal-ball.png" width="75%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<p align="center">
+  <img
+    alt="Wizarding World crystal ball interface with a themed background and response area"
+    src="./.github/ww-crystal-ball.png"
+    width="75%"
+  />
+</p>
 
-- [Crystal Ball - PT/BR](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/pt-br)
-- [Crystal Ball - EN](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/crystal-ball/en/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball/en)
-- [Crystal Ball - EN - Wizarding World theme](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball) - viewing now
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- HTML
-- CSS
-- JavaScript
+- [Wizarding World Crystal Ball](https://diegommagno.com/github/rocketseat/events/explorer-marathon/explorer-marathon-01/wizarding-world-crystal-ball)
 
-## 🎓 Worked On
+<br/>
 
-- CSS Cascade
-- CSS Specificity
-- Box Model
-- Display block vs inline
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5  
+- CSS3  
+- JavaScript (ES6)
+
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Basic DOM manipulation using `querySelector`  
+
+- Simple event handling through button interaction  
+
+- Conditional logic for empty input validation  
+
+- Random response selection using `Math.random()`  
+
+- Timed UI updates with `setTimeout`  
+
+- Button state control using HTML attributes  
+
+- Theming and visual variation using CSS background images and overlays  
+
+<br/>
+
+<p align="center">
+This project focuses on practicing JavaScript fundamentals and UI theming by applying a different visual identity to the same interaction logic.
+</p>

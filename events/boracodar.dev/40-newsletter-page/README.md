@@ -36,8 +36,8 @@ A newsletter subscription page designed to showcase computer setup inspiration t
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1291394985565910709)
-  A Figma account is required to access the file
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1291394985565910709).
+  A Figma account is required to access the file.
 
 <br/>
 

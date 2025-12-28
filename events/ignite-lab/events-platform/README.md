@@ -1,53 +1,86 @@
-<h1 align="center"> Events Platform </h1>
+<h1 align="center">Events Platform</h1>
 
 <p align="center">
-  A user-friendly platform for hosting online events with scheduled or live-streamed videos. Simply enter your name and email address to log in and enjoy the content.
+An online events platform that allows users to subscribe and access scheduled or live video lessons through a modern React and GraphQL stack
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Login screen asking for name and email confirmation" src="./.github/events-platform-login.png" width="75%" />
-  <img alt="Online events platform screen. Video to be played on the left, video release dates on the right." src="./.github/events-platform-content.png" width="75%" />
+  <img
+    alt="Events Platform login and content screens"
+    src="./.github/events-platform-login.png"
+    width="75%"
+  />
 </p>
 
-<br>
+<br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- [Events Platform - PT/BR](https://ignite-lab-umber-five.vercel.app/)
-- The login can be made with any email to access the application.
+[Events Platform](https://ignite-lab-umber-five.vercel.app/)
 
-## 🎨 Layout
+<br/>
 
-- You can check the layout [here](https://www.figma.com/community/file/1120711251998877938). You will need a [Figma](https://figma.com) account to access it.
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-## 🧑🏻‍💻 Technologies
+- View the design layout on [Figma](https://www.figma.com/community/file/1120711251998877938).
+  A Figma account is required to access the file.
 
-- GraphQL
-- Apollo Client
-- GraphQL Code Generator
-- GraphCMS
-- Vite
-- Node.js
-- React.js
-- TypeScript
-- Tailwind CSS
+<br/>
 
-## 🎓 Worked On
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-- React.js 
-- Node.js
-- Vite
-- GraphQL
-- Tailwind CSS 
-- Apollo GraphQL
-- GraphCMS: how to use API data.
-- TypeScript
+- React  
+- TypeScript  
+- Vite  
+- GraphQL  
+- Apollo Client  
+- GraphQL Code Generator  
+- React Router  
+- Tailwind CSS  
+- Node.js  
+
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- React application structure using functional components and hooks  
+
+- Client-side routing with React Router for public and protected pages  
+
+- GraphQL data fetching using Apollo Client  
+
+- Automatic TypeScript type generation from GraphQL schemas and operations  
+
+- Centralized GraphQL client configuration with Apollo Provider  
+
+- Dynamic content rendering based on API-driven lesson data  
+
+- URL-based state handling using route parameters (`slug`)  
+
+- Utility-first styling with Tailwind CSS for consistent UI composition  
+
+- Responsive layout design with Tailwind breakpoints  
+
+- Build and development workflow powered by Vite  
+
+- Separation of concerns between pages, routes, and data layers  
+
+<br/>
+
+<p align="center">
+This project demonstrates the integration of a modern frontend stack with GraphQL to build a scalable and data-driven event streaming platform.
+</p>
