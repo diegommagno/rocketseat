@@ -1,48 +1,81 @@
-<h1 align="center"> Ticket Generator </h1>
+<h1 align="center">Ticket Generator</h1>
 
 <p align="center">
-  The challenge involves building a webpage that generates customized tickets based on a public GitHub profile.
+A ticket generator web interface that creates personalized event tickets based on a public GitHub username
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Ticket Generator - PT/BR](https://dmm.studio/github/rocketseat/events/boracodar.dev/33-ticket-generator)
-- [Ticket Generator - EN](https://dmm.studio/github/rocketseat/events/boracodar.dev/33-ticket-generator/projects/en)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="70%" />
+  <img alt="Ticket Generator interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed versions of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1273622271836473382/Gerador-de-Ticket---Desafio-33). You will need a [Figma](https://figma.com) account to access it.
+- [Ticket Generator — English](https://diegommagno.com/github/rocketseat/events/boracodar.dev/33-ticket-generator/projects/en)
+- [Ticket Generator — Portuguese (BR)](https://diegommagno.com/github/rocketseat/events/boracodar.dev/33-ticket-generator)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<p align="center">
+  <img alt="Ticket Generator UI Preview" src="./.github/preview-cover.png" width="70%" />
+</p>
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1273622271836473382).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
-- JavaScript
+- JavaScript (ES6+)
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `ternary`, `toggle`, `form`, `all: unset;`, `> *`, `onclick`, `Arrow Function`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for form input and ticket presentation  
+
+- Layout composition using Flexbox for alignment and spacing  
+
+- Scalable spacing and typography using `rem` units  
+
+- Custom form styling using CSS reset techniques such as `all: unset`  
+
+- JavaScript-driven UI state control through conditional class toggling  
+
+- Event handling with `addEventListener` and arrow functions  
+
+- Dynamic content rendering based on user input  
+
+- Integration with public GitHub profile images via dynamic URL generation  
+
+- Multilingual project structure with separate localized versions  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on combining form interaction, DOM manipulation, and dynamic content generation using HTML, SCSS, and JavaScript.
+</p>

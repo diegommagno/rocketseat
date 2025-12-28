@@ -1,46 +1,77 @@
-<h1 align="center"> Credit Card Form </h1>
+<h1 align="center">Credit Card Form</h1>
 
 <p align="center">
-  This component is dedicated to capturing credit card information and can be seamlessly integrated into both web and mobile applications.
+A credit card form UI component focused on visual structure, input layout, and realistic card representation for web and mobile interfaces
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Credit Card Form](https://dmm.studio/github/rocketseat/events/boracodar.dev/13-credit-card-form)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Credit Card Form interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1222904930776225825). You will need a [Figma](https://figma.com) account to access it.
+[Credit Card Form — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/13-credit-card-form)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<!-- <p align="center">
+  <img alt="Credit Card Form UI Preview" src="./.github/preview-cover.png" width="80%" />
+</p> -->
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1222904930776225825).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `variables`, `perspective`, `inherit`, `position`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for form fields and credit card information  
+
+- Input layout organization using Flexbox for consistent spacing and alignment  
+
+- Scalable spacing and typography using `rem` units  
+
+- Use of CSS custom properties for consistent theming and styling control  
+
+- Realistic card visualization using 3D perspective (`perspective`)  
+
+- Layered positioning techniques with relative and absolute positioning  
+
+- Inheritance-based styling to maintain visual consistency across form elements  
+
+- Responsive layout prepared for different screen sizes  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a visually rich credit card form component with attention to layout, depth, and UI realism using HTML and SCSS.
+</p>

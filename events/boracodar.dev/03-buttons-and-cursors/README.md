@@ -1,50 +1,80 @@
-<h1 align="center"> Buttons and Cursors </h1>
+<h1 align="center">Buttons and Cursors</h1>
 
 <p align="center">
-  Explore an array of buttons and cursor styles to enhance user interaction.
-  <br/>
-  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
+A UI-focused project exploring button styles, cursor behaviors, and interaction states to improve usability and user feedback through modern CSS and JavaScript techniques
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/cover-2.png" width="90%" />
+  <img alt="Buttons and Cursors interface layout" src="./.github/cover-2.png" width="90%" />
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- [Buttons and Cursors](https://dmm.studio/github/rocketseat/events/boracodar.dev/03-buttons-and-cursors/)
+[Buttons and Cursors — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/03-buttons-and-cursors/)
 
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a screen with different buttons and actions." src=".github/preview-cover.gif" width="50%" />
+  <img alt="Buttons and Cursors UI Preview" src="./.github/preview-cover.gif" width="50%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- You can check the layout [here](https://www.figma.com/community/file/1197534710257750520). You will need a [Figma](https://figma.com) account to access it.
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1197534710257750520).
+  A Figma account is required to access the file.
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-- HTML
-- JavaScript
+- HTML5
+- CSS3
 - SCSS
+- JavaScript (ES6+)
 
-## 🎓 Worked on
+<br/>
 
-- Button states: `::hover`, `::focus`, `::disabled`, `.loading`, `.movable`
-- CSS: `flex`, `grid`, `padding-inline`, `padding-block`, `@keyframes`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Global CSS reset with font smoothing for consistent rendering across browsers  
+
+- Use of `rem` units with a normalized root font-size (`62.5%`) for scalable spacing and typography  
+
+- Centered layout using CSS Grid (`display: grid` + `place-items: center`) for clean viewport alignment  
+
+- Button variants using CSS Custom Properties (e.g. `--bg-default`, `--bg-hover`) to create a reusable styling system  
+
+- Interactive button states with pseudo-classes (`:hover`, `:focus`, `:disabled`) focused on accessibility and clear user feedback  
+
+- Cursor feedback for different UI states (`pointer`, `progress`, `move`, `not-allowed`) to reinforce interaction context  
+
+- Loading animation using `@keyframes` and `transform: rotate()` applied to an inline icon  
+
+- JavaScript event handling with state toggling to switch classes (`.loading`, `.movable`) and update UI dynamically  
+
+- Dynamic content updates via `innerHTML` to inject icons and preserve button labels during state changes  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on improving interaction patterns and visual feedback through buttons and cursor-based UI elements.
+</p>

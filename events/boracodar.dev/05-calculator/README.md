@@ -1,51 +1,79 @@
-<h1 align="center"> Calculator </h1>
+<h1 align="center">Calculator</h1>
 
 <p align="center">
-  Calculator with clean design.
-  <br/>
-  <br/>
-  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
-  <br/>
-  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
+A clean and visually focused calculator interface designed with emphasis on layout structure, spacing, and modern CSS styling techniques
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
+  <img alt="Calculator interface layout" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- [Calculator - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/05-calculator/projects/official/)
+[Calculator — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/05-calculator/projects/official/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.png" width="40%" />
+  <img alt="Calculator UI Preview" src="./.github/preview-cover.png" width="40%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- You can check the layout [here](https://www.figma.com/community/file/1202607074523509182/%23boraCodar---Desafio-5). You will need a [Figma](https://figma.com) account to access it.
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1202607074523509182/%23boraCodar---Desafio-5).
+  A Figma account is required to access the file.
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-- HTML
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `grid`, `rem`, `background`, `media`, `variables`, `linear-gradient`, `box-shadow`, `inset`, `grid-template-columns: repeat()` 
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure to organize calculator display and control sections  
+
+- Layout composition using CSS Grid for precise button alignment and spacing  
+
+- Flexible container alignment with Flexbox for overall layout structure  
+
+- Scalable sizing and typography using `rem` units  
+
+- Visual depth and hierarchy created with `box-shadow` and `inset` effects  
+
+- Use of CSS custom properties for consistent theming and color management  
+
+- Gradient backgrounds implemented with `linear-gradient` for modern UI styling  
+
+- Responsive behavior handled via media queries  
+
+- Reusable grid patterns using `grid-template-columns: repeat()`  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a visually polished calculator UI using modern layout and styling techniques with HTML and SCSS.
+</p>

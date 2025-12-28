@@ -1,46 +1,71 @@
-<h1 align="center"> Light Adjustments </h1>
+<h1 align="center">Light Adjustments</h1>
 
 <p align="center">
-  The challenge is to code a lighting adjustment app.
+A lighting adjustment UI concept focused on visual controls, layout composition, and interface clarity for smart home–style interactions
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Light Adjustments](https://dmm.studio/github/rocketseat/events/boracodar.dev/24-light-adjustments/projects/official)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="45%" />
+  <img alt="Light Adjustments interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1250810959627241982/Ajustes-de-Ilumina%C3%A7%C3%A3o). You will need a [Figma](https://figma.com) account to access it.
+[Light Adjustments — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/24-light-adjustments/projects/official)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<p align="center">
+  <img alt="Light Adjustments UI Preview" src="./.github/preview-cover.gif" width="45%" />
+</p>
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1250810959627241982).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `grid`, `rem`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure to organize lighting controls and adjustment panels  
+
+- Layout composition using Flexbox and CSS Grid for control alignment  
+
+- Scalable spacing and typography using `rem` units  
+
+- Visual hierarchy to distinguish primary and secondary controls  
+
+- UI layout prepared for interactive behavior and real-time feedback  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on designing a clean and intuitive lighting adjustment interface using HTML and SCSS.
+</p>

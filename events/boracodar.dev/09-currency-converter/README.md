@@ -1,46 +1,71 @@
-<h1 align="center"> Currency Converter </h1>
+<h1 align="center">Currency Converter</h1>
 
 <p align="center">
-  The currency converter component allows you to check the exchange rates of international currencies and can be integrated into both web and mobile applications.
+A base UI component for a currency converter, designed to display exchange-related information and serve as a foundation for future functionality
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Currency Converter](https://dmm.studio/github/rocketseat/events/boracodar.dev/09-currency-converter/)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="100%" />
+  <img alt="Currency Converter interface layout" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed base version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1212757179376046656). You will need a [Figma](https://figma.com) account to access it.
+[Currency Converter — Base Layout](https://diegommagno.com/github/rocketseat/events/boracodar.dev/09-currency-converter/)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<!-- <p align="center">
+  <img alt="Currency Converter UI Preview" src="./.github/preview-cover.gif" width="100%" />
+</p> -->
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1212757179376046656).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `variables` 
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure focused on building a reusable component layout  
+
+- Base layout composition using Flexbox for alignment and spacing  
+
+- Scalable sizing and typography using `rem` units  
+
+- Use of CSS custom properties for consistent styling and theming  
+
+- Responsive structure prepared for future functional enhancements  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It currently represents the base UI structure for a currency converter, prepared to receive logic and data integration in future iterations.
+</p>

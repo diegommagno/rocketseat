@@ -1,46 +1,75 @@
-<h1 align="center"> Newsletter Page </h1>
+<h1 align="center">Newsletter Page</h1>
 
 <p align="center">
-  Newsletter subscription page focused on providing computer setup inspiration.
+A newsletter subscription page designed to showcase computer setup inspiration through a clean and focused layout
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Newsletter Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/40-newsletter-page)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Newsletter Page interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1291394985565910709). You will need a [Figma](https://figma.com) account to access it.
+[Newsletter Page — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/40-newsletter-page)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<p align="center">
+  <img alt="Newsletter Page UI Preview" src="./.github/preview-cover.png" width="80%" />
+</p>
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1291394985565910709)
+  A Figma account is required to access the file
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- UI recreation of a newsletter subscription page with emphasis on visual clarity  
+
+- Flexbox-based layout composition for alignment and spacing  
+
+- Scalable spacing and typography using `rem` units  
+
+- Clear visual hierarchy for headline, supporting text, and form elements  
+
+- Consistent box model handling and global CSS reset  
+
+- Modular SCSS structure focused on layout and component organization  
+
+- Preparation for future form interaction without JavaScript implementation  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on recreating a clean and visually engaging newsletter page using modern HTML and SCSS techniques.
+</p>

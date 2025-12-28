@@ -1,47 +1,73 @@
 <h1 align="center">Drink Water Reminder</h1>
 
 <p align="center">
-  The task is to design a reminder for either staying hydrated by drinking water or taking breaks to stretch – the choice is yours.
+A clean and minimal reminder interface designed to encourage hydration or short breaks through a focused UI layout
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
-</p>
-
-<br/>
-
-## 📝 Live Preview 
-
-- [Drink Water Reminder](https://dmm.studio/github/rocketseat/events/boracodar.dev/35-drink-water-reminder)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="Drink Water Reminder interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1278710249415753889). You will need a [Figma](https://figma.com) account to access it.
+[Drink Water Reminder — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/35-drink-water-reminder)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<!-- <p align="center">
+  <img alt="Drink Water Reminder UI Preview" src="./.github/preview-cover.png" width="80%" />
+</p>
 
-- HTML
+<br/> -->
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1278710249415753889)
+  A Figma account is required to access the file
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
-- JavaScript
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Base UI and layout scaffolding for a reminder-style application  
+
+- Flexbox-based layout composition for alignment and spacing  
+
+- Scalable spacing and typography using `rem` units  
+
+- Global CSS reset and box model normalization  
+
+- Modular SCSS structure focused on layout clarity and visual hierarchy  
+
+- Preparation for future interaction logic without JavaScript implementation  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a clean and extensible UI foundation for future interactive reminder features.
+</p>

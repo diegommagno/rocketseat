@@ -1,46 +1,75 @@
-<h1 align="center"> Character Card </h1>
+<h1 align="center">Character Card</h1>
 
 <p align="center">
-  The project involves a character card component featuring data from a fictional character, with a Star Wars theme in honor of May the 4th.
+A character card UI component featuring fictional data with a Star Wars–inspired theme, focused on layout structure and visual presentation
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover-2.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Character Card](https://dmm.studio/github/rocketseat/events/boracodar.dev/18-character-card)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="40%" />
+  <img alt="Character Card interface layout" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1235589928611910732/%23boraCodar---Desafio-18). You will need a [Figma](https://figma.com) account to access it.
+[Character Card — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/18-character-card)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<!-- <p align="center">
+  <img alt="Character Card UI Preview" src="./.github/preview-cover.png" width="40%" />
+</p> -->
 
-- HTML
+<br/>
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1235589928611910732/%23boraCodar---Desafio-18).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `variables`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for card-based content presentation  
+
+- Layout composition using Flexbox for alignment and spacing  
+
+- Scalable spacing and typography using `rem` units  
+
+- Use of CSS custom properties for consistent theming and color control  
+
+- Visual hierarchy to emphasize character attributes and key information  
+
+- Reusable card component structure prepared for extension  
+
+- Responsive layout adjustments for different screen sizes  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a themed character card UI with attention to layout, hierarchy, and visual consistency using HTML and SCSS.
+</p>

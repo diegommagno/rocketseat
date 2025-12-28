@@ -1,47 +1,78 @@
-<h1 align="center"> AI SQL App Translation </h1>
+<h1 align="center">AI SQL App Translation</h1>
 
 <p align="center">
-  The challenge is to develop an SQL translation app that can take a schema and respond to natural language questions with AI-generated queries.
+A landing page UI concept for an AI-powered SQL translation tool, focused on form layout, input handling, and visual clarity
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [AI SQL App Translation](https://dmm.studio/github/rocketseat/events/boracodar.dev/32-ai-sql-app-translation)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img alt="AI SQL App Translation interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1271110680628406853). You will need a [Figma](https://figma.com) account to access it.
+[AI SQL App Translation — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/32-ai-sql-app-translation)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<!-- <p align="center">
+  <img alt="AI SQL App Translation UI Preview" src="./.github/preview-cover.png" width="80%" />
+</p>
 
-- HTML
+<br/> -->
+
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1271110680628406853).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
-- JavaScript
+- JavaScript (ES6+)
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `ternary`, `toggle`, `form`, `all: unset;`, `> *`, `onclick`, `Arrow Function`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for form-based user input and content sections  
+
+- Layout composition using Flexbox for vertical alignment and spacing  
+
+- Scalable spacing and typography using `rem` units  
+
+- Custom form styling using CSS reset techniques such as `all: unset`  
+
+- UI state toggling using JavaScript and conditional logic  
+
+- Event handling with arrow functions and click-based interactions  
+
+- Visual hierarchy to guide users through input, actions, and results areas  
+
+- Responsive layout prepared for different screen sizes  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on designing a clean and modern landing page for an AI-based SQL translation concept using HTML, SCSS, and JavaScript.
+</p>

@@ -1,43 +1,75 @@
-<h1 align="center"> Carnival Blocks </h1>
+<h1 align="center">Carnival Blocks</h1>
 
 <p align="center">
-Page featuring recommended carnival blocks with a filter option.
+A UI-focused page showcasing recommended carnival blocks with filtering controls and structured content presentation
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project photo showing a list of buttons with links." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<p align="center">
+  <img alt="Carnival Blocks interface layout" src="./.github/cover.png" width="80%" />
+</p>
 
-- [Carnival Blocks](https://dmm.studio/github/rocketseat/events/boracodar.dev/07-bloco-de-carnaval/)
+<br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1207675804423978995). You will need a [Figma](https://figma.com) account to access it.
+[Carnival Blocks — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/07-bloco-de-carnaval/)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- HTML
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1207675804423978995).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 - Figma
 - Phosphor Icons
 
-## 🎓 Worked on
+<br/>
 
-- Customised Input, Select and Button
-- Using customised fonts and icons
-- HTML: `form`,`header`,`main`,`section`,`select`,`img`,
-- CSS: `all`, `overflow`, `::before`, `::after`, `rem`, `position`, `fit-content`, `flex`, `grid`, `@media`, `responsive design`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure using `header`, `main`, `section`, and form elements for clear content organization  
+
+- Custom form controls including input, select, and button components styled for visual consistency  
+
+- Layout composition using Flexbox and CSS Grid to organize filters and content cards  
+
+- Scalable spacing and typography using `rem` units  
+
+- Visual layering and decoration implemented with pseudo-elements (`::before`, `::after`)  
+
+- Positioning strategies using relative and absolute positioning with `fit-content`  
+
+- Responsive behavior handled via media queries for different screen sizes  
+
+- Integration of custom fonts and iconography using Phosphor Icons  
+
+- UI overflow and visibility control to maintain layout integrity  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a filterable UI layout with reusable components and responsive behavior using HTML and SCSS.
+</p>

@@ -1,50 +1,79 @@
-<h1 align="center"> Login Page </h1>
+<h1 align="center">Login Page</h1>
 
 <p align="center">
-  These projects are posted weekly on <a href="https://boracodar.dev">boracodar.dev</a>. 
-  <br/>
-  After completing my own version, I watch the instructor's video to learn alternative approaches and recreate the project.
+A clean login page interface focused on form structure, visual hierarchy, and basic interaction patterns using HTML, SCSS, and JavaScript
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Login Page interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed versions of the project.</p>
 
-- [Login Page](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page)
-- [Login Page - Recreated version](https://dmm.studio/github/rocketseat/events/boracodar.dev/11-login-page/projects/official/)
+- [Login Page — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/11-login-page)
+- [Login Page — Official Challenge Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/11-login-page/projects/official/)
 
 <br/>
 
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover-pt-br.png" width="80%" />
+  <img alt="Login Page UI Preview" src="./.github/preview-cover-pt-br.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- You can check the layout [here](https://www.figma.com/community/file/1217810469465160264). You will need a [Figma](https://figma.com) account to access it.
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1217810469465160264).
+  A Figma account is required to access the file.
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-- HTML
+- HTML5
+- CSS3
 - SCSS
-- JavaScript
+- JavaScript (ES6+)
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `ternary`, `toggle`, `form`, `all: unset;`, `> *`, `onclick`, `Arrow Function`
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for authentication-related forms and inputs  
+
+- Form layout composition using Flexbox for alignment and spacing  
+
+- Visual hierarchy to guide user focus through labels, inputs, and actions  
+
+- Use of CSS reset techniques such as `all: unset` for custom form styling  
+
+- Scalable spacing and typography using `rem` units  
+
+- Interactive UI state control using JavaScript event handlers  
+
+- Conditional logic using ternary expressions to toggle UI behavior  
+
+- DOM interaction with arrow functions and click-based events  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a reusable login interface with clean structure and basic interaction handling using HTML, SCSS, and JavaScript.
+</p>

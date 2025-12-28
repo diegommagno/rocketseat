@@ -1,37 +1,67 @@
-<h1 align="center"> Boarding Pass </h1>
+<h1 align="center">Boarding Pass</h1>
 
 <p align="center">
-Component containing all flight information for web or mobile applications.
+A boarding pass UI component displaying essential flight information for web and mobile interfaces
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project photo showing a boarding pass." src="./.github/event-cover-2.png" width="100%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<p align="center">
+  <img alt="Boarding Pass interface layout" src="./.github/event-cover-2.png" width="100%" />
+</p>
 
-- [Boarding Pass](https://dmm.studio/github/rocketseat/events/boracodar.dev/06-boarding-pass/)
+<br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1205146101173113980). You will need a [Figma](https://figma.com) account to access it.
+[Boarding Pass — Recreated Version](https://diegommagno.com/github/rocketseat/events/boracodar.dev/06-boarding-pass/)
 
-## 🧑🏻‍💻 Technologies
+<br/>
 
-- HTML
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
+
+- View the original challenge layout on [Figma](https://www.figma.com/community/file/1205146101173113980).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5
+- CSS3
 - SCSS
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex`, `rem`, `background`, `media`, `variables` 
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure to organize flight details and passenger information clearly  
+
+- Layout composition using Flexbox for alignment and spacing of ticket sections  
+
+- Scalable spacing and typography using `rem` units  
+
+- Visual grouping and hierarchy through background layers and section separation  
+
+- Use of CSS custom properties for consistent color and spacing control  
+
+- Responsive adjustments via media queries for different screen sizes  
+
+<br/>
+
+<p align="center">
+This project is part of the <a href="https://boracodar.dev">boracodar.dev</a> weekly challenges.
+It focuses on building a reusable UI component with clear information hierarchy and responsive behavior using HTML and SCSS.
+</p>
