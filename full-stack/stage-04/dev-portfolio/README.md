@@ -23,7 +23,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <hr style="opacity: 0.3;" />
 <p>Access the deployed version of the project.</p>
 
-[Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-porfolio)
+[Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-portfolio)
 
 <br/>
 
