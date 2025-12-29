@@ -1,46 +1,72 @@
-<h1 align="center"> Zero to First Job Journey </h1>
+<h1 align="center">Zero to First Job Journey</h1>
 
 <p align="center">
-This was an introduction to programming event with three different landing page projects. It is always nice to see how much I’ve learned from the first time I attended these beginners events, being able to do these simple projects in just a few minutes. <br/>
+A collection of three simple landing page projects built as introductory exercises focused on HTML structure and CSS layout fundamentals
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Event cover and photos of each developed landing page." src=".github/preview-cover.png" width="90%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [Horror Game of the Year](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
-- [Travel Expert](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/travel-expert)
-- [Healthy Recipes](https://dmm.studio/github/rocketseat/events/zero-to-first-job-journey/healthy-recipes)
-
-<br/>
-
-https://user-images.githubusercontent.com/20372804/226195089-ef5fd2c9-a27e-40e1-b906-c34b77b701c2.mp4
+<p align="center">
+  <img
+    alt="Preview of the three landing page projects included in this collection"
+    src="./.github/preview-cover.png"
+    width="90%"
+  />
+</p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed versions of each project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1216014509044898198/Horror-Game-LP). You will need a [Figma](https://figma.com) account to access it.
+- [Horror Game of the Year](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/horror-game-of-the-year)
+- [Travel Expert](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/travel-expert)
+- [Healthy Recipes](https://diegommagno.com/github/rocketseat/events/zero-to-first-job-journey/healthy-recipes)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- HTML
-- SCSS
+- View the design layout on [Figma](https://www.figma.com/community/file/1216014509044898198/Horror-Game-LP).
+  A Figma account is required to access the file.
 
-## 🎓 Worked on
+<br/>
 
-- CSS: `flex and grid`, `rem`, `background`
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5  
+- CSS3  
+- SCSS  
+
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for simple landing pages  
+
+- Layout composition using Flexbox and CSS Grid  
+
+- Consistent spacing and sizing using `rem` units  
+
+- Background image usage and visual section separation  
+
+- Basic responsive layout adjustments  
+
+- Organization of styles using SCSS files  
+
+<br/>
+
+<p align="center">
+This folder represents early-stage frontend practice focused on building confidence with layout fundamentals and static page structure.
+</p>

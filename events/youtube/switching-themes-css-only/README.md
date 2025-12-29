@@ -1,32 +1,52 @@
-<h1 align="center"> Switching themes with CSS </h1>
+<h1 align="center">Switching Themes with CSS</h1>
 
 <p align="center">
-  Switching theme colors using only CSS.
+A pure CSS theme switcher that changes colors dynamically using custom properties and relational selectors
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
+
+[Switching Themes with CSS](https://diegommagno.com/github/rocketseat/events/youtube/switching-themes-css-only/)
+
 <br/>
 
-## 📝 Live Preview 
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-- [Switching themes with CSS](https://dmm.studio/github/rocketseat/events/youtube/switching-themes-css-only/) - [repo](https://github.com/diegommagno/rocketseat/tree/main/events/youtube/switching-themes-css-only/)
+- HTML5  
+- CSS3  
 
-## 🧑🏻‍💻 Technologies
+<br/>
 
-- HTML
-- CSS
-- JavaScript
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
 
-## 🎓 Worked on
+- Use of CSS custom properties (variables) to define theme colors  
 
-- Using appearance
-- Using position fixed, centralising it using left and translateX
-- CSS attribute selector with input[type="radio"] and input[type="radio"]:checked
-- Use of cSS property :has to understand which input has "checked" and update the background color.
+- Theme switching driven entirely by CSS state  
+
+- Relational styling with the `:has()` pseudo-class  
+
+- Attribute selectors using `input[type="radio"]` and checked states  
+
+- Custom radio button styling with `appearance: none`  
+
+- Fixed positioning and horizontal centering using `left: 50%` and `transform: translateX(-50%)`  
+
+- Separation of visual themes (light, dark, blue, green) through CSS selectors  
+
+<br/>
+
+<p align="center">
+This project focuses on exploring modern CSS capabilities to implement dynamic theming without relying on JavaScript.
+</p>

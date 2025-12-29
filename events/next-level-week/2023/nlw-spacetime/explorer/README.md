@@ -1,46 +1,88 @@
-<h1 align="center"> NLW Spacetime </h1>
+<h1 align="center">Spacetime</h1>
 
 <p align="center">
-Digital time capsule experience, using some of my LinkedIn posts. It showcases a timeline of significant events and milestones, providing a unique glimpse into the past.
+A digital time capsule interface that presents a personal timeline of moments and memories through a vertically scrollable layout
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
-## 📝 Live Preview 
-
-- [NLW Spacetime](https://dmm.studio/github/rocketseat/events/next-level-week/2023/nlw-spacetime/explorer/)
-
-<br/>
-
 <p align="center">
-  <img alt="Landing page created during the event." src=".github/preview-cover.png" width="80%" />
+  <img
+    alt="Spacetime interface layout preview"
+    src="./.github/cover.png"
+    width="80%"
+  />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- You can check the layout [here](https://www.figma.com/community/file/1240071097028170811). You will need a [Figma](https://figma.com) account to access it.
+[Spacetime](https://diegommagno.com/github/rocketseat/events/next-level-week/2023/nlw-spacetime/explorer/)
 
+<br/>
 
-## 🧑🏻‍💻 Technologies
+<p align="center">
+  <img
+    alt="Spacetime timeline interface preview"
+    src="./.github/preview-cover.png"
+    width="80%"
+  />
+</p>
 
-- HTML
-- SCSS
+<br/>
 
-## 🎓 Worked on
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- CSS: `flex & grid`, `rem`, `variables`, `aside`, `overflow-y: auto`, `overflow-y: visible`, `webkit-scrollbar`,`@keyframes`,`@media`
+- View the design layout on [Figma](https://www.figma.com/community/file/1240071097028170811).
+  A Figma account is required to access the file.
+
+<br/>
+
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
+
+- HTML5  
+- CSS3  
+- SCSS  
+
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure for timeline-based content  
+
+- Two-column layout composition using Flexbox and CSS Grid  
+
+- Vertical scrolling control with `overflow-y` handling  
+
+- Fixed and sticky layout elements for persistent navigation  
+
+- Responsive layout adjustments using media queries  
+
+- Typography scaling and spacing with `rem` units  
+
+- Use of CSS custom properties for colors and spacing  
+
+- Entry and accent animations using `@keyframes`  
+
+- Custom scrollbar styling with `::-webkit-scrollbar`  
+
+- Visual separation of timeline items through spacing and borders  
+
+<br/>
+
+<p align="center">
+This project focuses on building a visually rich and scroll-driven static interface using advanced CSS layout and animation techniques.
+</p>

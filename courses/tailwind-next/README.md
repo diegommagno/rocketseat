@@ -1,49 +1,76 @@
 <h1 align="center">Tailwind Dashboard</h1>
 
 <p align="center">
-  Development of a dashboard interface using the fundamentals of Tailwind.
+A responsive dashboard interface built with React and Tailwind CSS focusing on component composition and modern UI patterns
 </p>
 
 <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Tailwind Dashboard interface preview" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- [Tailwind Dashboard](https://rocketseat-tailwind-next-sigma.vercel.app/)
+[Tailwind Dashboard](https://rocketseat-tailwind-next-sigma.vercel.app/)
 
-## 🎨 Layout
+<br/>
 
-- You can check the layout [here](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?type=design&node-id=0%3A1&mode=design&t=8MDN59hWLgltXxOj-1). You will need a [Figma](https://figma.com) account to access it.
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
+- View the design layout on [Figma](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind).
+  A Figma account is required to access the file.
 
-## 🧑🏻‍💻 Technologies
+<br/>
 
-- ReactJS
-- Tailwind CSS
-- Radix UI
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-## 🎓 Worked on
+- React  
+- Tailwind CSS  
+- Radix UI  
 
-- Used icon pack lucide-react
-- Framer Motion library
-- useID() react hook
-- forceMount for content to be always available
-- Used tailwind dark mode that uses the user's operation system theme to apply a dark mode to the website.
-- Stylizations
-- Responsiveness with pre-configured breakpoints
-- Tailwind Variants
-- Animations
-- Composition pattern
-- Form creation
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Component-based UI architecture using React functional components  
+
+- Utility-first styling with Tailwind CSS  
+
+- Responsive layout design using Tailwind’s breakpoint system  
+
+- Dark mode implementation based on user operating system preferences  
+
+- Accessible UI primitives using Radix UI components  
+
+- Controlled form creation and input handling  
+
+- UI composition patterns for reusable dashboard components  
+
+- Animation and motion effects using Framer Motion  
+
+- Icon integration using the `lucide-react` icon set  
+
+- Use of React hooks such as `useId` for consistent accessibility identifiers  
+
+- Conditional rendering and forced mounting of UI elements  
+
+<br/>
+
+<p align="center">
+This project focuses on building a modern and responsive dashboard interface while exploring advanced Tailwind CSS patterns and component composition in React.
+</p>

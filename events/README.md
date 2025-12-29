@@ -4,7 +4,7 @@
 </div>
 
 <h2 align="center">
-  Rocketseat Events
+  Rocketseat Event Projects
 </h2>
 
 ##### Ignite Lab

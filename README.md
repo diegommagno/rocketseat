@@ -1,83 +1,81 @@
-<div align="center">
-  <img alt="Rocketseat" src="./.github/rocketseat-cover.png" width="80%"/>
-</div>
-
-<h2 align="center">
-Rocketseat
-</h2>
 <p align="center">
-Repository with a collection of projects I've mastered and can confidently reproduce, developed during my studies at Rocketseat coding school.
+  <img alt="Rocketseat" src="./.github/rocketseat-2025.png" width="80%" />
+</p>
+
+<h1 align="center">Rocketseat</h1>
+
+<p align="center">
+A curated collection of frontend projects developed during my studies at Rocketseat, covering everything from HTML and CSS fundamentals to modern React applications
+</p>
+
+<p align="center">
+  <a href="#featured-projects">Featured Projects</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#project-collections">Project Collections</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#courses-and-programs">Courses and Programs</a>
 </p>
 
 <br/>
 
-## :rocket: Courses repos
-Courses taken at Rocketseat. Inside each repo are the projects for that course.
+## ⭐ Featured Projects
+
+A selection of projects that best represent my current frontend skills.  
+Click on a project name to access its repository, documentation, and live preview.
+
+### Advanced Frontend
+- [Events Platform](https://github.com/diegommagno/events-platform) — React, TypeScript, GraphQL, Apollo Client
+- [Expert Notes](https://github.com/diegommagno/expert-notes) — React, state management, voice input, localStorage
+
+### Intermediate Frontend
+- [Shorts Summary](https://github.com/diegommagno/shorts-summary) — Frontend and backend integration with AI-assisted processing
+- [DoctorCare](https://github.com/diegommagno/doctorcare) — Responsive UI scaffold with basic navigation behavior
+
+Full portfolio: **https://diegommagno.com**
 
 <br/>
 
-<a href="./events">
-<img alt="NLW logo" src="./events/next-level-week/.github/nlw.png" style="width: 15%; height: 15%;">
-</a> 
+## 📦 Project Collections
+
+In addition to the featured projects above, this repository contains **dozens of other learning projects**, organized by program and event.
+
+### 🔹 Rocketseat Events
+A large collection of projects built during Rocketseat events, covering a wide range of frontend topics and difficulty levels.
+
+➡️ **View all event projects (70+ projects):**  
+https://github.com/diegommagno/rocketseat/tree/main/events
+
+Each event folder includes its own `README.md` with:
+- a detailed project list
+- direct links to individual repositories
+- context about the learning focus of each project
+
 <br/>
-Events projects
 
-<br/><br/>
+## 📌 About
 
-<!-- <a href="./discover">
-  <img alt="Discover logo" src="./.github/discover-logo.png" style="width: 23%;">
-</a>
+This repository gathers all projects I built while studying at **Rocketseat**, serving as both a learning archive and a technical reference.
+
+Rather than showcasing only polished final products, this repository preserves the **learning context and progression**, including:
+- early-stage exercises
+- UI scaffolds
+- intermediate applications
+- more advanced frontend projects
+
 <br/>
-Starter course: HTML, CSS, JavaScript.
 
-<br/><br/> -->
+## 🎓 Courses and Programs
 
-<a href="./explorer">
-<img alt="Explorer logo" src="./.github/explorer-logo.png" style="width: 22%; height: 22%;">
-</a>
+Projects in this repository were developed across different Rocketseat programs and initiatives, including:
+
+- Full-Stack
+- React
+- Next Level Week (events)
+- Special events and workshops
+
+Each folder reflects the scope and objectives of its respective program.
+
 <br/>
-Intermediate course: HTML, CSS, JavaScript, fundamentals of Node.js and React.js.
 
-<br/><br/>
-
-<a href="./ignite">
-<img alt="Ignite logo" src="./.github/ignite-logo.png" style="width: 20%; height: 20%;">
-</a> 
-<br/>
-Advanced course: React.js, React Native, Node.js, TailwindCSS.
-  
-<br/><br/>
-
-## :star: Featured Projects
-
-### Level 3 Projects - React
-- [Event Platform](https://github.com/diegommagno/rocketseat/tree/main/events/ignite-lab/events-platform)
-- [Rocket Notes](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketnotes)
-- [Rocket Movies](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-10/rocketmovies)
-
-### Level 2 Projects - HTML + CSS + JavaScript
-
-- [AI Movie Suggestions (Using an API)](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/30-ai-movie-suggestions)
-- [RocketPay](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-lab/rocketpay)
-- [FocusTimer](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-05/focustimer-2)
-- [NLW eSports Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2022/nlw-esports/explorer)
-- [NLW Spacetime Explorer](https://github.com/diegommagno/rocketseat/tree/main/events/next-level-week/2023/nlw-spacetime/explorer)
-
-### Level 1 Projects - HTML + CSS
-
-- [Explore without limits](https://github.com/diegommagno/rocketseat/tree/main/explorer/intensive-stages-01-to-04/)
-- [SpaceCream](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream)
-- [Weather Page](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/10-weather-page/)
-- [Pricing Table](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/15-pricing-table/)
-- [Multi Step Form](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/23-multi-step-form/)
-- [Kanban](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/12-kanban/)
-- [Profile Settings](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/22-profile-settings/)
-- [Transport Widget](https://github.com/diegommagno/rocketseat/tree/main/events/boracodar.dev/19-transport-widget/)
-- [Forms](https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/create-your-event-form)
-- [RocketLinks](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-02/rocketlinks)
-- [Crystal Ball](https://github.com/diegommagno/rocketseat/tree/main/events/explorer-marathon/explorer-marathon-01/crystal-ball)
-
-
-## 📘 License
-
-All projects are under the [MIT license](LICENSE.md).
+<p align="center">
+This repository documents my learning journey at Rocketseat and highlights the evolution of my frontend development skills over time.
+</p>
