@@ -1,0 +1,66 @@
+/* label seguido de .radio-wrapper */
+label+.radio-wrapper {
+  margin-top: 1rem;
+}
+
+.radio-wrapper {
+  display: grid;
+  /* repeat(3, 1fr) = 3 colunas, cada uma com um fr igual */
+  /* com auto-fit ele calcula automaticamente, na segunda informação passo em formato de função o mínimo e máximo que quero nessa coluna */
+  /* o mínimo que quero é 120px (7.5rem) que seria a imagem dentro do radio, máximo de 1fr */
+  /* então não importa o tamanho, desde que tenha a imagem corretamente com tamanho mínimo */
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+  gap: 1rem;
+}
+
+.radio-inner {
+  border: 1px solid var(--stroke-default);
+  border-radius: .5rem;
+
+  display: grid;
+  justify-items: center;
+  gap: .5rem;
+
+  padding: 2rem .5rem .5rem;
+
+  position: relative;
+
+  & input,
+  & input:focus,
+  & input:hover {
+      all: unset;
+      position: absolute;
+      inset: 0;
+  }
+
+  .radio-image {
+      background-image: url(../../icons/radio-default.svg);
+
+      width: 1.5rem;
+      height: 1.5rem;
+
+      position: absolute;
+      top: .5rem;
+      left: .5rem;
+  }
+
+  /* ou passou o mouse ou div está em foco (selecionada) */
+  &:hover,
+  &:focus-within {
+      border: 1px solid var(--stroke-highlight);
+
+      /* para hover */
+      & .radio-image {
+          background-image: url(../../icons/radio-hover.svg);
+      }
+  }
+
+  /* para quando tem um checked no elemento */
+  &:has(:checked) {
+      border: 2px solid var(--stroke-highlight);
+
+      & .radio-image {
+          background-image: url(../../icons/radio-checked.svg);
+      }
+  }
+}
