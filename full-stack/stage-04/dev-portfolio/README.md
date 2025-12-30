@@ -14,7 +14,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <br/>
 
 <p align="center">
-  <img alt="Project cover" src="./.github/cover.png" width="80%" />
+  <img alt="Dev Portfolio interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <br/>
 
 <p align="center">
-  <img alt="Project gif" src="./.github/preview-cover.png" width="80%" />
+  <img alt="Dev Portfolio UI " src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
