@@ -68,4 +68,34 @@ input {
 
       color: var(--text-primary);
   }
+
+  /* Quando o estado do campo mudar para invalid, adiciona isso */
+  &:invalid {
+      border: 0.125rem solid var(--semantic-error);
+  }
+
+  /* input que tenha como irmão um small */
+  &+small {
+      font: var(--text-sm);
+      color: #78716C;
+
+      display: inline-block;
+      margin-top: .25rem;
+  }
+
+  &[required]+.error {
+      display: flex;
+      align-items: center;
+      gap: .25rem;
+
+      font: var(--text-sm);
+      color: var(--semantic-error);
+
+      margin-top: .25rem;
+  }
+
+  /* Se o input não estiver em foco, não mostrar a mensagem de erro */
+  &:not(:focus):valid+.error {
+      display: none;
+  }
 }
