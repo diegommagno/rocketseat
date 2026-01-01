@@ -24,6 +24,8 @@
   /* Surface */
   --surface-primary: #FFFFFF;
   --surface-secondary: #FEE7D6;
+  --surface-tertiary: #FDD3B8;
+  --surface-quartiary: #f1cab1;
   --surface-disabled: #E7E5E4;
 
   /* Stroke */
