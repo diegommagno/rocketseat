@@ -1,7 +1,7 @@
-<h1 align="center">Dev Portfolio</h1>
+<h1 align="center">Enrollment Form</h1>
 
 <p align="center">
-A clean developer portfolio project focused on layout structure, component organization, and multilingual support using modern HTML, CSS, and JavaScript
+A multilingual enrollment form project focused on semantic HTML, modular CSS architecture, accessibility, and language switching using vanilla JavaScript
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <hr style="opacity: 0.3;" />
 <p>Access the deployed version of the project.</p>
 
-[Dev Portfolio](https://diegommagno.com/github/rocketseat/full-stack/stage-04/dev-porfolio)
+[Enrollment Form](https://diegommagno.com/github/rocketseat/full-stack/stage-04/enrollment-form)
 
 <br/>
 
@@ -45,38 +45,52 @@ A clean developer portfolio project focused on layout structure, component organ
 <hr style="opacity: 0.3;" />
 
 - HTML5
-- CSS3
-- JavaScript
+- CSS3 (modern CSS with native nesting)
+- JavaScript (ES Modules)
 
 <br/>
 
 <h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
 <hr style="opacity: 0.3;" />
 
-- Modern semantic HTML structure (header, main, section, article, footer) focused on accessibility and SEO
+- Semantic and accessible HTML structure using `main`, `aside`, `form`, `fieldset`, `legend`, and proper label associations
 
-- Scalable CSS architecture with modular files (global.css, utilities.css, components.css)
+- Complete enrollment form with multiple input types:
+  - Text, email, phone, date
+  - Select, textarea
+  - Radio buttons with custom UI
+  - Checkbox with custom SVG states
+  - File upload (drag-and-drop area)
 
-- Design system via CSS Custom Properties (:root) for colors, typography, spacing, and consistency
+- Modular and scalable CSS architecture:
+  - Global styles (`global.css`)
+  - Page-level styles (`index.css`, `forms.css`)
+  - Field-specific styles organized in `css/fields/` (input, radio, droparea, buttons, checkbox)
 
-- Utility-first approach for colors and text styles to speed up development and maintenance
+- Design system built with CSS Custom Properties (`:root`) for:
+  - Colors
+  - Typography
+  - Spacing
+  - Border radius and focus states
 
-- Responsive layout strategies using max-width, fluid containers, and centered content
+- Native CSS nesting for better readability and maintainability without preprocessors
 
-- Flexbox for alignment and component-level layouts (headers, cards, buttons, navigation)
+- Custom form controls using SVG backgrounds and `appearance: none` techniques
 
-- CSS Grid for the projects gallery
+- Flexbox-based layouts for responsive alignment and form grouping
 
-- Native CSS nesting (modern CSS) applied where it improves readability without overengineering
+- Accessible custom components:
+  - Radio groups with keyboard navigation
+  - Checkbox with focus and hover states
+  - Error feedback with icons and text
 
-- SVG-first icons and illustrations using currentColor for full theme control
+- Multilingual-ready structure with separate language entry points (`/`, `/pt`, `/fr`)
 
-- Accessible interactive components, including:
+- Language selector implemented in vanilla JavaScript:
+  - Toggle menu behavior
+  - Click outside to close
+  - Accessible button semantics
 
-  - Language switcher with ARIA attributes
+- Separation of concerns between UI behavior (`lang-selector.js`) and application bootstrap (`main.js`)
 
-  - Keyboard support (Escape to close)
-
-  - Click-outside behavior
-
-- Internationalization-ready project structure (i18n) with separate language routes (/en, /fr, /pt)
+- SVG-first approach for icons and illustrations for crisp rendering and easy theming
