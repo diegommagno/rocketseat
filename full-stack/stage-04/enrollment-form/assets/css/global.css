@@ -5,11 +5,12 @@
 }
 
 :root {
-  /* Font Family */
+  /* Typography */
   --font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 .875rem/1.4 var(--font-family);
 
+  /* Colors */
   /* Brand */
   --brand-light: #F67841;
   --brand-mid: #F3541C;

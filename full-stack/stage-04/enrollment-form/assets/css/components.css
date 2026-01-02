@@ -1,4 +1,4 @@
-/*-- Language Selector Component --*/
+/* Language Selector Component */
 .site-header {
   position: relative;
   }
@@ -48,7 +48,7 @@
       transition: transform 180ms ease;
   }
   
-  /* Opened Menu */
+  /* Language Selector Component - Menu Open */
   .lang-menu {
       position: absolute;
       right: 0;

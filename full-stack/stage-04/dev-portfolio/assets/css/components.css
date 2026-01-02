@@ -1,4 +1,4 @@
-/*-- Language Selector Component --*/
+/* Language Selector Component */
 .site-header {
 position: relative;
 }
@@ -48,7 +48,7 @@ position: relative;
     transition: transform 180ms ease;
 }
 
-/* Opened Menu */
+/* Language Selector Component - Menu Open */
 .lang-menu {
     position: absolute;
     right: 0;
@@ -80,7 +80,7 @@ position: relative;
     background: var(--gray-200);
 }
 
-/*-- Profile Photo Component --*/
+/* Profile Photo Component */
 .profile-photo {
     position: relative;
     width: 112px;
@@ -111,7 +111,7 @@ position: relative;
     color: var(--green);
 }
 
-/*-- Tech Stack Component --*/
+/* Tech Stack Component */
 .tech-stack {
     display: flex;
     gap: 16px;
@@ -165,7 +165,7 @@ position: relative;
     }
 }
   
-/*-- My Work Component --*/
+/* My Work Component */
 .my-work {
     max-width: 1040px;
     margin: 0 auto;
@@ -196,7 +196,7 @@ position: relative;
     color: var(--gray-600);
 }
 
-/* Projects */
+/* My Work Component - Projects */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -246,7 +246,7 @@ position: relative;
     color: var(--gray-500);
 }
 
-/*-- Services Component --*/
+/* Services Component */
 .services {
     margin: 0 auto;
     background-color: var(--gray-100);
@@ -327,7 +327,7 @@ position: relative;
     color: var(--gray-500);
 }
 
-/*-- Footer Component --*/
+/* Footer Component */
 
 .footer {
     background-image: url("../img/Background_Contacts.png");
