@@ -1,0 +1,43 @@
+.terms-wrapper {
+  margin-top: 3rem;
+  /* display: flex para o gap funcionar */
+  display: flex;
+  gap: .75rem;
+  align-items: flex-start;
+
+  & strong {
+      font-weight: 500;
+      color: var(--text-highlight);
+  }
+}
+
+.checkbox-wrapper {
+  position: relative;
+
+  & [type="checkbox"] {
+      all: unset;
+      position: absolute;
+      inset: 0;
+  }
+
+  .checkbox-image {
+      /* nesse flex vai tirar o grow e o stretch (alargamento e encolhimento) e definir o tamanho padrão de 1.5rem */
+      flex: 0 0 1.5rem;
+      height: 1.5rem;
+
+      background-image: url(../../icons/checkbox-default.svg);
+  }
+
+  /* se tem hover ou focus-within, trocar o svg para o hover */
+  &:hover,
+  &:focus-within {
+      .checkbox-image {
+          background-image: url(../../icons/checkbox-hover.svg);
+      }
+  }
+
+  /* se tem checked, trocar o svg para o checked */
+  &:has(:checked) .checkbox-image {
+      background-image: url(../../icons/checkbox-checked.svg);
+  }
+}

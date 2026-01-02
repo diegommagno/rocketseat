@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Invitation Form</title>
+    <link rel="icon" type="image/png" href="./assets/icons/stars-logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Baloo+2:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script type="module" src="./assets/js/main.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="lang-selector" id="langSelector" role="navigation" aria-label="Language selector">
+      <button class="lang-btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+        <span class="lang-text">EN</span>
+        <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </button>
+
+      <div class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+        <a class="lang-option" href="./fr/index.html" role="menuitem" aria-label="French">FR</a>
+        <a class="lang-option" href="./pt/index.html" role="menuitem" aria-label="Portuguese">PT</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
