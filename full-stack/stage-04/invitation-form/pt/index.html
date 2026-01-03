@@ -365,18 +365,40 @@
                 </div>
 
                 <div class="row">
+                  <!-- ================= -->
+                  <!-- Estilo -->
+                  <!-- ================= -->
                   <div class="input-wrapper">
                     <span class="label">Estilo</span>
+
                     <label class="switch">
-                      <input type="checkbox" />
+                      <input type="checkbox" name="theme" />
+
                       <span class="switch-ui"></span>
-                      <span>Escuro</span>
+                      <span class="switch-label">Escuro</span>
                     </label>
                   </div>
 
+                  <!-- ================= -->
+                  <!-- Foto de capa -->
+                  <!-- ================= -->
                   <div class="input-wrapper">
                     <label for="cover">Foto de capa</label>
-                    <input type="file" id="cover" name="cover" />
+
+                    <div class="file-upload">
+                      <input type="file" id="cover" name="cover" />
+
+                      <div class="file-trigger">
+                        <img
+                          src="../assets/icons/upload.svg"
+                          alt=""
+                          aria-hidden="true"
+                        />
+                        <span>Selecionar</span>
+                      </div>
+
+                      <span class="file-name">Nenhum arquivo selecionado</span>
+                    </div>
                   </div>
                 </div>
               </fieldset>
