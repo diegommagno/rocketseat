@@ -1,0 +1,45 @@
+/* Colors */
+
+.brand-light {
+  background-color: var(--brand-light);
+}
+
+.accent-navy {
+  background-color: var(--accent-navy);
+}
+
+.accent-purple {
+  background-color: var(--accent-purple);
+}
+
+.accent-fuchsia {
+  background-color: var(--accent-fuchsia);
+}
+
+.accent-pink {
+  background-color: var(--accent-pink);
+}
+
+.danger {
+  background-color: var(--danger);
+}
+
+.accent-orange {
+  background-color: var(--accent-orange);
+}
+
+.accent-yellow {
+  background-color: var(--accent-yellow);
+}
+
+.accent-lime {
+  background-color: var(--accent-lime);
+}
+
+.accent-green {
+  background-color: var(--accent-green);
+}
+
+.accent-cyan {
+  background-color: var(--accent-cyan);
+}
