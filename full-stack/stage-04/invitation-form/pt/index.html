@@ -385,7 +385,16 @@
               <!-- Contato -->
               <!-- ================= -->
               <fieldset class="fieldset">
-                <legend>Dados para contato</legend>
+                <legend class="fieldset-legend">
+                  <div class="legend-content">
+                    <img
+                      src="../assets/icons/contact.svg"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                    <span>Dados para contato</span>
+                  </div>
+                </legend>
 
                 <div class="input-wrapper">
                   <label for="name">Nome</label>
@@ -420,39 +429,43 @@
                     />
                   </div>
                 </div>
+              </fieldset>
 
+              <!-- ================= -->
+              <!-- Actions / Footer -->
+              <!-- ================= -->
+              <footer class="form-actions">
                 <div class="checkbox-group">
                   <label class="checkbox">
                     <input type="checkbox" required />
                     <span>
-                      Li e concordo com os
-                      <strong>Termos e Condições</strong> e com a
-                      <strong>Política de Privacidade</strong>
+                      Li e concordo com os <strong>Termos e Condições</strong>
+                      e com a <strong>Política de Privacidade</strong>
                     </span>
                   </label>
 
                   <label class="checkbox">
                     <input type="checkbox" />
-                    <span>Receber promoções por e-mail</span>
+                    <span>Aceito receber atualizações e promoções por e-mail</span>
                   </label>
 
                   <label class="checkbox">
                     <input type="checkbox" />
-                    <span>Receber promoções por SMS</span>
+                    <span>Aceito receber atualizações e promoções por SMS</span>
                   </label>
                 </div>
-              </fieldset>
 
-              <!-- ================= -->
-              <!-- Actions -->
-              <!-- ================= -->
-              <footer class="form-actions">
-                <button type="button" class="btn btn-secondary">
-                  Salvar respostas
-                </button>
-                <button type="submit" class="btn btn-primary">
-                  Gerar convite
-                </button>
+                <div class="actions">
+                  <img
+                    src="../assets/icons/ticket.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Gerar convite
+                  </button>
+                </div>
               </footer>
             </form>
           </div>
