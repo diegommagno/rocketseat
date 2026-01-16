@@ -62,8 +62,13 @@
 }
 
 body {
-  overflow: hidden;
+  font-family: var(--ff-body);
+  font-size: var(--fs-body-md);
+  line-height: var(--lh-auto);
+  color: var(--text-body);
+  background: var(--shape-background);
   height: 100vh;
+  overflow: hidden;
 }
 
 img {
