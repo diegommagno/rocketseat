@@ -79,3 +79,49 @@
   .lang-option:hover {
       background: var(--surface-quartiary);
   }
+
+/* aside com a foto preenchendo tudo */
+.sidebar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 32px;
+
+  background-image: url("../img/cake.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.sidebar > * {
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar .brand-title {
+    font-family: var(--ff-logo);
+    color: var(--accent-pink);
+    font-size: 40px;
+}
+
+.sidebar .brand-subtitle {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body-md);
+    color: var(--text-body);
+}
+
+.sidebar .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 16px;
+}

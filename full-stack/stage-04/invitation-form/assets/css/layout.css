@@ -1,0 +1,59 @@
+#app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 26rem 1fr;
+
+  padding: 20px;
+}
+
+/* Cards */
+aside,
+main {
+  background-color: var(--shape-body);
+  border-radius: 12px;
+}
+
+main {
+  padding: 80px 130px;
+}
+
+aside {
+position: relative;
+min-height: 100%;
+overflow: hidden;
+}
+
+aside::before {
+content: "";
+position: absolute;
+inset: 0;
+
+background-image: url("../img/cake.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+z-index: 0;
+}
+
+/* conteúdo do aside acima da imagem */
+aside > * {
+position: relative;
+z-index: 1;
+}
+
+/* =========================
+  MAIN (scroll)
+========================= */
+/* ver se precisa disso, se tem no outro projeto */
+main {
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+/* segurança para imagens internas */
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
