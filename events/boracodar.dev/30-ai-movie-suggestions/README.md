@@ -14,7 +14,7 @@ A movie recommendation web interface that fetches popular titles from an externa
 <br/>
 
 <p align="center">
-  <img alt="AI Movie Suggestions interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -29,7 +29,7 @@ A movie recommendation web interface that fetches popular titles from an externa
 <br/>
 
 <p align="center">
-  <img alt="AI Movie Suggestions UI Preview" src="./.github/preview-cover.png" width="75%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="75%" />
 </p>
 
 <br/>
@@ -37,8 +37,7 @@ A movie recommendation web interface that fetches popular titles from an externa
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1266028958590001589).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1266028958590001589).
 
 <br/>
 

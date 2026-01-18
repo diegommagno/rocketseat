@@ -14,7 +14,7 @@ A base shopping list UI layout designed for a web and mobile checklist experienc
 <br/>
 
 <p align="center">
-  <img alt="Shopping List interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A base shopping list UI layout designed for a web and mobile checklist experienc
 <br/>
 
 <!-- <p align="center">
-  <img alt="Shopping List UI Preview" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/> -->
@@ -36,8 +36,7 @@ A base shopping list UI layout designed for a web and mobile checklist experienc
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1276169043084346929/Lista-de-Compras-%E2%80%A2-Desafio-34).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1276169043084346929/Lista-de-Compras-%E2%80%A2-Desafio-34).
 
 <br/>
 

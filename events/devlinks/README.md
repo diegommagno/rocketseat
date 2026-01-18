@@ -14,7 +14,7 @@ A personal link hub that centralizes multiple links on a single customizable pag
 <br/>
 
 <p align="center">
-  <img alt="DevLinks interface preview" src="./.github/devlinks-cover.gif" width="90%" />
+  <img alt="UI preview" src="./.github/devlinks-cover.gif" width="90%" />
 </p>
 
 <br/>
@@ -30,8 +30,7 @@ A personal link hub that centralizes multiple links on a single customizable pag
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original layout on [Figma](https://www.figma.com/community/file/1187422022288947321).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1187422022288947321).
 
 <br/>
 

@@ -38,7 +38,7 @@
 
 ## 🎨 Layout
 
-- Check the layout [here](https://www.figma.com/community/file/1360315496868719817/perfil-de-viagens). You will need a [Figma](https://figma.com) account to access it.
+- View the design layout [here](https://www.figma.com/community/file/1360315496868719817/perfil-de-viagens).
 
 ## 🧑🏻‍💻 Technologies
 

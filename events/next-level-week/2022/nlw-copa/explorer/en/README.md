@@ -14,7 +14,7 @@
 <br/>
 
 <p align="center">
-  <img alt="2022 World Cup game dates and countries playing." src="../../.github/cover.png" width="80%" />
+  <img alt="Project cover" src="../../.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -25,12 +25,12 @@
 - [NLW Copa Explorer - EN](https://dmm.studio/github/rocketseat/events/next-level-week/2022/nlw-copa/explorer/en) - viewing now
 
 <p align="center">
-  <img alt="2022 World Cup game dates and countries playing." src="../../.github/nlw-copa-en.png" width="80%" />
+  <img alt="UI preview" src="../../.github/nlw-copa-en.png" width="80%" />
 </p>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1169028052212317700). You will need a [Figma](https://figma.com) account to access it.
+- View the design layout [here](https://www.figma.com/community/file/1169028052212317700).
 
 
 ## 🧑🏻‍💻 Technologies

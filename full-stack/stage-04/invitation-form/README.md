@@ -28,7 +28,7 @@ A multilingual enrollment form project focused on semantic HTML, modular CSS arc
 <br/>
 
 <p align="center">
-  <img alt="Project gif" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A multilingual enrollment form project focused on semantic HTML, modular CSS arc
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1365016793556649696).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1365016793556649696).
 
 <br/>
 

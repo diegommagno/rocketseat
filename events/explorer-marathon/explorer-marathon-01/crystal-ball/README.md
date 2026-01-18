@@ -13,11 +13,7 @@ A simple interactive crystal ball that returns random answers based on a user qu
 <br/>
 
 <p align="center">
-  <img
-    alt="Crystal Ball interface with a question input and a response area"
-    src="./.github/crystal-ball-en-2.png"
-    width="75%"
-  />
+  <img alt="UI preview" src="./.github/crystal-ball-en-2.png" width="75%" />
 </p>
 
 <br/>

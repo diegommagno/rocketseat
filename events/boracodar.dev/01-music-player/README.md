@@ -14,7 +14,7 @@ A clean music player interface focused on layout composition, typography, and mo
 <br/>
 
 <p align="center">
-  <img alt="Music Player interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -29,7 +29,7 @@ A clean music player interface focused on layout composition, typography, and mo
 <br/>
 
 <p align="center">
-  <img alt="Music Player UI Preview" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI Preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -37,8 +37,7 @@ A clean music player interface focused on layout composition, typography, and mo
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/file/XnielIsj9qrix1qxAQLT9X/23boraCodar-Desafio-1).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/file/XnielIsj9qrix1qxAQLT9X/23boraCodar-Desafio-1).
 
 <br/>
 

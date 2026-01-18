@@ -14,11 +14,7 @@ A simple static link hub that centralizes personal links on a single page using 
 <br/>
 
 <p align="center">
-  <img
-    alt="RocketLinks interface showing a profile avatar and a list of links"
-    src="./.github/preview-cover.png"
-    width="75%"
-  />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="75%" />
 </p>
 
 <br/>
@@ -34,8 +30,7 @@ A simple static link hub that centralizes personal links on a single page using 
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original layout on [Figma](https://www.figma.com/community/file/1125601602315782027).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1125601602315782027).
 
 <br/>
 

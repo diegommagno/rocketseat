@@ -14,7 +14,7 @@ A festive recipe landing page inspired by traditional Brazilian Festa Junina cel
 <br/>
 
 <p align="center">
-  <img alt="Receita Junina interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A festive recipe landing page inspired by traditional Brazilian Festa Junina cel
 <br/>
 
 <p align="center">
-  <img alt="Receita Junina UI Preview" src="./.github/preview-cover.png" width="75%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="75%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A festive recipe landing page inspired by traditional Brazilian Festa Junina cel
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1255887923488942888).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1255887923488942888).
 
 <br/>
 

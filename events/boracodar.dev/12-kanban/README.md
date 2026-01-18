@@ -14,7 +14,7 @@ A kanban board UI layout focused on visual organization, column-based structure,
 <br/>
 
 <p align="center">
-  <img alt="Kanban interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A kanban board UI layout focused on visual organization, column-based structure,
 <br/>
 
 <p align="center">
-  <img alt="Kanban UI Preview" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A kanban board UI layout focused on visual organization, column-based structure,
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1220368226816658013).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1220368226816658013).
 
 <br/>
 

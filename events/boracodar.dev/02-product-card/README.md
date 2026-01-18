@@ -14,7 +14,7 @@ A dynamic product card component featuring product information and an interactiv
 <br/>
 
 <p align="center">
-  <img alt="Product Card interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -29,7 +29,7 @@ A dynamic product card component featuring product information and an interactiv
 <br/>
 
 <p align="center">
-  <img alt="Product Card UI Preview" src="./.github/preview-cover.gif" width="80%" />
+  <img alt="UI Preview" src="./.github/preview-cover.gif" width="80%" />
 </p>
 
 <br/>
@@ -37,8 +37,7 @@ A dynamic product card component featuring product information and an interactiv
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1195050984449538256).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1195050984449538256).
 
 <br/>
 

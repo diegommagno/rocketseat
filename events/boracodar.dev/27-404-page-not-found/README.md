@@ -14,7 +14,7 @@ A custom 404 error page UI focused on layout composition, visual hierarchy, and 
 <br/>
 
 <p align="center">
-  <img alt="404 Page Not Found interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A custom 404 error page UI focused on layout composition, visual hierarchy, and 
 <br/>
 
 <p align="center">
-  <img alt="404 Page Not Found UI Preview" src="./.github/preview-cover.png" width="75%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="75%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A custom 404 error page UI focused on layout composition, visual hierarchy, and 
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1258418121860696031).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1258418121860696031).
 
 <br/>
 

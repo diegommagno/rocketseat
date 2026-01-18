@@ -14,7 +14,7 @@ An interactive profile card that switches visual themes using JavaScript and CSS
 <br/>
 
 <p align="center">
-  <img alt="Copa Card interface preview" src="./.github/nlw-copa-card.png" width="45%" />
+  <img alt="UI preview" src="./.github/nlw-copa-card.png" width="45%" />
 </p>
 
 <br/>
@@ -30,8 +30,7 @@ An interactive profile card that switches visual themes using JavaScript and CSS
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1169028343815283461).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1169028343815283461).
 
 <br/>
 

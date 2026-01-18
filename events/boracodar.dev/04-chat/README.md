@@ -14,7 +14,7 @@ A clean and responsive chat interface layout focused on UI structure, spacing, a
 <br/>
 
 <p align="center">
-  <img alt="Chat interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -29,7 +29,7 @@ A clean and responsive chat interface layout focused on UI structure, spacing, a
 <br/>
 
 <p align="center">
-  <img alt="Chat UI Preview" src="./.github/preview-cover.gif" width="100%" />
+  <img alt="UI Preview" src="./.github/preview-cover.gif" width="100%" />
 </p>
 
 <br/>
@@ -37,8 +37,7 @@ A clean and responsive chat interface layout focused on UI structure, spacing, a
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1200070743637495660).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1200070743637495660).
 
 <br/>
 

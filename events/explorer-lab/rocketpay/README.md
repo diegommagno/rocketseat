@@ -14,7 +14,7 @@ An interactive credit card form that applies real-time input masking and visuall
 <br/>
 
 <p align="center">
-  <img alt="RocketPay credit card interface" src="./.github/rocketpay.png" width="70%" />
+  <img alt="Project cover" src="./.github/rocketpay.png" width="70%" />
 </p>
 
 <br/>
@@ -31,8 +31,7 @@ An interactive credit card form that applies real-time input masking and visuall
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original layout on [Figma](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301).
 
 <br/>
 

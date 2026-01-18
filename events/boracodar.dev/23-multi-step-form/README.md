@@ -14,7 +14,7 @@ A multi-step form UI component designed to improve usability in long or complex 
 <br/>
 
 <p align="center">
-  <img alt="Multi Step Form interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A multi-step form UI component designed to improve usability in long or complex 
 <br/>
 
 <p align="center">
-  <img alt="Multi Step Form UI Preview" src="./.github/preview-cover.gif" width="95%" />
+  <img alt="UI preview" src="./.github/preview-cover.gif" width="95%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A multi-step form UI component designed to improve usability in long or complex 
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1248257890741817885).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1248257890741817885).
 
 <br/>
 

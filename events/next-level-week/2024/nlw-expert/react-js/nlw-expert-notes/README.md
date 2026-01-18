@@ -14,7 +14,7 @@ A note-taking web application that allows users to create, search, and manage te
 <br/>
 
 <p align="center">
-  <img alt="Expert Notes application interface" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -39,8 +39,7 @@ A note-taking web application that allows users to create, search, and manage te
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1336456128647909148/nlw-expert-notes).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1336456128647909148/nlw-expert-notes).
 
 <br/>
 

@@ -14,7 +14,7 @@ A date picker UI component focused on calendar layout, visual clarity, and basic
 <br/>
 
 <p align="center">
-  <img alt="Date Picker interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A date picker UI component focused on calendar layout, visual clarity, and basic
 <br/>
 
 <!-- <p align="center">
-  <img alt="Date Picker UI Preview" src="./.github/preview-cover.png" width="40%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="40%" />
 </p> -->
 
 <br/>
@@ -36,8 +36,7 @@ A date picker UI component focused on calendar layout, visual clarity, and basic
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1233047894822880766/%23boraCodar---Desafio-17).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1233047894822880766/%23boraCodar---Desafio-17).
 
 <br/>
 

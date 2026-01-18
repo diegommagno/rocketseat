@@ -13,7 +13,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Crystal ball image with a box for typing a question, a button to send the question and space for getting an answer ." src="../.github/crystall-ball-pt-br.png" width="75%" />
+  <img alt="UI preview" src="../.github/crystall-ball-pt-br.png" width="75%" />
 </p>
 
 <br/>

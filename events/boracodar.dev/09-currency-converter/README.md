@@ -14,7 +14,7 @@ A base UI component for a currency converter, designed to display exchange-relat
 <br/>
 
 <p align="center">
-  <img alt="Currency Converter interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A base UI component for a currency converter, designed to display exchange-relat
 <br/>
 
 <!-- <p align="center">
-  <img alt="Currency Converter UI Preview" src="./.github/preview-cover.gif" width="100%" />
+  <img alt="UI preview" src="./.github/preview-cover.gif" width="100%" />
 </p> -->
 
 <br/>
@@ -36,8 +36,7 @@ A base UI component for a currency converter, designed to display exchange-relat
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1212757179376046656).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1212757179376046656).
 
 <br/>
 

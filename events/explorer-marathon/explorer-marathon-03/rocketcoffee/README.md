@@ -14,11 +14,7 @@ A static coffee shop menu layout designed to present food and drink items in a c
 <br/>
 
 <p align="center">
-  <img
-    alt="RocketCoffee menu interface showing multiple food and drink sections"
-    src="./.github/rocketcoffee-update.png"
-    width="100%"
-  />
+  <img alt="UI preview" src="./.github/rocketcoffee-update.png" width="100%" />
 </p>
 
 <br/>
@@ -34,8 +30,7 @@ A static coffee shop menu layout designed to present food and drink items in a c
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original layout on [Figma](https://www.figma.com/community/file/1138209866997102496/RocketCoffee).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1138209866997102496/RocketCoffee).
 
 <br/>
 

@@ -14,7 +14,7 @@ A boarding pass UI component displaying essential flight information for web and
 <br/>
 
 <p align="center">
-  <img alt="Boarding Pass interface layout" src="./.github/event-cover-2.png" width="100%" />
+  <img alt="Project cover" src="./.github/event-cover-2.png" width="100%" />
 </p>
 
 <br/>
@@ -30,8 +30,7 @@ A boarding pass UI component displaying essential flight information for web and
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1205146101173113980).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1205146101173113980).
 
 <br/>
 

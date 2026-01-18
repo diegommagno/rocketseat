@@ -14,7 +14,7 @@ A UI-focused project exploring button styles, cursor behaviors, and interaction 
 <br/>
 
 <p align="center">
-  <img alt="Buttons and Cursors interface layout" src="./.github/cover-2.png" width="90%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="90%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A UI-focused project exploring button styles, cursor behaviors, and interaction 
 <br/>
 
 <p align="center">
-  <img alt="Buttons and Cursors UI Preview" src="./.github/preview-cover.gif" width="50%" />
+  <img alt="UI Preview" src="./.github/preview-cover.gif" width="50%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A UI-focused project exploring button styles, cursor behaviors, and interaction 
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1197534710257750520).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1197534710257750520).
 
 <br/>
 

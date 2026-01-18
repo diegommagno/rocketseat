@@ -14,7 +14,7 @@ A card-based quiz interface designed to present visual questions and a score sum
 <br/>
 
 <p align="center">
-  <img alt="Cards Quiz interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A card-based quiz interface designed to present visual questions and a score sum
 <br/>
 
 <p align="center">
-  <img alt="Cards Quiz UI Preview" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A card-based quiz interface designed to present visual questions and a score sum
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1286318215184825687).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1286318215184825687).
 
 <br/>
 

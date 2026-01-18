@@ -13,11 +13,7 @@ A themed variation of a simple crystal ball app that returns random answers base
 <br/>
 
 <p align="center">
-  <img
-    alt="Wizarding World crystal ball interface with a themed background and response area"
-    src="./.github/ww-crystal-ball.png"
-    width="75%"
-  />
+  <img alt="UI preview" src="./.github/ww-crystal-ball.png" width="75%" />
 </p>
 
 <br/>

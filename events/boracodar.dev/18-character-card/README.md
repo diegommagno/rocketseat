@@ -14,7 +14,7 @@ A character card UI component featuring fictional data with a Star Wars–inspir
 <br/>
 
 <p align="center">
-  <img alt="Character Card interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A character card UI component featuring fictional data with a Star Wars–inspir
 <br/>
 
 <!-- <p align="center">
-  <img alt="Character Card UI Preview" src="./.github/preview-cover.png" width="40%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="40%" />
 </p> -->
 
 <br/>
@@ -36,8 +36,7 @@ A character card UI component featuring fictional data with a Star Wars–inspir
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1235589928611910732/%23boraCodar---Desafio-18).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1235589928611910732/%23boraCodar---Desafio-18).
 
 <br/>
 

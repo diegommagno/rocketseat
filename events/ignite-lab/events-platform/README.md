@@ -14,11 +14,7 @@ An online events platform that allows users to subscribe and access scheduled or
 <br/>
 
 <p align="center">
-  <img
-    alt="Events Platform login and content screens"
-    src="./.github/events-platform-login.png"
-    width="75%"
-  />
+  <img alt="UI preview" src="./.github/events-platform-login.png" width="75%" />
 </p>
 
 <br/>
@@ -34,8 +30,7 @@ An online events platform that allows users to subscribe and access scheduled or
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1120711251998877938).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1120711251998877938).
 
 <br/>
 

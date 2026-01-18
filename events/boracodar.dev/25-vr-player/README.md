@@ -14,7 +14,7 @@ A virtual reality video player UI concept focused on immersive visual design, la
 <br/>
 
 <p align="center">
-  <img alt="VR Player interface layout" src="./.github/cover-2.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover-2.png" width="80%" />
 </p>
 
 <br/>
@@ -28,7 +28,7 @@ A virtual reality video player UI concept focused on immersive visual design, la
 <br/>
 
 <p align="center">
-  <img alt="VR Player UI Preview" src="./.github/preview-cover.png" width="95%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="95%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A virtual reality video player UI concept focused on immersive visual design, la
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1253345035290143826).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1253345035290143826).
 
 <br/>
 

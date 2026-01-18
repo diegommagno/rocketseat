@@ -13,7 +13,7 @@
 <br/>
 
 <p align="center">
-  <img alt="Project photo showing a list of foods and drinks." src="../.github/rocketcoffee-update.png" width="100%" />
+  <img alt="UI preview" src="../.github/rocketcoffee-update.png" width="100%" />
 </p>
 
 <br/>
@@ -25,7 +25,7 @@
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1138209866997102496/RocketCoffee). You will need a [Figma](https://figma.com) account to access it.
+- View the design layout [here](https://www.figma.com/community/file/1138209866997102496/RocketCoffee).
 
 ## 🧑🏻‍💻 Technologies
 

@@ -14,7 +14,7 @@ A base shopping cart UI layout designed to represent common e-commerce cart stru
 <br/>
 
 <p align="center">
-  <img alt="Shopping Cart interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -36,8 +36,7 @@ A base shopping cart UI layout designed to represent common e-commerce cart stru
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1243194167725942248).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1243194167725942248).
 
 <br/>
 

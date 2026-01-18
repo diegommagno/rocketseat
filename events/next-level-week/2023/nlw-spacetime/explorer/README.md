@@ -14,11 +14,7 @@ A digital time capsule interface that presents a personal timeline of moments an
 <br/>
 
 <p align="center">
-  <img
-    alt="Spacetime interface layout preview"
-    src="./.github/cover.png"
-    width="80%"
-  />
+  <img alt="Project cover"src="./.github/cover.png"width="80%" />
 </p>
 
 <br/>
@@ -32,11 +28,7 @@ A digital time capsule interface that presents a personal timeline of moments an
 <br/>
 
 <p align="center">
-  <img
-    alt="Spacetime timeline interface preview"
-    src="./.github/preview-cover.png"
-    width="80%"
-  />
+  <img alt="Spacetime timeline interface preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -44,8 +36,7 @@ A digital time capsule interface that presents a personal timeline of moments an
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1240071097028170811).
-  A Figma account is required to access the file.
+- View the design layout [here](https://www.figma.com/community/file/1240071097028170811).
 
 <br/>
 

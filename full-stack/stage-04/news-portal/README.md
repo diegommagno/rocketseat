@@ -14,7 +14,7 @@ A responsive news portal project focused on semantic HTML, CSS Grid layouts, and
 <br/>
 
 <p align="center">
-  <img alt="News Portal interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -23,12 +23,12 @@ A responsive news portal project focused on semantic HTML, CSS Grid layouts, and
 <hr style="opacity: 0.3;" />
 <p>Access the deployed version of the project.</p>
 
-[News Portal](https://diegommagno.com/github/rocketseat/full-stack/stage-03/news-portal)
+[News Portal](https://diegommagno.com/github/rocketseat/full-stack/stage-04/news-portal)
 
 <br/>
 
 <p align="center">
-  <img alt="News Portal UI preview" src="./.github/preview-cover.png" width="80%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -37,7 +37,6 @@ A responsive news portal project focused on semantic HTML, CSS Grid layouts, and
 <hr style="opacity: 0.3;" />
 
 - View the design layout [here](https://www.figma.com/community/file/1362166020452569562).
-  A Figma account is required to access the file.
 
 <br/>
 

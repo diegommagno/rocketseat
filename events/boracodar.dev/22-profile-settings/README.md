@@ -14,7 +14,7 @@ A profile settings UI component designed for web and mobile interfaces with mult
 <br/>
 
 <p align="center">
-  <img alt="Profile Settings interface layout" src="./.github/cover.png" width="80%" />
+  <img alt="Project cover" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
@@ -30,7 +30,7 @@ A profile settings UI component designed for web and mobile interfaces with mult
 <br/>
 
 <p align="center">
-  <img alt="Profile Settings UI Preview" src="./.github/preview-cover.png" width="35%" />
+  <img alt="UI preview" src="./.github/preview-cover.png" width="35%" />
 </p>
 
 <br/>
@@ -38,8 +38,7 @@ A profile settings UI component designed for web and mobile interfaces with mult
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the original challenge layout on [Figma](https://www.figma.com/community/file/1245736372337157133).
-  A Figma account is required to access the file.
+- View the original challenge layout [here](https://www.figma.com/community/file/1245736372337157133).
 
 <br/>
 
