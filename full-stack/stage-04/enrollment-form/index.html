@@ -1,255 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Estrelas do Amanhã</title>
-    <link rel="icon" type="image/png" href="./assets/icons/stars-logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Estrelas do Amanhã</title>
+  <link rel="icon" type="image/png" href="./assets/icons/stars-logo.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <script type="module" src="./assets/js/main.js"></script>
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <script type="module" src="./assets/js/main.js"></script>
 </head>
 
 <body>
-      <div id="app">
-        <div class="lang-selector" id="langSelector" role="navigation" aria-label="Language selector">
-          <button class="lang-btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
-            <span class="lang-text">EN</span>
-            <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
-            </svg>
-          </button>
+  <div id="app">
+    <div class="lang-selector" id="langSelector" role="navigation" aria-label="Language selector">
+      <button class="lang-btn" id="langBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+        <span class="lang-text">EN</span>
+        <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </button>
 
-          <div class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
-            <a class="lang-option" href="./fr/index.html" role="menuitem" aria-label="French">FR</a>
-            <a class="lang-option" href="./pt/index.html" role="menuitem" aria-label="Portuguese">PT</a>
-          </div>
+      <div class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+        <a class="lang-option" href="./fr/index.html" role="menuitem" aria-label="French">FR</a>
+        <a class="lang-option" href="./pt/index.html" role="menuitem" aria-label="Portuguese">PT</a>
+      </div>
+    </div>
+
+    <main>
+      <div class="main-container">
+        <div class="back">
+          <img src="./assets/icons/arrow-left-02.svg" alt="Back icon">
+          <span>Back</span>
         </div>
 
-        <main>
-          <div class="main-container">
-            <div class="back">
-              <img src="./assets/icons/arrow-left-02.svg" alt="Back icon">
-              <span>Back</span>
+        <h1>Enrollment Form</h1>
+        <p>Fill out the information below to enroll your child at Estrelas do Amanhã early childhood school.</p>
+
+        <form method="post" enctype="multipart/form-data">
+          <fieldset class="child-info">
+            <legend>Child information</legend>
+
+            <div class="input-wrapper">
+              <label for="fullname">Full name</label>
+              <input id="fullname" name="fullname" type="text" placeholder="Enter the child's name">
             </div>
 
-            <h1>Enrollment Form</h1>
-            <p>Fill out the information below to enroll your child at Estrelas do Amanhã early childhood school.</p>
+            <div class="input-wrapper">
+              <label for="birth">Date of birth</label>
+              <input type="date" id="birth" name="birth" lang="en-US">
+            </div>
 
-            <form method="post" enctype="multipart/form-data">
-              <fieldset class="child-info">
-                <legend>Child information</legend>
+            <div class="select-wrapper">
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="na">Prefer not to say</option>
+              </select>
+            </div>
 
-                <div class="input-wrapper">
-                  <label for="fullname">Full name</label>
-                  <input id="fullname" name="fullname" type="text" placeholder="Enter the child's name">
-                </div>
+            <div class="textarea-wrapper">
+              <label for="medical-info">Medical information</label>
+              <textarea name="medical-info" id="medical-info" cols="30" rows="5" placeholder="Does the child have any medical condition the school should be aware of? (If yes, please specify)"></textarea>
+            </div>
 
-                <div class="input-wrapper">
-                  <label for="birth">Date of birth</label>
-                  <input type="date" id="birth" name="birth" lang="en-US">
-                </div>
+            <div class="droparea-wrapper">
+              <label for="birth-certificate">Birth certificate</label>
 
-                <div class="select-wrapper">
-                  <label for="gender">Gender</label>
-                  <select name="gender" id="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="na">Prefer not to say</option>
-                  </select>
-                </div>
+              <div class="dropzone">
+                <input type="file" id="birth-certificate" name="birth-certificate">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M34.9552 18.0221C34.97 18.022 34.985 18.022 35 18.022C39.9706 18.022 44 22.0588 44 27.0386C44 31.6796 40.5 35.5016 36 36M34.9552 18.0221C34.9848 17.6921 35 17.3579 35 17.0202C35 10.9339 30.0752 6 24 6C18.2465 6 13.5247 10.4253 13.0408 16.0638M34.9552 18.0221C34.7506 20.2952 33.8572 22.3692 32.4856 24.033M13.0408 16.0638C7.96796 16.5475 4 20.8278 4 26.0366C4 30.8834 7.43552 34.9264 12 35.8546M13.0408 16.0638C13.3565 16.0337 13.6765 16.0183 14 16.0183C16.2516 16.0183 18.3295 16.7639 20.001 18.022" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                  
+                <p>
+                  Click here to <br>
+                  choose files
+                </p>
+              </div>
+            </div>
+          </fieldset>
 
-                <div class="textarea-wrapper">
-                  <label for="medical-info">Medical information</label>
-                  <textarea name="medical-info" id="medical-info" cols="30" rows="5" placeholder="Does the child have any medical condition the school should be aware of? (If yes, please specify)"></textarea>
-                </div>
+          <fieldset class="address">
+            <legend>Home address</legend>
 
-                <div class="droparea-wrapper">
-                  <label for="birth-certificate">Birth certificate</label>
+            <div class="input-wrapper">
+              <label for="zipcode">ZIP Code</label>
+              <input type="text" id="zipcode" name="zipcode">
+            </div>
 
-                  <div class="dropzone">
-                    <input type="file" id="birth-certificate" name="birth-certificate">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M34.9552 18.0221C34.97 18.022 34.985 18.022 35 18.022C39.9706 18.022 44 22.0588 44 27.0386C44 31.6796 40.5 35.5016 36 36M34.9552 18.0221C34.9848 17.6921 35 17.3579 35 17.0202C35 10.9339 30.0752 6 24 6C18.2465 6 13.5247 10.4253 13.0408 16.0638M34.9552 18.0221C34.7506 20.2952 33.8572 22.3692 32.4856 24.033M13.0408 16.0638C7.96796 16.5475 4 20.8278 4 26.0366C4 30.8834 7.43552 34.9264 12 35.8546M13.0408 16.0638C13.3565 16.0337 13.6765 16.0183 14 16.0183C16.2516 16.0183 18.3295 16.7639 20.001 18.022" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                      
-                    <p>
-                      Click here to <br>
-                      choose files
-                    </p>
-                  </div>
-                </div>
-              </fieldset>
-
-              <fieldset class="address">
-                <legend>Home address</legend>
-
-                <div class="input-wrapper">
-                    <label for="zipcode">ZIP Code</label>
-                    <input type="text" id="zipcode" name="zipcode">
-                </div>
-
-                <div class="flex">
-                    <div class="input-wrapper flex-2">
-                        <label for="street">Street</label>
-                        <input type="text" id="street" name="street" value="Flowers Street" disabled>
-                    </div>
-
-                    <div class="input-wrapper flex-1">
-                        <label for="number">Number</label>
-                        <input type="number" id="number" name="number">
-                    </div>
-                </div>
-
-                <div class="flex">
-                    <div class="input-wrapper flex-2">
-                        <label for="city">City</label>
-                        <input type="text" id="city" name="city" value="Miami" disabled>
-                    </div>
-
-                    <div class="input-wrapper flex-1">
-                        <label for="state">State</label>
-                        <input type="text" id="state" name="state" disabled value="Florida">
-                    </div>
-                </div>
-              </fieldset>
-
-              <fieldset class="guardian">
-                <legend>Guardian information</legend>
-    
-                <div class="input-wrapper">
-                  <label for="guardian">Guardian name</label>
-                  <input type="text" id="guardian" name="guardian">
-                  <small>Primary legal guardian and emergency contact</small>
-                </div>
-    
-                <div class="input-wrapper">
-                  <label for="phone">Phone</label>
-                  <input type="text" id="phone" name="phone" placeholder="(555) 123-4567">
-                </div>
-                
-                <div class="input-wrapper">
-                  <label for="mail">Email</label>
-                  <input type="email" name="mail" id="mail" required>
-                  <div class="error">
-                    <img src="./assets/icons/alert-circle.svg" alt="Red alert icon">
-                    <span>Please enter a valid email</span>
-                  </div>
-                </div>
-              </fieldset>
-
-              <fieldset class="enroll-options">
-                <legend>Enrollment options</legend>
-
-                <div class="input-wrapper">
-                    <label>Select the study shift</label>
-
-                    <div class="radio-wrapper">
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="study-shift" value="morning" id="morning">
-                            <img src="./assets/icons/sun-cloud-02.svg" alt="Sun with cloud icon">
-                            <label for="morning">Morning</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="study-shift" value="evening" id="evening">
-                            <img src="./assets/icons/sun-02.svg" alt="Sun icon">
-                            <label for="evening">Afternoon</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="input-wrapper">
-                    <label>Which sport would you like to enroll your child in?</label>
-
-                    <div class="radio-wrapper">
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="soccer">
-                            <img src="./assets/icons/football.svg" alt="Soccer icon">
-                            <label for="soccer">Soccer</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="basketball">
-                            <img src="./assets/icons/basketball.svg" alt="Basketball icon">
-                            <label for="basketball">Basketball</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="swimming">
-                            <img src="./assets/icons/swimming.svg" alt="Swimming icon">
-                            <label for="swimming">Swimming</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="yoga">
-                            <img src="./assets/icons/yoga.svg" alt="Yoga icon">
-                            <label for="yoga">Yoga</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="volleyball">
-                            <img src="./assets/icons/volleyball.svg" alt="Volleyball icon">
-                            <label for="volleyball">Volleyball</label>
-                        </div>
-
-                        <div class="radio-inner">
-                            <div class="radio-image"></div>
-                            <input type="radio" name="sport" id="boxing">
-                            <img src="./assets/icons/boxing-glove.svg" alt="Boxing glove icon">
-                            <label for="boxing">Boxing</label>
-                        </div>
-                    </div>
-                </div>
-              </fieldset>
-
-              <div class="terms-wrapper input-wrapper checkbox-wrapper">
-                <div class="checkbox-image"></div>
-                <input type="checkbox" name="terms" id="terms">
-
-                <label for="terms">
-                  I declare that I have read and agree to the <strong>Terms and Conditions</strong> and the
-                  <strong>Privacy Policy</strong> of the Estrelas do Amanhã school.
-                </label>
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street" value="Flowers Street" disabled>
               </div>
 
-              <div class="actions-wrapper">
-                <button class="btn-secondary" type="button">
-                  Save answers
-                </button>
-
-                <button class="btn-primary" type="submit">
-                  Enroll
-                </button>
+              <div class="input-wrapper flex-1">
+                <label for="number">Number</label>
+                <input type="number" id="number" name="number">
               </div>
-            </form>
-          </div>
-        </main>
+            </div>
 
-        <aside>
-          <div class="aside-container">
-            <header>
-              <img src="./assets/icons/logo.svg" alt="Logo Estrelas do Amanhã">
-              <h2>Because every moment of <span>learning</span> matters</h2>
-              <p>Enroll your child in our school and watch them thrive in a welcoming, safe, and stimulating environment.</p>
-            </header>
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" value="Miami" disabled>
+              </div>
 
-            <img src="./assets/img/Illustration.svg" alt="Illustration of students paying attention to the teacher">
+              <div class="input-wrapper flex-1">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" disabled value="Florida">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="guardian">
+            <legend>Guardian information</legend>
+
+            <div class="input-wrapper">
+              <label for="guardian">Guardian name</label>
+              <input type="text" id="guardian" name="guardian">
+              <small>Primary legal guardian and emergency contact</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" name="phone" placeholder="(555) 123-4567">
+            </div>
+            
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" required>
+              <div class="error">
+                <img src="./assets/icons/alert-circle.svg" alt="Red alert icon">
+                <span>Please enter a valid email</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="enroll-options">
+            <legend>Enrollment options</legend>
+
+            <div class="input-wrapper">
+              <label>Select the study shift</label>
+
+              <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="study-shift" value="morning" id="morning">
+                    <img src="./assets/icons/sun-cloud-02.svg" alt="Sun with cloud icon">
+                    <label for="morning">Morning</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="study-shift" value="evening" id="evening">
+                    <img src="./assets/icons/sun-02.svg" alt="Sun icon">
+                    <label for="evening">Afternoon</label>
+                  </div>
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label>Which sport would you like to enroll your child in?</label>
+
+              <div class="radio-wrapper">
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="soccer">
+                  <img src="./assets/icons/football.svg" alt="Soccer icon">
+                  <label for="soccer">Soccer</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="basketball">
+                  <img src="./assets/icons/basketball.svg" alt="Basketball icon">
+                  <label for="basketball">Basketball</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="swimming">
+                  <img src="./assets/icons/swimming.svg" alt="Swimming icon">
+                  <label for="swimming">Swimming</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="yoga">
+                  <img src="./assets/icons/yoga.svg" alt="Yoga icon">
+                  <label for="yoga">Yoga</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="volleyball">
+                  <img src="./assets/icons/volleyball.svg" alt="Volleyball icon">
+                  <label for="volleyball">Volleyball</label>
+                </div>
+
+                <div class="radio-inner">
+                  <div class="radio-image"></div>
+                  <input type="radio" name="sport" id="boxing">
+                  <img src="./assets/icons/boxing-glove.svg" alt="Boxing glove icon">
+                  <label for="boxing">Boxing</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="terms-wrapper input-wrapper checkbox-wrapper">
+            <div class="checkbox-image"></div>
+            <input type="checkbox" name="terms" id="terms">
+
+            <label for="terms">
+              I declare that I have read and agree to the <strong>Terms and Conditions</strong> and the
+              <strong>Privacy Policy</strong> of the Estrelas do Amanhã school.
+            </label>
           </div>
-        </aside>
-    </div>
+
+          <div class="actions-wrapper">
+            <button class="btn-secondary" type="button">
+              Save answers
+            </button>
+
+            <button class="btn-primary" type="submit">
+              Enroll
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <aside>
+      <div class="aside-container">
+        <header>
+          <img src="./assets/icons/logo.svg" alt="Logo Estrelas do Amanhã">
+          <h2>Because every moment of <span>learning</span> matters</h2>
+          <p>Enroll your child in our school and watch them thrive in a welcoming, safe, and stimulating environment.</p>
+        </header>
+
+        <img src="./assets/img/Illustration.svg" alt="Illustration of students paying attention to the teacher">
+      </div>
+    </aside>
+  </div>
 </body>
 </html>
