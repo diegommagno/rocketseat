@@ -1,52 +1,84 @@
+<h1 align="center">News Portal</h1>
+
 <p align="center">
-  <img alt="Logo - Rocketseat" src=".github/dmm.studio.png" width="200px" />
+A responsive news portal project focused on semantic HTML, CSS Grid layouts, and scalable utility-first styling using modern CSS architecture.
 </p>
 
 <p align="center">
-Projeto de um Portal de notícias desenvolvido durante as aulas de Grid na Rocketseat.
-</p>
-
- <p align="center">
-  <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
+  <a href="#live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="#concepts-and-skills">Concepts and Skills</a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src="./.github/cover.png" width="80%" />
+  <img alt="News Portal interface layout" src="./.github/cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 📝 Live Preview 
+<h3 id="live-preview">🌐 Live Preview</h3>
+<hr style="opacity: 0.3;" />
+<p>Access the deployed version of the project.</p>
 
-- [Travelgram Profile Page](https://diegommagno.com/github/rocketseat/full-stack/stage-03/travelgram)
+[News Portal](https://diegommagno.com/github/rocketseat/full-stack/stage-03/news-portal)
 
 <br/>
 
 <p align="center">
-  <img alt="Project gif" src="./.github/preview-cover.png" width="80%" />
+  <img alt="News Portal UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
 
-## 🎨 Layout
+<h3 id="layout">🎨 Layout</h3>
+<hr style="opacity: 0.3;" />
 
-- Check the layout [here](https://www.figma.com/community/file/1362166020452569562/portal-de-noticias). You will need a [Figma](https://figma.com) account to access it.
+- View the design layout [here](https://www.figma.com/community/file/1362166020452569562).
+  A Figma account is required to access the file.
 
-## 🧑🏻‍💻 Technologies
+<br/>
 
-- HTML
-- CSS
+<h3 id="technologies">⚙️ Technologies</h3>
+<hr style="opacity: 0.3;" />
 
-## 🎓 Worked on
+- HTML5
+- CSS3
 
-- Responsive containers and layouts with `max-width` and `padding-inline`
-- Custom properties using `:root` (`rem` units for scalability)
-- `@import` to structure CSS into modular files (`global.css`, `nav.css`, etc.)
-- Flexbox layouting for header, navigation, gallery, and footer
-- Hover effects using `background-image` swapping (`MagnifyingGlass.svg`)
-- Typography and spacing using variables like `--text-lg`, `--text-md`, etc.
+<br/>
+
+<h3 id="concepts-and-skills">📚 Concepts and Skills</h3>
+<hr style="opacity: 0.3;" />
+
+- Semantic HTML structure using meaningful elements such as `header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, and `aside`, improving content hierarchy, accessibility, and SEO
+
+- Grid-first layout architecture, leveraging CSS Grid as the primary layout system for page composition, section alignment, and responsive content distribution
+
+- Advanced Grid techniques, including:
+  - `grid-auto-flow: column` for horizontal content flow
+  - Explicit column definitions with `grid-template-columns`
+  - Section-based grid areas to organize main content and sidebar (`featured`, `weekly`, `ai`, `aside`)
+
+- Utility-first CSS approach for layout and typography, enabling fast composition and consistent spacing using reusable classes such as:
+  - `.grid`, `.grid-flow-col`, `.grid-cols-2`
+  - `.gap-16`, `.gap-32`
+  - `.text-sm`, `.text-lg`, `.text-xl`, `.text-2xl` 
+
+- Modular CSS architecture using `@import` to separate responsibilities across multiple files, improving maintainability and scalability:
+  - Global resets and design tokens (`global.css`)
+  - Layout and typography utilities (`utility.css`)
+  - Section-specific styling (`sections.css`, `header.css`)
+
+- Design system built with CSS Custom Properties (`:root`) to centralize typography, color palette, spacing, and visual consistency across the entire application
+
+- Consistent typographic system using variable-based font definitions (`--h1`, `--h2`, `--h3`, `--text-sm`), allowing scalable and predictable text styling
+
+- Responsive container strategy using `max-width`, `padding-inline`, and centered layouts to ensure readability across large and wide screens
+
+- Component-based styling patterns, including reusable content blocks such as news cards, content tags, and repeated article layouts
+
+- Image handling best practices with fluid images (`max-width: 100%`) to prevent overflow and preserve layout integrity
+
+- Clear separation between structure (HTML) and presentation (CSS), reinforcing clean, maintainable front-end architecture

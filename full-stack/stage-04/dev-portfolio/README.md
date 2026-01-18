@@ -28,7 +28,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <br/>
 
 <p align="center">
-  <img alt="Dev Portfolio UI " src="./.github/preview-cover.png" width="80%" />
+  <img alt="Dev Portfolio UI preview" src="./.github/preview-cover.png" width="80%" />
 </p>
 
 <br/>
@@ -36,7 +36,7 @@ A clean developer portfolio project focused on layout structure, component organ
 <h3 id="layout">🎨 Layout</h3>
 <hr style="opacity: 0.3;" />
 
-- View the design layout on [Figma](https://www.figma.com/community/file/1387080701963671866).
+- View the design layout [here](https://www.figma.com/community/file/1387080701963671866).
   A Figma account is required to access the file.
 
 <br/>
