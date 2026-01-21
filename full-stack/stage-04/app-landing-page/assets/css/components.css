@@ -1,0 +1,81 @@
+/* Language Selector Component */
+.site-header {
+    position: relative;
+}
+
+.lang-selector {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    background: var(--surface-tertiary);
+    cursor: pointer;
+
+    white-space: nowrap;
+
+    transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.lang-btn:hover {
+    background: var(--surface-quartiary);
+}
+
+.lang-btn[aria-expanded="true"] .lang-chevron {
+    transform: rotate(180deg);
+}
+
+.lang-text {
+    font-family: var(--poppins);
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text-secondary);
+}
+
+.lang-chevron {
+    color: var(--text-secondary);
+    transition: transform 180ms ease;
+}
+
+/* Language Selector Component - Menu Open */
+.lang-menu {
+    position: absolute;
+    right: 0;
+    margin-top: 4px;
+
+    padding: 8px;
+    border-radius: 12px;
+    background: var(--surface-tertiary);
+
+    width: max-content;
+    display: none;
+}
+
+.lang-menu.open {
+    display: block;
+}
+
+.lang-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.lang-option:hover {
+    background: var(--surface-quartiary);
+}
