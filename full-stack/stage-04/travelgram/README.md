@@ -26,7 +26,7 @@
 
 ## 📝 Live Preview 
 
-- [Travelgram Profile Page](https://diegommagno.com/github/rocketseat/full-stack/stage-03/travelgram)
+- [Travelgram Profile Page](https://diegommagno.com/github/rocketseat/full-stack/stage-04/travelgram)
 
 <br/>
 
