@@ -72,3 +72,8 @@ img {
 .flex-2 {
     flex: 2
 }
+
+.back {
+  width: fit-content;
+  cursor: pointer;
+}
